@@ -3,7 +3,7 @@
   "repo": "wting/autojump",
   "registry": "pypi",
   "tag_formats": [
-    "release-{major}.{minor}.{patch}"
+    "release-v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
