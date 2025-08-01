@@ -1,6 +1,6 @@
 {
     "packages": [
-
+        "github_releases/chroma-core/chroma"
     ],
     "generated_at": "2025-08-01T01:36:01Z",
     "count": 0
