@@ -63,11 +63,12 @@ Anyone can request additional packages to be indexed by creating a Pull Request.
    ```
 
    **Required Fields:**
-   - `native_identifier`: Package name on the registry (e.g., "react" for npm)
-   - `repo`: GitHub repository as "owner/repository"
-   - `registry`: Must be one of "npm", "pypi", "crates.io", or "go"
+   - `package_name`: The colloquial name of the package. Usually this is one word. It may only contain alphanumeric characters, underscores, periods, and hyphens. It must be between 3 and 512 characters long
+   - `native_identifier`: The identifier used by the registry on which the package is hosted. For most registries, this should be the same as the `package_name`. For GitHub Releases, this should be the owning user's or organization's username, followed by a forward slash, followed by the name of the repository (e.g., `chroma-core/code-collections`). For Golang modules, this should be the full module path (e.g., `github.com/stretchr/testify/`)
+   - `repo`: GitHub repository as `owner/repository`
+   - `registry`: Must be one of "npm", "pypi", "crates.io", "go", or "github_releases"
    - `tag_formats`: Array of GitHub tag formats with placeholders like `{major}`, `{minor}`, `{patch}`, `{YYYY}`, `{MM}`, `{DD}`
-   - `sentinel_timestamp`: ISO 8601 timestamp for earliest version to index
+   - `sentinel_timestamp`: RFC 3339 timestamp for earliest version to index
    - `include`: Array of glob patterns for files to include (e.g., `["**/*.md", "**/*.ts", "**/*.js"]`)
 
 4. **Update the index.json file** to include your new package in the packages array
@@ -93,12 +94,12 @@ The repository currently indexes packages from:
 - Ensure the package is publicly available and well-maintained
 - Verify the `native_identifier` matches the package name on the registry exactly
 - Confirm the GitHub repository exists and is accessible
-- Use the correct registry value: "npm", "pypi", "crates.io", or "go"
+- Use the correct registry value: "npm", "pypi", "crates.io", "go", or "github_releases"
 - Format the `tag_formats` array to match the actual GitHub release tags
 - Set `sentinel_timestamp` to a reasonable starting point for historical indexing
-   - Use glob patterns in the `include` array (e.g., `"**/*.md"` instead of `".md"`)
-   - Update the `index.json` file to include your new package
-   - Provide context in your PR description about why the package should be indexed
+- Use glob patterns in the `include` array (e.g., `"**/*.md"` instead of `".md"`)
+- Update the `index.json` file to include your new package
+- Provide context in your PR description about why the package should be indexed
 
 ## Monorepo Considerations
 
@@ -106,6 +107,7 @@ If the repository you're adding is a monorepo (contains multiple packages), you 
 
 ```json
 {
+  "package_name": "my-package",
   "native_identifier": "my-package",
   "repo": "owner/monorepo",
   "registry": "npm",
