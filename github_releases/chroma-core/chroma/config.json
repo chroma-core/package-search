@@ -1,0 +1,23 @@
+{
+  "native_identifier": "chroma-core/chroma",
+  "repo": "chroma-core/chroma",
+  "registry": "github_releases",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go",
+    "**/*.py",
+    "**/*.rs",
+    "**/*.tf",
+    "**/*.yaml",
+    "**/*.yml",
+    "**/Dockerfile",
+    "**/.proto",
+    "**/.js",
+    "**/.ts",
+    "**/.pyi"
+  ]
+}
