@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/duanhf2012/origin",
+  "repo": "duanhf2012/origin",
+  "registry": "go",
+  "tag_formats": [
+    "v.{major}.{minor}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

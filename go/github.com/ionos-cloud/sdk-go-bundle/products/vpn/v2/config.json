@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/ionos-cloud/sdk-go-bundle/products/vpn/v2",
+  "repo": "ionos-cloud/sdk-go-bundle",
+  "registry": "go",
+  "tag_formats": [
+    "/v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

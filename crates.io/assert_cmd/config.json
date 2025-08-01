@@ -1,0 +1,13 @@
+{
+  "native_identifier": "assert_cmd",
+  "repo": "assert-rs/assert_cmd",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.rs"
+  ]
+}

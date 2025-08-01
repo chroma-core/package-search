@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/cfi2017/bl3-save",
+  "repo": "cfi2017/bl3-save",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

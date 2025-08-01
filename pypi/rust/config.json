@@ -1,0 +1,13 @@
+{
+  "native_identifier": "rust",
+  "repo": "rcore-os/rcore-tutorial-book-v3",
+  "registry": "pypi",
+  "tag_formats": [
+    "{YYYY}{MM}{DD}-{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.py"
+  ]
+}

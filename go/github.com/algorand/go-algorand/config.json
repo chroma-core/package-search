@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/algorand/go-algorand",
+  "repo": "algorand/go-algorand",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}-stable"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

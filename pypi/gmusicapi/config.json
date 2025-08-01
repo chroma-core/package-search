@@ -1,0 +1,13 @@
+{
+  "native_identifier": "gmusicapi",
+  "repo": "simon-weber/gmusicapi",
+  "registry": "pypi",
+  "tag_formats": [
+    "{YYYY}.{MM}.{DD}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.py"
+  ]
+}

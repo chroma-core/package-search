@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/kube-vip/kube-vip-cloud-provider",
+  "repo": "kube-vip/kube-vip-cloud-provider",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

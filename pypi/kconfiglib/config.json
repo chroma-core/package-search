@@ -1,0 +1,13 @@
+{
+  "native_identifier": "kconfiglib",
+  "repo": "ulfalizer/Kconfiglib",
+  "registry": "pypi",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.py"
+  ]
+}

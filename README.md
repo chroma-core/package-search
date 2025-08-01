@@ -1,25 +1,64 @@
 # Chroma Code Collections
 
-This repository contains a curated list of public code packages that Chroma keeps indexed into Chroma collections. The `code_collections.json` file currently indexes **26K+** packages across various registries.
+This repository contains a curated list of public code packages that Chroma keeps indexed into Chroma collections. The repository currently indexes **26K+** packages across various registries.
 
 ## Purpose
 
 This repository serves as the authoritative source for packages that Chroma indexes for code search and retrieval. 
+
+## Repository Structure
+
+The repository is organized as follows:
+
+```
+code-collections/
+├── index.json                    # Tracks all packages being synced
+├── npm/                         # npm packages
+│   ├── react/
+│   │   └── config.json
+│   ├── vue/
+│   │   └── config.json
+│   └── ...
+├── pypi/                        # PyPI packages
+│   ├── requests/
+│   │   └── config.json
+│   └── ...
+├── crates.io/                   # Rust packages
+│   ├── serde/
+│   │   └── config.json
+│   └── ...
+└── go/                          # Go packages
+    ├── gin/
+    │   └── config.json
+    └── ...
+```
+
+Each package has its own configuration file located at `<registry>/<native_identifier>/config.json`.
 
 ## Adding New Packages
 
 Anyone can request additional packages to be indexed by creating a Pull Request. Here's how:
 
 1. **Fork this repository**
-2. **Add your package** to the `code_collections.json` file following the existing format:
+2. **Create a new directory** at `<registry>/<native_identifier>/`
+3. **Add a `config.json` file** in that directory following this format:
    ```json
    {
      "native_identifier": "package-name",
      "repo": "owner/repository",
      "registry": "npm",
-     "tag_format": "v{major}.{minor}.{patch}",
+     "tag_formats": [
+       "v{major}.{minor}.{patch}",
+       "v{major}.{minor}"
+     ],
      "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-     "include": [".md", ".ts", ".js", ".tsx", ".jsx"]
+     "include": [
+       "**/*.md",
+       "**/*.ts", 
+       "**/*.js",
+       "**/*.tsx",
+       "**/*.jsx"
+     ]
    }
    ```
 
@@ -27,11 +66,13 @@ Anyone can request additional packages to be indexed by creating a Pull Request.
    - `native_identifier`: Package name on the registry (e.g., "react" for npm)
    - `repo`: GitHub repository as "owner/repository"
    - `registry`: Must be one of "npm", "pypi", "crates.io", or "go"
-   - `tag_format`: GitHub tag format with placeholders like `{major}`, `{minor}`, `{patch}`, `{YYYY}`, `{MM}`, `{DD}`
+   - `tag_formats`: Array of GitHub tag formats with placeholders like `{major}`, `{minor}`, `{patch}`, `{YYYY}`, `{MM}`, `{DD}`
    - `sentinel_timestamp`: ISO 8601 timestamp for earliest version to index
-   - `include`: Array of file extensions to include (e.g., [".md", ".ts", ".js"])
-3. **Create a Pull Request** with a clear description of the package you're adding
-4. **Wait for review** - A member of the Chroma team will review your PR
+   - `include`: Array of glob patterns for files to include (e.g., `["**/*.md", "**/*.ts", "**/*.js"]`)
+
+4. **Update the index.json file** to include your new package in the packages array
+5. **Create a Pull Request** with a clear description of the package you're adding
+6. **Wait for review** - A member of the Chroma team will review your PR
 
 ## Review Process
 
@@ -53,10 +94,32 @@ The repository currently indexes packages from:
 - Verify the `native_identifier` matches the package name on the registry exactly
 - Confirm the GitHub repository exists and is accessible
 - Use the correct registry value: "npm", "pypi", "crates.io", or "go"
-- Format the `tag_format` to match the actual GitHub release tags
+- Format the `tag_formats` array to match the actual GitHub release tags
 - Set `sentinel_timestamp` to a reasonable starting point for historical indexing
-- Include relevant file extensions in the `include` array
-- Provide context in your PR description about why the package should be indexed
+   - Use glob patterns in the `include` array (e.g., `"**/*.md"` instead of `".md"`)
+   - Update the `index.json` file to include your new package
+   - Provide context in your PR description about why the package should be indexed
+
+## Monorepo Considerations
+
+If the repository you're adding is a monorepo (contains multiple packages), you must format the glob patterns in the `include` array to target only the specific package's subdirectory. For example:
+
+```json
+{
+  "native_identifier": "my-package",
+  "repo": "owner/monorepo",
+  "registry": "npm",
+  "tag_formats": ["v{major}.{minor}.{patch}"],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/my-package/**/*.md",
+    "packages/my-package/**/*.ts",
+    "packages/my-package/**/*.js"
+  ]
+}
+```
+
+This ensures that only files within the `packages/my-package/` directory are indexed, not the entire monorepo.
 
 ---
 

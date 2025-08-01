@@ -1,0 +1,16 @@
+{
+  "native_identifier": "action-runner",
+  "repo": "github-aws-runners/terraform-aws-github-runner",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}

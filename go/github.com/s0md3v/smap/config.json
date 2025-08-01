@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/s0md3v/smap",
+  "repo": "s0md3v/smap",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

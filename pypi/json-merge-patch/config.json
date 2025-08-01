@@ -1,0 +1,13 @@
+{
+  "native_identifier": "json-merge-patch",
+  "repo": "open-contracting/json-merge-patch",
+  "registry": "pypi",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.py"
+  ]
+}

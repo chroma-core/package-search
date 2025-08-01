@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/onsdigital/golang-neo4j-bolt-driver",
+  "repo": "onsdigital/golang-neo4j-bolt-driver",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

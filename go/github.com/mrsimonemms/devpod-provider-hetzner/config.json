@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/mrsimonemms/devpod-provider-hetzner",
+  "repo": "mrsimonemms/devpod-provider-hetzner",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

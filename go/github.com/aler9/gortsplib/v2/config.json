@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/aler9/gortsplib/v2",
+  "repo": "aler9/gortsplib",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

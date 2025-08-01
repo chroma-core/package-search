@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/nyaosorg/go-readline-skk",
+  "repo": "nyaosorg/go-readline-skk",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

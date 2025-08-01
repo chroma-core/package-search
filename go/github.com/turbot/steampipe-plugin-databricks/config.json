@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/turbot/steampipe-plugin-databricks",
+  "repo": "turbot/steampipe-plugin-databricks",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

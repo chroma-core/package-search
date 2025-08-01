@@ -1,0 +1,16 @@
+{
+  "native_identifier": "react-intl-universal",
+  "repo": "alibaba/react-intl-universal",
+  "registry": "npm",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}

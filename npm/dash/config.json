@@ -1,0 +1,16 @@
+{
+  "native_identifier": "dash",
+  "repo": "tinywan/h5-dash-hls-rtmp-webrtc",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}

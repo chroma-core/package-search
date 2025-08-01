@@ -1,0 +1,16 @@
+{
+  "native_identifier": "intl-tel-input",
+  "repo": "jackocnr/intl-tel-input",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}

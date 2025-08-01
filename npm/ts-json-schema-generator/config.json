@@ -1,0 +1,16 @@
+{
+  "native_identifier": "ts-json-schema-generator",
+  "repo": "vega/ts-json-schema-generator",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}-next.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}
