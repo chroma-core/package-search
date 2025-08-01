@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "dcrec/**/*.md",
-    "dcrec/**/*.go"
+    "dcrec/secp256k1/**/*.md",
+    "dcrec/secp256k1/**/*.go"
   ]
 }

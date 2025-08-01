@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "samples/**/*.md",
-    "samples/**/*.go"
+    "samples/spring-convention-server/**/*.md",
+    "samples/spring-convention-server/**/*.go"
   ]
 }

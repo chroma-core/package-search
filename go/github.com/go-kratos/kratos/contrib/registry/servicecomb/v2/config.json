@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "contrib/**/*.md",
-    "contrib/**/*.go"
+    "contrib/registry/servicecomb/v2/**/*.md",
+    "contrib/registry/servicecomb/v2/**/*.go"
   ]
 }

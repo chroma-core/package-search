@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/neo4j/neo4j-go-driver",
+  "repo": "neo4j/neo4j-go-driver",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

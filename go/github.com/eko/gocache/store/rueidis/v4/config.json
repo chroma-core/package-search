@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "store/**/*.md",
-    "store/**/*.go"
+    "store/rueidis/v4/**/*.md",
+    "store/rueidis/v4/**/*.go"
   ]
 }

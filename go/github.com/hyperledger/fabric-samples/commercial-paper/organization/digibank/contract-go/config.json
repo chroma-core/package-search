@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/hyperledger/fabric-samples/commercial-paper/organization/digibank/contract-go",
+  "repo": "hyperledger/fabric-samples",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "commercial-paper/organization/digibank/contract-go/**/*.md",
+    "commercial-paper/organization/digibank/contract-go/**/*.go"
+  ]
+}

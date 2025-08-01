@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/asim/go-micro/plugins/wrapper/trace/datadog/v4",
+  "repo": "asim/go-micro",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "plugins/wrapper/trace/datadog/v4/**/*.md",
+    "plugins/wrapper/trace/datadog/v4/**/*.go"
+  ]
+}

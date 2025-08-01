@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/tektoncd/triggers/third_party/github.com/hashicorp/go-retryablehttp",
+  "repo": "tektoncd/triggers",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "third_party/github.com/hashicorp/go-retryablehttp/**/*.md",
+    "third_party/github.com/hashicorp/go-retryablehttp/**/*.go"
+  ]
+}

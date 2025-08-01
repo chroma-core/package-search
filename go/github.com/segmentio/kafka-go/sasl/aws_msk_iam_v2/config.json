@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "sasl/**/*.md",
-    "sasl/**/*.go"
+    "sasl/aws_msk_iam_v2/**/*.md",
+    "sasl/aws_msk_iam_v2/**/*.go"
   ]
 }

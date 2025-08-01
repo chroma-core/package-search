@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "v4/**/*.md",
-    "v4/**/*.go"
+    "v4/config/encoder/toml/**/*.md",
+    "v4/config/encoder/toml/**/*.go"
   ]
 }

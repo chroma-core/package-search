@@ -1,6 +1,6 @@
 {
-  "native_identifier": "github.com/360EntSecGroup-Skylar/excelize",
-  "repo": "360EntSecGroup-Skylar/excelize",
+  "native_identifier": "github.com/360entsecgroup-skylar/excelize",
+  "repo": "360entsecgroup-skylar/excelize",
   "registry": "go",
   "tag_formats": [
     "v{major}.{minor}.{patch}"

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/elastic/go-elasticsearch/v6",
+  "repo": "elastic/go-elasticsearch",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "v6/**/*.md",
+    "v6/**/*.go"
+  ]
+}

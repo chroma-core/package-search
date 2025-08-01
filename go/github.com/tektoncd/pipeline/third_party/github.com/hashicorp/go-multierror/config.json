@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/tektoncd/pipeline/third_party/github.com/hashicorp/go-multierror",
+  "repo": "tektoncd/pipeline",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "third_party/github.com/hashicorp/go-multierror/**/*.md",
+    "third_party/github.com/hashicorp/go-multierror/**/*.go"
+  ]
+}

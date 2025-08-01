@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/kubeshark/kubeshark/tap/api",
+  "repo": "kubeshark/kubeshark",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "tap/api/**/*.md",
+    "tap/api/**/*.go"
+  ]
+}

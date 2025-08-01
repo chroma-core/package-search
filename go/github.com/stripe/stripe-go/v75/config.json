@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/stripe/stripe-go/v75",
+  "repo": "stripe/stripe-go",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "v75/**/*.md",
+    "v75/**/*.go"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/cep21/circuit/v3",
+  "repo": "cep21/circuit",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "v3/**/*.md",
+    "v3/**/*.go"
+  ]
+}

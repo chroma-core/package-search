@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "processor/**/*.md",
-    "processor/**/*.go"
+    "processor/k8sprocessor/**/*.md",
+    "processor/k8sprocessor/**/*.go"
   ]
 }

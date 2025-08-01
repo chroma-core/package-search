@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "v3/**/*.md",
-    "v3/**/*.go"
+    "v3/integrations/nrnats/**/*.md",
+    "v3/integrations/nrnats/**/*.go"
   ]
 }

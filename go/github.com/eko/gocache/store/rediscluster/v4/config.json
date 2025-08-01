@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "store/**/*.md",
-    "store/**/*.go"
+    "store/rediscluster/v4/**/*.md",
+    "store/rediscluster/v4/**/*.go"
   ]
 }

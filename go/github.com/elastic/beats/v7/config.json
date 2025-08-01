@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/elastic/beats/v7",
+  "repo": "elastic/beats",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "v7/**/*.md",
+    "v7/**/*.go"
+  ]
+}

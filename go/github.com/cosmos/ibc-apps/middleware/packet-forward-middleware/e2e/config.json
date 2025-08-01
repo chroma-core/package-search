@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "middleware/**/*.md",
-    "middleware/**/*.go"
+    "middleware/packet-forward-middleware/e2e/**/*.md",
+    "middleware/packet-forward-middleware/e2e/**/*.go"
   ]
 }

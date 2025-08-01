@@ -1,6 +1,6 @@
 {
-  "native_identifier": "github.com/ClickHouse/clickhouse-go",
-  "repo": "ClickHouse/clickhouse-go",
+  "native_identifier": "github.com/clickhouse/clickhouse-go",
+  "repo": "clickhouse/clickhouse-go",
   "registry": "go",
   "tag_formats": [
     "v{major}.{minor}.{patch}"

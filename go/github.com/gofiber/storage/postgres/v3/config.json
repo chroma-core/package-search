@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "postgres/**/*.md",
-    "postgres/**/*.go"
+    "postgres/v3/**/*.md",
+    "postgres/v3/**/*.go"
   ]
 }

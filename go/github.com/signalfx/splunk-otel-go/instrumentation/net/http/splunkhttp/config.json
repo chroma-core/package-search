@@ -7,7 +7,7 @@
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
-    "instrumentation/**/*.md",
-    "instrumentation/**/*.go"
+    "instrumentation/net/http/splunkhttp/**/*.md",
+    "instrumentation/net/http/splunkhttp/**/*.go"
   ]
 }
