@@ -1,0 +1,13 @@
+{
+  "native_identifier": "peg-macros",
+  "repo": "kevinmehall/rust-peg",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "peg-macros/**/*.md",
+    "peg-macros/**/*.rs"
+  ]
+}

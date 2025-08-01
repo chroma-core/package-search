@@ -1,0 +1,13 @@
+{
+  "native_identifier": "biscuit-parser",
+  "repo": "biscuit-auth/biscuit-rust",
+  "registry": "crates.io",
+  "tag_formats": [
+    "ci-release-{major}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "biscuit-parser/**/*.md",
+    "biscuit-parser/**/*.rs"
+  ]
+}

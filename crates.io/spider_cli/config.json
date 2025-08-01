@@ -1,0 +1,13 @@
+{
+  "native_identifier": "spider_cli",
+  "repo": "spider-rs/spider",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "spider_cli/**/*.md",
+    "spider_cli/**/*.rs"
+  ]
+}

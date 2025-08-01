@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/golangci/golangci-lint/scripts/gen_github_action_config",
+  "repo": "golangci/golangci-lint",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "scripts/**/*.md",
+    "scripts/**/*.go"
+  ]
+}

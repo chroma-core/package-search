@@ -1,0 +1,13 @@
+{
+  "native_identifier": "bip32",
+  "repo": "iqlusioninc/crates",
+  "registry": "crates.io",
+  "tag_formats": [
+    "/v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "bip32/**/*.md",
+    "bip32/**/*.rs"
+  ]
+}

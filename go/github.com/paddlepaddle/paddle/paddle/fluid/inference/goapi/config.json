@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/paddlepaddle/paddle/paddle/fluid/inference/goapi",
+  "repo": "paddlepaddle/paddle",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "paddle/**/*.md",
+    "paddle/**/*.go"
+  ]
+}

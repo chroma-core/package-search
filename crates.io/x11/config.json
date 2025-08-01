@@ -1,0 +1,13 @@
+{
+  "native_identifier": "x11",
+  "repo": "AltF02/x11-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "x11/**/*.md",
+    "x11/**/*.rs"
+  ]
+}

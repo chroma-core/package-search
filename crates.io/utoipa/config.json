@@ -1,0 +1,13 @@
+{
+  "native_identifier": "utoipa",
+  "repo": "juhaku/utoipa",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "utoipa/**/*.md",
+    "utoipa/**/*.rs"
+  ]
+}

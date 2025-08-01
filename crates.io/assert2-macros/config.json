@@ -1,0 +1,13 @@
+{
+  "native_identifier": "assert2-macros",
+  "repo": "de-vri-es/assert2-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "assert2-macros/**/*.md",
+    "assert2-macros/**/*.rs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "sm",
+  "repo": "rustic-games/sm",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "sm/**/*.md",
+    "sm/**/*.rs"
+  ]
+}
