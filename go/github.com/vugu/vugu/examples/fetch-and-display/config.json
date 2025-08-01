@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/vugu/vugu/examples/fetch-and-display",
+  "repo": "vugu/vugu",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "examples/**/*.md",
+    "examples/**/*.go"
+  ]
+}

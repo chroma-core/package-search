@@ -1,0 +1,13 @@
+{
+  "native_identifier": "async-reactor-trait",
+  "repo": "amqp-rs/reactor-trait",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "async-reactor-trait/**/*.md",
+    "async-reactor-trait/**/*.rs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "git2-curl",
+  "repo": "rust-lang/git2-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "git2-curl/**/*.md",
+    "git2-curl/**/*.rs"
+  ]
+}

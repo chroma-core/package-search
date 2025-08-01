@@ -1,0 +1,13 @@
+{
+  "native_identifier": "schemafy_core",
+  "repo": "Marwes/schemafy",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "schemafy_core/**/*.md",
+    "schemafy_core/**/*.rs"
+  ]
+}

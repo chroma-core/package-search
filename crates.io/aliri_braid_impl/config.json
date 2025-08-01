@@ -1,0 +1,13 @@
+{
+  "native_identifier": "aliri_braid_impl",
+  "repo": "neoeinstein/aliri_braid",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "aliri_braid_impl/**/*.md",
+    "aliri_braid_impl/**/*.rs"
+  ]
+}

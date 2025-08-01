@@ -1,0 +1,13 @@
+{
+  "native_identifier": "pkcs5",
+  "repo": "RustCrypto/formats",
+  "registry": "crates.io",
+  "tag_formats": [
+    "/v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "pkcs5/**/*.md",
+    "pkcs5/**/*.rs"
+  ]
+}

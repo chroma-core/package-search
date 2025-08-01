@@ -1,0 +1,13 @@
+{
+  "native_identifier": "ic0",
+  "repo": "dfinity/cdk-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "ic0/**/*.md",
+    "ic0/**/*.rs"
+  ]
+}

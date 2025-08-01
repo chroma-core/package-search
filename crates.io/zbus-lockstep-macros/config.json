@@ -1,0 +1,13 @@
+{
+  "native_identifier": "zbus-lockstep-macros",
+  "repo": "luukvanderduim/zbus-lockstep",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "zbus-lockstep-macros/**/*.md",
+    "zbus-lockstep-macros/**/*.rs"
+  ]
+}

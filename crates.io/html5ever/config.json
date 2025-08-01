@@ -1,0 +1,13 @@
+{
+  "native_identifier": "html5ever",
+  "repo": "servo/html5ever",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "html5ever/**/*.md",
+    "html5ever/**/*.rs"
+  ]
+}

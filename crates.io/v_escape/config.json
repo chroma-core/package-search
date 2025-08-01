@@ -1,0 +1,13 @@
+{
+  "native_identifier": "v_escape",
+  "repo": "botika/v_escape",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "v_escape/**/*.md",
+    "v_escape/**/*.rs"
+  ]
+}

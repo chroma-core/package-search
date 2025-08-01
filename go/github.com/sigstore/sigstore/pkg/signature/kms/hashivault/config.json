@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/hashivault",
+  "repo": "sigstore/sigstore",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "pkg/**/*.md",
+    "pkg/**/*.go"
+  ]
+}

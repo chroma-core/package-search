@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/pinpoint-apm/pinpoint-go-agent/plugin/goredisv8",
+  "repo": "pinpoint-apm/pinpoint-go-agent",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "plugin/**/*.md",
+    "plugin/**/*.go"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "typify-impl",
+  "repo": "oxidecomputer/typify",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "typify-impl/**/*.md",
+    "typify-impl/**/*.rs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/go-pg/pg/extra/pgsegment/v11",
+  "repo": "go-pg/pg",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "extra/**/*.md",
+    "extra/**/*.go"
+  ]
+}

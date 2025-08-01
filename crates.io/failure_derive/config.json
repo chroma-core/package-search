@@ -1,0 +1,13 @@
+{
+  "native_identifier": "failure_derive",
+  "repo": "rust-lang-nursery/failure",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "failure_derive/**/*.md",
+    "failure_derive/**/*.rs"
+  ]
+}

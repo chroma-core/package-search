@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/julsemaan/anyfile-notepad/utils",
+  "repo": "julsemaan/anyfile-notepad",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "utils/**/*.md",
+    "utils/**/*.go"
+  ]
+}

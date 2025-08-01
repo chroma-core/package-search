@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/extism/go-pdk/wasi-reactor",
+  "repo": "extism/go-pdk",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "wasi-reactor/**/*.md",
+    "wasi-reactor/**/*.go"
+  ]
+}

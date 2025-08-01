@@ -1,0 +1,13 @@
+{
+  "native_identifier": "protoc-gen-prost",
+  "repo": "neoeinstein/protoc-gen-prost",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "protoc-gen-prost/**/*.md",
+    "protoc-gen-prost/**/*.rs"
+  ]
+}

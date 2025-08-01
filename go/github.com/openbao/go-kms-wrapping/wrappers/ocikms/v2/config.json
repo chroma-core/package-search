@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/openbao/go-kms-wrapping/wrappers/ocikms/v2",
+  "repo": "openbao/go-kms-wrapping",
+  "registry": "go",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "wrappers/**/*.md",
+    "wrappers/**/*.go"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/getsentry/sentry-go/otel",
+  "repo": "getsentry/sentry-go",
+  "registry": "go",
+  "tag_formats": [
+    "/v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "otel/**/*.md",
+    "otel/**/*.go"
+  ]
+}

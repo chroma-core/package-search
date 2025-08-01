@@ -1,0 +1,13 @@
+{
+  "native_identifier": "gitlint-core",
+  "repo": "jorisroovers/gitlint",
+  "registry": "pypi",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "gitlint-core/**/*.md",
+    "gitlint-core/**/*.py"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/go-jose/go-jose/jose-util",
+  "repo": "go-jose/go-jose",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "jose-util/**/*.md",
+    "jose-util/**/*.go"
+  ]
+}

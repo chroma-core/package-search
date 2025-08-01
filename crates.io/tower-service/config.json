@@ -1,0 +1,13 @@
+{
+  "native_identifier": "tower-service",
+  "repo": "tower-rs/tower",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "tower-service/**/*.md",
+    "tower-service/**/*.rs"
+  ]
+}

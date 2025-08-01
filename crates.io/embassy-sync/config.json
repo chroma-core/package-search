@@ -1,0 +1,13 @@
+{
+  "native_identifier": "embassy-sync",
+  "repo": "embassy-rs/embassy",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "embassy-sync/**/*.md",
+    "embassy-sync/**/*.rs"
+  ]
+}

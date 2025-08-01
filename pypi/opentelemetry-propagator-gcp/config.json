@@ -1,0 +1,13 @@
+{
+  "native_identifier": "opentelemetry-propagator-gcp",
+  "repo": "GoogleCloudPlatform/opentelemetry-operations-python",
+  "registry": "pypi",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "opentelemetry-propagator-gcp/**/*.md",
+    "opentelemetry-propagator-gcp/**/*.py"
+  ]
+}

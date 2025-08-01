@@ -1,0 +1,13 @@
+{
+  "native_identifier": "rc2",
+  "repo": "RustCrypto/block-ciphers",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "rc2/**/*.md",
+    "rc2/**/*.rs"
+  ]
+}

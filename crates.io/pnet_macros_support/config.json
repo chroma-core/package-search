@@ -1,0 +1,13 @@
+{
+  "native_identifier": "pnet_macros_support",
+  "repo": "libpnet/libpnet",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "pnet_macros_support/**/*.md",
+    "pnet_macros_support/**/*.rs"
+  ]
+}

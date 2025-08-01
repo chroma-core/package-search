@@ -1,0 +1,13 @@
+{
+  "native_identifier": "chacha20poly1305",
+  "repo": "RustCrypto/AEADs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "chacha20poly1305/**/*.md",
+    "chacha20poly1305/**/*.rs"
+  ]
+}

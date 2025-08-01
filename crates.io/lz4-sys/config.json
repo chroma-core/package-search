@@ -1,0 +1,13 @@
+{
+  "native_identifier": "lz4-sys",
+  "repo": "10xGenomics/lz4-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "lz4-sys/**/*.md",
+    "lz4-sys/**/*.rs"
+  ]
+}

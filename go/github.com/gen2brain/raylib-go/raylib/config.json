@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/gen2brain/raylib-go/raylib",
+  "repo": "gen2brain/raylib-go",
+  "registry": "go",
+  "tag_formats": [
+    "/v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "raylib/**/*.md",
+    "raylib/**/*.go"
+  ]
+}

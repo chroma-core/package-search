@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/newrelic/go-agent/v3/integrations/nrpgx",
+  "repo": "newrelic/go-agent",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "v3/**/*.md",
+    "v3/**/*.go"
+  ]
+}

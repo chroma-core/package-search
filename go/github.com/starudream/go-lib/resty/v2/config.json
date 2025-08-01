@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/starudream/go-lib/resty/v2",
+  "repo": "starudream/go-lib",
+  "registry": "go",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "resty/**/*.md",
+    "resty/**/*.go"
+  ]
+}

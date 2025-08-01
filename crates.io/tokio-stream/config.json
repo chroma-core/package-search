@@ -1,0 +1,13 @@
+{
+  "native_identifier": "tokio-stream",
+  "repo": "tokio-rs/tokio",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "tokio-stream/**/*.md",
+    "tokio-stream/**/*.rs"
+  ]
+}

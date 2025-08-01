@@ -1,0 +1,13 @@
+{
+  "native_identifier": "abi_stable_shared",
+  "repo": "rodrimati1992/abi_stable_crates",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "abi_stable_shared/**/*.md",
+    "abi_stable_shared/**/*.rs"
+  ]
+}

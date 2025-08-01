@@ -1,0 +1,13 @@
+{
+  "native_identifier": "actix-web-httpauth",
+  "repo": "actix/actix-extras",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "actix-web-httpauth/**/*.md",
+    "actix-web-httpauth/**/*.rs"
+  ]
+}

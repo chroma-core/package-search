@@ -1,0 +1,13 @@
+{
+  "native_identifier": "minicbor-derive",
+  "repo": "twittner/minicbor",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "minicbor-derive/**/*.md",
+    "minicbor-derive/**/*.rs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "phf_codegen",
+  "repo": "rust-phf/rust-phf",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "phf_codegen/**/*.md",
+    "phf_codegen/**/*.rs"
+  ]
+}

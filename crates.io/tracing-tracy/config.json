@@ -1,0 +1,13 @@
+{
+  "native_identifier": "tracing-tracy",
+  "repo": "nagisa/rust_tracy_client",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "tracing-tracy/**/*.md",
+    "tracing-tracy/**/*.rs"
+  ]
+}
