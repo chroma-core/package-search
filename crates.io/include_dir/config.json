@@ -3,7 +3,7 @@
   "repo": "Michael-F-Bryan/include_dir",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "include_dir-v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

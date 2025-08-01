@@ -3,7 +3,7 @@
   "repo": "mbrubeck/rust-debug-unreachable",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "new_debug_unreachable-v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
