@@ -3,7 +3,11 @@
   "repo": "hypermodeinc/modus",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "cli/v{major}.{minor}.{patch}",
+    "cli/v{major}.{YY}.{patch}",
+    "cli/v{major}.{patch}.{minor}",
+    "cli/v{major}.{YY}.{minor}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

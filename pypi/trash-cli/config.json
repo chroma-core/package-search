@@ -3,7 +3,10 @@
   "repo": "andreafrancia/trash-cli",
   "registry": "pypi",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}.{DD}",
+    "{major}.{minor}.{DD}.{YY}",
+    "{major}.{minor}.{patch}.{YY}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

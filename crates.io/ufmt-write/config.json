@@ -3,7 +3,10 @@
   "repo": "japaric/ufmt",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "ufmt-v{major}.{minor}.{patch}",
+    "ufmt-macros-v{major}.{minor}.{patch}",
+    "ufmt-utils-v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

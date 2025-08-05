@@ -3,7 +3,11 @@
   "repo": "tsileo/microblog.pub",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}-rc.{patch}",
+    "{major}.0.0-rc.{patch}",
+    "{major}.0.{patch}-rc.{patch}",
+    "{major}.{minor}.0-rc.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

@@ -3,7 +3,6 @@
   "repo": "pytest-dev/pytest-xprocess",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}",
     "{major}.{minor}",
     "{major}.{minor}.{patch}"
   ],

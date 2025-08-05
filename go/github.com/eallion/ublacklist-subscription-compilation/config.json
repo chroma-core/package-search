@@ -3,7 +3,7 @@
   "repo": "eallion/ublacklist-subscription-compilation",
   "registry": "go",
   "tag_formats": [
-    "{YYYY}{MM}{DD}"
+    "{major}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

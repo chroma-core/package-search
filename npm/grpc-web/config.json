@@ -3,7 +3,9 @@
   "repo": "improbable-eng/grpc-web",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "@improbable-eng/grpc-web-fake-transport@{major}.{minor}.{patch}",
+    "@improbable-eng/grpc-web-node-http-transport@{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

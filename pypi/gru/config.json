@@ -3,7 +3,9 @@
   "repo": "dalinvip/cnn-lstm-bilstm-deepcnn-clstm-in-pytorch",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "pytorch{major}.{minor}.{patch}",
+    "pytorch{major}.{minor}.{patch}-old_version_{YY}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

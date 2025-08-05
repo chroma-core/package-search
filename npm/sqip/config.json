@@ -3,7 +3,11 @@
   "repo": "axe312ger/sqip",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "sqip-cli@{major}.{minor}.{patch}-alpha.{DD}",
+    "sqip-cli@{major}.{minor}.{patch}-alpha.{YY}",
+    "sqip-cli@{major}.{minor}.0-alpha.{DD}",
+    "sqip-cli@{major}.0.0-alpha.{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

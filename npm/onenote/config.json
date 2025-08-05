@@ -3,7 +3,6 @@
   "repo": "patrikx3/onenote",
   "registry": "npm",
   "tag_formats": [
-    "v{YYYY}.{MM}.{DD}",
     "v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",

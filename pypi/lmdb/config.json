@@ -3,7 +3,10 @@
   "repo": "jnwatson/py-lmdb",
   "registry": "pypi",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "py-lmdb_{major}.{minor}",
+    "py-lmdb_{major}.{minor}{patch}",
+    "py-lmdb_{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

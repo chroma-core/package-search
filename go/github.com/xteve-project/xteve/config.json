@@ -3,7 +3,12 @@
   "repo": "xteve-project/xteve",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}.{MMMM}",
+    "v{major}.{minor}.{patch}.{MMMM}",
+    "{major}.{minor}.{patch}.{DD}{DD}",
+    "{major}.{minor}.{patch}.00{DD}",
+    "{major}.{minor}.{patch}.{MMMM}_new"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

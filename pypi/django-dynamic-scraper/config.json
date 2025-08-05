@@ -3,7 +3,12 @@
   "repo": "holgerd77/django-dynamic-scraper",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "v.{major}.{minor}.{patch}",
+    "v.{major}.{patch}.{minor}",
+    "v.{major}.{DD}.{patch}",
+    "v.{major}.{minor}.{YY}",
+    "v.{major}.{minor}.{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

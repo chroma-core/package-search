@@ -3,7 +3,8 @@
   "repo": "RustCrypto/universal-hashes",
   "registry": "crates.io",
   "tag_formats": [
-    "poly1305-v{major}.{minor}.{patch}"
+    "poly1305-v{major}.{minor}.{patch}",
+    "ghash-v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

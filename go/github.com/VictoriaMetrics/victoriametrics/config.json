@@ -3,7 +3,7 @@
   "repo": "victoriametrics/victoriametrics",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}-cluster"
+    "v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

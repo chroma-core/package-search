@@ -3,7 +3,15 @@
   "repo": "darrenburns/ward",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "release/{major}.{minor}.{patch}a0",
+    "release/{major}.{minor}.{patch}b0",
+    "release/{major}.{minor}.0a0",
+    "release/{major}.{minor}.0b0",
+    "release/0.{minor}.{patch}a0",
+    "release/0.{minor}.{patch}b0",
+    "release/0.{minor}.0a0",
+    "release/0.{minor}.0b0"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

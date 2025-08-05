@@ -3,7 +3,12 @@
   "repo": "tr0uble-maker/poc-bomber",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "POC-bomber-for-Redteam-v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-POC-bomber",
+    "V{major}.{minor}.{patch}-POC-bomber",
+    "V{major}.{patch}-POC-bomber",
+    "V{major}.{patch}.{patch}-POC-bomber"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

@@ -3,7 +3,11 @@
   "repo": "tonistiigi/binfmt",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "buildkit/v{major}.{minor}.{patch}-{DD}",
+    "buildkit/v{major}.{minor}.0-{DD}",
+    "deploy/v{major}.{minor}.0-{DD}",
+    "deploy/v{major}.{minor}.{patch}-{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

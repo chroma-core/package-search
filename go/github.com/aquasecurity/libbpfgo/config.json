@@ -3,7 +3,13 @@
   "repo": "aquasecurity/libbpfgo",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-libbpf-{major}.{minor}.{patch}",
+    "helpers/v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-libbpf-{major}.{minor}",
+    "v{major}.{minor}.{patch}-libbpf-{minor}.{patch}.{patch}",
+    "helpers/v{major}.{patch}.{minor}",
+    "v{major}.{minor}.{patch}-libbpf-{patch}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

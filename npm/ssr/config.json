@@ -3,7 +3,9 @@
   "repo": "zhangyuang/ssr",
   "registry": "npm",
   "tag_formats": [
-    "@{major}.{minor}.{patch}"
+    "@{major}.{minor}.{patch}",
+    "cli@{major}.{minor}.{patch}",
+    "cli@{major}.{minor}.{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

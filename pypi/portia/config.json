@@ -3,7 +3,10 @@
   "repo": "scrapinghub/portia",
   "registry": "pypi",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "slybot-{major}.{minor}.{patch}",
+    "slybot-{major}.{minor}.{patch}b{patch}",
+    "portia-{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

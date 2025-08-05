@@ -3,7 +3,15 @@
   "repo": "de-panther/unity-webxr-export",
   "registry": "npm",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "webxr-interactions/{major}.{minor}.{patch}-preview",
+    "webxr-interactions/{major}.{minor}.{patch}",
+    "webxr-interactions/0.{minor}.{patch}-preview",
+    "webxr-interactions/0.{minor}.{patch}",
+    "webxr-interactions/{major}.{minor}.0-preview",
+    "webxr-interactions/{major}.{minor}.0",
+    "webxr-interactions/0.{minor}.0-preview",
+    "webxr-interactions/0.{minor}.0"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

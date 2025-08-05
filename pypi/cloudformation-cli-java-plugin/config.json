@@ -3,7 +3,9 @@
   "repo": "aws-cloudformation/aws-cloudformation-rpdk-java-plugin",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-lib",
+    "v{major}.{minor}.{patch}-plugin"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

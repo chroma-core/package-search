@@ -3,7 +3,9 @@
   "repo": "oauth-io/oauthd",
   "registry": "npm",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}-alpha.{patch}",
+    "{major}.{minor}.{patch}-beta.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

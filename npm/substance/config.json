@@ -3,7 +3,12 @@
   "repo": "substance/substance",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-beta.{minor}",
+    "v{major}.{minor}.{patch}-beta.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-beta.{minor}-preview.{patch}",
+    "v{major}.{minor}.{patch}-beta.{patch}",
+    "v{major}.{minor}.{patch}-beta.{major}.{minor}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

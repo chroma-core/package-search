@@ -3,7 +3,11 @@
   "repo": "omnivore-app/omnivore",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "android-{major}.{minor}.{patch}",
+    "android-{patch}.{minor}.{major}",
+    "android-{major}.{patch}.{minor}",
+    "android-{patch}.{major}.{major}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

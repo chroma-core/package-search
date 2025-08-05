@@ -3,7 +3,9 @@
   "repo": "kr/pretty",
   "registry": "go",
   "tag_formats": [
-    "weekly.{YYYY}-{MM}-{DD}"
+    "weekly.{YYYY}-{MM}-{DD}",
+    "v{major}.{minor}.{patch}",
+    "release.r{major}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

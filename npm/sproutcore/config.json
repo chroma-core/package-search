@@ -3,7 +3,15 @@
   "repo": "sproutcore/sproutcore",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "REL-{major}.{minor}.{patch}",
+    "REL-{major}.{minor}.{MMMM}",
+    "REL-{major}.{major}.{DD}",
+    "REL-{major}.{minor}.{DD}",
+    "REL-{major}.{patch}.{DD}",
+    "REL-{major}.{patch}.{YY}",
+    "REL-{major}.{patch}.{MMMM}",
+    "REL-{major}.{minor}.{YY}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

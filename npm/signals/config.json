@@ -3,7 +3,9 @@
   "repo": "preactjs/signals",
   "registry": "npm",
   "tag_formats": [
-    "@-v{major}.{minor}.{patch}"
+    "@-v{major}.{minor}.{patch}",
+    "@preact/signals-core@{major}.{minor}.{patch}",
+    "@preact/signals@{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

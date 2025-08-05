@@ -3,7 +3,9 @@
   "repo": "rust-bakery/nom-derive",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "nom-derive-{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}-beta{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

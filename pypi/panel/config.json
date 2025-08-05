@@ -3,7 +3,11 @@
   "repo": "holoviz/panel",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}a{DD}",
+    "v{major}.{minor}.{patch}a{YY}",
+    "v{patch}.{patch}.{patch}a{DD}",
+    "v{major}.{patch}.{minor}a{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

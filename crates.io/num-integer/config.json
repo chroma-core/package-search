@@ -3,7 +3,13 @@
   "repo": "rust-num/num-integer",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "num-{major}.{minor}.{patch}",
+    "num-integer-{major}.{minor}.{patch}",
+    "num-{major}.{minor}.{DD}",
+    "num-integer-{major}.{minor}.{DD}",
+    "num-{major}.{minor}.{YY}",
+    "num-integer-{major}.{minor}.{YY}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

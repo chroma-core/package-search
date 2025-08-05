@@ -3,7 +3,11 @@
   "repo": "timc1/kbar",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "v{major}.{minor}.{patch}-beta.{DD}",
+    "v{major}.{minor}.{patch}-beta.{YY}",
+    "v{major}.{minor}.{patch}-beta.{patch}",
+    "v{major}.{minor}.0-beta.{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

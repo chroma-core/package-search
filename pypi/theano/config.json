@@ -3,7 +3,11 @@
   "repo": "theano/theano",
   "registry": "pypi",
   "tag_formats": [
-    "rel-v{major}.{minor}.{patch}"
+    "rel-v{major}.{minor}.{patch}",
+    "rel-{major}.{minor}.{patch}",
+    "rel-{major}.{minor}.{patch}beta{patch}",
+    "rel-{major}.{minor}.{patch}beta{minor}",
+    "rel-{major}.{minor}.0beta{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

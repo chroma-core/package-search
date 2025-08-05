@@ -3,7 +3,13 @@
   "repo": "vzex/dog-tunnel",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "lite_v{major}.{minor}",
+    "lite_v{major}.{minor}{patch}",
+    "v{major}.{minor}{patch}",
+    "v{major}.{minor}0",
+    "lite_v{major}.{minor}0",
+    "v{major}.{minor}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

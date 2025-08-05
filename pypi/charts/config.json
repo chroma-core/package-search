@@ -3,7 +3,8 @@
   "repo": "jmcnamara/xlsxwriter",
   "registry": "pypi",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "RELEASE_{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

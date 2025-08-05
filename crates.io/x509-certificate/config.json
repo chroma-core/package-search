@@ -3,7 +3,10 @@
   "repo": "indygreg/cryptography-rs",
   "registry": "crates.io",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "x509-certificate/{major}.{minor}.{patch}",
+    "cryptographic-message-syntax/{major}.{minor}.{patch}",
+    "pgp-cleartext/{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

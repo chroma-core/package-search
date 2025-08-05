@@ -3,7 +3,9 @@
   "repo": "toeverything/octobase",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "libs-jwt-{major}.{minor}.{patch}",
+    "libs-jwt-rpc-{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

@@ -3,7 +3,11 @@
   "repo": "liangliangyy/djangoblog",
   "registry": "pypi",
   "tag_formats": [
-    "{major}.{minor}.{patch}.{YYYY}"
+    "{major}.{minor}.{patch}.{YYYY}",
+    "{major}.{minor}.{minor}.{patch}",
+    "{major}.{patch}.{patch}.{minor}",
+    "{major}.{major}.{patch}.{minor}",
+    "{major}.{major}.{major}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

@@ -3,7 +3,9 @@
   "repo": "kettanaito/atomic-layout",
   "registry": "npm",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "@atomic-layout/core@{major}.{minor}.{patch}",
+    "atomic-layout@{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

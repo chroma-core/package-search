@@ -3,7 +3,9 @@
   "repo": "ajstarks/svgo",
   "registry": "go",
   "tag_formats": [
-    "{YYYY}-{MM}-{DD}"
+    "{YYYY}-{MM}-{DD}",
+    "go.r{major}",
+    "go.r{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

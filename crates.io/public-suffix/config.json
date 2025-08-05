@@ -3,7 +3,11 @@
   "repo": "1Password/passkey-rs",
   "registry": "crates.io",
   "tag_formats": [
-    "public-suffix-v{major}.{minor}.{patch}"
+    "public-suffix-v{major}.{minor}.{patch}",
+    "passkey-v{major}.{minor}.{patch}",
+    "passkey-authenticator-v{major}.{minor}.{patch}",
+    "passkey-client-v{major}.{minor}.{patch}",
+    "passkey-types-v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

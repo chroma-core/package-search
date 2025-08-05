@@ -3,7 +3,9 @@
   "repo": "tanstack/db",
   "registry": "npm",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "@tanstack/db-collections@{major}.{minor}.{patch}",
+    "@tanstack/db-collections@{patch}.{minor}.{major}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

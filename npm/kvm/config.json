@@ -3,7 +3,8 @@
   "repo": "jetkvm/kvm",
   "registry": "npm",
   "tag_formats": [
-    "release-{major}.{minor}"
+    "release-{major}.{minor}",
+    "release/{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

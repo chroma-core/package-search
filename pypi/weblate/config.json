@@ -3,7 +3,8 @@
   "repo": "weblateorg/weblate",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "weblate-{major}.{minor}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

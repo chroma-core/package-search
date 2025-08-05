@@ -3,7 +3,9 @@
   "repo": "ipinfo/cli",
   "registry": "go",
   "tag_formats": [
-    "{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}",
+    "grepip-{major}.{minor}.{patch}",
+    "ipinfo-{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

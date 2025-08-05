@@ -3,7 +3,11 @@
   "repo": "zbraniecki/unic-locale",
   "registry": "crates.io",
   "tag_formats": [
-    "@{major}.{minor}.{patch}"
+    "@{major}.{minor}.{patch}",
+    "unic-langid@{major}.{minor}.{patch}",
+    "unic-langid@{major}.{minor}.0",
+    "unic-locale@{major}.{minor}.{patch}",
+    "unic-locale@{major}.{minor}.0"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

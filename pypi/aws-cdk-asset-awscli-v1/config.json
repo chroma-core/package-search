@@ -3,7 +3,9 @@
   "repo": "cdklabs/awscdk-asset-awscli",
   "registry": "pypi",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "awscli-v1v{major}.{minor}.{patch}",
+    "awscli-v{major}v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

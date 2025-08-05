@@ -3,7 +3,8 @@
   "repo": "manfredsteyer/ngx-build-plus",
   "registry": "npm",
   "tag_formats": [
-    "{major}"
+    "{major}.{minor}",
+    "{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

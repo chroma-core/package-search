@@ -3,7 +3,13 @@
   "repo": "kubernetes/code-generator",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "kubernetes-{major}.{minor}.{patch}",
+    "kubernetes-{major}.{minor}.{patch}-alpha.{patch}",
+    "kubernetes-{major}.{minor}.{patch}-beta.{patch}",
+    "kubernetes-{major}.{minor}.0-alpha.{patch}",
+    "kubernetes-{major}.{minor}.{patch}-beta.0",
+    "kubernetes-{major}.{major}.{patch}-beta.0"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
