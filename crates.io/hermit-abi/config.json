@@ -3,7 +3,12 @@
   "repo": "hermit-os/hermit-rs",
   "registry": "crates.io",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "hermit-abi-0.{minor}.{patch}",
+    "hermit-abi-{major}.{minor}.{patch}",
+    "hermit-{major}.{minor}.{patch}",
+    "hermit-abi-{major}.{minor}.{DD}",
+    "hermit-abi-0.1.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

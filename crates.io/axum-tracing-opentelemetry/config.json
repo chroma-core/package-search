@@ -3,7 +3,7 @@
   "repo": "davidB/tracing-opentelemetry-instrumentation-sdk",
   "registry": "crates.io",
   "tag_formats": [
-    "axum-tracing-opentelemetry-v{major}.{minor}.{patch}"
+    "{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

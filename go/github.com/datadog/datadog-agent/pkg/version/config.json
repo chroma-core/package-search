@@ -3,7 +3,10 @@
   "repo": "datadog/datadog-agent",
   "registry": "go",
   "tag_formats": [
-    "v{major}.{minor}.{patch}"
+    "v{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}-rc.{patch}",
+    "{major}.{minor}.{patch}-rc.{minor}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

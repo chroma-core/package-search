@@ -3,7 +3,7 @@
   "repo": "emo-crab/observer_ward",
   "registry": "crates.io",
   "tag_formats": [
-    "v{YYYY}.{MM}.{DD}"
+    "v{major}.{minor}.{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

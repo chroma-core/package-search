@@ -3,7 +3,11 @@
   "repo": "brendanzab/gl-rs",
   "registry": "crates.io",
   "tag_formats": [
-    "khronos_api-v{major}.{minor}.{patch}"
+    "khronos_api-v{major}.{minor}.{patch}",
+    "gl-v{major}.{minor}.{patch}",
+    "gl-v{patch}.{minor}.{major}",
+    "gl-v{patch}.{patch}.{patch}",
+    "gl-v{patch}.{major}.{minor}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [

@@ -3,7 +3,11 @@
   "repo": "cixingguangming55555/wechat-bot",
   "registry": "npm",
   "tag_formats": [
-    "{major}.{minor}.{patch}.{DD}"
+    "{major}.{minor}.{patch}.{DD}",
+    "{major}.{minor}.{patch}.{YY}",
+    "{major}.{major}.{patch}.{DD}",
+    "{major}.{minor}.{minor}.{YY}",
+    "{major}.{patch}.{minor}.{DD}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
