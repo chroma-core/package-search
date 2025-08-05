@@ -3,7 +3,9 @@
   "repo": "xrplf/xrpl-dev-portal",
   "registry": "npm",
   "tag_formats": [
-    "v{major}.{minor}"
+    "v{major}.{minor}",
+    "DataAPI-v{major}.{minor}.{patch}-{patch}",
+    "rippled-v{major}.{minor}.{patch}-{patch}"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
