@@ -3,7 +3,9 @@
   "repo": "dahlia/iterfzf",
   "registry": "pypi",
   "tag_formats": [
-    "{major}.{minor}.{patch}.{YYYY}.{MM}.{DD}"
+    "{major}.{minor}.{patch}.{YYYY}.{MM}.{DD}",
+    "{major}.{minor}.{patch}.{DD}.{patch}",
+    "{major}.{minor}.{patch}.{DD}.0"
   ],
   "sentinel_timestamp": "2024-01-01T00:00:00+0000",
   "include": [
