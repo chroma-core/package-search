@@ -1,0 +1,16 @@
+{
+  "native_identifier": "jest-haste-map",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/jest-haste-map/**/*.md",
+    "packages/jest-haste-map/**/*.ts",
+    "packages/jest-haste-map/**/*.js",
+    "packages/jest-haste-map/**/*.tsx",
+    "packages/jest-haste-map/**/*.jsx"
+  ]
+}

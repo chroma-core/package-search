@@ -1,0 +1,16 @@
+{
+  "native_identifier": "jest-validate",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/jest-validate/**/*.md",
+    "packages/jest-validate/**/*.ts",
+    "packages/jest-validate/**/*.js",
+    "packages/jest-validate/**/*.tsx",
+    "packages/jest-validate/**/*.jsx"
+  ]
+}

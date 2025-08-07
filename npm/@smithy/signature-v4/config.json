@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@smithy/signature-v4",
+  "repo": "smithy-lang/smithy-typescript",
+  "registry": "npm",
+  "tag_formats": [
+    "@smithy/signature-v4@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/signature-v4/**/*.md",
+    "packages/signature-v4/**/*.ts",
+    "packages/signature-v4/**/*.js",
+    "packages/signature-v4/**/*.tsx",
+    "packages/signature-v4/**/*.jsx"
+  ]
+}

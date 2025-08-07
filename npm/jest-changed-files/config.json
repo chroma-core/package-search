@@ -1,0 +1,16 @@
+{
+  "native_identifier": "jest-changed-files",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/jest-changed-files/**/*.md",
+    "packages/jest-changed-files/**/*.ts",
+    "packages/jest-changed-files/**/*.js",
+    "packages/jest-changed-files/**/*.tsx",
+    "packages/jest-changed-files/**/*.jsx"
+  ]
+}

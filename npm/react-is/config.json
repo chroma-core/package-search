@@ -1,0 +1,16 @@
+{
+  "native_identifier": "react-is",
+  "repo": "facebook/react",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/react-is/**/*.md",
+    "packages/react-is/**/*.ts",
+    "packages/react-is/**/*.js",
+    "packages/react-is/**/*.tsx",
+    "packages/react-is/**/*.jsx"
+  ]
+}

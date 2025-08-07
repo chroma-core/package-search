@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@smithy/util-middleware",
+  "repo": "smithy-lang/smithy-typescript",
+  "registry": "npm",
+  "tag_formats": [
+    "@smithy/util-middleware@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/util-middleware/**/*.md",
+    "packages/util-middleware/**/*.ts",
+    "packages/util-middleware/**/*.js",
+    "packages/util-middleware/**/*.tsx",
+    "packages/util-middleware/**/*.jsx"
+  ]
+}

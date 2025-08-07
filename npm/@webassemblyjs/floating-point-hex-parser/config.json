@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@webassemblyjs/floating-point-hex-parser",
+  "repo": "xtuc/webassemblyjs",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/floating-point-hex-parser/**/*.md",
+    "packages/floating-point-hex-parser/**/*.ts",
+    "packages/floating-point-hex-parser/**/*.js",
+    "packages/floating-point-hex-parser/**/*.tsx",
+    "packages/floating-point-hex-parser/**/*.jsx"
+  ]
+}

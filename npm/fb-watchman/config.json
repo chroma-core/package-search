@@ -1,0 +1,16 @@
+{
+  "native_identifier": "fb-watchman",
+  "repo": "facebook/watchman",
+  "registry": "npm",
+  "tag_formats": [
+    "v{YYYY}.{MM}.{DD}.00"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}

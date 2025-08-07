@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@aws-sdk/types",
+  "repo": "aws/aws-sdk-js-v3",
+  "registry": "npm",
+  "tag_formats": [
+    "@aws-sdk/types@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/types/**/*.md",
+    "packages/types/**/*.ts",
+    "packages/types/**/*.js",
+    "packages/types/**/*.tsx",
+    "packages/types/**/*.jsx"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "babel-jest",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/babel-jest/**/*.md",
+    "packages/babel-jest/**/*.ts",
+    "packages/babel-jest/**/*.js",
+    "packages/babel-jest/**/*.tsx",
+    "packages/babel-jest/**/*.jsx"
+  ]
+}

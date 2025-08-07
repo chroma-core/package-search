@@ -1,0 +1,13 @@
+{
+  "native_identifier": "anstyle-parse",
+  "repo": "rust-cli/anstyle",
+  "registry": "crates.io",
+  "tag_formats": [
+    "anstyle-parse-v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "crates/anstyle-parse/**/*.md",
+    "crates/anstyle-parse/**/*.rs"
+  ]
+}

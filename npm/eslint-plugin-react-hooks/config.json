@@ -1,0 +1,16 @@
+{
+  "native_identifier": "eslint-plugin-react-hooks",
+  "repo": "facebook/react",
+  "registry": "npm",
+  "tag_formats": [
+    "eslint-plugin-react-hooks@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/eslint-plugin-react-hooks/**/*.md",
+    "packages/eslint-plugin-react-hooks/**/*.ts",
+    "packages/eslint-plugin-react-hooks/**/*.js",
+    "packages/eslint-plugin-react-hooks/**/*.tsx",
+    "packages/eslint-plugin-react-hooks/**/*.jsx"
+  ]
+}

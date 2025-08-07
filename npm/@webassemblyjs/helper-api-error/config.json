@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@webassemblyjs/helper-api-error",
+  "repo": "xtuc/webassemblyjs",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/helper-api-error/**/*.md",
+    "packages/helper-api-error/**/*.ts",
+    "packages/helper-api-error/**/*.js",
+    "packages/helper-api-error/**/*.tsx",
+    "packages/helper-api-error/**/*.jsx"
+  ]
+}

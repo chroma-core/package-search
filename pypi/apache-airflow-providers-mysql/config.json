@@ -1,0 +1,13 @@
+{
+  "native_identifier": "apache-airflow-providers-mysql",
+  "repo": "apache/airflow",
+  "registry": "pypi",
+  "tag_formats": [
+    "providers-mysql/{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "providers/mysql/**/*.md",
+    "providers/mysql/**/*.py"
+  ]
+}

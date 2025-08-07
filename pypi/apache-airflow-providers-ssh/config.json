@@ -1,0 +1,13 @@
+{
+  "native_identifier": "apache-airflow-providers-ssh",
+  "repo": "apache/airflow",
+  "registry": "pypi",
+  "tag_formats": [
+    "providers-ssh/{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "providers/ssh/**/*.md",
+    "providers/ssh/**/*.py"
+  ]
+}

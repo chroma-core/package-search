@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-syntax-logical-assignment-operators",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/babel-plugin-syntax-logical-assignment-operators/**/*.md",
+    "packages/babel-plugin-syntax-logical-assignment-operators/**/*.ts",
+    "packages/babel-plugin-syntax-logical-assignment-operators/**/*.js",
+    "packages/babel-plugin-syntax-logical-assignment-operators/**/*.tsx",
+    "packages/babel-plugin-syntax-logical-assignment-operators/**/*.jsx"
+  ]
+}

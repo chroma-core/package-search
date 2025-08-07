@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-syntax-import-assertions",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "babel-plugin-syntax-import-assertions/**/*.md",
+    "babel-plugin-syntax-import-assertions/**/*.ts",
+    "babel-plugin-syntax-import-assertions/**/*.js",
+    "babel-plugin-syntax-import-assertions/**/*.tsx",
+    "babel-plugin-syntax-import-assertions/**/*.jsx"
+  ]
+}

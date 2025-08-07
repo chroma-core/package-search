@@ -1,0 +1,13 @@
+{
+  "native_identifier": "langchain",
+  "repo": "langchain-ai/langchain",
+  "registry": "pypi",
+  "tag_formats": [
+    "v{major}.{minor}b0"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "instrumentation/opentelemetry-instrumentation-langchain/**/*.md",
+    "instrumentation/opentelemetry-instrumentation-langchain/**/*.py"
+  ]
+}

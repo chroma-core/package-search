@@ -1,0 +1,13 @@
+{
+  "native_identifier": "windows_x86_64_gnullvm",
+  "repo": "microsoft/windows-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "crates/targets/x86_64_gnullvm/**/*.md",
+    "crates/targets/x86_64_gnullvm/**/*.rs"
+  ]
+}

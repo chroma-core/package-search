@@ -1,0 +1,16 @@
+{
+  "native_identifier": "scheduler",
+  "repo": "facebook/react",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/scheduler/**/*.md",
+    "packages/scheduler/**/*.ts",
+    "packages/scheduler/**/*.js",
+    "packages/scheduler/**/*.tsx",
+    "packages/scheduler/**/*.jsx"
+  ]
+}

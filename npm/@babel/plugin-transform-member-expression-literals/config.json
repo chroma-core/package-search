@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-transform-member-expression-literals",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "babel-plugin-transform-member-expression-literals/**/*.md",
+    "babel-plugin-transform-member-expression-literals/**/*.ts",
+    "babel-plugin-transform-member-expression-literals/**/*.js",
+    "babel-plugin-transform-member-expression-literals/**/*.tsx",
+    "babel-plugin-transform-member-expression-literals/**/*.jsx"
+  ]
+}

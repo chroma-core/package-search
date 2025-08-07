@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-transform-block-scoping",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "babel-plugin-transform-block-scoping/**/*.md",
+    "babel-plugin-transform-block-scoping/**/*.ts",
+    "babel-plugin-transform-block-scoping/**/*.js",
+    "babel-plugin-transform-block-scoping/**/*.tsx",
+    "babel-plugin-transform-block-scoping/**/*.jsx"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_identifier": "aws-runtime",
+  "repo": "smithy-lang/smithy-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "aws/rust-runtime/aws-runtime/**/*.md",
+    "aws/rust-runtime/aws-runtime/**/*.rs"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@smithy/util-stream",
+  "repo": "smithy-lang/smithy-typescript",
+  "registry": "npm",
+  "tag_formats": [
+    "@smithy/util-stream@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/util-stream/**/*.md",
+    "packages/util-stream/**/*.ts",
+    "packages/util-stream/**/*.js",
+    "packages/util-stream/**/*.tsx",
+    "packages/util-stream/**/*.jsx"
+  ]
+}

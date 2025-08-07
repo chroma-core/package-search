@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-transform-regenerator",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "babel-plugin-transform-regenerator/**/*.md",
+    "babel-plugin-transform-regenerator/**/*.ts",
+    "babel-plugin-transform-regenerator/**/*.js",
+    "babel-plugin-transform-regenerator/**/*.tsx",
+    "babel-plugin-transform-regenerator/**/*.jsx"
+  ]
+}

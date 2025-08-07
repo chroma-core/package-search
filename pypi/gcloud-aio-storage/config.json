@@ -1,0 +1,13 @@
+{
+  "native_identifier": "gcloud-aio-storage",
+  "repo": "talkiq/gcloud-aio",
+  "registry": "pypi",
+  "tag_formats": [
+    "storage-{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "storage/**/*.md",
+    "storage/**/*.py"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@smithy/util-base64",
+  "repo": "awslabs/smithy-typescript",
+  "registry": "npm",
+  "tag_formats": [
+    "@smithy/util-base64@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/util-base64/**/*.md",
+    "packages/util-base64/**/*.ts",
+    "packages/util-base64/**/*.js",
+    "packages/util-base64/**/*.tsx",
+    "packages/util-base64/**/*.jsx"
+  ]
+}

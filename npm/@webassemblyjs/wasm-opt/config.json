@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@webassemblyjs/wasm-opt",
+  "repo": "xtuc/webassemblyjs",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/wasm-opt/**/*.md",
+    "packages/wasm-opt/**/*.ts",
+    "packages/wasm-opt/**/*.js",
+    "packages/wasm-opt/**/*.tsx",
+    "packages/wasm-opt/**/*.jsx"
+  ]
+}

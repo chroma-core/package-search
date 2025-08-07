@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/helper-skip-transparent-expression-wrappers",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/babel-helper-skip-transparent-expression-wrappers/**/*.md",
+    "packages/babel-helper-skip-transparent-expression-wrappers/**/*.ts",
+    "packages/babel-helper-skip-transparent-expression-wrappers/**/*.js",
+    "packages/babel-helper-skip-transparent-expression-wrappers/**/*.tsx",
+    "packages/babel-helper-skip-transparent-expression-wrappers/**/*.jsx"
+  ]
+}

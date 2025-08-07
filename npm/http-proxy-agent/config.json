@@ -1,0 +1,16 @@
+{
+  "native_identifier": "http-proxy-agent",
+  "repo": "TooTallNate/proxy-agents",
+  "registry": "npm",
+  "tag_formats": [
+    "http-proxy-agent@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/http-proxy-agent/**/*.md",
+    "packages/http-proxy-agent/**/*.ts",
+    "packages/http-proxy-agent/**/*.js",
+    "packages/http-proxy-agent/**/*.tsx",
+    "packages/http-proxy-agent/**/*.jsx"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@smithy/middleware-serde",
+  "repo": "smithy-lang/smithy-typescript",
+  "registry": "npm",
+  "tag_formats": [
+    "@smithy/middleware-serde@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/middleware-serde/**/*.md",
+    "packages/middleware-serde/**/*.ts",
+    "packages/middleware-serde/**/*.js",
+    "packages/middleware-serde/**/*.tsx",
+    "packages/middleware-serde/**/*.jsx"
+  ]
+}

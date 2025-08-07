@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-transform-computed-properties",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "babel-plugin-transform-computed-properties/**/*.md",
+    "babel-plugin-transform-computed-properties/**/*.ts",
+    "babel-plugin-transform-computed-properties/**/*.js",
+    "babel-plugin-transform-computed-properties/**/*.tsx",
+    "babel-plugin-transform-computed-properties/**/*.jsx"
+  ]
+}

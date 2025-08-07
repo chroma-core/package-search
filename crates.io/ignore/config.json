@@ -1,0 +1,13 @@
+{
+  "native_identifier": "ignore",
+  "repo": "BurntSushi/ripgrep",
+  "registry": "crates.io",
+  "tag_formats": [
+    "ignore-{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "crates/ignore/**/*.md",
+    "crates/ignore/**/*.rs"
+  ]
+}

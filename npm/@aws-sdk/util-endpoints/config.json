@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@aws-sdk/util-endpoints",
+  "repo": "aws/aws-sdk-js-v3",
+  "registry": "npm",
+  "tag_formats": [
+    "@aws-sdk/util-endpoints@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/util-endpoints/**/*.md",
+    "packages/util-endpoints/**/*.ts",
+    "packages/util-endpoints/**/*.js",
+    "packages/util-endpoints/**/*.tsx",
+    "packages/util-endpoints/**/*.jsx"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@babel/plugin-transform-literals",
+  "repo": "babel/babel",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "babel-plugin-transform-literals/**/*.md",
+    "babel-plugin-transform-literals/**/*.ts",
+    "babel-plugin-transform-literals/**/*.js",
+    "babel-plugin-transform-literals/**/*.tsx",
+    "babel-plugin-transform-literals/**/*.jsx"
+  ]
+}

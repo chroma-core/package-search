@@ -1,0 +1,13 @@
+{
+  "native_identifier": "grpc-google-iam-v1",
+  "repo": "googleapis/google-cloud-python",
+  "registry": "pypi",
+  "tag_formats": [
+    "grpc-google-iam-v1-v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/grpc-google-iam-v1/**/*.md",
+    "packages/grpc-google-iam-v1/**/*.py"
+  ]
+}

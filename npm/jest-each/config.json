@@ -1,0 +1,16 @@
+{
+  "native_identifier": "jest-each",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/jest-each/**/*.md",
+    "packages/jest-each/**/*.ts",
+    "packages/jest-each/**/*.js",
+    "packages/jest-each/**/*.tsx",
+    "packages/jest-each/**/*.jsx"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "jest-leak-detector",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/jest-leak-detector/**/*.md",
+    "packages/jest-leak-detector/**/*.ts",
+    "packages/jest-leak-detector/**/*.js",
+    "packages/jest-leak-detector/**/*.tsx",
+    "packages/jest-leak-detector/**/*.jsx"
+  ]
+}

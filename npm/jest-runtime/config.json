@@ -1,0 +1,16 @@
+{
+  "native_identifier": "jest-runtime",
+  "repo": "jestjs/jest",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/jest-runtime/**/*.md",
+    "packages/jest-runtime/**/*.ts",
+    "packages/jest-runtime/**/*.js",
+    "packages/jest-runtime/**/*.tsx",
+    "packages/jest-runtime/**/*.jsx"
+  ]
+}

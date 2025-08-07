@@ -1,0 +1,13 @@
+{
+  "native_identifier": "google-cloud-appengine-logging",
+  "repo": "googleapis/google-cloud-python",
+  "registry": "pypi",
+  "tag_formats": [
+    "google-cloud-appengine-logging-v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/google-cloud-appengine-logging/**/*.md",
+    "packages/google-cloud-appengine-logging/**/*.py"
+  ]
+}

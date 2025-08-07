@@ -1,0 +1,13 @@
+{
+  "native_identifier": "github.com/google/gvisor",
+  "repo": "google/gvisor",
+  "registry": "go",
+  "tag_formats": [
+    "release-{YYYY}-{MM}-{DD}.0"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.go"
+  ]
+}

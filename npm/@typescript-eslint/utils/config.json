@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@typescript-eslint/utils",
+  "repo": "typescript-eslint/typescript-eslint",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/utils/**/*.md",
+    "packages/utils/**/*.ts",
+    "packages/utils/**/*.js",
+    "packages/utils/**/*.tsx",
+    "packages/utils/**/*.jsx"
+  ]
+}

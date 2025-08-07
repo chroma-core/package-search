@@ -1,0 +1,17 @@
+{
+  "native_identifier": "ts-api-utils",
+  "repo": "JoshuaKGoldberg/ts-api-utils",
+  "registry": "npm",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}",
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}

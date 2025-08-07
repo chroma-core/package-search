@@ -1,0 +1,14 @@
+{
+  "native_identifier": "ppv-lite86",
+  "repo": "cryptocorrosion/cryptocorrosion",
+  "registry": "crates.io",
+  "tag_formats": [
+    "blake-{major}.{minor}.{patch}",
+    "c2-chacha-{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "**/*.md",
+    "**/*.rs"
+  ]
+}

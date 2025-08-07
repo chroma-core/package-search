@@ -1,0 +1,16 @@
+{
+  "native_identifier": "@aws-sdk/credential-provider-web-identity",
+  "repo": "aws/aws-sdk-js-v3",
+  "registry": "npm",
+  "tag_formats": [
+    "@aws-sdk/credential-provider-web-identity@{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "include": [
+    "packages/credential-provider-web-identity/**/*.md",
+    "packages/credential-provider-web-identity/**/*.ts",
+    "packages/credential-provider-web-identity/**/*.js",
+    "packages/credential-provider-web-identity/**/*.tsx",
+    "packages/credential-provider-web-identity/**/*.jsx"
+  ]
+}
