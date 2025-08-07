@@ -1,6 +1,7 @@
 {
     "packages": [
-        "github_releases/chroma-core/chroma"
+        "github_releases/chroma-core/chroma",
+        "crates.io/actix-web"
     ],
     "generated_at": "2025-08-01T01:36:01Z",
     "count": 0
