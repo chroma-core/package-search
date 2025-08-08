@@ -9,7 +9,7 @@
 		"{major}.{major}.{patch}",
 		"{major}.{patch}.{minor}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"pkg/status/health/**/*.md",
 		"pkg/status/health/**/*.go"

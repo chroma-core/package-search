@@ -7,7 +7,7 @@
 		"libsystemd-sys-{major}.{minor}.{patch}",
 		"systemd-{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"libsystemd-sys/**/*.md",
 		"libsystemd-sys/**/*.rs"

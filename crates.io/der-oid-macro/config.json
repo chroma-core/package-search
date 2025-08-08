@@ -7,7 +7,7 @@
 		"der-parser-{major}.{minor}.{patch}",
 		"der-parser-{patch}.{minor}.{major}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"der-oid-macro/**/*.md",
 		"der-oid-macro/**/*.rs"

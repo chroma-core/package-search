@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"google-cloud-datacatalog-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"packages/google-cloud-datacatalog/**/*.md",
 		"packages/google-cloud-datacatalog/**/*.py"

@@ -9,7 +9,7 @@
 		"exporter/awsemfexporter/v{major}.{minor}.{patch}",
 		"internal/aws/cwlogs/v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"processor/awsapplicationsignalsprocessor/**/*.md",
 		"processor/awsapplicationsignalsprocessor/**/*.go"

@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"chacha20poly1305-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"chacha20poly1305/**/*.md",
 		"chacha20poly1305/**/*.rs"

@@ -8,7 +8,7 @@
 		"go/core/v{major}.{minor}.{patch}",
 		"go/core/v{major}.{minor}.{patch}-beta"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"go/database/sql/**/*.md",
 		"go/database/sql/**/*.go"

@@ -6,7 +6,7 @@
 		"pbkdf2-v{major}.{minor}.{patch}",
 		"argon2-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"pbkdf2/**/*.md",
 		"pbkdf2/**/*.rs"

@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"eslint-visitor-keys-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"packages/eslint-visitor-keys/**/*.md",
 		"packages/eslint-visitor-keys/**/*.ts",

@@ -8,7 +8,7 @@
 		"ansi/v{major}.{minor}.0",
 		"ansi/v{major}.{patch}.0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"exp/strings/**/*.md",
 		"exp/strings/**/*.go"

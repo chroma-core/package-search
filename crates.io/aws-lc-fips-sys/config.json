@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"aws-lc-fips-sys/v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"aws-lc-fips-sys/**/*.md",
 		"aws-lc-fips-sys/**/*.rs"

@@ -13,7 +13,7 @@
 		"release/0.{minor}.0a0",
 		"release/0.{minor}.0b0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.py"

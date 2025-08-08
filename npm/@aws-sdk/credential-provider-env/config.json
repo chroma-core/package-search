@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"@aws-sdk/credential-provider-env@{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"packages/credential-provider-env/**/*.md",
 		"packages/credential-provider-env/**/*.ts",

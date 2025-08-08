@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"@babel/helper-define-polyfill-provider@{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"packages/babel-helper-define-polyfill-provider/**/*.md",
 		"packages/babel-helper-define-polyfill-provider/**/*.ts",

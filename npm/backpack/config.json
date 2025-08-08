@@ -8,7 +8,7 @@
 		"{major}.{minor}.{patch}-latest-{DD}{YY}",
 		"{major}.{minor}.{patch}-latest-{YY}{DD}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.ts",

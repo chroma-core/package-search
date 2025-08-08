@@ -9,7 +9,7 @@
 		"internal/aws/cwlogs/v{major}.{minor}.{patch}",
 		"processor/awsapplicationsignalsprocessor/v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"override/**/*.md",
 		"override/**/*.go"

@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"@aws-crypto/sha256-js@{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"packages/sha256-js/**/*.md",
 		"packages/sha256-js/**/*.ts",

@@ -7,7 +7,7 @@
 		"v_escape_codegen-v{major}.{minor}.{patch}",
 		"v_escape_codegen-v{patch}.{minor}.{major}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"v_escape/**/*.md",
 		"v_escape/**/*.rs"

@@ -8,7 +8,7 @@
 		"core/v{major}.{minor}.{patch}-beta.{patch}",
 		"serializer/v{major}.{minor}.{patch}-beta.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.go"

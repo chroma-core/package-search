@@ -51,7 +51,7 @@ Anyone can request additional packages to be indexed by creating a Pull Request.
        "v{major}.{minor}.{patch}",
        "v{major}.{minor}"
      ],
-     "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+     "sentinel_timestamp": "2024-01-01T00:00:00Z",
      "include": [
        "**/*.md",
        "**/*.ts", 
@@ -112,7 +112,7 @@ If the repository you're adding is a monorepo (contains multiple packages), you 
   "repo": "owner/monorepo",
   "registry": "npm",
   "tag_formats": ["v{major}.{minor}.{patch}"],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
+  "sentinel_timestamp": "2024-01-01T00:00:00Z",
   "include": [
     "packages/my-package/**/*.md",
     "packages/my-package/**/*.ts",

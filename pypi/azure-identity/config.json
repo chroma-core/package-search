@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"azure-identity_{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
 		"sdk/identity/azure-identity/**/*.md",
 		"sdk/identity/azure-identity/**/*.py"
