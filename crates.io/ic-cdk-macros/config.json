@@ -1,13 +1,14 @@
 {
-  "native_identifier": "ic-cdk-macros",
-  "repo": "dfinity/cdk-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ic-cdk-macros/**/*.md",
-    "ic-cdk-macros/**/*.rs"
-  ]
+	"native_identifier": "ic-cdk-macros",
+	"repo": "dfinity/cdk-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ic-cdk-macros/**/*.md",
+		"ic-cdk-macros/**/*.rs"
+	],
+	"collection_name_prefix": "ic-cdk-macros"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/openbao/go-kms-wrapping/extras/kms/v2",
-  "repo": "openbao/go-kms-wrapping",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "extras/kms/v2/**/*.md",
-    "extras/kms/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/openbao/go-kms-wrapping/extras/kms/v2",
+	"repo": "openbao/go-kms-wrapping",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"extras/kms/v2/**/*.md",
+		"extras/kms/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_openbao_go-kms-wrapping_extras_kms_v2"
 }

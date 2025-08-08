@@ -1,13 +1,14 @@
 {
-  "native_identifier": "icu_locale_core",
-  "repo": "unicode-org/icu4x",
-  "registry": "crates.io",
-  "tag_formats": [
-    "icu@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "components/locale_core/**/*.md",
-    "components/locale_core/**/*.rs"
-  ]
+	"native_identifier": "icu_locale_core",
+	"repo": "unicode-org/icu4x",
+	"registry": "crates.io",
+	"tag_formats": [
+		"icu@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"components/locale_core/**/*.md",
+		"components/locale_core/**/*.rs"
+	],
+	"collection_name_prefix": "icu_locale_core"
 }

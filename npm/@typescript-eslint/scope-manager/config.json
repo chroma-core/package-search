@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@typescript-eslint/scope-manager",
-  "repo": "typescript-eslint/typescript-eslint",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/scope-manager/**/*.md",
-    "packages/scope-manager/**/*.ts",
-    "packages/scope-manager/**/*.js",
-    "packages/scope-manager/**/*.tsx",
-    "packages/scope-manager/**/*.jsx"
-  ]
+	"native_identifier": "@typescript-eslint/scope-manager",
+	"repo": "typescript-eslint/typescript-eslint",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/scope-manager/**/*.md",
+		"packages/scope-manager/**/*.ts",
+		"packages/scope-manager/**/*.js",
+		"packages/scope-manager/**/*.tsx",
+		"packages/scope-manager/**/*.jsx"
+	],
+	"collection_name_prefix": "typescript-eslint_scope-manager"
 }

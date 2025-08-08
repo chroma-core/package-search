@@ -1,13 +1,14 @@
 {
-  "native_identifier": "headers-core",
-  "repo": "hyperium/headers",
-  "registry": "crates.io",
-  "tag_formats": [
-    "headers-core-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "headers-core/**/*.md",
-    "headers-core/**/*.rs"
-  ]
+	"native_identifier": "headers-core",
+	"repo": "hyperium/headers",
+	"registry": "crates.io",
+	"tag_formats": [
+		"headers-core-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"headers-core/**/*.md",
+		"headers-core/**/*.rs"
+	],
+	"collection_name_prefix": "headers-core"
 }

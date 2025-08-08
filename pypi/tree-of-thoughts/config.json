@@ -1,17 +1,18 @@
 {
-  "native_identifier": "tree-of-thoughts",
-  "repo": "kyegomez/tree-of-thoughts",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}",
-    "E{DD}",
-    "e{DD}",
-    "E{YY}",
-    "e{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "tree-of-thoughts",
+	"repo": "kyegomez/tree-of-thoughts",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}",
+		"E{DD}",
+		"e{DD}",
+		"E{YY}",
+		"e{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "tree-of-thoughts"
 }

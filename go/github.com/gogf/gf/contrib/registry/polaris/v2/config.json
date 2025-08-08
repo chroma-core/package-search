@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/gogf/gf/contrib/registry/polaris/v2",
-  "repo": "gogf/gf",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "contrib/registry/polaris/v2/**/*.md",
-    "contrib/registry/polaris/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/gogf/gf/contrib/registry/polaris/v2",
+	"repo": "gogf/gf",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"contrib/registry/polaris/v2/**/*.md",
+		"contrib/registry/polaris/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_gogf_gf_contrib_registry_polaris_v2"
 }

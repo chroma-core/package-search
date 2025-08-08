@@ -1,14 +1,15 @@
 {
-  "native_identifier": "ndk-sys",
-  "repo": "rust-mobile/ndk",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cargo-apk-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ndk-sys/**/*.md",
-    "ndk-sys/**/*.rs"
-  ]
+	"native_identifier": "ndk-sys",
+	"repo": "rust-mobile/ndk",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cargo-apk-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ndk-sys/**/*.md",
+		"ndk-sys/**/*.rs"
+	],
+	"collection_name_prefix": "ndk-sys"
 }

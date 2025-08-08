@@ -1,13 +1,14 @@
 {
-  "native_identifier": "base64ct",
-  "repo": "RustCrypto/formats",
-  "registry": "crates.io",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "base64ct/**/*.md",
-    "base64ct/**/*.rs"
-  ]
+	"native_identifier": "base64ct",
+	"repo": "RustCrypto/formats",
+	"registry": "crates.io",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"base64ct/**/*.md",
+		"base64ct/**/*.rs"
+	],
+	"collection_name_prefix": "base64ct"
 }

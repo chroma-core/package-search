@@ -1,13 +1,14 @@
 {
-  "native_identifier": "generic-array",
-  "repo": "fizyk20/generic-array",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "generic-array",
+	"repo": "fizyk20/generic-array",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "generic-array"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/redis/go-redis/example/scan-struct",
-  "repo": "redis/go-redis",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "example/scan-struct/**/*.md",
-    "example/scan-struct/**/*.go"
-  ]
+	"native_identifier": "github.com/redis/go-redis/example/scan-struct",
+	"repo": "redis/go-redis",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"example/scan-struct/**/*.md",
+		"example/scan-struct/**/*.go"
+	],
+	"collection_name_prefix": "github.com_redis_go-redis_example_scan-struct"
 }

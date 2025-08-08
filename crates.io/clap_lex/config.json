@@ -1,13 +1,14 @@
 {
-  "native_identifier": "clap_lex",
-  "repo": "clap-rs/clap",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "clap_lex/**/*.md",
-    "clap_lex/**/*.rs"
-  ]
+	"native_identifier": "clap_lex",
+	"repo": "clap-rs/clap",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"clap_lex/**/*.md",
+		"clap_lex/**/*.rs"
+	],
+	"collection_name_prefix": "clap_lex"
 }

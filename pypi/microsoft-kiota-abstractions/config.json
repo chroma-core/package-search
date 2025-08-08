@@ -1,13 +1,14 @@
 {
-  "native_identifier": "microsoft-kiota-abstractions",
-  "repo": "microsoft/kiota-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "microsoft-kiota-abstractions-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/abstractions/**/*.md",
-    "packages/abstractions/**/*.py"
-  ]
+	"native_identifier": "microsoft-kiota-abstractions",
+	"repo": "microsoft/kiota-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"microsoft-kiota-abstractions-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/abstractions/**/*.md",
+		"packages/abstractions/**/*.py"
+	],
+	"collection_name_prefix": "microsoft-kiota-abstractions"
 }

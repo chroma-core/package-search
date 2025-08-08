@@ -1,16 +1,17 @@
 {
-  "native_identifier": "jest-regex-util",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-regex-util/**/*.md",
-    "packages/jest-regex-util/**/*.ts",
-    "packages/jest-regex-util/**/*.js",
-    "packages/jest-regex-util/**/*.tsx",
-    "packages/jest-regex-util/**/*.jsx"
-  ]
+	"native_identifier": "jest-regex-util",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-regex-util/**/*.md",
+		"packages/jest-regex-util/**/*.ts",
+		"packages/jest-regex-util/**/*.js",
+		"packages/jest-regex-util/**/*.tsx",
+		"packages/jest-regex-util/**/*.jsx"
+	],
+	"collection_name_prefix": "jest-regex-util"
 }

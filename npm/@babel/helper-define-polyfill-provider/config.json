@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/helper-define-polyfill-provider",
-  "repo": "babel/babel-polyfills",
-  "registry": "npm",
-  "tag_formats": [
-    "@babel/helper-define-polyfill-provider@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-helper-define-polyfill-provider/**/*.md",
-    "packages/babel-helper-define-polyfill-provider/**/*.ts",
-    "packages/babel-helper-define-polyfill-provider/**/*.js",
-    "packages/babel-helper-define-polyfill-provider/**/*.tsx",
-    "packages/babel-helper-define-polyfill-provider/**/*.jsx"
-  ]
+	"native_identifier": "@babel/helper-define-polyfill-provider",
+	"repo": "babel/babel-polyfills",
+	"registry": "npm",
+	"tag_formats": [
+		"@babel/helper-define-polyfill-provider@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-helper-define-polyfill-provider/**/*.md",
+		"packages/babel-helper-define-polyfill-provider/**/*.ts",
+		"packages/babel-helper-define-polyfill-provider/**/*.js",
+		"packages/babel-helper-define-polyfill-provider/**/*.tsx",
+		"packages/babel-helper-define-polyfill-provider/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_helper-define-polyfill-provider"
 }

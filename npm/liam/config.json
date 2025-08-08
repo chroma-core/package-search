@@ -1,18 +1,19 @@
 {
-  "native_identifier": "liam",
-  "repo": "liam-hq/liam",
-  "registry": "npm",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "@liam-hq/cli@{major}.{minor}.{patch}",
-    "@liam-hq/cli@{major}.{minor}.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "liam",
+	"repo": "liam-hq/liam",
+	"registry": "npm",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"@liam-hq/cli@{major}.{minor}.{patch}",
+		"@liam-hq/cli@{major}.{minor}.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "liam"
 }

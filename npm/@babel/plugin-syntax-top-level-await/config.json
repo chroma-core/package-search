@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-syntax-top-level-await",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-plugin-syntax-top-level-await/**/*.md",
-    "packages/babel-plugin-syntax-top-level-await/**/*.ts",
-    "packages/babel-plugin-syntax-top-level-await/**/*.js",
-    "packages/babel-plugin-syntax-top-level-await/**/*.tsx",
-    "packages/babel-plugin-syntax-top-level-await/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-syntax-top-level-await",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-plugin-syntax-top-level-await/**/*.md",
+		"packages/babel-plugin-syntax-top-level-await/**/*.ts",
+		"packages/babel-plugin-syntax-top-level-await/**/*.js",
+		"packages/babel-plugin-syntax-top-level-await/**/*.tsx",
+		"packages/babel-plugin-syntax-top-level-await/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-syntax-top-level-await"
 }

@@ -1,15 +1,16 @@
 {
-  "native_identifier": "samply",
-  "repo": "mstange/samply",
-  "registry": "crates.io",
-  "tag_formats": [
-    "samply-v{major}.{minor}.{patch}",
-    "fxprof-processed-profile-v{major}.{minor}.{patch}",
-    "perfrecord-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "samply/**/*.md",
-    "samply/**/*.rs"
-  ]
+	"native_identifier": "samply",
+	"repo": "mstange/samply",
+	"registry": "crates.io",
+	"tag_formats": [
+		"samply-v{major}.{minor}.{patch}",
+		"fxprof-processed-profile-v{major}.{minor}.{patch}",
+		"perfrecord-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"samply/**/*.md",
+		"samply/**/*.rs"
+	],
+	"collection_name_prefix": "samply"
 }

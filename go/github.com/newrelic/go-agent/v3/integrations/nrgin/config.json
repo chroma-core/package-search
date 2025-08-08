@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/newrelic/go-agent/v3/integrations/nrgin",
-  "repo": "newrelic/go-agent",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v3/integrations/nrgin/**/*.md",
-    "v3/integrations/nrgin/**/*.go"
-  ]
+	"native_identifier": "github.com/newrelic/go-agent/v3/integrations/nrgin",
+	"repo": "newrelic/go-agent",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v3/integrations/nrgin/**/*.md",
+		"v3/integrations/nrgin/**/*.go"
+	],
+	"collection_name_prefix": "github.com_newrelic_go-agent_v3_integrations_nrgin"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "autovizwidget",
-  "repo": "jupyter-incubator/sparkmagic",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "autovizwidget/**/*.md",
-    "autovizwidget/**/*.py"
-  ]
+	"native_identifier": "autovizwidget",
+	"repo": "jupyter-incubator/sparkmagic",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"autovizwidget/**/*.md",
+		"autovizwidget/**/*.py"
+	],
+	"collection_name_prefix": "autovizwidget"
 }

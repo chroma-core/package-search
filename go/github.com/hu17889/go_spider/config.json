@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hu17889/go_spider",
-  "repo": "hu17889/go_spider",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/hu17889/go_spider",
+	"repo": "hu17889/go_spider",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_hu17889_go_spider"
 }

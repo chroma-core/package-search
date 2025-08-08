@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/avito-tech/go-transaction-manager/drivers/sqlx/v2",
-  "repo": "avito-tech/go-transaction-manager",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/avito-tech/go-transaction-manager/drivers/sqlx/v2",
+	"repo": "avito-tech/go-transaction-manager",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_avito-tech_go-transaction-manager_drivers_sqlx_v2"
 }

@@ -1,16 +1,17 @@
 {
-  "native_identifier": "protoc-gen-tonic",
-  "repo": "neoeinstein/protoc-gen-prost",
-  "registry": "crates.io",
-  "tag_formats": [
-    "protoc-gen-tonic-v{major}.{minor}.{patch}",
-    "protoc-gen-prost-crate-v{major}.{minor}.{patch}",
-    "protoc-gen-prost-serde-v{major}.{minor}.{patch}",
-    "protoc-gen-prost-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "protoc-gen-tonic/**/*.md",
-    "protoc-gen-tonic/**/*.rs"
-  ]
+	"native_identifier": "protoc-gen-tonic",
+	"repo": "neoeinstein/protoc-gen-prost",
+	"registry": "crates.io",
+	"tag_formats": [
+		"protoc-gen-tonic-v{major}.{minor}.{patch}",
+		"protoc-gen-prost-crate-v{major}.{minor}.{patch}",
+		"protoc-gen-prost-serde-v{major}.{minor}.{patch}",
+		"protoc-gen-prost-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"protoc-gen-tonic/**/*.md",
+		"protoc-gen-tonic/**/*.rs"
+	],
+	"collection_name_prefix": "protoc-gen-tonic"
 }

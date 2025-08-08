@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hashicorp/consul/sdk",
-  "repo": "hashicorp/consul",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/**/*.md",
-    "sdk/**/*.go"
-  ]
+	"native_identifier": "github.com/hashicorp/consul/sdk",
+	"repo": "hashicorp/consul",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/**/*.md",
+		"sdk/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hashicorp_consul_sdk"
 }

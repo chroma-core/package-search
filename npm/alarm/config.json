@@ -1,19 +1,20 @@
 {
-  "native_identifier": "alarm",
-  "repo": "sentinl/sentinl",
-  "registry": "npm",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "tag-{major}.{minor}.{patch}",
-    "tag-{major}.{minor}.{patch}-{patch}",
-    "tag-{major}.{minor}.{patch}-{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "alarm",
+	"repo": "sentinl/sentinl",
+	"registry": "npm",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"tag-{major}.{minor}.{patch}",
+		"tag-{major}.{minor}.{patch}-{patch}",
+		"tag-{major}.{minor}.{patch}-{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "alarm"
 }

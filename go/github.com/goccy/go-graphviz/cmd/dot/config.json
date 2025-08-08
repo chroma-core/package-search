@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/goccy/go-graphviz/cmd/dot",
-  "repo": "goccy/go-graphviz",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cmd/dot/**/*.md",
-    "cmd/dot/**/*.go"
-  ]
+	"native_identifier": "github.com/goccy/go-graphviz/cmd/dot",
+	"repo": "goccy/go-graphviz",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cmd/dot/**/*.md",
+		"cmd/dot/**/*.go"
+	],
+	"collection_name_prefix": "github.com_goccy_go-graphviz_cmd_dot"
 }

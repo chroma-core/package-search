@@ -1,13 +1,14 @@
 {
-  "native_identifier": "parse-display-derive",
-  "repo": "frozenlib/parse-display",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "parse-display-derive/**/*.md",
-    "parse-display-derive/**/*.rs"
-  ]
+	"native_identifier": "parse-display-derive",
+	"repo": "frozenlib/parse-display",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"parse-display-derive/**/*.md",
+		"parse-display-derive/**/*.rs"
+	],
+	"collection_name_prefix": "parse-display-derive"
 }

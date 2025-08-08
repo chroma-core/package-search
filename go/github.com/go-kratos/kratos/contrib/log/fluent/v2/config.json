@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/go-kratos/kratos/contrib/log/fluent/v2",
-  "repo": "go-kratos/kratos",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "contrib/log/fluent/v2/**/*.md",
-    "contrib/log/fluent/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/go-kratos/kratos/contrib/log/fluent/v2",
+	"repo": "go-kratos/kratos",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"contrib/log/fluent/v2/**/*.md",
+		"contrib/log/fluent/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_go-kratos_kratos_contrib_log_fluent_v2"
 }

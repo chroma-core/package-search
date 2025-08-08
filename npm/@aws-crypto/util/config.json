@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@aws-crypto/util",
-  "repo": "aws/aws-sdk-js-crypto-helpers",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/util/**/*.md",
-    "packages/util/**/*.ts",
-    "packages/util/**/*.js",
-    "packages/util/**/*.tsx",
-    "packages/util/**/*.jsx"
-  ]
+	"native_identifier": "@aws-crypto/util",
+	"repo": "aws/aws-sdk-js-crypto-helpers",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/util/**/*.md",
+		"packages/util/**/*.ts",
+		"packages/util/**/*.js",
+		"packages/util/**/*.tsx",
+		"packages/util/**/*.jsx"
+	],
+	"collection_name_prefix": "aws-crypto_util"
 }

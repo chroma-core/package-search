@@ -1,13 +1,14 @@
 {
-  "native_identifier": "from_variants_impl",
-  "repo": "TedDriggs/from_variants",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "from_variants_impl/**/*.md",
-    "from_variants_impl/**/*.rs"
-  ]
+	"native_identifier": "from_variants_impl",
+	"repo": "TedDriggs/from_variants",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"from_variants_impl/**/*.md",
+		"from_variants_impl/**/*.rs"
+	],
+	"collection_name_prefix": "from_variants_impl"
 }

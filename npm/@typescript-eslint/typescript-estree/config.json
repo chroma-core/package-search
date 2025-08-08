@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@typescript-eslint/typescript-estree",
-  "repo": "typescript-eslint/typescript-eslint",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/typescript-estree/**/*.md",
-    "packages/typescript-estree/**/*.ts",
-    "packages/typescript-estree/**/*.js",
-    "packages/typescript-estree/**/*.tsx",
-    "packages/typescript-estree/**/*.jsx"
-  ]
+	"native_identifier": "@typescript-eslint/typescript-estree",
+	"repo": "typescript-eslint/typescript-eslint",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/typescript-estree/**/*.md",
+		"packages/typescript-estree/**/*.ts",
+		"packages/typescript-estree/**/*.js",
+		"packages/typescript-estree/**/*.tsx",
+		"packages/typescript-estree/**/*.jsx"
+	],
+	"collection_name_prefix": "typescript-eslint_typescript-estree"
 }

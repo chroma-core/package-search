@@ -1,13 +1,14 @@
 {
-  "native_identifier": "unindent",
-  "repo": "dtolnay/indoc",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "unindent/**/*.md",
-    "unindent/**/*.rs"
-  ]
+	"native_identifier": "unindent",
+	"repo": "dtolnay/indoc",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"unindent/**/*.md",
+		"unindent/**/*.rs"
+	],
+	"collection_name_prefix": "unindent"
 }

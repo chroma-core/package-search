@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/peterldowns/pgtestdb/migrators/pgmigrator",
-  "repo": "peterldowns/pgtestdb",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "migrators/atlasmigrator/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "migrators/pgmigrator/**/*.md",
-    "migrators/pgmigrator/**/*.go"
-  ]
+	"native_identifier": "github.com/peterldowns/pgtestdb/migrators/pgmigrator",
+	"repo": "peterldowns/pgtestdb",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"migrators/atlasmigrator/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"migrators/pgmigrator/**/*.md",
+		"migrators/pgmigrator/**/*.go"
+	],
+	"collection_name_prefix": "github.com_peterldowns_pgtestdb_migrators_pgmigrator"
 }

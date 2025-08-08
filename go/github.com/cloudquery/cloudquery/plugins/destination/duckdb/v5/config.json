@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/cloudquery/cloudquery/plugins/destination/duckdb/v5",
-  "repo": "cloudquery/cloudquery",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cli-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "plugins/destination/duckdb/v5/**/*.md",
-    "plugins/destination/duckdb/v5/**/*.go"
-  ]
+	"native_identifier": "github.com/cloudquery/cloudquery/plugins/destination/duckdb/v5",
+	"repo": "cloudquery/cloudquery",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cli-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"plugins/destination/duckdb/v5/**/*.md",
+		"plugins/destination/duckdb/v5/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cloudquery_cloudquery_plugins_destination_duckdb_v5"
 }

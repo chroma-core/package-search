@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/monochromegane/the_platinum_searcher",
-  "repo": "monochromegane/the_platinum_searcher",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/monochromegane/the_platinum_searcher",
+	"repo": "monochromegane/the_platinum_searcher",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_monochromegane_the_platinum_searcher"
 }

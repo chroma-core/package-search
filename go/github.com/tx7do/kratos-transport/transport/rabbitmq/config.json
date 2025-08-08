@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tx7do/kratos-transport/transport/rabbitmq",
-  "repo": "tx7do/kratos-transport",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "transport/rabbitmq/**/*.md",
-    "transport/rabbitmq/**/*.go"
-  ]
+	"native_identifier": "github.com/tx7do/kratos-transport/transport/rabbitmq",
+	"repo": "tx7do/kratos-transport",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"transport/rabbitmq/**/*.md",
+		"transport/rabbitmq/**/*.go"
+	],
+	"collection_name_prefix": "github.com_tx7do_kratos-transport_transport_rabbitmq"
 }

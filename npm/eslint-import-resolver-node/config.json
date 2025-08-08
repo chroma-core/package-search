@@ -1,16 +1,17 @@
 {
-  "native_identifier": "eslint-import-resolver-node",
-  "repo": "import-js/eslint-plugin-import",
-  "registry": "npm",
-  "tag_formats": [
-    "resolvers/node/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "resolvers/node/**/*.md",
-    "resolvers/node/**/*.ts",
-    "resolvers/node/**/*.js",
-    "resolvers/node/**/*.tsx",
-    "resolvers/node/**/*.jsx"
-  ]
+	"native_identifier": "eslint-import-resolver-node",
+	"repo": "import-js/eslint-plugin-import",
+	"registry": "npm",
+	"tag_formats": [
+		"resolvers/node/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"resolvers/node/**/*.md",
+		"resolvers/node/**/*.ts",
+		"resolvers/node/**/*.js",
+		"resolvers/node/**/*.tsx",
+		"resolvers/node/**/*.jsx"
+	],
+	"collection_name_prefix": "eslint-import-resolver-node"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/kitex-contrib/obs-opentelemetry/logging/logrus",
-  "repo": "kitex-contrib/obs-opentelemetry",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "logging/logrus/**/*.md",
-    "logging/logrus/**/*.go"
-  ]
+	"native_identifier": "github.com/kitex-contrib/obs-opentelemetry/logging/logrus",
+	"repo": "kitex-contrib/obs-opentelemetry",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"logging/logrus/**/*.md",
+		"logging/logrus/**/*.go"
+	],
+	"collection_name_prefix": "github.com_kitex-contrib_obs-opentelemetry_logging_logrus"
 }

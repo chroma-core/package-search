@@ -1,13 +1,14 @@
 {
-  "native_identifier": "pi-heif",
-  "repo": "bigcat88/pillow_heif",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pi-heif/**/*.md",
-    "pi-heif/**/*.py"
-  ]
+	"native_identifier": "pi-heif",
+	"repo": "bigcat88/pillow_heif",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pi-heif/**/*.md",
+		"pi-heif/**/*.py"
+	],
+	"collection_name_prefix": "pi-heif"
 }

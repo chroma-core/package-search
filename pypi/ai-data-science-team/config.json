@@ -1,20 +1,21 @@
 {
-  "native_identifier": "ai-data-science-team",
-  "repo": "business-science/ai-data-science-team",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}.{MMMM}",
-    "{major}.{minor}.{patch}.90{DD}",
-    "{major}.{minor}.{patch}.{YY}{DD}",
-    "0.0.0.{MMMM}",
-    "0.0.0.90{DD}",
-    "0.{minor}.{patch}.{MMMM}",
-    "{major}.0.0.{MMMM}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "ai-data-science-team",
+	"repo": "business-science/ai-data-science-team",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}.{MMMM}",
+		"{major}.{minor}.{patch}.90{DD}",
+		"{major}.{minor}.{patch}.{YY}{DD}",
+		"0.0.0.{MMMM}",
+		"0.0.0.90{DD}",
+		"0.{minor}.{patch}.{MMMM}",
+		"{major}.0.0.{MMMM}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "ai-data-science-team"
 }

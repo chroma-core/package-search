@@ -1,13 +1,14 @@
 {
-  "native_identifier": "auditable-serde",
-  "repo": "rust-secure-code/cargo-auditable",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "auditable-serde/**/*.md",
-    "auditable-serde/**/*.rs"
-  ]
+	"native_identifier": "auditable-serde",
+	"repo": "rust-secure-code/cargo-auditable",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"auditable-serde/**/*.md",
+		"auditable-serde/**/*.rs"
+	],
+	"collection_name_prefix": "auditable-serde"
 }

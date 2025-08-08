@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@nodelib/fs.scandir",
-  "repo": "nodelib/nodelib",
-  "registry": "npm",
-  "tag_formats": [
-    "@nodelib/fs.scandir@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/fs/fs.scandir/**/*.md",
-    "packages/fs/fs.scandir/**/*.ts",
-    "packages/fs/fs.scandir/**/*.js",
-    "packages/fs/fs.scandir/**/*.tsx",
-    "packages/fs/fs.scandir/**/*.jsx"
-  ]
+	"native_identifier": "@nodelib/fs.scandir",
+	"repo": "nodelib/nodelib",
+	"registry": "npm",
+	"tag_formats": [
+		"@nodelib/fs.scandir@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/fs/fs.scandir/**/*.md",
+		"packages/fs/fs.scandir/**/*.ts",
+		"packages/fs/fs.scandir/**/*.js",
+		"packages/fs/fs.scandir/**/*.tsx",
+		"packages/fs/fs.scandir/**/*.jsx"
+	],
+	"collection_name_prefix": "nodelib_fs.scandir"
 }

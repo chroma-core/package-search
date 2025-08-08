@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/decred/dcrwallet/lru",
-  "repo": "decred/dcrwallet",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "lru/**/*.md",
-    "lru/**/*.go"
-  ]
+	"native_identifier": "github.com/decred/dcrwallet/lru",
+	"repo": "decred/dcrwallet",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"lru/**/*.md",
+		"lru/**/*.go"
+	],
+	"collection_name_prefix": "github.com_decred_dcrwallet_lru"
 }

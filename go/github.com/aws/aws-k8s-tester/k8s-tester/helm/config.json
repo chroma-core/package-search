@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/aws/aws-k8s-tester/k8s-tester/helm",
-  "repo": "aws/aws-k8s-tester",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "k8s-tester/helm/**/*.md",
-    "k8s-tester/helm/**/*.go"
-  ]
+	"native_identifier": "github.com/aws/aws-k8s-tester/k8s-tester/helm",
+	"repo": "aws/aws-k8s-tester",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"k8s-tester/helm/**/*.md",
+		"k8s-tester/helm/**/*.go"
+	],
+	"collection_name_prefix": "github.com_aws_aws-k8s-tester_k8s-tester_helm"
 }

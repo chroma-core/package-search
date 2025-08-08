@@ -1,13 +1,14 @@
 {
-  "native_identifier": "cx-oracle",
-  "repo": "oracle/python-cx_Oracle",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "cx-oracle",
+	"repo": "oracle/python-cx_Oracle",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "cx-oracle"
 }

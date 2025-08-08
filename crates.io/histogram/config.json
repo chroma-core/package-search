@@ -1,14 +1,15 @@
 {
-  "native_identifier": "histogram",
-  "repo": "pelikan-io/rustcommon",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "metriken-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "histogram/**/*.md",
-    "histogram/**/*.rs"
-  ]
+	"native_identifier": "histogram",
+	"repo": "pelikan-io/rustcommon",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"metriken-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"histogram/**/*.md",
+		"histogram/**/*.rs"
+	],
+	"collection_name_prefix": "histogram"
 }

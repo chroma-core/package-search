@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@webassemblyjs/ieee754",
-  "repo": "xtuc/webassemblyjs",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/ieee754/**/*.md",
-    "packages/ieee754/**/*.ts",
-    "packages/ieee754/**/*.js",
-    "packages/ieee754/**/*.tsx",
-    "packages/ieee754/**/*.jsx"
-  ]
+	"native_identifier": "@webassemblyjs/ieee754",
+	"repo": "xtuc/webassemblyjs",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/ieee754/**/*.md",
+		"packages/ieee754/**/*.ts",
+		"packages/ieee754/**/*.js",
+		"packages/ieee754/**/*.tsx",
+		"packages/ieee754/**/*.jsx"
+	],
+	"collection_name_prefix": "webassemblyjs_ieee754"
 }

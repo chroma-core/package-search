@@ -1,13 +1,14 @@
 {
-  "native_identifier": "heed",
-  "repo": "Kerollmops/heed",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "heed/**/*.md",
-    "heed/**/*.rs"
-  ]
+	"native_identifier": "heed",
+	"repo": "Kerollmops/heed",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"heed/**/*.md",
+		"heed/**/*.rs"
+	],
+	"collection_name_prefix": "heed"
 }

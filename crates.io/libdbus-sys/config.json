@@ -1,14 +1,15 @@
 {
-  "native_identifier": "libdbus-sys",
-  "repo": "diwic/dbus-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "dbus-codegen-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "libdbus-sys/**/*.md",
-    "libdbus-sys/**/*.rs"
-  ]
+	"native_identifier": "libdbus-sys",
+	"repo": "diwic/dbus-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"dbus-codegen-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"libdbus-sys/**/*.md",
+		"libdbus-sys/**/*.rs"
+	],
+	"collection_name_prefix": "libdbus-sys"
 }

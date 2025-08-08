@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/azure/go-autorest/logger",
-  "repo": "azure/go-autorest",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "logger/**/*.md",
-    "logger/**/*.go"
-  ]
+	"native_identifier": "github.com/azure/go-autorest/logger",
+	"repo": "azure/go-autorest",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"logger/**/*.md",
+		"logger/**/*.go"
+	],
+	"collection_name_prefix": "github.com_azure_go-autorest_logger"
 }

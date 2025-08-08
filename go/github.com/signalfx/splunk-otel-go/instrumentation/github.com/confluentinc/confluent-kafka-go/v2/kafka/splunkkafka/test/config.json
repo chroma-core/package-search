@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka/test",
-  "repo": "signalfx/splunk-otel-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka/test/**/*.md",
-    "instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka/test/**/*.go"
-  ]
+	"native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka/test",
+	"repo": "signalfx/splunk-otel-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka/test/**/*.md",
+		"instrumentation/github.com/confluentinc/confluent-kafka-go/v2/kafka/splunkkafka/test/**/*.go"
+	],
+	"collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_github.com_confluentinc_confluent-kafka-go_v2_kafka_splunkkafka_test"
 }

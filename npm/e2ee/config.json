@@ -1,18 +1,19 @@
 {
-  "native_identifier": "e2ee",
-  "repo": "cs01/termpair",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "e2ee",
+	"repo": "cs01/termpair",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "e2ee"
 }

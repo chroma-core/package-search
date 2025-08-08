@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/eko/gocache/store/redis/v4",
-  "repo": "eko/gocache",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "store/redis/v4/**/*.md",
-    "store/redis/v4/**/*.go"
-  ]
+	"native_identifier": "github.com/eko/gocache/store/redis/v4",
+	"repo": "eko/gocache",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"store/redis/v4/**/*.md",
+		"store/redis/v4/**/*.go"
+	],
+	"collection_name_prefix": "github.com_eko_gocache_store_redis_v4"
 }

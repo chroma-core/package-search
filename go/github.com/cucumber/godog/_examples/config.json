@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/cucumber/godog/_examples",
-  "repo": "cucumber/godog",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "_examples/**/*.md",
-    "_examples/**/*.go"
-  ]
+	"native_identifier": "github.com/cucumber/godog/_examples",
+	"repo": "cucumber/godog",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"_examples/**/*.md",
+		"_examples/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cucumber_godog__examples"
 }

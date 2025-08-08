@@ -1,13 +1,14 @@
 {
-  "native_identifier": "cortex-m-semihosting",
-  "repo": "rust-embedded/cortex-m",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cortex-m-semihosting/**/*.md",
-    "cortex-m-semihosting/**/*.rs"
-  ]
+	"native_identifier": "cortex-m-semihosting",
+	"repo": "rust-embedded/cortex-m",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cortex-m-semihosting/**/*.md",
+		"cortex-m-semihosting/**/*.rs"
+	],
+	"collection_name_prefix": "cortex-m-semihosting"
 }

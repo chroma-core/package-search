@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/rebuy-de/aws-nuke/v2",
-  "repo": "rebuy-de/aws-nuke",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v2/**/*.md",
-    "v2/**/*.go"
-  ]
+	"native_identifier": "github.com/rebuy-de/aws-nuke/v2",
+	"repo": "rebuy-de/aws-nuke",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v2/**/*.md",
+		"v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_rebuy-de_aws-nuke_v2"
 }

@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/moby/sys/reexec",
-  "repo": "moby/sys",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "mount/v{major}.{minor}.{patch}",
-    "mountinfo/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "reexec/**/*.md",
-    "reexec/**/*.go"
-  ]
+	"native_identifier": "github.com/moby/sys/reexec",
+	"repo": "moby/sys",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"mount/v{major}.{minor}.{patch}",
+		"mountinfo/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"reexec/**/*.md",
+		"reexec/**/*.go"
+	],
+	"collection_name_prefix": "github.com_moby_sys_reexec"
 }

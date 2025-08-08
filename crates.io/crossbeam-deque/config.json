@@ -1,14 +1,15 @@
 {
-  "native_identifier": "crossbeam-deque",
-  "repo": "crossbeam-rs/crossbeam",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "crossbeam-channel-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crossbeam-deque/**/*.md",
-    "crossbeam-deque/**/*.rs"
-  ]
+	"native_identifier": "crossbeam-deque",
+	"repo": "crossbeam-rs/crossbeam",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"crossbeam-channel-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crossbeam-deque/**/*.md",
+		"crossbeam-deque/**/*.rs"
+	],
+	"collection_name_prefix": "crossbeam-deque"
 }

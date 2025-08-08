@@ -1,14 +1,15 @@
 {
-  "native_identifier": "tokio-macros",
-  "repo": "tokio-rs/tokio",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "tokio-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tokio-macros/**/*.md",
-    "tokio-macros/**/*.rs"
-  ]
+	"native_identifier": "tokio-macros",
+	"repo": "tokio-rs/tokio",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"tokio-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tokio-macros/**/*.md",
+		"tokio-macros/**/*.rs"
+	],
+	"collection_name_prefix": "tokio-macros"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "flyteidl",
-  "repo": "flyteorg/flyte",
-  "registry": "pypi",
-  "tag_formats": [
-    "flyteidl/v{major}.{minor}.{patch}",
-    "datacatalog/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "flyteidl/**/*.md",
-    "flyteidl/**/*.py"
-  ]
+	"native_identifier": "flyteidl",
+	"repo": "flyteorg/flyte",
+	"registry": "pypi",
+	"tag_formats": [
+		"flyteidl/v{major}.{minor}.{patch}",
+		"datacatalog/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"flyteidl/**/*.md",
+		"flyteidl/**/*.py"
+	],
+	"collection_name_prefix": "flyteidl"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/rules/gorm",
-  "repo": "alibaba/opentelemetry-go-auto-instrumentation",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/rules/gorm/**/*.md",
-    "pkg/rules/gorm/**/*.go"
-  ]
+	"native_identifier": "github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/rules/gorm",
+	"repo": "alibaba/opentelemetry-go-auto-instrumentation",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/rules/gorm/**/*.md",
+		"pkg/rules/gorm/**/*.go"
+	],
+	"collection_name_prefix": "github.com_alibaba_opentelemetry-go-auto-instrumentation_pkg_rules_gorm"
 }

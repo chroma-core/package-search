@@ -1,20 +1,21 @@
 {
-  "native_identifier": "github.com/paulsonoflars/gotgbot",
-  "repo": "paulsonoflars/gotgbot",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-beta{DD}",
-    "v{major}.{minor}.0-beta{DD}",
-    "v{major}.0.0-beta{DD}",
-    "v{major}.0.{patch}-beta{DD}",
-    "v{major}.{minor}.{patch}-beta{YY}",
-    "v{major}.{minor}.{patch}-beta{minor}",
-    "v{major}.0.0-beta{YY}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/paulsonoflars/gotgbot",
+	"repo": "paulsonoflars/gotgbot",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-beta{DD}",
+		"v{major}.{minor}.0-beta{DD}",
+		"v{major}.0.0-beta{DD}",
+		"v{major}.0.{patch}-beta{DD}",
+		"v{major}.{minor}.{patch}-beta{YY}",
+		"v{major}.{minor}.{patch}-beta{minor}",
+		"v{major}.0.0-beta{YY}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_paulsonoflars_gotgbot"
 }

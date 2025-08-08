@@ -1,13 +1,14 @@
 {
-  "native_identifier": "zlib-rs",
-  "repo": "trifectatechfoundation/zlib-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "zlib-rs/**/*.md",
-    "zlib-rs/**/*.rs"
-  ]
+	"native_identifier": "zlib-rs",
+	"repo": "trifectatechfoundation/zlib-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"zlib-rs/**/*.md",
+		"zlib-rs/**/*.rs"
+	],
+	"collection_name_prefix": "zlib-rs"
 }

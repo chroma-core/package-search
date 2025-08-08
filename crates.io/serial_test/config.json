@@ -1,13 +1,14 @@
 {
-  "native_identifier": "serial_test",
-  "repo": "palfrey/serial_test",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "serial_test/**/*.md",
-    "serial_test/**/*.rs"
-  ]
+	"native_identifier": "serial_test",
+	"repo": "palfrey/serial_test",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"serial_test/**/*.md",
+		"serial_test/**/*.rs"
+	],
+	"collection_name_prefix": "serial_test"
 }

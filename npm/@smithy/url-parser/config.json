@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/url-parser",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/url-parser@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/url-parser/**/*.md",
-    "packages/url-parser/**/*.ts",
-    "packages/url-parser/**/*.js",
-    "packages/url-parser/**/*.tsx",
-    "packages/url-parser/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/url-parser",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/url-parser@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/url-parser/**/*.md",
+		"packages/url-parser/**/*.ts",
+		"packages/url-parser/**/*.js",
+		"packages/url-parser/**/*.tsx",
+		"packages/url-parser/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_url-parser"
 }

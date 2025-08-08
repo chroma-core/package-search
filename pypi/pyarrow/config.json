@@ -1,17 +1,18 @@
 {
-  "native_identifier": "pyarrow",
-  "repo": "apache/arrow",
-  "registry": "pypi",
-  "tag_formats": [
-    "apache-arrow-{major}.{minor}.{patch}",
-    "apache-arrow-{major}.{minor}.0",
-    "apache-arrow-{major}.{minor}.1",
-    "apache-arrow-0.{minor}.{patch}",
-    "apache-arrow-{major}.{patch}.0"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "pyarrow",
+	"repo": "apache/arrow",
+	"registry": "pypi",
+	"tag_formats": [
+		"apache-arrow-{major}.{minor}.{patch}",
+		"apache-arrow-{major}.{minor}.0",
+		"apache-arrow-{major}.{minor}.1",
+		"apache-arrow-0.{minor}.{patch}",
+		"apache-arrow-{major}.{patch}.0"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "pyarrow"
 }

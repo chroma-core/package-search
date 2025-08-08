@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/nats-io/nats-server/jetstream/jsm",
-  "repo": "nats-io/nats-server",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "jetstream/jsm/**/*.md",
-    "jetstream/jsm/**/*.go"
-  ]
+	"native_identifier": "github.com/nats-io/nats-server/jetstream/jsm",
+	"repo": "nats-io/nats-server",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"jetstream/jsm/**/*.md",
+		"jetstream/jsm/**/*.go"
+	],
+	"collection_name_prefix": "github.com_nats-io_nats-server_jetstream_jsm"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/aws/aws-sdk-go-v2/service/qconnect",
-  "repo": "aws/aws-sdk-go-v2",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "service/qconnect/**/*.md",
-    "service/qconnect/**/*.go"
-  ]
+	"native_identifier": "github.com/aws/aws-sdk-go-v2/service/qconnect",
+	"repo": "aws/aws-sdk-go-v2",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"service/qconnect/**/*.md",
+		"service/qconnect/**/*.go"
+	],
+	"collection_name_prefix": "github.com_aws_aws-sdk-go-v2_service_qconnect"
 }

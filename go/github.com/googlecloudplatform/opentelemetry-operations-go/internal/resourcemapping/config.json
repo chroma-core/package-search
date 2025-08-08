@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/googlecloudplatform/opentelemetry-operations-go/internal/resourcemapping",
-  "repo": "googlecloudplatform/opentelemetry-operations-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "internal/resourcemapping/**/*.md",
-    "internal/resourcemapping/**/*.go"
-  ]
+	"native_identifier": "github.com/googlecloudplatform/opentelemetry-operations-go/internal/resourcemapping",
+	"repo": "googlecloudplatform/opentelemetry-operations-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"internal/resourcemapping/**/*.md",
+		"internal/resourcemapping/**/*.go"
+	],
+	"collection_name_prefix": "github.com_googlecloudplatform_opentelemetry-operations-go_internal_resourcemapping"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "keyutils-raw",
-  "repo": "mathstuf/rust-keyutils",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "keyutils-raw/**/*.md",
-    "keyutils-raw/**/*.rs"
-  ]
+	"native_identifier": "keyutils-raw",
+	"repo": "mathstuf/rust-keyutils",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"keyutils-raw/**/*.md",
+		"keyutils-raw/**/*.rs"
+	],
+	"collection_name_prefix": "keyutils-raw"
 }

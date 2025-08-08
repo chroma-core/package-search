@@ -1,13 +1,14 @@
 {
-  "native_identifier": "zune-inflate",
-  "repo": "etemesi254/zune-image",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}-inflate"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/zune-inflate/**/*.md",
-    "crates/zune-inflate/**/*.rs"
-  ]
+	"native_identifier": "zune-inflate",
+	"repo": "etemesi254/zune-image",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}-inflate"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/zune-inflate/**/*.md",
+		"crates/zune-inflate/**/*.rs"
+	],
+	"collection_name_prefix": "zune-inflate"
 }

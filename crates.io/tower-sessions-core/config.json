@@ -1,13 +1,14 @@
 {
-  "native_identifier": "tower-sessions-core",
-  "repo": "maxcountryman/tower-sessions",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tower-sessions-core/**/*.md",
-    "tower-sessions-core/**/*.rs"
-  ]
+	"native_identifier": "tower-sessions-core",
+	"repo": "maxcountryman/tower-sessions",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tower-sessions-core/**/*.md",
+		"tower-sessions-core/**/*.rs"
+	],
+	"collection_name_prefix": "tower-sessions-core"
 }

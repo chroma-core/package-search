@@ -1,13 +1,14 @@
 {
-  "native_identifier": "flatbuffers",
-  "repo": "google/flatbuffers",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "rust/**/*.md",
-    "rust/**/*.rs"
-  ]
+	"native_identifier": "flatbuffers",
+	"repo": "google/flatbuffers",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"rust/**/*.md",
+		"rust/**/*.rs"
+	],
+	"collection_name_prefix": "flatbuffers"
 }

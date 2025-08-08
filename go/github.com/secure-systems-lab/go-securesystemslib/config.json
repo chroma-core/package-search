@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/secure-systems-lab/go-securesystemslib",
-  "repo": "secure-systems-lab/go-securesystemslib",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/secure-systems-lab/go-securesystemslib",
+	"repo": "secure-systems-lab/go-securesystemslib",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_secure-systems-lab_go-securesystemslib"
 }

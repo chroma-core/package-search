@@ -1,13 +1,14 @@
 {
-  "native_identifier": "juniper",
-  "repo": "graphql-rust/juniper",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "juniper/**/*.md",
-    "juniper/**/*.rs"
-  ]
+	"native_identifier": "juniper",
+	"repo": "graphql-rust/juniper",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"juniper/**/*.md",
+		"juniper/**/*.rs"
+	],
+	"collection_name_prefix": "juniper"
 }

@@ -1,20 +1,21 @@
 {
-  "native_identifier": "bash-language-server",
-  "repo": "bash-lsp/bash-language-server",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "server-{major}.{minor}.{patch}",
-    "server-{major}.{DD}.{patch}",
-    "server-{major}.{minor}.0",
-    "server-{major}.{YY}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "bash-language-server",
+	"repo": "bash-lsp/bash-language-server",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"server-{major}.{minor}.{patch}",
+		"server-{major}.{DD}.{patch}",
+		"server-{major}.{minor}.0",
+		"server-{major}.{YY}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "bash-language-server"
 }

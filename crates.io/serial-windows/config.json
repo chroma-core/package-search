@@ -1,13 +1,14 @@
 {
-  "native_identifier": "serial-windows",
-  "repo": "dcuddeback/serial-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "serial-windows/**/*.md",
-    "serial-windows/**/*.rs"
-  ]
+	"native_identifier": "serial-windows",
+	"repo": "dcuddeback/serial-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"serial-windows/**/*.md",
+		"serial-windows/**/*.rs"
+	],
+	"collection_name_prefix": "serial-windows"
 }

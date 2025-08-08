@@ -1,17 +1,18 @@
 {
-  "native_identifier": "gensync",
-  "repo": "loganfsmyth/gensync",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}-beta.{patch}",
-    "v{major}.{minor}.{patch}-beta.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "gensync",
+	"repo": "loganfsmyth/gensync",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}-beta.{patch}",
+		"v{major}.{minor}.{patch}-beta.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "gensync"
 }

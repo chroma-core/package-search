@@ -1,13 +1,14 @@
 {
-  "native_identifier": "mockall_double",
-  "repo": "asomers/mockall",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "mockall_double/**/*.md",
-    "mockall_double/**/*.rs"
-  ]
+	"native_identifier": "mockall_double",
+	"repo": "asomers/mockall",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"mockall_double/**/*.md",
+		"mockall_double/**/*.rs"
+	],
+	"collection_name_prefix": "mockall_double"
 }

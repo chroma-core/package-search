@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/goccy/go-yaml/cmd/ycat",
-  "repo": "goccy/go-yaml",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cmd/ycat/**/*.md",
-    "cmd/ycat/**/*.go"
-  ]
+	"native_identifier": "github.com/goccy/go-yaml/cmd/ycat",
+	"repo": "goccy/go-yaml",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cmd/ycat/**/*.md",
+		"cmd/ycat/**/*.go"
+	],
+	"collection_name_prefix": "github.com_goccy_go-yaml_cmd_ycat"
 }

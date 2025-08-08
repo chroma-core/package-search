@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-mgmt-datalake-store",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-mgmt-datalake-store_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/datalake/store/azure-mgmt-datalake-store/**/*.md",
-    "sdk/datalake/store/azure-mgmt-datalake-store/**/*.py"
-  ]
+	"native_identifier": "azure-mgmt-datalake-store",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-mgmt-datalake-store_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/datalake/store/azure-mgmt-datalake-store/**/*.md",
+		"sdk/datalake/store/azure-mgmt-datalake-store/**/*.py"
+	],
+	"collection_name_prefix": "azure-mgmt-datalake-store"
 }

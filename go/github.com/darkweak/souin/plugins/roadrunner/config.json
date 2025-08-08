@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/darkweak/souin/plugins/roadrunner",
-  "repo": "darkweak/souin",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "plugins/roadrunner/**/*.md",
-    "plugins/roadrunner/**/*.go"
-  ]
+	"native_identifier": "github.com/darkweak/souin/plugins/roadrunner",
+	"repo": "darkweak/souin",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"plugins/roadrunner/**/*.md",
+		"plugins/roadrunner/**/*.go"
+	],
+	"collection_name_prefix": "github.com_darkweak_souin_plugins_roadrunner"
 }

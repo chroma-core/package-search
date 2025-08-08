@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/steadybit/event-kit/go/event_kit_api",
-  "repo": "steadybit/event-kit",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "go/event_kit_api/v{major}.{minor}.{patch}",
-    "typescript/event_kit_api/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/steadybit/event-kit/go/event_kit_api",
+	"repo": "steadybit/event-kit",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"go/event_kit_api/v{major}.{minor}.{patch}",
+		"typescript/event_kit_api/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_steadybit_event-kit_go_event_kit_api"
 }

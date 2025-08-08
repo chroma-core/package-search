@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/lni/dragonboat/v3",
-  "repo": "lni/dragonboat",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v3/**/*.md",
-    "v3/**/*.go"
-  ]
+	"native_identifier": "github.com/lni/dragonboat/v3",
+	"repo": "lni/dragonboat",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v3/**/*.md",
+		"v3/**/*.go"
+	],
+	"collection_name_prefix": "github.com_lni_dragonboat_v3"
 }

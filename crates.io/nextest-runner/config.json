@@ -1,15 +1,16 @@
 {
-  "native_identifier": "nextest-runner",
-  "repo": "nextest-rs/nextest",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cargo-nextest-{major}.{minor}.{patch}",
-    "cargo-nextest-{major}.{minor}.{patch}-rc.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "nextest-runner/**/*.md",
-    "nextest-runner/**/*.rs"
-  ]
+	"native_identifier": "nextest-runner",
+	"repo": "nextest-rs/nextest",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cargo-nextest-{major}.{minor}.{patch}",
+		"cargo-nextest-{major}.{minor}.{patch}-rc.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"nextest-runner/**/*.md",
+		"nextest-runner/**/*.rs"
+	],
+	"collection_name_prefix": "nextest-runner"
 }

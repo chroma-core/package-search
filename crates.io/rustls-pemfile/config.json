@@ -1,16 +1,17 @@
 {
-  "native_identifier": "rustls-pemfile",
-  "repo": "rustls/pemfile",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v/v{major}.{minor}.{patch}",
-    "v/{major}.{minor}.{patch}",
-    "v/{major}.{minor}.0",
-    "v/{major}.0.0"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "rustls-pemfile",
+	"repo": "rustls/pemfile",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v/v{major}.{minor}.{patch}",
+		"v/{major}.{minor}.{patch}",
+		"v/{major}.{minor}.0",
+		"v/{major}.0.0"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "rustls-pemfile"
 }

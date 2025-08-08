@@ -1,14 +1,15 @@
 {
-  "native_identifier": "rdiff-backup",
-  "repo": "rdiff-backup/rdiff-backup",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}+unreleased",
-    "r{major}-{minor}-{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "rdiff-backup",
+	"repo": "rdiff-backup/rdiff-backup",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}+unreleased",
+		"r{major}-{minor}-{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "rdiff-backup"
 }

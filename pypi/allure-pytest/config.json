@@ -1,13 +1,14 @@
 {
-  "native_identifier": "allure-pytest",
-  "repo": "allure-framework/allure-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "allure-pytest/**/*.md",
-    "allure-pytest/**/*.py"
-  ]
+	"native_identifier": "allure-pytest",
+	"repo": "allure-framework/allure-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"allure-pytest/**/*.md",
+		"allure-pytest/**/*.py"
+	],
+	"collection_name_prefix": "allure-pytest"
 }

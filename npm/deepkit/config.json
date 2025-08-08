@@ -1,18 +1,19 @@
 {
-  "native_identifier": "deepkit",
-  "repo": "deepkit/deepkit-framework",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{DD}",
-    "v{major}.{minor}.{patch}-alpha.{YY}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "deepkit",
+	"repo": "deepkit/deepkit-framework",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{DD}",
+		"v{major}.{minor}.{patch}-alpha.{YY}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "deepkit"
 }

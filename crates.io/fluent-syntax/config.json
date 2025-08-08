@@ -1,14 +1,15 @@
 {
-  "native_identifier": "fluent-syntax",
-  "repo": "projectfluent/fluent-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "fluent-bundle@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "fluent-syntax/**/*.md",
-    "fluent-syntax/**/*.rs"
-  ]
+	"native_identifier": "fluent-syntax",
+	"repo": "projectfluent/fluent-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"fluent-bundle@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"fluent-syntax/**/*.md",
+		"fluent-syntax/**/*.rs"
+	],
+	"collection_name_prefix": "fluent-syntax"
 }

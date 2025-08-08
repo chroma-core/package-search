@@ -1,13 +1,14 @@
 {
-  "native_identifier": "lexical-write-float",
-  "repo": "Alexhuszagh/rust-lexical",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "lexical-write-float/**/*.md",
-    "lexical-write-float/**/*.rs"
-  ]
+	"native_identifier": "lexical-write-float",
+	"repo": "Alexhuszagh/rust-lexical",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"lexical-write-float/**/*.md",
+		"lexical-write-float/**/*.rs"
+	],
+	"collection_name_prefix": "lexical-write-float"
 }

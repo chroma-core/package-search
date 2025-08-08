@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/gofiber/contrib/fiberi18n/v2",
-  "repo": "gofiber/contrib",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "fiberi18n/v2/**/*.md",
-    "fiberi18n/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/gofiber/contrib/fiberi18n/v2",
+	"repo": "gofiber/contrib",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"fiberi18n/v2/**/*.md",
+		"fiberi18n/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_gofiber_contrib_fiberi18n_v2"
 }

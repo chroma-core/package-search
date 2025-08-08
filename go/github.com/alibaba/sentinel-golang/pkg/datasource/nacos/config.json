@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/alibaba/sentinel-golang/pkg/datasource/nacos",
-  "repo": "alibaba/sentinel-golang",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/datasource/nacos/**/*.md",
-    "pkg/datasource/nacos/**/*.go"
-  ]
+	"native_identifier": "github.com/alibaba/sentinel-golang/pkg/datasource/nacos",
+	"repo": "alibaba/sentinel-golang",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/datasource/nacos/**/*.md",
+		"pkg/datasource/nacos/**/*.go"
+	],
+	"collection_name_prefix": "github.com_alibaba_sentinel-golang_pkg_datasource_nacos"
 }

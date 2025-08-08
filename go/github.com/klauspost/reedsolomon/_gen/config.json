@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/klauspost/reedsolomon/_gen",
-  "repo": "klauspost/reedsolomon",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "_gen/**/*.md",
-    "_gen/**/*.go"
-  ]
+	"native_identifier": "github.com/klauspost/reedsolomon/_gen",
+	"repo": "klauspost/reedsolomon",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"_gen/**/*.md",
+		"_gen/**/*.go"
+	],
+	"collection_name_prefix": "github.com_klauspost_reedsolomon__gen"
 }

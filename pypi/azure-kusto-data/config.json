@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-kusto-data",
-  "repo": "Azure/azure-kusto-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "azure-kusto-data/**/*.md",
-    "azure-kusto-data/**/*.py"
-  ]
+	"native_identifier": "azure-kusto-data",
+	"repo": "Azure/azure-kusto-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"azure-kusto-data/**/*.md",
+		"azure-kusto-data/**/*.py"
+	],
+	"collection_name_prefix": "azure-kusto-data"
 }

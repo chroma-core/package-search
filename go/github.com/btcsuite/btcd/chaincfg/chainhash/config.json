@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/btcsuite/btcd/chaincfg/chainhash",
-  "repo": "btcsuite/btcd",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "BTCD_{major}_{minor}_{patch}_ALPHA",
-    "btcec/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "chaincfg/chainhash/**/*.md",
-    "chaincfg/chainhash/**/*.go"
-  ]
+	"native_identifier": "github.com/btcsuite/btcd/chaincfg/chainhash",
+	"repo": "btcsuite/btcd",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"BTCD_{major}_{minor}_{patch}_ALPHA",
+		"btcec/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"chaincfg/chainhash/**/*.md",
+		"chaincfg/chainhash/**/*.go"
+	],
+	"collection_name_prefix": "github.com_btcsuite_btcd_chaincfg_chainhash"
 }

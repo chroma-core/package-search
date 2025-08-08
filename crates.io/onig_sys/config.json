@@ -1,13 +1,14 @@
 {
-  "native_identifier": "onig_sys",
-  "repo": "iwillspeak/rust-onig",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "onig_sys/**/*.md",
-    "onig_sys/**/*.rs"
-  ]
+	"native_identifier": "onig_sys",
+	"repo": "iwillspeak/rust-onig",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"onig_sys/**/*.md",
+		"onig_sys/**/*.rs"
+	],
+	"collection_name_prefix": "onig_sys"
 }

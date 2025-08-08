@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-transform-new-target",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-plugin-transform-new-target/**/*.md",
-    "babel-plugin-transform-new-target/**/*.ts",
-    "babel-plugin-transform-new-target/**/*.js",
-    "babel-plugin-transform-new-target/**/*.tsx",
-    "babel-plugin-transform-new-target/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-transform-new-target",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-plugin-transform-new-target/**/*.md",
+		"babel-plugin-transform-new-target/**/*.ts",
+		"babel-plugin-transform-new-target/**/*.js",
+		"babel-plugin-transform-new-target/**/*.tsx",
+		"babel-plugin-transform-new-target/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-transform-new-target"
 }

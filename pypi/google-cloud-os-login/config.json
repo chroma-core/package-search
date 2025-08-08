@@ -1,13 +1,14 @@
 {
-  "native_identifier": "google-cloud-os-login",
-  "repo": "googleapis/google-cloud-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "google-cloud-os-login-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/google-cloud-os-login/**/*.md",
-    "packages/google-cloud-os-login/**/*.py"
-  ]
+	"native_identifier": "google-cloud-os-login",
+	"repo": "googleapis/google-cloud-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"google-cloud-os-login-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/google-cloud-os-login/**/*.md",
+		"packages/google-cloud-os-login/**/*.py"
+	],
+	"collection_name_prefix": "google-cloud-os-login"
 }

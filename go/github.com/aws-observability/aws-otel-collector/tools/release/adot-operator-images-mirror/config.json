@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/aws-observability/aws-otel-collector/tools/release/adot-operator-images-mirror",
-  "repo": "aws-observability/aws-otel-collector",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tools/release/adot-operator-images-mirror/**/*.md",
-    "tools/release/adot-operator-images-mirror/**/*.go"
-  ]
+	"native_identifier": "github.com/aws-observability/aws-otel-collector/tools/release/adot-operator-images-mirror",
+	"repo": "aws-observability/aws-otel-collector",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tools/release/adot-operator-images-mirror/**/*.md",
+		"tools/release/adot-operator-images-mirror/**/*.go"
+	],
+	"collection_name_prefix": "github.com_aws-observability_aws-otel-collector_tools_release_adot-operator-images-mirror"
 }

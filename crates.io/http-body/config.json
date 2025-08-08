@@ -1,13 +1,14 @@
 {
-  "native_identifier": "http-body",
-  "repo": "hyperium/http-body",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "http-body/**/*.md",
-    "http-body/**/*.rs"
-  ]
+	"native_identifier": "http-body",
+	"repo": "hyperium/http-body",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"http-body/**/*.md",
+		"http-body/**/*.rs"
+	],
+	"collection_name_prefix": "http-body"
 }

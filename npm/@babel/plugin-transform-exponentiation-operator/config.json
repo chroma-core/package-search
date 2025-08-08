@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-transform-exponentiation-operator",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-plugin-transform-exponentiation-operator/**/*.md",
-    "babel-plugin-transform-exponentiation-operator/**/*.ts",
-    "babel-plugin-transform-exponentiation-operator/**/*.js",
-    "babel-plugin-transform-exponentiation-operator/**/*.tsx",
-    "babel-plugin-transform-exponentiation-operator/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-transform-exponentiation-operator",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-plugin-transform-exponentiation-operator/**/*.md",
+		"babel-plugin-transform-exponentiation-operator/**/*.ts",
+		"babel-plugin-transform-exponentiation-operator/**/*.js",
+		"babel-plugin-transform-exponentiation-operator/**/*.tsx",
+		"babel-plugin-transform-exponentiation-operator/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-transform-exponentiation-operator"
 }

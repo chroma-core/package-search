@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@nodelib/fs.walk",
-  "repo": "nodelib/nodelib",
-  "registry": "npm",
-  "tag_formats": [
-    "@nodelib/fs.walk@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/fs/fs.walk/**/*.md",
-    "packages/fs/fs.walk/**/*.ts",
-    "packages/fs/fs.walk/**/*.js",
-    "packages/fs/fs.walk/**/*.tsx",
-    "packages/fs/fs.walk/**/*.jsx"
-  ]
+	"native_identifier": "@nodelib/fs.walk",
+	"repo": "nodelib/nodelib",
+	"registry": "npm",
+	"tag_formats": [
+		"@nodelib/fs.walk@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/fs/fs.walk/**/*.md",
+		"packages/fs/fs.walk/**/*.ts",
+		"packages/fs/fs.walk/**/*.js",
+		"packages/fs/fs.walk/**/*.tsx",
+		"packages/fs/fs.walk/**/*.jsx"
+	],
+	"collection_name_prefix": "nodelib_fs.walk"
 }

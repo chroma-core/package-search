@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/schollz/croc/v9",
-  "repo": "schollz/croc",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v9/**/*.md",
-    "v9/**/*.go"
-  ]
+	"native_identifier": "github.com/schollz/croc/v9",
+	"repo": "schollz/croc",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v9/**/*.md",
+		"v9/**/*.go"
+	],
+	"collection_name_prefix": "github.com_schollz_croc_v9"
 }

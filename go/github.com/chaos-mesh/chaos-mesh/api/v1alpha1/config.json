@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/chaos-mesh/chaos-mesh/api/v1alpha1",
-  "repo": "chaos-mesh/chaos-mesh",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "api/v1alpha1/**/*.md",
-    "api/v1alpha1/**/*.go"
-  ]
+	"native_identifier": "github.com/chaos-mesh/chaos-mesh/api/v1alpha1",
+	"repo": "chaos-mesh/chaos-mesh",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"api/v1alpha1/**/*.md",
+		"api/v1alpha1/**/*.go"
+	],
+	"collection_name_prefix": "github.com_chaos-mesh_chaos-mesh_api_v1alpha1"
 }

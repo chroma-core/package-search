@@ -1,13 +1,14 @@
 {
-  "native_identifier": "nats-py",
-  "repo": "nats-io/nats.py",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "nats-py",
+	"repo": "nats-io/nats.py",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "nats-py"
 }

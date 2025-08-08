@@ -1,15 +1,16 @@
 {
-  "native_identifier": "iterators",
-  "repo": "leangaurav/pypi_iterator",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "v_{major}.{minor}.{patch}",
-    "v_{patch}.{minor}.{major}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "iterators",
+	"repo": "leangaurav/pypi_iterator",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"v_{major}.{minor}.{patch}",
+		"v_{patch}.{minor}.{major}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "iterators"
 }

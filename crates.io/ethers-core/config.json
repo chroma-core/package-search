@@ -1,13 +1,14 @@
 {
-  "native_identifier": "ethers-core",
-  "repo": "gakonst/ethers-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ethers-core/**/*.md",
-    "ethers-core/**/*.rs"
-  ]
+	"native_identifier": "ethers-core",
+	"repo": "gakonst/ethers-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ethers-core/**/*.md",
+		"ethers-core/**/*.rs"
+	],
+	"collection_name_prefix": "ethers-core"
 }

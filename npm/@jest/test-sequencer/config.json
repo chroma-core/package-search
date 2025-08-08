@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@jest/test-sequencer",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-test-sequencer/**/*.md",
-    "packages/jest-test-sequencer/**/*.ts",
-    "packages/jest-test-sequencer/**/*.js",
-    "packages/jest-test-sequencer/**/*.tsx",
-    "packages/jest-test-sequencer/**/*.jsx"
-  ]
+	"native_identifier": "@jest/test-sequencer",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-test-sequencer/**/*.md",
+		"packages/jest-test-sequencer/**/*.ts",
+		"packages/jest-test-sequencer/**/*.js",
+		"packages/jest-test-sequencer/**/*.tsx",
+		"packages/jest-test-sequencer/**/*.jsx"
+	],
+	"collection_name_prefix": "jest_test-sequencer"
 }

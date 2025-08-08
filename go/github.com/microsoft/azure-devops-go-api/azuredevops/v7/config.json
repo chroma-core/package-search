@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/microsoft/azure-devops-go-api/azuredevops/v7",
-  "repo": "microsoft/azure-devops-go-api",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "azuredevops/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "azuredevops/v7/**/*.md",
-    "azuredevops/v7/**/*.go"
-  ]
+	"native_identifier": "github.com/microsoft/azure-devops-go-api/azuredevops/v7",
+	"repo": "microsoft/azure-devops-go-api",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"azuredevops/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"azuredevops/v7/**/*.md",
+		"azuredevops/v7/**/*.go"
+	],
+	"collection_name_prefix": "github.com_microsoft_azure-devops-go-api_azuredevops_v7"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "argh_shared",
-  "repo": "google/argh",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "argh_shared/**/*.md",
-    "argh_shared/**/*.rs"
-  ]
+	"native_identifier": "argh_shared",
+	"repo": "google/argh",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"argh_shared/**/*.md",
+		"argh_shared/**/*.rs"
+	],
+	"collection_name_prefix": "argh_shared"
 }

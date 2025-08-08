@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@jest/transform",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-transform/**/*.md",
-    "packages/jest-transform/**/*.ts",
-    "packages/jest-transform/**/*.js",
-    "packages/jest-transform/**/*.tsx",
-    "packages/jest-transform/**/*.jsx"
-  ]
+	"native_identifier": "@jest/transform",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-transform/**/*.md",
+		"packages/jest-transform/**/*.ts",
+		"packages/jest-transform/**/*.js",
+		"packages/jest-transform/**/*.tsx",
+		"packages/jest-transform/**/*.jsx"
+	],
+	"collection_name_prefix": "jest_transform"
 }

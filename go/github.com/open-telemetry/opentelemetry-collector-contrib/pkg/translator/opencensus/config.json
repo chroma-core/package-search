@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus",
-  "repo": "open-telemetry/opentelemetry-collector-contrib",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/translator/opencensus/**/*.md",
-    "pkg/translator/opencensus/**/*.go"
-  ]
+	"native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus",
+	"repo": "open-telemetry/opentelemetry-collector-contrib",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/translator/opencensus/**/*.md",
+		"pkg/translator/opencensus/**/*.go"
+	],
+	"collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_pkg_translator_opencensus"
 }

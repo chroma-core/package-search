@@ -1,13 +1,14 @@
 {
-  "native_identifier": "google-cloud-workflows",
-  "repo": "googleapis/google-cloud-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "google-cloud-workflows-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/google-cloud-workflows/**/*.md",
-    "packages/google-cloud-workflows/**/*.py"
-  ]
+	"native_identifier": "google-cloud-workflows",
+	"repo": "googleapis/google-cloud-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"google-cloud-workflows-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/google-cloud-workflows/**/*.md",
+		"packages/google-cloud-workflows/**/*.py"
+	],
+	"collection_name_prefix": "google-cloud-workflows"
 }

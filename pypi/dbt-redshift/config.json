@@ -1,13 +1,14 @@
 {
-  "native_identifier": "dbt-redshift",
-  "repo": "dbt-labs/dbt-adapters",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "dbt-redshift/**/*.md",
-    "dbt-redshift/**/*.py"
-  ]
+	"native_identifier": "dbt-redshift",
+	"repo": "dbt-labs/dbt-adapters",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"dbt-redshift/**/*.md",
+		"dbt-redshift/**/*.py"
+	],
+	"collection_name_prefix": "dbt-redshift"
 }

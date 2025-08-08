@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/grafana/loki/pkg/push",
-  "repo": "grafana/loki",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/push/**/*.md",
-    "pkg/push/**/*.go"
-  ]
+	"native_identifier": "github.com/grafana/loki/pkg/push",
+	"repo": "grafana/loki",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/push/**/*.md",
+		"pkg/push/**/*.go"
+	],
+	"collection_name_prefix": "github.com_grafana_loki_pkg_push"
 }

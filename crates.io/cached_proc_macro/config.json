@@ -1,13 +1,14 @@
 {
-  "native_identifier": "cached_proc_macro",
-  "repo": "jaemk/cached",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cached_proc_macro/**/*.md",
-    "cached_proc_macro/**/*.rs"
-  ]
+	"native_identifier": "cached_proc_macro",
+	"repo": "jaemk/cached",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cached_proc_macro/**/*.md",
+		"cached_proc_macro/**/*.rs"
+	],
+	"collection_name_prefix": "cached_proc_macro"
 }

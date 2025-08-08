@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/shared-ini-file-loader",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/shared-ini-file-loader@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/shared-ini-file-loader/**/*.md",
-    "packages/shared-ini-file-loader/**/*.ts",
-    "packages/shared-ini-file-loader/**/*.js",
-    "packages/shared-ini-file-loader/**/*.tsx",
-    "packages/shared-ini-file-loader/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/shared-ini-file-loader",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/shared-ini-file-loader@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/shared-ini-file-loader/**/*.md",
+		"packages/shared-ini-file-loader/**/*.ts",
+		"packages/shared-ini-file-loader/**/*.js",
+		"packages/shared-ini-file-loader/**/*.tsx",
+		"packages/shared-ini-file-loader/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_shared-ini-file-loader"
 }

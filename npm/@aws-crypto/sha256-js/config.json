@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@aws-crypto/sha256-js",
-  "repo": "aws/aws-sdk-js-crypto-helpers",
-  "registry": "npm",
-  "tag_formats": [
-    "@aws-crypto/sha256-js@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/sha256-js/**/*.md",
-    "packages/sha256-js/**/*.ts",
-    "packages/sha256-js/**/*.js",
-    "packages/sha256-js/**/*.tsx",
-    "packages/sha256-js/**/*.jsx"
-  ]
+	"native_identifier": "@aws-crypto/sha256-js",
+	"repo": "aws/aws-sdk-js-crypto-helpers",
+	"registry": "npm",
+	"tag_formats": [
+		"@aws-crypto/sha256-js@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/sha256-js/**/*.md",
+		"packages/sha256-js/**/*.ts",
+		"packages/sha256-js/**/*.js",
+		"packages/sha256-js/**/*.tsx",
+		"packages/sha256-js/**/*.jsx"
+	],
+	"collection_name_prefix": "aws-crypto_sha256-js"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/open-telemetry/opentelemetry-operator/cmd/operator-opamp-bridge",
-  "repo": "open-telemetry/opentelemetry-operator",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cmd/operator-opamp-bridge/**/*.md",
-    "cmd/operator-opamp-bridge/**/*.go"
-  ]
+	"native_identifier": "github.com/open-telemetry/opentelemetry-operator/cmd/operator-opamp-bridge",
+	"repo": "open-telemetry/opentelemetry-operator",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cmd/operator-opamp-bridge/**/*.md",
+		"cmd/operator-opamp-bridge/**/*.go"
+	],
+	"collection_name_prefix": "github.com_open-telemetry_opentelemetry-operator_cmd_operator-opamp-bridge"
 }

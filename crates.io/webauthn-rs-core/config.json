@@ -1,13 +1,14 @@
 {
-  "native_identifier": "webauthn-rs-core",
-  "repo": "kanidm/webauthn-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "webauthn-rs-core/**/*.md",
-    "webauthn-rs-core/**/*.rs"
-  ]
+	"native_identifier": "webauthn-rs-core",
+	"repo": "kanidm/webauthn-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"webauthn-rs-core/**/*.md",
+		"webauthn-rs-core/**/*.rs"
+	],
+	"collection_name_prefix": "webauthn-rs-core"
 }

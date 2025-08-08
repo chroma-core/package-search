@@ -1,13 +1,14 @@
 {
-  "native_identifier": "scale-encode-derive",
-  "repo": "paritytech/scale-encode",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "scale-encode-derive/**/*.md",
-    "scale-encode-derive/**/*.rs"
-  ]
+	"native_identifier": "scale-encode-derive",
+	"repo": "paritytech/scale-encode",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"scale-encode-derive/**/*.md",
+		"scale-encode-derive/**/*.rs"
+	],
+	"collection_name_prefix": "scale-encode-derive"
 }

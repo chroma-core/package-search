@@ -1,17 +1,18 @@
 {
-  "native_identifier": "yutto",
-  "repo": "yutto-dev/yutto",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{DD}",
-    "v{major}.0.0-alpha.{DD}",
-    "v{major}.{minor}.0-alpha.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "yutto",
+	"repo": "yutto-dev/yutto",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{DD}",
+		"v{major}.0.0-alpha.{DD}",
+		"v{major}.{minor}.0-alpha.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "yutto"
 }

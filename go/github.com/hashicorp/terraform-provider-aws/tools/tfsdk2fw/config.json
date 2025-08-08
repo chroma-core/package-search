@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hashicorp/terraform-provider-aws/tools/tfsdk2fw",
-  "repo": "hashicorp/terraform-provider-aws",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tools/tfsdk2fw/**/*.md",
-    "tools/tfsdk2fw/**/*.go"
-  ]
+	"native_identifier": "github.com/hashicorp/terraform-provider-aws/tools/tfsdk2fw",
+	"repo": "hashicorp/terraform-provider-aws",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tools/tfsdk2fw/**/*.md",
+		"tools/tfsdk2fw/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hashicorp_terraform-provider-aws_tools_tfsdk2fw"
 }

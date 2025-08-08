@@ -1,13 +1,14 @@
 {
-  "native_identifier": "asn1-rs-impl",
-  "repo": "rusticata/asn1-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "asn1-rs-impl-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "impl/**/*.md",
-    "impl/**/*.rs"
-  ]
+	"native_identifier": "asn1-rs-impl",
+	"repo": "rusticata/asn1-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"asn1-rs-impl-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"impl/**/*.md",
+		"impl/**/*.rs"
+	],
+	"collection_name_prefix": "asn1-rs-impl"
 }

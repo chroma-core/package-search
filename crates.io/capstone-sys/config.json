@@ -1,13 +1,14 @@
 {
-  "native_identifier": "capstone-sys",
-  "repo": "capstone-rust/capstone-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "capstone-sys-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "capstone-sys/**/*.md",
-    "capstone-sys/**/*.rs"
-  ]
+	"native_identifier": "capstone-sys",
+	"repo": "capstone-rust/capstone-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"capstone-sys-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"capstone-sys/**/*.md",
+		"capstone-sys/**/*.rs"
+	],
+	"collection_name_prefix": "capstone-sys"
 }

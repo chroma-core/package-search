@@ -1,13 +1,14 @@
 {
-  "native_identifier": "glutin-winit",
-  "repo": "rust-windowing/glutin",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "glutin-winit/**/*.md",
-    "glutin-winit/**/*.rs"
-  ]
+	"native_identifier": "glutin-winit",
+	"repo": "rust-windowing/glutin",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"glutin-winit/**/*.md",
+		"glutin-winit/**/*.rs"
+	],
+	"collection_name_prefix": "glutin-winit"
 }

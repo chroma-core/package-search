@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/abort-controller",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/abort-controller@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/abort-controller/**/*.md",
-    "packages/abort-controller/**/*.ts",
-    "packages/abort-controller/**/*.js",
-    "packages/abort-controller/**/*.tsx",
-    "packages/abort-controller/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/abort-controller",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/abort-controller@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/abort-controller/**/*.md",
+		"packages/abort-controller/**/*.ts",
+		"packages/abort-controller/**/*.js",
+		"packages/abort-controller/**/*.tsx",
+		"packages/abort-controller/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_abort-controller"
 }

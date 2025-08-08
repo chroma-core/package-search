@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/datadog/datadog-agent/pkg/logs/message",
-  "repo": "datadog/datadog-agent",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}",
-    "{major}.{DD}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/logs/message/**/*.md",
-    "pkg/logs/message/**/*.go"
-  ]
+	"native_identifier": "github.com/datadog/datadog-agent/pkg/logs/message",
+	"repo": "datadog/datadog-agent",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}",
+		"{major}.{DD}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/logs/message/**/*.md",
+		"pkg/logs/message/**/*.go"
+	],
+	"collection_name_prefix": "github.com_datadog_datadog-agent_pkg_logs_message"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "gemm-c32",
-  "repo": "sarah-ek/gemm",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "gemm-c32@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "gemm-c32/**/*.md",
-    "gemm-c32/**/*.rs"
-  ]
+	"native_identifier": "gemm-c32",
+	"repo": "sarah-ek/gemm",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"gemm-c32@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"gemm-c32/**/*.md",
+		"gemm-c32/**/*.rs"
+	],
+	"collection_name_prefix": "gemm-c32"
 }

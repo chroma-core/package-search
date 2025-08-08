@@ -1,13 +1,14 @@
 {
-  "native_identifier": "heed-types",
-  "repo": "Kerollmops/heed",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "heed-types/**/*.md",
-    "heed-types/**/*.rs"
-  ]
+	"native_identifier": "heed-types",
+	"repo": "Kerollmops/heed",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"heed-types/**/*.md",
+		"heed-types/**/*.rs"
+	],
+	"collection_name_prefix": "heed-types"
 }

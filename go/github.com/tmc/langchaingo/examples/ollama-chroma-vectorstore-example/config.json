@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tmc/langchaingo/examples/ollama-chroma-vectorstore-example",
-  "repo": "tmc/langchaingo",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "examples/ollama-chroma-vectorstore-example/**/*.md",
-    "examples/ollama-chroma-vectorstore-example/**/*.go"
-  ]
+	"native_identifier": "github.com/tmc/langchaingo/examples/ollama-chroma-vectorstore-example",
+	"repo": "tmc/langchaingo",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"examples/ollama-chroma-vectorstore-example/**/*.md",
+		"examples/ollama-chroma-vectorstore-example/**/*.go"
+	],
+	"collection_name_prefix": "github.com_tmc_langchaingo_examples_ollama-chroma-vectorstore-example"
 }

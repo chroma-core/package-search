@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/apache/camel-k/pkg/kamelet/repository",
-  "repo": "apache/camel-k",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/kamelet/repository/**/*.md",
-    "pkg/kamelet/repository/**/*.go"
-  ]
+	"native_identifier": "github.com/apache/camel-k/pkg/kamelet/repository",
+	"repo": "apache/camel-k",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/kamelet/repository/**/*.md",
+		"pkg/kamelet/repository/**/*.go"
+	],
+	"collection_name_prefix": "github.com_apache_camel-k_pkg_kamelet_repository"
 }

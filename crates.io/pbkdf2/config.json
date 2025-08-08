@@ -1,14 +1,15 @@
 {
-  "native_identifier": "pbkdf2",
-  "repo": "RustCrypto/password-hashes",
-  "registry": "crates.io",
-  "tag_formats": [
-    "pbkdf2-v{major}.{minor}.{patch}",
-    "argon2-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pbkdf2/**/*.md",
-    "pbkdf2/**/*.rs"
-  ]
+	"native_identifier": "pbkdf2",
+	"repo": "RustCrypto/password-hashes",
+	"registry": "crates.io",
+	"tag_formats": [
+		"pbkdf2-v{major}.{minor}.{patch}",
+		"argon2-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pbkdf2/**/*.md",
+		"pbkdf2/**/*.rs"
+	],
+	"collection_name_prefix": "pbkdf2"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "libssh2-sys",
-  "repo": "alexcrichton/ssh2-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "libssh2-sys/**/*.md",
-    "libssh2-sys/**/*.rs"
-  ]
+	"native_identifier": "libssh2-sys",
+	"repo": "alexcrichton/ssh2-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"libssh2-sys/**/*.md",
+		"libssh2-sys/**/*.rs"
+	],
+	"collection_name_prefix": "libssh2-sys"
 }

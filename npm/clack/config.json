@@ -1,17 +1,18 @@
 {
-  "native_identifier": "clack",
-  "repo": "bombshell-dev/clack",
-  "registry": "npm",
-  "tag_formats": [
-    "@clack/prompts-v{major}.{minor}.{patch}",
-    "@clack/core@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "clack",
+	"repo": "bombshell-dev/clack",
+	"registry": "npm",
+	"tag_formats": [
+		"@clack/prompts-v{major}.{minor}.{patch}",
+		"@clack/core@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "clack"
 }

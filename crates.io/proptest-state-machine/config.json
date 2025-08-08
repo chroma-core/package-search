@@ -1,13 +1,14 @@
 {
-  "native_identifier": "proptest-state-machine",
-  "repo": "proptest-rs/proptest",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "proptest-state-machine/**/*.md",
-    "proptest-state-machine/**/*.rs"
-  ]
+	"native_identifier": "proptest-state-machine",
+	"repo": "proptest-rs/proptest",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"proptest-state-machine/**/*.md",
+		"proptest-state-machine/**/*.rs"
+	],
+	"collection_name_prefix": "proptest-state-machine"
 }

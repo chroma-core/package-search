@@ -1,17 +1,18 @@
 {
-  "native_identifier": "github.com/jvatic/goja-babel",
-  "repo": "jvatic/goja-babel",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "babel-{major}.{minor}.{patch}",
-    "babel-{major}.{DD}.{patch}",
-    "babel-{major}.{YY}.{patch}",
-    "babel-{major}.{minor}.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/jvatic/goja-babel",
+	"repo": "jvatic/goja-babel",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"babel-{major}.{minor}.{patch}",
+		"babel-{major}.{DD}.{patch}",
+		"babel-{major}.{YY}.{patch}",
+		"babel-{major}.{minor}.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_jvatic_goja-babel"
 }

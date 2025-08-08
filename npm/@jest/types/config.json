@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@jest/types",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-types/**/*.md",
-    "packages/jest-types/**/*.ts",
-    "packages/jest-types/**/*.js",
-    "packages/jest-types/**/*.tsx",
-    "packages/jest-types/**/*.jsx"
-  ]
+	"native_identifier": "@jest/types",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-types/**/*.md",
+		"packages/jest-types/**/*.ts",
+		"packages/jest-types/**/*.js",
+		"packages/jest-types/**/*.tsx",
+		"packages/jest-types/**/*.jsx"
+	],
+	"collection_name_prefix": "jest_types"
 }

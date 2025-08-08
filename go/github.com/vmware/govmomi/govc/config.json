@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/vmware/govmomi/govc",
-  "repo": "vmware/govmomi",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "govc/**/*.md",
-    "govc/**/*.go"
-  ]
+	"native_identifier": "github.com/vmware/govmomi/govc",
+	"repo": "vmware/govmomi",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"govc/**/*.md",
+		"govc/**/*.go"
+	],
+	"collection_name_prefix": "github.com_vmware_govmomi_govc"
 }

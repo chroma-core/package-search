@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/middleware-retry",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/middleware-retry@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/middleware-retry/**/*.md",
-    "packages/middleware-retry/**/*.ts",
-    "packages/middleware-retry/**/*.js",
-    "packages/middleware-retry/**/*.tsx",
-    "packages/middleware-retry/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/middleware-retry",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/middleware-retry@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/middleware-retry/**/*.md",
+		"packages/middleware-retry/**/*.ts",
+		"packages/middleware-retry/**/*.js",
+		"packages/middleware-retry/**/*.tsx",
+		"packages/middleware-retry/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_middleware-retry"
 }

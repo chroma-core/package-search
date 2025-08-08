@@ -1,14 +1,15 @@
 {
-  "native_identifier": "large-image",
-  "repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "sd-webui-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "large-image",
+	"repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"sd-webui-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "large-image"
 }

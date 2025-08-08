@@ -1,13 +1,14 @@
 {
-  "native_identifier": "tikv-jemalloc-sys",
-  "repo": "tikv/jemallocator",
-  "registry": "crates.io",
-  "tag_formats": [
-    "tikv-jemalloc-sys-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "jemallocator-sys/**/*.md",
-    "jemallocator-sys/**/*.rs"
-  ]
+	"native_identifier": "tikv-jemalloc-sys",
+	"repo": "tikv/jemallocator",
+	"registry": "crates.io",
+	"tag_formats": [
+		"tikv-jemalloc-sys-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"jemallocator-sys/**/*.md",
+		"jemallocator-sys/**/*.rs"
+	],
+	"collection_name_prefix": "tikv-jemalloc-sys"
 }

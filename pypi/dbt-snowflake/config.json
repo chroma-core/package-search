@@ -1,13 +1,14 @@
 {
-  "native_identifier": "dbt-snowflake",
-  "repo": "dbt-labs/dbt-adapters",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "dbt-snowflake/**/*.md",
-    "dbt-snowflake/**/*.py"
-  ]
+	"native_identifier": "dbt-snowflake",
+	"repo": "dbt-labs/dbt-adapters",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"dbt-snowflake/**/*.md",
+		"dbt-snowflake/**/*.py"
+	],
+	"collection_name_prefix": "dbt-snowflake"
 }

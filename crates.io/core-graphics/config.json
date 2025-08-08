@@ -1,15 +1,16 @@
 {
-  "native_identifier": "core-graphics",
-  "repo": "servo/core-foundation-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "core-graphics-v{major}.{minor}.{patch}",
-    "cocoa-v{major}.{minor}.{patch}",
-    "core-foundation-sys-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "core-graphics/**/*.md",
-    "core-graphics/**/*.rs"
-  ]
+	"native_identifier": "core-graphics",
+	"repo": "servo/core-foundation-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"core-graphics-v{major}.{minor}.{patch}",
+		"cocoa-v{major}.{minor}.{patch}",
+		"core-foundation-sys-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"core-graphics/**/*.md",
+		"core-graphics/**/*.rs"
+	],
+	"collection_name_prefix": "core-graphics"
 }

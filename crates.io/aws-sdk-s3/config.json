@@ -1,13 +1,14 @@
 {
-  "native_identifier": "aws-sdk-s3",
-  "repo": "awslabs/aws-sdk-rust",
-  "registry": "crates.io",
-  "tag_formats": [
-    "release-{YYYY}-{MM}-{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/s3/**/*.md",
-    "sdk/s3/**/*.rs"
-  ]
+	"native_identifier": "aws-sdk-s3",
+	"repo": "awslabs/aws-sdk-rust",
+	"registry": "crates.io",
+	"tag_formats": [
+		"release-{YYYY}-{MM}-{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/s3/**/*.md",
+		"sdk/s3/**/*.rs"
+	],
+	"collection_name_prefix": "aws-sdk-s3"
 }

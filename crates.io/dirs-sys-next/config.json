@@ -1,13 +1,14 @@
 {
-  "native_identifier": "dirs-sys-next",
-  "repo": "xdg-rs/dirs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "dirs-sys-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "dirs-sys/**/*.md",
-    "dirs-sys/**/*.rs"
-  ]
+	"native_identifier": "dirs-sys-next",
+	"repo": "xdg-rs/dirs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"dirs-sys-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"dirs-sys/**/*.md",
+		"dirs-sys/**/*.rs"
+	],
+	"collection_name_prefix": "dirs-sys-next"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "pulldown-cmark-escape",
-  "repo": "raphlinus/pulldown-cmark",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pulldown-cmark-escape/**/*.md",
-    "pulldown-cmark-escape/**/*.rs"
-  ]
+	"native_identifier": "pulldown-cmark-escape",
+	"repo": "raphlinus/pulldown-cmark",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pulldown-cmark-escape/**/*.md",
+		"pulldown-cmark-escape/**/*.rs"
+	],
+	"collection_name_prefix": "pulldown-cmark-escape"
 }

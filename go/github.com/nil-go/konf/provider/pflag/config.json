@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/nil-go/konf/provider/pflag",
-  "repo": "nil-go/konf",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "provider/pflag/**/*.md",
-    "provider/pflag/**/*.go"
-  ]
+	"native_identifier": "github.com/nil-go/konf/provider/pflag",
+	"repo": "nil-go/konf",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"provider/pflag/**/*.md",
+		"provider/pflag/**/*.go"
+	],
+	"collection_name_prefix": "github.com_nil-go_konf_provider_pflag"
 }

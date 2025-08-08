@@ -1,13 +1,14 @@
 {
-  "native_identifier": "ghash",
-  "repo": "RustCrypto/universal-hashes",
-  "registry": "crates.io",
-  "tag_formats": [
-    "ghash-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ghash/**/*.md",
-    "ghash/**/*.rs"
-  ]
+	"native_identifier": "ghash",
+	"repo": "RustCrypto/universal-hashes",
+	"registry": "crates.io",
+	"tag_formats": [
+		"ghash-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ghash/**/*.md",
+		"ghash/**/*.rs"
+	],
+	"collection_name_prefix": "ghash"
 }

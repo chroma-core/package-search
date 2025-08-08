@@ -1,13 +1,14 @@
 {
-  "native_identifier": "opentelemetry-instrumentation-asgi",
-  "repo": "open-telemetry/opentelemetry-python-contrib",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}b0"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "instrumentation/opentelemetry-instrumentation-asgi/**/*.md",
-    "instrumentation/opentelemetry-instrumentation-asgi/**/*.py"
-  ]
+	"native_identifier": "opentelemetry-instrumentation-asgi",
+	"repo": "open-telemetry/opentelemetry-python-contrib",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}b0"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"instrumentation/opentelemetry-instrumentation-asgi/**/*.md",
+		"instrumentation/opentelemetry-instrumentation-asgi/**/*.py"
+	],
+	"collection_name_prefix": "opentelemetry-instrumentation-asgi"
 }

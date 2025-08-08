@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-mgmt-keyvault",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-mgmt-keyvault_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/keyvault/azure-mgmt-keyvault/**/*.md",
-    "sdk/keyvault/azure-mgmt-keyvault/**/*.py"
-  ]
+	"native_identifier": "azure-mgmt-keyvault",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-mgmt-keyvault_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/keyvault/azure-mgmt-keyvault/**/*.md",
+		"sdk/keyvault/azure-mgmt-keyvault/**/*.py"
+	],
+	"collection_name_prefix": "azure-mgmt-keyvault"
 }

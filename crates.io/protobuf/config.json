@@ -1,13 +1,14 @@
 {
-  "native_identifier": "protobuf",
-  "repo": "stepancheg/rust-protobuf",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "protobuf/**/*.md",
-    "protobuf/**/*.rs"
-  ]
+	"native_identifier": "protobuf",
+	"repo": "stepancheg/rust-protobuf",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"protobuf/**/*.md",
+		"protobuf/**/*.rs"
+	],
+	"collection_name_prefix": "protobuf"
 }

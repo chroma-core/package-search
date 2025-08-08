@@ -1,14 +1,15 @@
 {
-  "native_identifier": "z3-solver",
-  "repo": "Z3Prover/z3",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "z3-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "z3-solver",
+	"repo": "Z3Prover/z3",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"z3-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "z3-solver"
 }

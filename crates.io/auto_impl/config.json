@@ -1,13 +1,14 @@
 {
-  "native_identifier": "auto_impl",
-  "repo": "auto-impl-rs/auto_impl",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "auto_impl",
+	"repo": "auto-impl-rs/auto_impl",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "auto_impl"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/zhouwei0192/clickhouse-go/v2",
-  "repo": "zhouwei0192/clickhouse-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/zhouwei0192/clickhouse-go/v2",
+	"repo": "zhouwei0192/clickhouse-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_zhouwei0192_clickhouse-go_v2"
 }

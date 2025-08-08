@@ -1,13 +1,14 @@
 {
-  "native_identifier": "binrw",
-  "repo": "jam1garner/binrw",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "binrw/**/*.md",
-    "binrw/**/*.rs"
-  ]
+	"native_identifier": "binrw",
+	"repo": "jam1garner/binrw",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"binrw/**/*.md",
+		"binrw/**/*.rs"
+	],
+	"collection_name_prefix": "binrw"
 }

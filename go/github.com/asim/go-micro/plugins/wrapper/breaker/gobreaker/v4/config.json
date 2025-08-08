@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/asim/go-micro/plugins/wrapper/breaker/gobreaker/v4",
-  "repo": "asim/go-micro",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "plugins/wrapper/breaker/gobreaker/v4/**/*.md",
-    "plugins/wrapper/breaker/gobreaker/v4/**/*.go"
-  ]
+	"native_identifier": "github.com/asim/go-micro/plugins/wrapper/breaker/gobreaker/v4",
+	"repo": "asim/go-micro",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"plugins/wrapper/breaker/gobreaker/v4/**/*.md",
+		"plugins/wrapper/breaker/gobreaker/v4/**/*.go"
+	],
+	"collection_name_prefix": "github.com_asim_go-micro_plugins_wrapper_breaker_gobreaker_v4"
 }

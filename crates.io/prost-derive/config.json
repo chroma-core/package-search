@@ -1,13 +1,14 @@
 {
-  "native_identifier": "prost-derive",
-  "repo": "tokio-rs/prost",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "prost-derive/**/*.md",
-    "prost-derive/**/*.rs"
-  ]
+	"native_identifier": "prost-derive",
+	"repo": "tokio-rs/prost",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"prost-derive/**/*.md",
+		"prost-derive/**/*.rs"
+	],
+	"collection_name_prefix": "prost-derive"
 }

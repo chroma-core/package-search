@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/grafana/tempo/cmd/tempo-serverless",
-  "repo": "grafana/tempo",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cmd/tempo-serverless/**/*.md",
-    "cmd/tempo-serverless/**/*.go"
-  ]
+	"native_identifier": "github.com/grafana/tempo/cmd/tempo-serverless",
+	"repo": "grafana/tempo",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cmd/tempo-serverless/**/*.md",
+		"cmd/tempo-serverless/**/*.go"
+	],
+	"collection_name_prefix": "github.com_grafana_tempo_cmd_tempo-serverless"
 }

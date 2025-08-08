@@ -1,16 +1,17 @@
 {
-  "native_identifier": "data-uri-to-buffer",
-  "repo": "tootallnate/proxy-agents",
-  "registry": "npm",
-  "tag_formats": [
-    "data-uri-to-buffer@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/data-uri-to-buffer/**/*.md",
-    "packages/data-uri-to-buffer/**/*.ts",
-    "packages/data-uri-to-buffer/**/*.js",
-    "packages/data-uri-to-buffer/**/*.tsx",
-    "packages/data-uri-to-buffer/**/*.jsx"
-  ]
+	"native_identifier": "data-uri-to-buffer",
+	"repo": "tootallnate/proxy-agents",
+	"registry": "npm",
+	"tag_formats": [
+		"data-uri-to-buffer@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/data-uri-to-buffer/**/*.md",
+		"packages/data-uri-to-buffer/**/*.ts",
+		"packages/data-uri-to-buffer/**/*.js",
+		"packages/data-uri-to-buffer/**/*.tsx",
+		"packages/data-uri-to-buffer/**/*.jsx"
+	],
+	"collection_name_prefix": "data-uri-to-buffer"
 }

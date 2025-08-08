@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/szirtesitidom/langchaingo/examples/ollama-completion-example",
-  "repo": "szirtesitidom/langchaingo",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "examples/ollama-completion-example/**/*.md",
-    "examples/ollama-completion-example/**/*.go"
-  ]
+	"native_identifier": "github.com/szirtesitidom/langchaingo/examples/ollama-completion-example",
+	"repo": "szirtesitidom/langchaingo",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"examples/ollama-completion-example/**/*.md",
+		"examples/ollama-completion-example/**/*.go"
+	],
+	"collection_name_prefix": "github.com_szirtesitidom_langchaingo_examples_ollama-completion-example"
 }

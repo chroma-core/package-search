@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/haproxytech/client-native/v6",
-  "repo": "haproxytech/client-native",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v6/**/*.md",
-    "v6/**/*.go"
-  ]
+	"native_identifier": "github.com/haproxytech/client-native/v6",
+	"repo": "haproxytech/client-native",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v6/**/*.md",
+		"v6/**/*.go"
+	],
+	"collection_name_prefix": "github.com_haproxytech_client-native_v6"
 }

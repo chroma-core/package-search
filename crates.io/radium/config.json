@@ -1,13 +1,14 @@
 {
-  "native_identifier": "radium",
-  "repo": "ferrilab/ferrilab",
-  "registry": "crates.io",
-  "tag_formats": [
-    "bitvec/v{major}/{minor}/{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "radium/**/*.md",
-    "radium/**/*.rs"
-  ]
+	"native_identifier": "radium",
+	"repo": "ferrilab/ferrilab",
+	"registry": "crates.io",
+	"tag_formats": [
+		"bitvec/v{major}/{minor}/{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"radium/**/*.md",
+		"radium/**/*.rs"
+	],
+	"collection_name_prefix": "radium"
 }

@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-transform-modules-commonjs",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-plugin-transform-modules-commonjs/**/*.md",
-    "packages/babel-plugin-transform-modules-commonjs/**/*.ts",
-    "packages/babel-plugin-transform-modules-commonjs/**/*.js",
-    "packages/babel-plugin-transform-modules-commonjs/**/*.tsx",
-    "packages/babel-plugin-transform-modules-commonjs/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-transform-modules-commonjs",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-plugin-transform-modules-commonjs/**/*.md",
+		"packages/babel-plugin-transform-modules-commonjs/**/*.ts",
+		"packages/babel-plugin-transform-modules-commonjs/**/*.js",
+		"packages/babel-plugin-transform-modules-commonjs/**/*.tsx",
+		"packages/babel-plugin-transform-modules-commonjs/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-transform-modules-commonjs"
 }

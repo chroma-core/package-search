@@ -1,20 +1,21 @@
 {
-  "native_identifier": "mecab-python3",
-  "repo": "SamuraiT/mecab-python3",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}rc{patch}",
-    "{major}.{minor}.{major}",
-    "{major}.{minor}.{patch}rc{major}",
-    "{major}.{minor}.{patch}rc{minor}",
-    "{major}.{major}.{patch}",
-    "{major}.{minor}.{major}rc{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "mecab-python3",
+	"repo": "SamuraiT/mecab-python3",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}rc{patch}",
+		"{major}.{minor}.{major}",
+		"{major}.{minor}.{patch}rc{major}",
+		"{major}.{minor}.{patch}rc{minor}",
+		"{major}.{major}.{patch}",
+		"{major}.{minor}.{major}rc{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "mecab-python3"
 }

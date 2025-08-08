@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/portainer/agent/cmd/docker-credential-portainer",
-  "repo": "portainer/agent",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cmd/docker-credential-portainer/**/*.md",
-    "cmd/docker-credential-portainer/**/*.go"
-  ]
+	"native_identifier": "github.com/portainer/agent/cmd/docker-credential-portainer",
+	"repo": "portainer/agent",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cmd/docker-credential-portainer/**/*.md",
+		"cmd/docker-credential-portainer/**/*.go"
+	],
+	"collection_name_prefix": "github.com_portainer_agent_cmd_docker-credential-portainer"
 }

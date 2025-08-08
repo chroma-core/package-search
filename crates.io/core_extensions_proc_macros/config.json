@@ -1,13 +1,14 @@
 {
-  "native_identifier": "core_extensions_proc_macros",
-  "repo": "rodrimati1992/core_extensions",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "core_extensions_proc_macros/**/*.md",
-    "core_extensions_proc_macros/**/*.rs"
-  ]
+	"native_identifier": "core_extensions_proc_macros",
+	"repo": "rodrimati1992/core_extensions",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"core_extensions_proc_macros/**/*.md",
+		"core_extensions_proc_macros/**/*.rs"
+	],
+	"collection_name_prefix": "core_extensions_proc_macros"
 }

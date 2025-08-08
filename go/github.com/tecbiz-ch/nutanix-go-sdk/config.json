@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tecbiz-ch/nutanix-go-sdk",
-  "repo": "tecbiz-ch/nutanix-go-sdk",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/tecbiz-ch/nutanix-go-sdk",
+	"repo": "tecbiz-ch/nutanix-go-sdk",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_tecbiz-ch_nutanix-go-sdk"
 }

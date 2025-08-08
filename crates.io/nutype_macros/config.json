@@ -1,13 +1,14 @@
 {
-  "native_identifier": "nutype_macros",
-  "repo": "greyblake/nutype",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "nutype_macros/**/*.md",
-    "nutype_macros/**/*.rs"
-  ]
+	"native_identifier": "nutype_macros",
+	"repo": "greyblake/nutype",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"nutype_macros/**/*.md",
+		"nutype_macros/**/*.rs"
+	],
+	"collection_name_prefix": "nutype_macros"
 }

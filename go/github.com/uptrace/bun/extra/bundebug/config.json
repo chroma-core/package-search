@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/uptrace/bun/extra/bundebug",
-  "repo": "uptrace/bun",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "dbfixture/v{major}.{minor}.{patch}",
-    "dbfixture/v{patch}.{minor}.{major}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "extra/bundebug/**/*.md",
-    "extra/bundebug/**/*.go"
-  ]
+	"native_identifier": "github.com/uptrace/bun/extra/bundebug",
+	"repo": "uptrace/bun",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"dbfixture/v{major}.{minor}.{patch}",
+		"dbfixture/v{patch}.{minor}.{major}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"extra/bundebug/**/*.md",
+		"extra/bundebug/**/*.go"
+	],
+	"collection_name_prefix": "github.com_uptrace_bun_extra_bundebug"
 }

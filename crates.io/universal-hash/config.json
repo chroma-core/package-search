@@ -1,13 +1,14 @@
 {
-  "native_identifier": "universal-hash",
-  "repo": "RustCrypto/traits",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "universal-hash/**/*.md",
-    "universal-hash/**/*.rs"
-  ]
+	"native_identifier": "universal-hash",
+	"repo": "RustCrypto/traits",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"universal-hash/**/*.md",
+		"universal-hash/**/*.rs"
+	],
+	"collection_name_prefix": "universal-hash"
 }

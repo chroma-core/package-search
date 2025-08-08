@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/metal3-io/baremetal-operator",
-  "repo": "metal3-io/baremetal-operator",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "apis/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/metal3-io/baremetal-operator",
+	"repo": "metal3-io/baremetal-operator",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"apis/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_metal3-io_baremetal-operator"
 }

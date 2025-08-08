@@ -1,13 +1,14 @@
 {
-  "native_identifier": "js-sys",
-  "repo": "rustwasm/wasm-bindgen",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/js-sys/**/*.md",
-    "crates/js-sys/**/*.rs"
-  ]
+	"native_identifier": "js-sys",
+	"repo": "rustwasm/wasm-bindgen",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/js-sys/**/*.md",
+		"crates/js-sys/**/*.rs"
+	],
+	"collection_name_prefix": "js-sys"
 }

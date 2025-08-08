@@ -1,13 +1,14 @@
 {
-  "native_identifier": "poem-derive",
-  "repo": "poem-web/poem",
-  "registry": "crates.io",
-  "tag_formats": [
-    "poem-derive@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "poem-derive/**/*.md",
-    "poem-derive/**/*.rs"
-  ]
+	"native_identifier": "poem-derive",
+	"repo": "poem-web/poem",
+	"registry": "crates.io",
+	"tag_formats": [
+		"poem-derive@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"poem-derive/**/*.md",
+		"poem-derive/**/*.rs"
+	],
+	"collection_name_prefix": "poem-derive"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/testcontainers/testcontainers-go/examples/cockroachdb",
-  "repo": "testcontainers/testcontainers-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "examples/cockroachdb/**/*.md",
-    "examples/cockroachdb/**/*.go"
-  ]
+	"native_identifier": "github.com/testcontainers/testcontainers-go/examples/cockroachdb",
+	"repo": "testcontainers/testcontainers-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"examples/cockroachdb/**/*.md",
+		"examples/cockroachdb/**/*.go"
+	],
+	"collection_name_prefix": "github.com_testcontainers_testcontainers-go_examples_cockroachdb"
 }

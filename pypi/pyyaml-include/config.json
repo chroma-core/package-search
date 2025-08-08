@@ -1,17 +1,18 @@
 {
-  "native_identifier": "pyyaml-include",
-  "repo": "tanbro/pyyaml-include",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{minor}.{minor}",
-    "{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}.{patch}",
-    "{major}.{minor}.{minor}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "pyyaml-include",
+	"repo": "tanbro/pyyaml-include",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{minor}.{minor}",
+		"{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}.{patch}",
+		"{major}.{minor}.{minor}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "pyyaml-include"
 }

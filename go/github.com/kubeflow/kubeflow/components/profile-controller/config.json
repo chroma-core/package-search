@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/kubeflow/kubeflow/components/profile-controller",
-  "repo": "kubeflow/kubeflow",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "components/profile-controller/**/*.md",
-    "components/profile-controller/**/*.go"
-  ]
+	"native_identifier": "github.com/kubeflow/kubeflow/components/profile-controller",
+	"repo": "kubeflow/kubeflow",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"components/profile-controller/**/*.md",
+		"components/profile-controller/**/*.go"
+	],
+	"collection_name_prefix": "github.com_kubeflow_kubeflow_components_profile-controller"
 }

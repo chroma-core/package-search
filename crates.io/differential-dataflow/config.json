@@ -1,13 +1,14 @@
 {
-  "native_identifier": "differential-dataflow",
-  "repo": "timelydataflow/differential-dataflow",
-  "registry": "crates.io",
-  "tag_formats": [
-    "differential-dataflow-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "differential-dataflow",
+	"repo": "timelydataflow/differential-dataflow",
+	"registry": "crates.io",
+	"tag_formats": [
+		"differential-dataflow-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "differential-dataflow"
 }

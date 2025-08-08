@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/haproxyreceiver",
-  "repo": "open-telemetry/opentelemetry-collector-contrib",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "receiver/haproxyreceiver/**/*.md",
-    "receiver/haproxyreceiver/**/*.go"
-  ]
+	"native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/haproxyreceiver",
+	"repo": "open-telemetry/opentelemetry-collector-contrib",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"receiver/haproxyreceiver/**/*.md",
+		"receiver/haproxyreceiver/**/*.go"
+	],
+	"collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_receiver_haproxyreceiver"
 }

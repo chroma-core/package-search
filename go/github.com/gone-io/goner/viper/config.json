@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/gone-io/goner/viper",
-  "repo": "gone-io/goner",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "viper/**/*.md",
-    "viper/**/*.go"
-  ]
+	"native_identifier": "github.com/gone-io/goner/viper",
+	"repo": "gone-io/goner",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"viper/**/*.md",
+		"viper/**/*.go"
+	],
+	"collection_name_prefix": "github.com_gone-io_goner_viper"
 }

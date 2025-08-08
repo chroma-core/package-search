@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/gofiber/template/pug/v2",
-  "repo": "gofiber/template",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pug/v2/**/*.md",
-    "pug/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/gofiber/template/pug/v2",
+	"repo": "gofiber/template",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pug/v2/**/*.md",
+		"pug/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_gofiber_template_pug_v2"
 }

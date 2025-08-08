@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/evmos/evmos/v7",
-  "repo": "evmos/evmos",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v7/**/*.md",
-    "v7/**/*.go"
-  ]
+	"native_identifier": "github.com/evmos/evmos/v7",
+	"repo": "evmos/evmos",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v7/**/*.md",
+		"v7/**/*.go"
+	],
+	"collection_name_prefix": "github.com_evmos_evmos_v7"
 }

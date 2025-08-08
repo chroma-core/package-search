@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/dolthub/dolt/integration-tests/mysql-client-tests/go",
-  "repo": "dolthub/dolt",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "integration-tests/mysql-client-tests/go/**/*.md",
-    "integration-tests/mysql-client-tests/go/**/*.go"
-  ]
+	"native_identifier": "github.com/dolthub/dolt/integration-tests/mysql-client-tests/go",
+	"repo": "dolthub/dolt",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"integration-tests/mysql-client-tests/go/**/*.md",
+		"integration-tests/mysql-client-tests/go/**/*.go"
+	],
+	"collection_name_prefix": "github.com_dolthub_dolt_integration-tests_mysql-client-tests_go"
 }

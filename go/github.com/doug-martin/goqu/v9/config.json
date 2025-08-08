@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/doug-martin/goqu/v9",
-  "repo": "doug-martin/goqu",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v9/**/*.md",
-    "v9/**/*.go"
-  ]
+	"native_identifier": "github.com/doug-martin/goqu/v9",
+	"repo": "doug-martin/goqu",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v9/**/*.md",
+		"v9/**/*.go"
+	],
+	"collection_name_prefix": "github.com_doug-martin_goqu_v9"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "dbl",
-  "repo": "RustCrypto/utils",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "dbl/**/*.md",
-    "dbl/**/*.rs"
-  ]
+	"native_identifier": "dbl",
+	"repo": "RustCrypto/utils",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"dbl/**/*.md",
+		"dbl/**/*.rs"
+	],
+	"collection_name_prefix": "dbl"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "ssh-key",
-  "repo": "RustCrypto/SSH",
-  "registry": "crates.io",
-  "tag_formats": [
-    "ssh-key/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ssh-key/**/*.md",
-    "ssh-key/**/*.rs"
-  ]
+	"native_identifier": "ssh-key",
+	"repo": "RustCrypto/SSH",
+	"registry": "crates.io",
+	"tag_formats": [
+		"ssh-key/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ssh-key/**/*.md",
+		"ssh-key/**/*.rs"
+	],
+	"collection_name_prefix": "ssh-key"
 }

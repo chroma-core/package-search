@@ -1,13 +1,14 @@
 {
-  "native_identifier": "graphql-introspection-query",
-  "repo": "graphql-rust/graphql-client",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "graphql-introspection-query/**/*.md",
-    "graphql-introspection-query/**/*.rs"
-  ]
+	"native_identifier": "graphql-introspection-query",
+	"repo": "graphql-rust/graphql-client",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"graphql-introspection-query/**/*.md",
+		"graphql-introspection-query/**/*.rs"
+	],
+	"collection_name_prefix": "graphql-introspection-query"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/herumi/bls-eth-go-binary",
-  "repo": "herumi/bls-eth-go-binary",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/herumi/bls-eth-go-binary",
+	"repo": "herumi/bls-eth-go-binary",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_herumi_bls-eth-go-binary"
 }

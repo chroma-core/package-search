@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-syntax-object-rest-spread",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-plugin-syntax-object-rest-spread/**/*.md",
-    "packages/babel-plugin-syntax-object-rest-spread/**/*.ts",
-    "packages/babel-plugin-syntax-object-rest-spread/**/*.js",
-    "packages/babel-plugin-syntax-object-rest-spread/**/*.tsx",
-    "packages/babel-plugin-syntax-object-rest-spread/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-syntax-object-rest-spread",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-plugin-syntax-object-rest-spread/**/*.md",
+		"packages/babel-plugin-syntax-object-rest-spread/**/*.ts",
+		"packages/babel-plugin-syntax-object-rest-spread/**/*.js",
+		"packages/babel-plugin-syntax-object-rest-spread/**/*.tsx",
+		"packages/babel-plugin-syntax-object-rest-spread/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-syntax-object-rest-spread"
 }

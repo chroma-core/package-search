@@ -1,13 +1,14 @@
 {
-  "native_identifier": "bindgen-cli",
-  "repo": "rust-lang/rust-bindgen",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "bindgen-cli/**/*.md",
-    "bindgen-cli/**/*.rs"
-  ]
+	"native_identifier": "bindgen-cli",
+	"repo": "rust-lang/rust-bindgen",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"bindgen-cli/**/*.md",
+		"bindgen-cli/**/*.rs"
+	],
+	"collection_name_prefix": "bindgen-cli"
 }

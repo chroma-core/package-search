@@ -1,13 +1,14 @@
 {
-  "native_identifier": "fake",
-  "repo": "cksac/fake-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "fake/**/*.md",
-    "fake/**/*.rs"
-  ]
+	"native_identifier": "fake",
+	"repo": "cksac/fake-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"fake/**/*.md",
+		"fake/**/*.rs"
+	],
+	"collection_name_prefix": "fake"
 }

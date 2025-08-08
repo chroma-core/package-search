@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/google/go-github/v27",
-  "repo": "google/go-github",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v27/**/*.md",
-    "v27/**/*.go"
-  ]
+	"native_identifier": "github.com/google/go-github/v27",
+	"repo": "google/go-github",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v27/**/*.md",
+		"v27/**/*.go"
+	],
+	"collection_name_prefix": "github.com_google_go-github_v27"
 }

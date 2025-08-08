@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tealeg/xlsx/v2",
-  "repo": "tealeg/xlsx",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v2/**/*.md",
-    "v2/**/*.go"
-  ]
+	"native_identifier": "github.com/tealeg/xlsx/v2",
+	"repo": "tealeg/xlsx",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v2/**/*.md",
+		"v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_tealeg_xlsx_v2"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/cloudevents/sdk-go/v2/protocol/kafka_sarama",
-  "repo": "cloudevents/sdk-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v2/protocol/kafka_sarama/**/*.md",
-    "v2/protocol/kafka_sarama/**/*.go"
-  ]
+	"native_identifier": "github.com/cloudevents/sdk-go/v2/protocol/kafka_sarama",
+	"repo": "cloudevents/sdk-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v2/protocol/kafka_sarama/**/*.md",
+		"v2/protocol/kafka_sarama/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cloudevents_sdk-go_v2_protocol_kafka_sarama"
 }

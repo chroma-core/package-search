@@ -1,13 +1,14 @@
 {
-  "native_identifier": "python3-dll-a",
-  "repo": "PyO3/python3-dll-a",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "python3-dll-a",
+	"repo": "PyO3/python3-dll-a",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "python3-dll-a"
 }

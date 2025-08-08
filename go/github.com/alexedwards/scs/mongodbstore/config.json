@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/alexedwards/scs/mongodbstore",
-  "repo": "alexedwards/scs",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "mongodbstore/**/*.md",
-    "mongodbstore/**/*.go"
-  ]
+	"native_identifier": "github.com/alexedwards/scs/mongodbstore",
+	"repo": "alexedwards/scs",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"mongodbstore/**/*.md",
+		"mongodbstore/**/*.go"
+	],
+	"collection_name_prefix": "github.com_alexedwards_scs_mongodbstore"
 }

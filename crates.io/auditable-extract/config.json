@@ -1,13 +1,14 @@
 {
-  "native_identifier": "auditable-extract",
-  "repo": "rust-secure-code/cargo-auditable",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "auditable-extract/**/*.md",
-    "auditable-extract/**/*.rs"
-  ]
+	"native_identifier": "auditable-extract",
+	"repo": "rust-secure-code/cargo-auditable",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"auditable-extract/**/*.md",
+		"auditable-extract/**/*.rs"
+	],
+	"collection_name_prefix": "auditable-extract"
 }

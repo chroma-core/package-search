@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/minio/minio-go/v6",
-  "repo": "minio/minio-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v6/**/*.md",
-    "v6/**/*.go"
-  ]
+	"native_identifier": "github.com/minio/minio-go/v6",
+	"repo": "minio/minio-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v6/**/*.md",
+		"v6/**/*.go"
+	],
+	"collection_name_prefix": "github.com_minio_minio-go_v6"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/vmware-tanzu/tanzu-plugin-runtime/test/plugins/helloworld",
-  "repo": "vmware-tanzu/tanzu-plugin-runtime",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "test/plugins/helloworld/**/*.md",
-    "test/plugins/helloworld/**/*.go"
-  ]
+	"native_identifier": "github.com/vmware-tanzu/tanzu-plugin-runtime/test/plugins/helloworld",
+	"repo": "vmware-tanzu/tanzu-plugin-runtime",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"test/plugins/helloworld/**/*.md",
+		"test/plugins/helloworld/**/*.go"
+	],
+	"collection_name_prefix": "github.com_vmware-tanzu_tanzu-plugin-runtime_test_plugins_helloworld"
 }

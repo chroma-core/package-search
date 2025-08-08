@@ -1,15 +1,16 @@
 {
-  "native_identifier": "rustc_apfloat",
-  "repo": "rust-lang/rustc_apfloat",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}+llvm-462a31f5a5ab",
-    "rustc_apfloat-v{major}.{minor}.{patch}+llvm-462a31f5a5ab"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "rustc_apfloat",
+	"repo": "rust-lang/rustc_apfloat",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}+llvm-462a31f5a5ab",
+		"rustc_apfloat-v{major}.{minor}.{patch}+llvm-462a31f5a5ab"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "rustc_apfloat"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "markdown-graphviz-inline",
-  "repo": "backstage/markdown-inline-graphviz",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-test"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "markdown-graphviz-inline",
+	"repo": "backstage/markdown-inline-graphviz",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-test"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "markdown-graphviz-inline"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/redis/go-redis/example/del-keys-without-ttl",
-  "repo": "redis/go-redis",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "example/del-keys-without-ttl/**/*.md",
-    "example/del-keys-without-ttl/**/*.go"
-  ]
+	"native_identifier": "github.com/redis/go-redis/example/del-keys-without-ttl",
+	"repo": "redis/go-redis",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"example/del-keys-without-ttl/**/*.md",
+		"example/del-keys-without-ttl/**/*.go"
+	],
+	"collection_name_prefix": "github.com_redis_go-redis_example_del-keys-without-ttl"
 }

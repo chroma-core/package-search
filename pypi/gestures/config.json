@@ -1,13 +1,14 @@
 {
-  "native_identifier": "gestures",
-  "repo": "bulletmark/libinput-gestures",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "gestures",
+	"repo": "bulletmark/libinput-gestures",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "gestures"
 }

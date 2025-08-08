@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/smithy-client",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/smithy-client@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/smithy-client/**/*.md",
-    "packages/smithy-client/**/*.ts",
-    "packages/smithy-client/**/*.js",
-    "packages/smithy-client/**/*.tsx",
-    "packages/smithy-client/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/smithy-client",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/smithy-client@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/smithy-client/**/*.md",
+		"packages/smithy-client/**/*.ts",
+		"packages/smithy-client/**/*.js",
+		"packages/smithy-client/**/*.tsx",
+		"packages/smithy-client/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_smithy-client"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tektoncd/triggers/third_party/github.com/hashicorp/golang-lru",
-  "repo": "tektoncd/triggers",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "third_party/github.com/hashicorp/golang-lru/**/*.md",
-    "third_party/github.com/hashicorp/golang-lru/**/*.go"
-  ]
+	"native_identifier": "github.com/tektoncd/triggers/third_party/github.com/hashicorp/golang-lru",
+	"repo": "tektoncd/triggers",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"third_party/github.com/hashicorp/golang-lru/**/*.md",
+		"third_party/github.com/hashicorp/golang-lru/**/*.go"
+	],
+	"collection_name_prefix": "github.com_tektoncd_triggers_third_party_github.com_hashicorp_golang-lru"
 }

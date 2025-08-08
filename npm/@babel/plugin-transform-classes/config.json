@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-transform-classes",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-transform-classes/**/*.md",
-    "babel-transform-classes/**/*.ts",
-    "babel-transform-classes/**/*.js",
-    "babel-transform-classes/**/*.tsx",
-    "babel-transform-classes/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-transform-classes",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-transform-classes/**/*.md",
+		"babel-transform-classes/**/*.ts",
+		"babel-transform-classes/**/*.js",
+		"babel-transform-classes/**/*.tsx",
+		"babel-transform-classes/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-transform-classes"
 }

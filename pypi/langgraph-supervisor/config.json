@@ -1,14 +1,15 @@
 {
-  "native_identifier": "langgraph-supervisor",
-  "repo": "langchain-ai/langgraph-supervisor-py",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "langgraph-supervisor=={major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "langgraph-supervisor",
+	"repo": "langchain-ai/langgraph-supervisor-py",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"langgraph-supervisor=={major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "langgraph-supervisor"
 }

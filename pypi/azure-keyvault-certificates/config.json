@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-keyvault-certificates",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-keyvault-certificates_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/keyvault/azure-keyvault-certificates/**/*.md",
-    "sdk/keyvault/azure-keyvault-certificates/**/*.py"
-  ]
+	"native_identifier": "azure-keyvault-certificates",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-keyvault-certificates_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/keyvault/azure-keyvault-certificates/**/*.md",
+		"sdk/keyvault/azure-keyvault-certificates/**/*.py"
+	],
+	"collection_name_prefix": "azure-keyvault-certificates"
 }

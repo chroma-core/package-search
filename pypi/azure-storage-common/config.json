@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-storage-common",
-  "repo": "Azure/azure-storage-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "azure-storage-common/**/*.md",
-    "azure-storage-common/**/*.py"
-  ]
+	"native_identifier": "azure-storage-common",
+	"repo": "Azure/azure-storage-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"azure-storage-common/**/*.md",
+		"azure-storage-common/**/*.py"
+	],
+	"collection_name_prefix": "azure-storage-common"
 }

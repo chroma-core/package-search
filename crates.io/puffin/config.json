@@ -1,13 +1,14 @@
 {
-  "native_identifier": "puffin",
-  "repo": "EmbarkStudios/puffin",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "puffin/**/*.md",
-    "puffin/**/*.rs"
-  ]
+	"native_identifier": "puffin",
+	"repo": "EmbarkStudios/puffin",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"puffin/**/*.md",
+		"puffin/**/*.rs"
+	],
+	"collection_name_prefix": "puffin"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "aliri_clock",
-  "repo": "neoeinstein/aliri",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "aliri_clock/**/*.md",
-    "aliri_clock/**/*.rs"
-  ]
+	"native_identifier": "aliri_clock",
+	"repo": "neoeinstein/aliri",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"aliri_clock/**/*.md",
+		"aliri_clock/**/*.rs"
+	],
+	"collection_name_prefix": "aliri_clock"
 }

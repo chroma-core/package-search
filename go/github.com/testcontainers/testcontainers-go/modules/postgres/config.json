@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/testcontainers/testcontainers-go/modules/postgres",
-  "repo": "testcontainers/testcontainers-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "modules/postgres/**/*.md",
-    "modules/postgres/**/*.go"
-  ]
+	"native_identifier": "github.com/testcontainers/testcontainers-go/modules/postgres",
+	"repo": "testcontainers/testcontainers-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"modules/postgres/**/*.md",
+		"modules/postgres/**/*.go"
+	],
+	"collection_name_prefix": "github.com_testcontainers_testcontainers-go_modules_postgres"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/madflojo/tarmac/example/toolkit/wasm",
-  "repo": "madflojo/tarmac",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "example/toolkit/wasm/**/*.md",
-    "example/toolkit/wasm/**/*.go"
-  ]
+	"native_identifier": "github.com/madflojo/tarmac/example/toolkit/wasm",
+	"repo": "madflojo/tarmac",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"example/toolkit/wasm/**/*.md",
+		"example/toolkit/wasm/**/*.go"
+	],
+	"collection_name_prefix": "github.com_madflojo_tarmac_example_toolkit_wasm"
 }

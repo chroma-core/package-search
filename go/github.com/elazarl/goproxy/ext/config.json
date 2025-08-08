@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/elazarl/goproxy/ext",
-  "repo": "elazarl/goproxy",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ext/**/*.md",
-    "ext/**/*.go"
-  ]
+	"native_identifier": "github.com/elazarl/goproxy/ext",
+	"repo": "elazarl/goproxy",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ext/**/*.md",
+		"ext/**/*.go"
+	],
+	"collection_name_prefix": "github.com_elazarl_goproxy_ext"
 }

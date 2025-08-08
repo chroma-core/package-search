@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/sensu/sensu-go/api/core",
-  "repo": "sensu/sensu-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "api/core/**/*.md",
-    "api/core/**/*.go"
-  ]
+	"native_identifier": "github.com/sensu/sensu-go/api/core",
+	"repo": "sensu/sensu-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"api/core/**/*.md",
+		"api/core/**/*.go"
+	],
+	"collection_name_prefix": "github.com_sensu_sensu-go_api_core"
 }

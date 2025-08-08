@@ -1,13 +1,14 @@
 {
-  "native_identifier": "malachite",
-  "repo": "mhogrefe/malachite",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "malachite/**/*.md",
-    "malachite/**/*.rs"
-  ]
+	"native_identifier": "malachite",
+	"repo": "mhogrefe/malachite",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"malachite/**/*.md",
+		"malachite/**/*.rs"
+	],
+	"collection_name_prefix": "malachite"
 }

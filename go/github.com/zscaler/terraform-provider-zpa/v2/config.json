@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/zscaler/terraform-provider-zpa/v2",
-  "repo": "zscaler/terraform-provider-zpa",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v2/**/*.md",
-    "v2/**/*.go"
-  ]
+	"native_identifier": "github.com/zscaler/terraform-provider-zpa/v2",
+	"repo": "zscaler/terraform-provider-zpa",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v2/**/*.md",
+		"v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_zscaler_terraform-provider-zpa_v2"
 }

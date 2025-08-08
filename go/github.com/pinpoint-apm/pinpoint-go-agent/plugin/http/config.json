@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/pinpoint-apm/pinpoint-go-agent/plugin/http",
-  "repo": "pinpoint-apm/pinpoint-go-agent",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "plugin/http/**/*.md",
-    "plugin/http/**/*.go"
-  ]
+	"native_identifier": "github.com/pinpoint-apm/pinpoint-go-agent/plugin/http",
+	"repo": "pinpoint-apm/pinpoint-go-agent",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"plugin/http/**/*.md",
+		"plugin/http/**/*.go"
+	],
+	"collection_name_prefix": "github.com_pinpoint-apm_pinpoint-go-agent_plugin_http"
 }

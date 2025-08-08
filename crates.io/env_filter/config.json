@@ -1,13 +1,14 @@
 {
-  "native_identifier": "env_filter",
-  "repo": "rust-cli/env_logger",
-  "registry": "crates.io",
-  "tag_formats": [
-    "env_filter-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/env_filter/**/*.md",
-    "crates/env_filter/**/*.rs"
-  ]
+	"native_identifier": "env_filter",
+	"repo": "rust-cli/env_logger",
+	"registry": "crates.io",
+	"tag_formats": [
+		"env_filter-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/env_filter/**/*.md",
+		"crates/env_filter/**/*.rs"
+	],
+	"collection_name_prefix": "env_filter"
 }

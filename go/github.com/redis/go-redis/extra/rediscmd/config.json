@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/redis/go-redis/extra/rediscmd",
-  "repo": "redis/go-redis",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "extra/rediscmd/**/*.md",
-    "extra/rediscmd/**/*.go"
-  ]
+	"native_identifier": "github.com/redis/go-redis/extra/rediscmd",
+	"repo": "redis/go-redis",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"extra/rediscmd/**/*.md",
+		"extra/rediscmd/**/*.go"
+	],
+	"collection_name_prefix": "github.com_redis_go-redis_extra_rediscmd"
 }

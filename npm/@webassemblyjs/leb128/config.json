@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@webassemblyjs/leb128",
-  "repo": "xtuc/webassemblyjs",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/leb128/**/*.md",
-    "packages/leb128/**/*.ts",
-    "packages/leb128/**/*.js",
-    "packages/leb128/**/*.tsx",
-    "packages/leb128/**/*.jsx"
-  ]
+	"native_identifier": "@webassemblyjs/leb128",
+	"repo": "xtuc/webassemblyjs",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/leb128/**/*.md",
+		"packages/leb128/**/*.ts",
+		"packages/leb128/**/*.js",
+		"packages/leb128/**/*.tsx",
+		"packages/leb128/**/*.jsx"
+	],
+	"collection_name_prefix": "webassemblyjs_leb128"
 }

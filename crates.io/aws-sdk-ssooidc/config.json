@@ -1,13 +1,14 @@
 {
-  "native_identifier": "aws-sdk-ssooidc",
-  "repo": "awslabs/aws-sdk-rust",
-  "registry": "crates.io",
-  "tag_formats": [
-    "release-{YYYY}-{MM}-{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/ssooidc/**/*.md",
-    "sdk/ssooidc/**/*.rs"
-  ]
+	"native_identifier": "aws-sdk-ssooidc",
+	"repo": "awslabs/aws-sdk-rust",
+	"registry": "crates.io",
+	"tag_formats": [
+		"release-{YYYY}-{MM}-{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/ssooidc/**/*.md",
+		"sdk/ssooidc/**/*.rs"
+	],
+	"collection_name_prefix": "aws-sdk-ssooidc"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-keyvault-secrets",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-keyvault-secrets_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/keyvault/azure-keyvault-secrets/**/*.md",
-    "sdk/keyvault/azure-keyvault-secrets/**/*.py"
-  ]
+	"native_identifier": "azure-keyvault-secrets",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-keyvault-secrets_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/keyvault/azure-keyvault-secrets/**/*.md",
+		"sdk/keyvault/azure-keyvault-secrets/**/*.py"
+	],
+	"collection_name_prefix": "azure-keyvault-secrets"
 }

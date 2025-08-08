@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@aws-sdk/middleware-recursion-detection",
-  "repo": "aws/aws-sdk-js-v3",
-  "registry": "npm",
-  "tag_formats": [
-    "@aws-sdk/middleware-recursion-detection@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/middleware-recursion-detection/**/*.md",
-    "packages/middleware-recursion-detection/**/*.ts",
-    "packages/middleware-recursion-detection/**/*.js",
-    "packages/middleware-recursion-detection/**/*.tsx",
-    "packages/middleware-recursion-detection/**/*.jsx"
-  ]
+	"native_identifier": "@aws-sdk/middleware-recursion-detection",
+	"repo": "aws/aws-sdk-js-v3",
+	"registry": "npm",
+	"tag_formats": [
+		"@aws-sdk/middleware-recursion-detection@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/middleware-recursion-detection/**/*.md",
+		"packages/middleware-recursion-detection/**/*.ts",
+		"packages/middleware-recursion-detection/**/*.js",
+		"packages/middleware-recursion-detection/**/*.tsx",
+		"packages/middleware-recursion-detection/**/*.jsx"
+	],
+	"collection_name_prefix": "aws-sdk_middleware-recursion-detection"
 }

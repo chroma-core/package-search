@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/ovechkin-dm/mockio",
-  "repo": "ovechkin-dm/mockio",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/ovechkin-dm/mockio",
+	"repo": "ovechkin-dm/mockio",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_ovechkin-dm_mockio"
 }

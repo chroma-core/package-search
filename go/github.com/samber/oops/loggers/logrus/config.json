@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/samber/oops/loggers/logrus",
-  "repo": "samber/oops",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "loggers/logrus/**/*.md",
-    "loggers/logrus/**/*.go"
-  ]
+	"native_identifier": "github.com/samber/oops/loggers/logrus",
+	"repo": "samber/oops",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"loggers/logrus/**/*.md",
+		"loggers/logrus/**/*.go"
+	],
+	"collection_name_prefix": "github.com_samber_oops_loggers_logrus"
 }

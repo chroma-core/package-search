@@ -1,13 +1,14 @@
 {
-  "native_identifier": "path",
-  "repo": "jaraco/path",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "path/**/*.md",
-    "path/**/*.py"
-  ]
+	"native_identifier": "path",
+	"repo": "jaraco/path",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"path/**/*.md",
+		"path/**/*.py"
+	],
+	"collection_name_prefix": "path"
 }

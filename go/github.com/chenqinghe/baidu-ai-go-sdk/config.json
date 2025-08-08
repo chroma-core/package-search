@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/chenqinghe/baidu-ai-go-sdk",
-  "repo": "chenqinghe/baidu-ai-go-sdk",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/chenqinghe/baidu-ai-go-sdk",
+	"repo": "chenqinghe/baidu-ai-go-sdk",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_chenqinghe_baidu-ai-go-sdk"
 }

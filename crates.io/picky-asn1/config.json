@@ -1,15 +1,16 @@
 {
-  "native_identifier": "picky-asn1",
-  "repo": "Devolutions/picky-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "picky-asn1-{major}.{minor}.{patch}",
-    "picky-asn1-{patch}.{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "picky-asn1",
+	"repo": "Devolutions/picky-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"picky-asn1-{major}.{minor}.{patch}",
+		"picky-asn1-{patch}.{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "picky-asn1"
 }

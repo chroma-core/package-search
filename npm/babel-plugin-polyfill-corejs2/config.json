@@ -1,16 +1,17 @@
 {
-  "native_identifier": "babel-plugin-polyfill-corejs2",
-  "repo": "babel/babel-polyfills",
-  "registry": "npm",
-  "tag_formats": [
-    "babel-plugin-polyfill-corejs2@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-plugin-polyfill-corejs2/**/*.md",
-    "packages/babel-plugin-polyfill-corejs2/**/*.ts",
-    "packages/babel-plugin-polyfill-corejs2/**/*.js",
-    "packages/babel-plugin-polyfill-corejs2/**/*.tsx",
-    "packages/babel-plugin-polyfill-corejs2/**/*.jsx"
-  ]
+	"native_identifier": "babel-plugin-polyfill-corejs2",
+	"repo": "babel/babel-polyfills",
+	"registry": "npm",
+	"tag_formats": [
+		"babel-plugin-polyfill-corejs2@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-plugin-polyfill-corejs2/**/*.md",
+		"packages/babel-plugin-polyfill-corejs2/**/*.ts",
+		"packages/babel-plugin-polyfill-corejs2/**/*.js",
+		"packages/babel-plugin-polyfill-corejs2/**/*.tsx",
+		"packages/babel-plugin-polyfill-corejs2/**/*.jsx"
+	],
+	"collection_name_prefix": "babel-plugin-polyfill-corejs2"
 }

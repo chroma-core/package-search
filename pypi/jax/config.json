@@ -1,13 +1,14 @@
 {
-  "native_identifier": "jax",
-  "repo": "jax-ml/jax",
-  "registry": "pypi",
-  "tag_formats": [
-    "jax-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "jax/**/*.md",
-    "jax/**/*.py"
-  ]
+	"native_identifier": "jax",
+	"repo": "jax-ml/jax",
+	"registry": "pypi",
+	"tag_formats": [
+		"jax-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"jax/**/*.md",
+		"jax/**/*.py"
+	],
+	"collection_name_prefix": "jax"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hashicorp/go-discover/provider/gce",
-  "repo": "hashicorp/go-discover",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "provider/gce/**/*.md",
-    "provider/gce/**/*.go"
-  ]
+	"native_identifier": "github.com/hashicorp/go-discover/provider/gce",
+	"repo": "hashicorp/go-discover",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"provider/gce/**/*.md",
+		"provider/gce/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hashicorp_go-discover_provider_gce"
 }

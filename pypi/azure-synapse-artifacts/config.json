@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-synapse-artifacts",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-synapse-artifacts_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/synapse/azure-synapse-artifacts/**/*.md",
-    "sdk/synapse/azure-synapse-artifacts/**/*.py"
-  ]
+	"native_identifier": "azure-synapse-artifacts",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-synapse-artifacts_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/synapse/azure-synapse-artifacts/**/*.md",
+		"sdk/synapse/azure-synapse-artifacts/**/*.py"
+	],
+	"collection_name_prefix": "azure-synapse-artifacts"
 }

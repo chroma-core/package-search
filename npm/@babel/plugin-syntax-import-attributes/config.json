@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-syntax-import-attributes",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-plugin-syntax-import-attributes/**/*.md",
-    "babel-plugin-syntax-import-attributes/**/*.ts",
-    "babel-plugin-syntax-import-attributes/**/*.js",
-    "babel-plugin-syntax-import-attributes/**/*.tsx",
-    "babel-plugin-syntax-import-attributes/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-syntax-import-attributes",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-plugin-syntax-import-attributes/**/*.md",
+		"babel-plugin-syntax-import-attributes/**/*.ts",
+		"babel-plugin-syntax-import-attributes/**/*.js",
+		"babel-plugin-syntax-import-attributes/**/*.tsx",
+		"babel-plugin-syntax-import-attributes/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-syntax-import-attributes"
 }

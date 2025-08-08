@@ -1,19 +1,20 @@
 {
-  "native_identifier": "jquery-tokeninput",
-  "repo": "loopj/jquery-tokeninput",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "jquery-tokeninput-{major}.{minor}",
-    "jquery-tokeninput-{major}.{minor}.{patch}",
-    "jquery-tokeninput-{major}.{minor}.0"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "jquery-tokeninput",
+	"repo": "loopj/jquery-tokeninput",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"jquery-tokeninput-{major}.{minor}",
+		"jquery-tokeninput-{major}.{minor}.{patch}",
+		"jquery-tokeninput-{major}.{minor}.0"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "jquery-tokeninput"
 }

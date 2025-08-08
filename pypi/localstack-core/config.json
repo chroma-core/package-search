@@ -1,13 +1,14 @@
 {
-  "native_identifier": "localstack-core",
-  "repo": "localstack/localstack",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "localstack-core/**/*.md",
-    "localstack-core/**/*.py"
-  ]
+	"native_identifier": "localstack-core",
+	"repo": "localstack/localstack",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"localstack-core/**/*.md",
+		"localstack-core/**/*.py"
+	],
+	"collection_name_prefix": "localstack-core"
 }

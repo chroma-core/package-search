@@ -1,13 +1,14 @@
 {
-  "native_identifier": "rls",
-  "repo": "rust-lang/rls",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "rls/**/*.md",
-    "rls/**/*.rs"
-  ]
+	"native_identifier": "rls",
+	"repo": "rust-lang/rls",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"rls/**/*.md",
+		"rls/**/*.rs"
+	],
+	"collection_name_prefix": "rls"
 }

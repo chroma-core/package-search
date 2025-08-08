@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/pressly/goose/v3",
-  "repo": "pressly/goose",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v3/**/*.md",
-    "v3/**/*.go"
-  ]
+	"native_identifier": "github.com/pressly/goose/v3",
+	"repo": "pressly/goose",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v3/**/*.md",
+		"v3/**/*.go"
+	],
+	"collection_name_prefix": "github.com_pressly_goose_v3"
 }

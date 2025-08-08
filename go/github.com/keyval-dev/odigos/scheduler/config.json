@@ -1,16 +1,17 @@
 {
-  "native_identifier": "github.com/keyval-dev/odigos/scheduler",
-  "repo": "keyval-dev/odigos",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "api/v{major}.{minor}.{patch}",
-    "api/v{major}.0.{patch}",
-    "api/v{major}.{minor}.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "scheduler/**/*.md",
-    "scheduler/**/*.go"
-  ]
+	"native_identifier": "github.com/keyval-dev/odigos/scheduler",
+	"repo": "keyval-dev/odigos",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"api/v{major}.{minor}.{patch}",
+		"api/v{major}.0.{patch}",
+		"api/v{major}.{minor}.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"scheduler/**/*.md",
+		"scheduler/**/*.go"
+	],
+	"collection_name_prefix": "github.com_keyval-dev_odigos_scheduler"
 }

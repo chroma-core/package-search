@@ -1,16 +1,17 @@
 {
-  "native_identifier": "github.com/kubernetes-incubator/reference-docs",
-  "repo": "kubernetes-incubator/reference-docs",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "generef/v{major}.{minor}.{patch}",
-    "genref/v{major}.{minor}.{patch}",
-    "release-{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/kubernetes-incubator/reference-docs",
+	"repo": "kubernetes-incubator/reference-docs",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"generef/v{major}.{minor}.{patch}",
+		"genref/v{major}.{minor}.{patch}",
+		"release-{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_kubernetes-incubator_reference-docs"
 }

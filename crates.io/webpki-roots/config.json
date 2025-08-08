@@ -1,17 +1,18 @@
 {
-  "native_identifier": "webpki-roots",
-  "repo": "rustls/webpki-roots",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v/{major}.{minor}.{patch}",
-    "v/{major}.{minor}.0",
-    "v/{major}.{DD}.{patch}",
-    "v/{major}.{patch}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "webpki-roots/**/*.md",
-    "webpki-roots/**/*.rs"
-  ]
+	"native_identifier": "webpki-roots",
+	"repo": "rustls/webpki-roots",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v/{major}.{minor}.{patch}",
+		"v/{major}.{minor}.0",
+		"v/{major}.{DD}.{patch}",
+		"v/{major}.{patch}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"webpki-roots/**/*.md",
+		"webpki-roots/**/*.rs"
+	],
+	"collection_name_prefix": "webpki-roots"
 }

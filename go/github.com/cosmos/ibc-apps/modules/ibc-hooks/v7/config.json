@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/cosmos/ibc-apps/modules/ibc-hooks/v7",
-  "repo": "cosmos/ibc-apps",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "async-icq/v{major}.{minor}.{patch}",
-    "middleware/packet-forward-middleware/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "modules/ibc-hooks/v7/**/*.md",
-    "modules/ibc-hooks/v7/**/*.go"
-  ]
+	"native_identifier": "github.com/cosmos/ibc-apps/modules/ibc-hooks/v7",
+	"repo": "cosmos/ibc-apps",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"async-icq/v{major}.{minor}.{patch}",
+		"middleware/packet-forward-middleware/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"modules/ibc-hooks/v7/**/*.md",
+		"modules/ibc-hooks/v7/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cosmos_ibc-apps_modules_ibc-hooks_v7"
 }

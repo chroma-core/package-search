@@ -1,24 +1,25 @@
 {
-  "package_name": "chroma",
-  "native_identifier": "chroma-core/chroma",
-  "repo": "chroma-core/chroma",
-  "registry": "github_releases",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00Z",
-  "include": [
-    "**/*.md",
-    "**/*.go",
-    "**/*.py",
-    "**/*.rs",
-    "**/*.tf",
-    "**/*.yaml",
-    "**/*.yml",
-    "**/Dockerfile",
-    "**/.proto",
-    "**/.js",
-    "**/.ts",
-    "**/.pyi"
-  ]
+	"package_name": "chroma",
+	"native_identifier": "chroma-core/chroma",
+	"repo": "chroma-core/chroma",
+	"registry": "github_releases",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"include": [
+		"**/*.md",
+		"**/*.go",
+		"**/*.py",
+		"**/*.rs",
+		"**/*.tf",
+		"**/*.yaml",
+		"**/*.yml",
+		"**/Dockerfile",
+		"**/.proto",
+		"**/.js",
+		"**/.ts",
+		"**/.pyi"
+	],
+	"collection_name_prefix": "chroma-core_chroma"
 }

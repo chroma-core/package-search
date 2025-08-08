@@ -1,15 +1,16 @@
 {
-  "native_identifier": "zbus_polkit",
-  "repo": "dbus2/zbus_polkit",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "zbus_polkit-{major}.{minor}.{patch}",
-    "zbus_polkit-{major}.{minor}.{patch}-beta.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "zbus_polkit",
+	"repo": "dbus2/zbus_polkit",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"zbus_polkit-{major}.{minor}.{patch}",
+		"zbus_polkit-{major}.{minor}.{patch}-beta.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "zbus_polkit"
 }

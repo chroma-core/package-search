@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/portainer/portainer/third_party/digest",
-  "repo": "portainer/portainer",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "third_party/digest/**/*.md",
-    "third_party/digest/**/*.go"
-  ]
+	"native_identifier": "github.com/portainer/portainer/third_party/digest",
+	"repo": "portainer/portainer",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"third_party/digest/**/*.md",
+		"third_party/digest/**/*.go"
+	],
+	"collection_name_prefix": "github.com_portainer_portainer_third_party_digest"
 }

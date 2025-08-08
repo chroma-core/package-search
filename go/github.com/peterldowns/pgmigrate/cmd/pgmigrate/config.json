@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/peterldowns/pgmigrate/cmd/pgmigrate",
-  "repo": "peterldowns/pgmigrate",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cmd/pgmigrate/**/*.md",
-    "cmd/pgmigrate/**/*.go"
-  ]
+	"native_identifier": "github.com/peterldowns/pgmigrate/cmd/pgmigrate",
+	"repo": "peterldowns/pgmigrate",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cmd/pgmigrate/**/*.md",
+		"cmd/pgmigrate/**/*.go"
+	],
+	"collection_name_prefix": "github.com_peterldowns_pgmigrate_cmd_pgmigrate"
 }

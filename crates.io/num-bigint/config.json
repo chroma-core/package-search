@@ -1,13 +1,14 @@
 {
-  "native_identifier": "num-bigint",
-  "repo": "rust-num/num-bigint",
-  "registry": "crates.io",
-  "tag_formats": [
-    "num-bigint-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "num-bigint",
+	"repo": "rust-num/num-bigint",
+	"registry": "crates.io",
+	"tag_formats": [
+		"num-bigint-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "num-bigint"
 }

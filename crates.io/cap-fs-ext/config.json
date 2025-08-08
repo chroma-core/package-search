@@ -1,14 +1,15 @@
 {
-  "native_identifier": "cap-fs-ext",
-  "repo": "bytecodealliance/cap-std",
-  "registry": "crates.io",
-  "tag_formats": [
-    "cap-fs-ext-v{major}.{minor}.{patch}",
-    "cap-async-std-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cap-fs-ext/**/*.md",
-    "cap-fs-ext/**/*.rs"
-  ]
+	"native_identifier": "cap-fs-ext",
+	"repo": "bytecodealliance/cap-std",
+	"registry": "crates.io",
+	"tag_formats": [
+		"cap-fs-ext-v{major}.{minor}.{patch}",
+		"cap-async-std-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cap-fs-ext/**/*.md",
+		"cap-fs-ext/**/*.rs"
+	],
+	"collection_name_prefix": "cap-fs-ext"
 }

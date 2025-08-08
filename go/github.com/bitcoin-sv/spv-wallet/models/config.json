@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/bitcoin-sv/spv-wallet/models",
-  "repo": "bitcoin-sv/spv-wallet",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "models/**/*.md",
-    "models/**/*.go"
-  ]
+	"native_identifier": "github.com/bitcoin-sv/spv-wallet/models",
+	"repo": "bitcoin-sv/spv-wallet",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"models/**/*.md",
+		"models/**/*.go"
+	],
+	"collection_name_prefix": "github.com_bitcoin-sv_spv-wallet_models"
 }

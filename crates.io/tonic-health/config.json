@@ -1,13 +1,14 @@
 {
-  "native_identifier": "tonic-health",
-  "repo": "hyperium/tonic",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tonic-health/**/*.md",
-    "tonic-health/**/*.rs"
-  ]
+	"native_identifier": "tonic-health",
+	"repo": "hyperium/tonic",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tonic-health/**/*.md",
+		"tonic-health/**/*.rs"
+	],
+	"collection_name_prefix": "tonic-health"
 }

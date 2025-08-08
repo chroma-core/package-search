@@ -1,13 +1,14 @@
 {
-  "native_identifier": "futures-test",
-  "repo": "rust-lang/futures-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "futures-test/**/*.md",
-    "futures-test/**/*.rs"
-  ]
+	"native_identifier": "futures-test",
+	"repo": "rust-lang/futures-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"futures-test/**/*.md",
+		"futures-test/**/*.rs"
+	],
+	"collection_name_prefix": "futures-test"
 }

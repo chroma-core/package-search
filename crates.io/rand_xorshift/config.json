@@ -1,14 +1,15 @@
 {
-  "native_identifier": "rand_xorshift",
-  "repo": "rust-random/rngs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "rand_xorshift-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "rand_xorshift/**/*.md",
-    "rand_xorshift/**/*.rs"
-  ]
+	"native_identifier": "rand_xorshift",
+	"repo": "rust-random/rngs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"rand_xorshift-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"rand_xorshift/**/*.md",
+		"rand_xorshift/**/*.rs"
+	],
+	"collection_name_prefix": "rand_xorshift"
 }

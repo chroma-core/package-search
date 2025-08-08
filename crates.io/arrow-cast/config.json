@@ -1,13 +1,14 @@
 {
-  "native_identifier": "arrow-cast",
-  "repo": "apache/arrow-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "arrow-cast/**/*.md",
-    "arrow-cast/**/*.rs"
-  ]
+	"native_identifier": "arrow-cast",
+	"repo": "apache/arrow-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"arrow-cast/**/*.md",
+		"arrow-cast/**/*.rs"
+	],
+	"collection_name_prefix": "arrow-cast"
 }

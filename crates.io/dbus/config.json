@@ -1,13 +1,14 @@
 {
-  "native_identifier": "dbus",
-  "repo": "diwic/dbus-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "dbus-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "dbus/**/*.md",
-    "dbus/**/*.rs"
-  ]
+	"native_identifier": "dbus",
+	"repo": "diwic/dbus-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"dbus-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"dbus/**/*.md",
+		"dbus/**/*.rs"
+	],
+	"collection_name_prefix": "dbus"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "block-padding",
-  "repo": "RustCrypto/utils",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "block-padding/**/*.md",
-    "block-padding/**/*.rs"
-  ]
+	"native_identifier": "block-padding",
+	"repo": "RustCrypto/utils",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"block-padding/**/*.md",
+		"block-padding/**/*.rs"
+	],
+	"collection_name_prefix": "block-padding"
 }

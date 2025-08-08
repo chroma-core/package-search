@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/kubernetes/kubernetes/staging/src/k8s.io/client-go",
-  "repo": "kubernetes/kubernetes",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "staging/src/k8s.io/client-go/**/*.md",
-    "staging/src/k8s.io/client-go/**/*.go"
-  ]
+	"native_identifier": "github.com/kubernetes/kubernetes/staging/src/k8s.io/client-go",
+	"repo": "kubernetes/kubernetes",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"staging/src/k8s.io/client-go/**/*.md",
+		"staging/src/k8s.io/client-go/**/*.go"
+	],
+	"collection_name_prefix": "github.com_kubernetes_kubernetes_staging_src_k8s.io_client-go"
 }

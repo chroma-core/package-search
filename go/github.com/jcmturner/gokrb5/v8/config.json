@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/jcmturner/gokrb5/v8",
-  "repo": "jcmturner/gokrb5",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v8/**/*.md",
-    "v8/**/*.go"
-  ]
+	"native_identifier": "github.com/jcmturner/gokrb5/v8",
+	"repo": "jcmturner/gokrb5",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v8/**/*.md",
+		"v8/**/*.go"
+	],
+	"collection_name_prefix": "github.com_jcmturner_gokrb5_v8"
 }

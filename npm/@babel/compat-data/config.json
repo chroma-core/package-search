@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/compat-data",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-compat-data/**/*.md",
-    "packages/babel-compat-data/**/*.ts",
-    "packages/babel-compat-data/**/*.js",
-    "packages/babel-compat-data/**/*.tsx",
-    "packages/babel-compat-data/**/*.jsx"
-  ]
+	"native_identifier": "@babel/compat-data",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-compat-data/**/*.md",
+		"packages/babel-compat-data/**/*.ts",
+		"packages/babel-compat-data/**/*.js",
+		"packages/babel-compat-data/**/*.tsx",
+		"packages/babel-compat-data/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_compat-data"
 }

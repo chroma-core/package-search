@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/steadybit/discovery-kit/go/discovery_kit_api",
-  "repo": "steadybit/discovery-kit",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "go/discovery_kit_api/v{major}.{minor}.{patch}",
-    "go/discovery_kit_sdk/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "go/discovery_kit_api/**/*.md",
-    "go/discovery_kit_api/**/*.go"
-  ]
+	"native_identifier": "github.com/steadybit/discovery-kit/go/discovery_kit_api",
+	"repo": "steadybit/discovery-kit",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"go/discovery_kit_api/v{major}.{minor}.{patch}",
+		"go/discovery_kit_sdk/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"go/discovery_kit_api/**/*.md",
+		"go/discovery_kit_api/**/*.go"
+	],
+	"collection_name_prefix": "github.com_steadybit_discovery-kit_go_discovery_kit_api"
 }

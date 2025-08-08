@@ -1,14 +1,15 @@
 {
-  "native_identifier": "tracing-subscriber",
-  "repo": "tokio-rs/tracing",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "tracing-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tracing-subscriber/**/*.md",
-    "tracing-subscriber/**/*.rs"
-  ]
+	"native_identifier": "tracing-subscriber",
+	"repo": "tokio-rs/tracing",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"tracing-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tracing-subscriber/**/*.md",
+		"tracing-subscriber/**/*.rs"
+	],
+	"collection_name_prefix": "tracing-subscriber"
 }

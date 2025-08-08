@@ -1,13 +1,14 @@
 {
-  "native_identifier": "create-tauri-app",
-  "repo": "tauri-apps/create-tauri-app",
-  "registry": "crates.io",
-  "tag_formats": [
-    "create-tauri-app-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "create-tauri-app",
+	"repo": "tauri-apps/create-tauri-app",
+	"registry": "crates.io",
+	"tag_formats": [
+		"create-tauri-app-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "create-tauri-app"
 }

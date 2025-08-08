@@ -1,13 +1,14 @@
 {
-  "native_identifier": "embassy-futures",
-  "repo": "embassy-rs/embassy",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "embassy-futures/**/*.md",
-    "embassy-futures/**/*.rs"
-  ]
+	"native_identifier": "embassy-futures",
+	"repo": "embassy-rs/embassy",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"embassy-futures/**/*.md",
+		"embassy-futures/**/*.rs"
+	],
+	"collection_name_prefix": "embassy-futures"
 }

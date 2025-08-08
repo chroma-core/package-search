@@ -1,13 +1,14 @@
 {
-  "native_identifier": "glutin_gles2_sys",
-  "repo": "rust-windowing/glutin",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "glutin_gles2_sys/**/*.md",
-    "glutin_gles2_sys/**/*.rs"
-  ]
+	"native_identifier": "glutin_gles2_sys",
+	"repo": "rust-windowing/glutin",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"glutin_gles2_sys/**/*.md",
+		"glutin_gles2_sys/**/*.rs"
+	],
+	"collection_name_prefix": "glutin_gles2_sys"
 }

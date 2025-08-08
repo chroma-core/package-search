@@ -1,13 +1,14 @@
 {
-  "native_identifier": "markup5ever",
-  "repo": "servo/html5ever",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "markup5ever/**/*.md",
-    "markup5ever/**/*.rs"
-  ]
+	"native_identifier": "markup5ever",
+	"repo": "servo/html5ever",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"markup5ever/**/*.md",
+		"markup5ever/**/*.rs"
+	],
+	"collection_name_prefix": "markup5ever"
 }

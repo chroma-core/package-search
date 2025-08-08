@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-identity",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-identity_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/identity/azure-identity/**/*.md",
-    "sdk/identity/azure-identity/**/*.py"
-  ]
+	"native_identifier": "azure-identity",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-identity_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/identity/azure-identity/**/*.md",
+		"sdk/identity/azure-identity/**/*.py"
+	],
+	"collection_name_prefix": "azure-identity"
 }

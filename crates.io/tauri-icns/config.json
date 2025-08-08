@@ -1,16 +1,17 @@
 {
-  "native_identifier": "tauri-icns",
-  "repo": "tauri-apps/rust-icns",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "icns-v{major}",
-    "icns-v{major}.{minor}",
-    "icns-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "tauri-icns",
+	"repo": "tauri-apps/rust-icns",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"icns-v{major}",
+		"icns-v{major}.{minor}",
+		"icns-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "tauri-icns"
 }

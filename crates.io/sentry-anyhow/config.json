@@ -1,13 +1,14 @@
 {
-  "native_identifier": "sentry-anyhow",
-  "repo": "getsentry/sentry-rust",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sentry-anyhow/**/*.md",
-    "sentry-anyhow/**/*.rs"
-  ]
+	"native_identifier": "sentry-anyhow",
+	"repo": "getsentry/sentry-rust",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sentry-anyhow/**/*.md",
+		"sentry-anyhow/**/*.rs"
+	],
+	"collection_name_prefix": "sentry-anyhow"
 }

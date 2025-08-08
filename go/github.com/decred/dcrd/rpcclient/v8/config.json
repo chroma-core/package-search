@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/decred/dcrd/rpcclient/v8",
-  "repo": "decred/dcrd",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "rpcclient/v8/**/*.md",
-    "rpcclient/v8/**/*.go"
-  ]
+	"native_identifier": "github.com/decred/dcrd/rpcclient/v8",
+	"repo": "decred/dcrd",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"rpcclient/v8/**/*.md",
+		"rpcclient/v8/**/*.go"
+	],
+	"collection_name_prefix": "github.com_decred_dcrd_rpcclient_v8"
 }

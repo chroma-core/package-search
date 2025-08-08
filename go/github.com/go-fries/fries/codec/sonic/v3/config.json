@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/go-fries/fries/codec/sonic/v3",
-  "repo": "go-fries/fries",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "codec/sonic/v3/**/*.md",
-    "codec/sonic/v3/**/*.go"
-  ]
+	"native_identifier": "github.com/go-fries/fries/codec/sonic/v3",
+	"repo": "go-fries/fries",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"codec/sonic/v3/**/*.md",
+		"codec/sonic/v3/**/*.go"
+	],
+	"collection_name_prefix": "github.com_go-fries_fries_codec_sonic_v3"
 }

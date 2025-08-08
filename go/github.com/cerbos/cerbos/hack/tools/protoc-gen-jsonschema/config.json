@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/cerbos/cerbos/hack/tools/protoc-gen-jsonschema",
-  "repo": "cerbos/cerbos",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "hack/tools/protoc-gen-jsonschema/**/*.md",
-    "hack/tools/protoc-gen-jsonschema/**/*.go"
-  ]
+	"native_identifier": "github.com/cerbos/cerbos/hack/tools/protoc-gen-jsonschema",
+	"repo": "cerbos/cerbos",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"hack/tools/protoc-gen-jsonschema/**/*.md",
+		"hack/tools/protoc-gen-jsonschema/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cerbos_cerbos_hack_tools_protoc-gen-jsonschema"
 }

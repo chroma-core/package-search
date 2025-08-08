@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@webassemblyjs/helper-wasm-section",
-  "repo": "xtuc/webassemblyjs",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/helper-wasm-section/**/*.md",
-    "packages/helper-wasm-section/**/*.ts",
-    "packages/helper-wasm-section/**/*.js",
-    "packages/helper-wasm-section/**/*.tsx",
-    "packages/helper-wasm-section/**/*.jsx"
-  ]
+	"native_identifier": "@webassemblyjs/helper-wasm-section",
+	"repo": "xtuc/webassemblyjs",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/helper-wasm-section/**/*.md",
+		"packages/helper-wasm-section/**/*.ts",
+		"packages/helper-wasm-section/**/*.js",
+		"packages/helper-wasm-section/**/*.tsx",
+		"packages/helper-wasm-section/**/*.jsx"
+	],
+	"collection_name_prefix": "webassemblyjs_helper-wasm-section"
 }

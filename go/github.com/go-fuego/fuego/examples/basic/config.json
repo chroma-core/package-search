@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/go-fuego/fuego/examples/basic",
-  "repo": "go-fuego/fuego",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "examples/basic/**/*.md",
-    "examples/basic/**/*.go"
-  ]
+	"native_identifier": "github.com/go-fuego/fuego/examples/basic",
+	"repo": "go-fuego/fuego",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"examples/basic/**/*.md",
+		"examples/basic/**/*.go"
+	],
+	"collection_name_prefix": "github.com_go-fuego_fuego_examples_basic"
 }

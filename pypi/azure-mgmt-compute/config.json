@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-mgmt-compute",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-mgmt-compute_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/compute/azure-mgmt-compute/**/*.md",
-    "sdk/compute/azure-mgmt-compute/**/*.py"
-  ]
+	"native_identifier": "azure-mgmt-compute",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-mgmt-compute_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/compute/azure-mgmt-compute/**/*.md",
+		"sdk/compute/azure-mgmt-compute/**/*.py"
+	],
+	"collection_name_prefix": "azure-mgmt-compute"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "serde_derive_internals",
-  "repo": "serde-rs/serde",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "serde_derive_internals/**/*.md",
-    "serde_derive_internals/**/*.rs"
-  ]
+	"native_identifier": "serde_derive_internals",
+	"repo": "serde-rs/serde",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"serde_derive_internals/**/*.md",
+		"serde_derive_internals/**/*.rs"
+	],
+	"collection_name_prefix": "serde_derive_internals"
 }

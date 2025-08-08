@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/google/go-containerregistry/pkg/authn/k8schain",
-  "repo": "google/go-containerregistry",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/authn/k8schain/**/*.md",
-    "pkg/authn/k8schain/**/*.go"
-  ]
+	"native_identifier": "github.com/google/go-containerregistry/pkg/authn/k8schain",
+	"repo": "google/go-containerregistry",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/authn/k8schain/**/*.md",
+		"pkg/authn/k8schain/**/*.go"
+	],
+	"collection_name_prefix": "github.com_google_go-containerregistry_pkg_authn_k8schain"
 }

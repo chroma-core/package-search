@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/ningpengtao-coder/oauth2-proxy",
-  "repo": "ningpengtao-coder/oauth2-proxy",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-fixed"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/ningpengtao-coder/oauth2-proxy",
+	"repo": "ningpengtao-coder/oauth2-proxy",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-fixed"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_ningpengtao-coder_oauth2-proxy"
 }

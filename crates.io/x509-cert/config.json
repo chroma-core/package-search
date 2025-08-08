@@ -1,13 +1,14 @@
 {
-  "native_identifier": "x509-cert",
-  "repo": "RustCrypto/formats",
-  "registry": "crates.io",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "x509-cert/**/*.md",
-    "x509-cert/**/*.rs"
-  ]
+	"native_identifier": "x509-cert",
+	"repo": "RustCrypto/formats",
+	"registry": "crates.io",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"x509-cert/**/*.md",
+		"x509-cert/**/*.rs"
+	],
+	"collection_name_prefix": "x509-cert"
 }

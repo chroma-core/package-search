@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/valkey-io/valkey-go/valkeyhook",
-  "repo": "valkey-io/valkey-go",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "valkeyhook/**/*.md",
-    "valkeyhook/**/*.go"
-  ]
+	"native_identifier": "github.com/valkey-io/valkey-go/valkeyhook",
+	"repo": "valkey-io/valkey-go",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"valkeyhook/**/*.md",
+		"valkeyhook/**/*.go"
+	],
+	"collection_name_prefix": "github.com_valkey-io_valkey-go_valkeyhook"
 }

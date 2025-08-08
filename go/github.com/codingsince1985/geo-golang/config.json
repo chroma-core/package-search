@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/codingsince1985/geo-golang",
-  "repo": "codingsince1985/geo-golang",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/codingsince1985/geo-golang",
+	"repo": "codingsince1985/geo-golang",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_codingsince1985_geo-golang"
 }

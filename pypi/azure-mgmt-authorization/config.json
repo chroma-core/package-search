@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-mgmt-authorization",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-mgmt-authorization_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/authorization/azure-mgmt-authorization/**/*.md",
-    "sdk/authorization/azure-mgmt-authorization/**/*.py"
-  ]
+	"native_identifier": "azure-mgmt-authorization",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-mgmt-authorization_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/authorization/azure-mgmt-authorization/**/*.md",
+		"sdk/authorization/azure-mgmt-authorization/**/*.py"
+	],
+	"collection_name_prefix": "azure-mgmt-authorization"
 }

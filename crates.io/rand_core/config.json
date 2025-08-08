@@ -1,13 +1,14 @@
 {
-  "native_identifier": "rand_core",
-  "repo": "rust-random/rand",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "rand_core/**/*.md",
-    "rand_core/**/*.rs"
-  ]
+	"native_identifier": "rand_core",
+	"repo": "rust-random/rand",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"rand_core/**/*.md",
+		"rand_core/**/*.rs"
+	],
+	"collection_name_prefix": "rand_core"
 }

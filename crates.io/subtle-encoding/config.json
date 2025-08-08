@@ -1,13 +1,14 @@
 {
-  "native_identifier": "subtle-encoding",
-  "repo": "iqlusioninc/crates",
-  "registry": "crates.io",
-  "tag_formats": [
-    "subtle-encoding/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "subtle-encoding/**/*.md",
-    "subtle-encoding/**/*.rs"
-  ]
+	"native_identifier": "subtle-encoding",
+	"repo": "iqlusioninc/crates",
+	"registry": "crates.io",
+	"tag_formats": [
+		"subtle-encoding/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"subtle-encoding/**/*.md",
+		"subtle-encoding/**/*.rs"
+	],
+	"collection_name_prefix": "subtle-encoding"
 }

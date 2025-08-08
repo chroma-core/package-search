@@ -1,13 +1,14 @@
 {
-  "native_identifier": "salsa20",
-  "repo": "RustCrypto/stream-ciphers",
-  "registry": "crates.io",
-  "tag_formats": [
-    "salsa20-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "salsa20/**/*.md",
-    "salsa20/**/*.rs"
-  ]
+	"native_identifier": "salsa20",
+	"repo": "RustCrypto/stream-ciphers",
+	"registry": "crates.io",
+	"tag_formats": [
+		"salsa20-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"salsa20/**/*.md",
+		"salsa20/**/*.rs"
+	],
+	"collection_name_prefix": "salsa20"
 }

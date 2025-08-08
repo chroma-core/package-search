@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/segmentio/kafka-go/sasl/aws_msk_iam_v2",
-  "repo": "segmentio/kafka-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sasl/aws_msk_iam_v2/**/*.md",
-    "sasl/aws_msk_iam_v2/**/*.go"
-  ]
+	"native_identifier": "github.com/segmentio/kafka-go/sasl/aws_msk_iam_v2",
+	"repo": "segmentio/kafka-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sasl/aws_msk_iam_v2/**/*.md",
+		"sasl/aws_msk_iam_v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_segmentio_kafka-go_sasl_aws_msk_iam_v2"
 }

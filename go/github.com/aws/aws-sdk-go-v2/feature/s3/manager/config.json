@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
-  "repo": "aws/aws-sdk-go-v2",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "feature/s3/manager/**/*.md",
-    "feature/s3/manager/**/*.go"
-  ]
+	"native_identifier": "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+	"repo": "aws/aws-sdk-go-v2",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"feature/s3/manager/**/*.md",
+		"feature/s3/manager/**/*.go"
+	],
+	"collection_name_prefix": "github.com_aws_aws-sdk-go-v2_feature_s3_manager"
 }

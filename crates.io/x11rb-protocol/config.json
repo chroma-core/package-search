@@ -1,13 +1,14 @@
 {
-  "native_identifier": "x11rb-protocol",
-  "repo": "psychon/x11rb",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "x11rb-protocol/**/*.md",
-    "x11rb-protocol/**/*.rs"
-  ]
+	"native_identifier": "x11rb-protocol",
+	"repo": "psychon/x11rb",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"x11rb-protocol/**/*.md",
+		"x11rb-protocol/**/*.rs"
+	],
+	"collection_name_prefix": "x11rb-protocol"
 }

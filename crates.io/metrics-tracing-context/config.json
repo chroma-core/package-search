@@ -1,14 +1,15 @@
 {
-  "native_identifier": "metrics-tracing-context",
-  "repo": "metrics-rs/metrics",
-  "registry": "crates.io",
-  "tag_formats": [
-    "metrics-tracing-context-v{major}.{minor}.{patch}",
-    "metrics-exporter-prometheus-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "metrics-tracing-context/**/*.md",
-    "metrics-tracing-context/**/*.rs"
-  ]
+	"native_identifier": "metrics-tracing-context",
+	"repo": "metrics-rs/metrics",
+	"registry": "crates.io",
+	"tag_formats": [
+		"metrics-tracing-context-v{major}.{minor}.{patch}",
+		"metrics-exporter-prometheus-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"metrics-tracing-context/**/*.md",
+		"metrics-tracing-context/**/*.rs"
+	],
+	"collection_name_prefix": "metrics-tracing-context"
 }

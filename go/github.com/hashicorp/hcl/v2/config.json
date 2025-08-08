@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hashicorp/hcl/v2",
-  "repo": "hashicorp/hcl",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v2/**/*.md",
-    "v2/**/*.go"
-  ]
+	"native_identifier": "github.com/hashicorp/hcl/v2",
+	"repo": "hashicorp/hcl",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v2/**/*.md",
+		"v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hashicorp_hcl_v2"
 }

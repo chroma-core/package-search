@@ -1,18 +1,19 @@
 {
-  "native_identifier": "solid-start",
-  "repo": "solidjs/solid-start",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "solid-start",
+	"repo": "solidjs/solid-start",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "solid-start"
 }

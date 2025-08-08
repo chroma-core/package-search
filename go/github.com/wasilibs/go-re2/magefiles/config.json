@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/wasilibs/go-re2/magefiles",
-  "repo": "wasilibs/go-re2",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "magefiles/**/*.md",
-    "magefiles/**/*.go"
-  ]
+	"native_identifier": "github.com/wasilibs/go-re2/magefiles",
+	"repo": "wasilibs/go-re2",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"magefiles/**/*.md",
+		"magefiles/**/*.go"
+	],
+	"collection_name_prefix": "github.com_wasilibs_go-re2_magefiles"
 }

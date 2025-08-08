@@ -1,13 +1,14 @@
 {
-  "native_identifier": "fsevent-sys",
-  "repo": "octplane/fsevent-rust",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "fsevent-sys/**/*.md",
-    "fsevent-sys/**/*.rs"
-  ]
+	"native_identifier": "fsevent-sys",
+	"repo": "octplane/fsevent-rust",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"fsevent-sys/**/*.md",
+		"fsevent-sys/**/*.rs"
+	],
+	"collection_name_prefix": "fsevent-sys"
 }

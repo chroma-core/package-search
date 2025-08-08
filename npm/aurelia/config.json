@@ -1,20 +1,21 @@
 {
-  "native_identifier": "aurelia",
-  "repo": "aurelia/aurelia",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.0",
-    "v{major}.{minor}.{patch}-alpha.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{DD}",
-    "v{major}.{patch}.{patch}-alpha.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "aurelia",
+	"repo": "aurelia/aurelia",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.0",
+		"v{major}.{minor}.{patch}-alpha.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{DD}",
+		"v{major}.{patch}.{patch}-alpha.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "aurelia"
 }

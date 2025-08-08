@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/go-orb/plugins/event/natsjs",
-  "repo": "go-orb/plugins",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "event/natsjs/**/*.md",
-    "event/natsjs/**/*.go"
-  ]
+	"native_identifier": "github.com/go-orb/plugins/event/natsjs",
+	"repo": "go-orb/plugins",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"event/natsjs/**/*.md",
+		"event/natsjs/**/*.go"
+	],
+	"collection_name_prefix": "github.com_go-orb_plugins_event_natsjs"
 }

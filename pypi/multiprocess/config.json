@@ -1,16 +1,17 @@
 {
-  "native_identifier": "multiprocess",
-  "repo": "uqfoundation/multiprocess",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "multiprocess-{major}.{minor}.{patch}",
-    "{major}.{minor}.{DD}",
-    "multiprocess-{major}.{minor}.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "multiprocess",
+	"repo": "uqfoundation/multiprocess",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"multiprocess-{major}.{minor}.{patch}",
+		"{major}.{minor}.{DD}",
+		"multiprocess-{major}.{minor}.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "multiprocess"
 }

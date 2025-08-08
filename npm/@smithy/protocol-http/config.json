@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/protocol-http",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/protocol-http@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/protocol-http/**/*.md",
-    "packages/protocol-http/**/*.ts",
-    "packages/protocol-http/**/*.js",
-    "packages/protocol-http/**/*.tsx",
-    "packages/protocol-http/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/protocol-http",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/protocol-http@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/protocol-http/**/*.md",
+		"packages/protocol-http/**/*.ts",
+		"packages/protocol-http/**/*.js",
+		"packages/protocol-http/**/*.tsx",
+		"packages/protocol-http/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_protocol-http"
 }

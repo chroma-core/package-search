@@ -1,13 +1,14 @@
 {
-  "native_identifier": "google-cloud-datacatalog",
-  "repo": "googleapis/google-cloud-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "google-cloud-datacatalog-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/google-cloud-datacatalog/**/*.md",
-    "packages/google-cloud-datacatalog/**/*.py"
-  ]
+	"native_identifier": "google-cloud-datacatalog",
+	"repo": "googleapis/google-cloud-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"google-cloud-datacatalog-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/google-cloud-datacatalog/**/*.md",
+		"packages/google-cloud-datacatalog/**/*.py"
+	],
+	"collection_name_prefix": "google-cloud-datacatalog"
 }

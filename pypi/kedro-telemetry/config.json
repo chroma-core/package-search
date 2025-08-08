@@ -1,15 +1,16 @@
 {
-  "native_identifier": "kedro-telemetry",
-  "repo": "kedro-org/kedro-plugins",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "kedro-airflow-{major}.{minor}.{patch}",
-    "kedro-datasets-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "kedro-telemetry/**/*.md",
-    "kedro-telemetry/**/*.py"
-  ]
+	"native_identifier": "kedro-telemetry",
+	"repo": "kedro-org/kedro-plugins",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"kedro-airflow-{major}.{minor}.{patch}",
+		"kedro-datasets-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"kedro-telemetry/**/*.md",
+		"kedro-telemetry/**/*.py"
+	],
+	"collection_name_prefix": "kedro-telemetry"
 }

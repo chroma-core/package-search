@@ -1,14 +1,15 @@
 {
-  "native_identifier": "clocksource",
-  "repo": "pelikan-io/rustcommon",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "metriken-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "clocksource/**/*.md",
-    "clocksource/**/*.rs"
-  ]
+	"native_identifier": "clocksource",
+	"repo": "pelikan-io/rustcommon",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"metriken-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"clocksource/**/*.md",
+		"clocksource/**/*.rs"
+	],
+	"collection_name_prefix": "clocksource"
 }

@@ -1,22 +1,23 @@
 {
-  "native_identifier": "workflow-use",
-  "repo": "browser-use/workflow-use",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}rc{DD}",
-    "v{major}.{minor}.{patch}rc{YY}",
-    "v{major}.{minor}.0rc{DD}",
-    "v{major}.{minor}.{patch}rc{patch}",
-    "v{major}.{minor}.0rc{YY}",
-    "v{major}.{minor}.0rc{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "workflow-use",
+	"repo": "browser-use/workflow-use",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}rc{DD}",
+		"v{major}.{minor}.{patch}rc{YY}",
+		"v{major}.{minor}.0rc{DD}",
+		"v{major}.{minor}.{patch}rc{patch}",
+		"v{major}.{minor}.0rc{YY}",
+		"v{major}.{minor}.0rc{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "workflow-use"
 }

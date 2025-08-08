@@ -1,16 +1,17 @@
 {
-  "native_identifier": "babel-plugin-jest-hoist",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-plugin-jest-hoist/**/*.md",
-    "packages/babel-plugin-jest-hoist/**/*.ts",
-    "packages/babel-plugin-jest-hoist/**/*.js",
-    "packages/babel-plugin-jest-hoist/**/*.tsx",
-    "packages/babel-plugin-jest-hoist/**/*.jsx"
-  ]
+	"native_identifier": "babel-plugin-jest-hoist",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-plugin-jest-hoist/**/*.md",
+		"packages/babel-plugin-jest-hoist/**/*.ts",
+		"packages/babel-plugin-jest-hoist/**/*.js",
+		"packages/babel-plugin-jest-hoist/**/*.tsx",
+		"packages/babel-plugin-jest-hoist/**/*.jsx"
+	],
+	"collection_name_prefix": "babel-plugin-jest-hoist"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "utoipa-swagger-ui",
-  "repo": "juhaku/utoipa",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "utoipa-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "utoipa-swagger-ui/**/*.md",
-    "utoipa-swagger-ui/**/*.rs"
-  ]
+	"native_identifier": "utoipa-swagger-ui",
+	"repo": "juhaku/utoipa",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"utoipa-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"utoipa-swagger-ui/**/*.md",
+		"utoipa-swagger-ui/**/*.rs"
+	],
+	"collection_name_prefix": "utoipa-swagger-ui"
 }

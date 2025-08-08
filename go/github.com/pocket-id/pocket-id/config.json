@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/pocket-id/pocket-id",
-  "repo": "pocket-id/pocket-id",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/pocket-id/pocket-id",
+	"repo": "pocket-id/pocket-id",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_pocket-id_pocket-id"
 }

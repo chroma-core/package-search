@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/strangelove-ventures/ibctest/v6",
-  "repo": "strangelove-ventures/ibctest",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/strangelove-ventures/ibctest/v6",
+	"repo": "strangelove-ventures/ibctest",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_strangelove-ventures_ibctest_v6"
 }

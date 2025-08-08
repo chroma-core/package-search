@@ -1,13 +1,14 @@
 {
-  "native_identifier": "stdweb-internal-runtime",
-  "repo": "koute/stdweb",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "stdweb-internal-runtime/**/*.md",
-    "stdweb-internal-runtime/**/*.rs"
-  ]
+	"native_identifier": "stdweb-internal-runtime",
+	"repo": "koute/stdweb",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"stdweb-internal-runtime/**/*.md",
+		"stdweb-internal-runtime/**/*.rs"
+	],
+	"collection_name_prefix": "stdweb-internal-runtime"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "google-cloud-memcache",
-  "repo": "googleapis/google-cloud-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "google-cloud-memcache-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/google-cloud-memcache/**/*.md",
-    "packages/google-cloud-memcache/**/*.py"
-  ]
+	"native_identifier": "google-cloud-memcache",
+	"repo": "googleapis/google-cloud-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"google-cloud-memcache-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/google-cloud-memcache/**/*.md",
+		"packages/google-cloud-memcache/**/*.py"
+	],
+	"collection_name_prefix": "google-cloud-memcache"
 }

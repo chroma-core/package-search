@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tychoish/grip/x/jira",
-  "repo": "tychoish/grip",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "x/jira/**/*.md",
-    "x/jira/**/*.go"
-  ]
+	"native_identifier": "github.com/tychoish/grip/x/jira",
+	"repo": "tychoish/grip",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"x/jira/**/*.md",
+		"x/jira/**/*.go"
+	],
+	"collection_name_prefix": "github.com_tychoish_grip_x_jira"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/grpc-ecosystem/go-grpc-middleware/providers/tokenbucket/v2",
-  "repo": "grpc-ecosystem/go-grpc-middleware",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "providers/tokenbucket/v2/**/*.md",
-    "providers/tokenbucket/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/grpc-ecosystem/go-grpc-middleware/providers/tokenbucket/v2",
+	"repo": "grpc-ecosystem/go-grpc-middleware",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"providers/tokenbucket/v2/**/*.md",
+		"providers/tokenbucket/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_grpc-ecosystem_go-grpc-middleware_providers_tokenbucket_v2"
 }

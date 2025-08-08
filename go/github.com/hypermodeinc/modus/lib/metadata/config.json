@@ -1,17 +1,18 @@
 {
-  "native_identifier": "github.com/hypermodeinc/modus/lib/metadata",
-  "repo": "hypermodeinc/modus",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cli/v{major}.{minor}.{patch}",
-    "cli/v{major}.{YY}.{patch}",
-    "cli/v{major}.{patch}.{minor}",
-    "cli/v{major}.{YY}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "lib/metadata/**/*.md",
-    "lib/metadata/**/*.go"
-  ]
+	"native_identifier": "github.com/hypermodeinc/modus/lib/metadata",
+	"repo": "hypermodeinc/modus",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cli/v{major}.{minor}.{patch}",
+		"cli/v{major}.{YY}.{patch}",
+		"cli/v{major}.{patch}.{minor}",
+		"cli/v{major}.{YY}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"lib/metadata/**/*.md",
+		"lib/metadata/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hypermodeinc_modus_lib_metadata"
 }

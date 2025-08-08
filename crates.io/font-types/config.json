@@ -1,13 +1,14 @@
 {
-  "native_identifier": "font-types",
-  "repo": "googlefonts/fontations",
-  "registry": "crates.io",
-  "tag_formats": [
-    "font-types-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "font-types/**/*.md",
-    "font-types/**/*.rs"
-  ]
+	"native_identifier": "font-types",
+	"repo": "googlefonts/fontations",
+	"registry": "crates.io",
+	"tag_formats": [
+		"font-types-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"font-types/**/*.md",
+		"font-types/**/*.rs"
+	],
+	"collection_name_prefix": "font-types"
 }

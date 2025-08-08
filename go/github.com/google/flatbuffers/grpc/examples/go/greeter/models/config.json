@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/google/flatbuffers/grpc/examples/go/greeter/models",
-  "repo": "google/flatbuffers",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "grpc/examples/go/greeter/models/**/*.md",
-    "grpc/examples/go/greeter/models/**/*.go"
-  ]
+	"native_identifier": "github.com/google/flatbuffers/grpc/examples/go/greeter/models",
+	"repo": "google/flatbuffers",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"grpc/examples/go/greeter/models/**/*.md",
+		"grpc/examples/go/greeter/models/**/*.go"
+	],
+	"collection_name_prefix": "github.com_google_flatbuffers_grpc_examples_go_greeter_models"
 }

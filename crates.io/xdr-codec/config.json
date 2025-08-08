@@ -1,13 +1,14 @@
 {
-  "native_identifier": "xdr-codec",
-  "repo": "jsgf/rust-xdr",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "xdr-codec/**/*.md",
-    "xdr-codec/**/*.rs"
-  ]
+	"native_identifier": "xdr-codec",
+	"repo": "jsgf/rust-xdr",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"xdr-codec/**/*.md",
+		"xdr-codec/**/*.rs"
+	],
+	"collection_name_prefix": "xdr-codec"
 }

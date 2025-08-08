@@ -1,13 +1,14 @@
 {
-  "native_identifier": "magnus-macros",
-  "repo": "matsadler/magnus",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "magnus-macros/**/*.md",
-    "magnus-macros/**/*.rs"
-  ]
+	"native_identifier": "magnus-macros",
+	"repo": "matsadler/magnus",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"magnus-macros/**/*.md",
+		"magnus-macros/**/*.rs"
+	],
+	"collection_name_prefix": "magnus-macros"
 }

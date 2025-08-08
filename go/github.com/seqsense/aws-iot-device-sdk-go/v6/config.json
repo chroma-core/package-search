@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/seqsense/aws-iot-device-sdk-go/v6",
-  "repo": "seqsense/aws-iot-device-sdk-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v6/**/*.md",
-    "v6/**/*.go"
-  ]
+	"native_identifier": "github.com/seqsense/aws-iot-device-sdk-go/v6",
+	"repo": "seqsense/aws-iot-device-sdk-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v6/**/*.md",
+		"v6/**/*.go"
+	],
+	"collection_name_prefix": "github.com_seqsense_aws-iot-device-sdk-go_v6"
 }

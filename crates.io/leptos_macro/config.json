@@ -1,13 +1,14 @@
 {
-  "native_identifier": "leptos_macro",
-  "repo": "leptos-rs/leptos",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "leptos_macro/**/*.md",
-    "leptos_macro/**/*.rs"
-  ]
+	"native_identifier": "leptos_macro",
+	"repo": "leptos-rs/leptos",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"leptos_macro/**/*.md",
+		"leptos_macro/**/*.rs"
+	],
+	"collection_name_prefix": "leptos_macro"
 }

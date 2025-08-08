@@ -1,13 +1,14 @@
 {
-  "native_identifier": "ethers-contract",
-  "repo": "gakonst/ethers-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ethers-contract/**/*.md",
-    "ethers-contract/**/*.rs"
-  ]
+	"native_identifier": "ethers-contract",
+	"repo": "gakonst/ethers-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ethers-contract/**/*.md",
+		"ethers-contract/**/*.rs"
+	],
+	"collection_name_prefix": "ethers-contract"
 }

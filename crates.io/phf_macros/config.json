@@ -1,13 +1,14 @@
 {
-  "native_identifier": "phf_macros",
-  "repo": "rust-phf/rust-phf",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "phf_macros/**/*.md",
-    "phf_macros/**/*.rs"
-  ]
+	"native_identifier": "phf_macros",
+	"repo": "rust-phf/rust-phf",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"phf_macros/**/*.md",
+		"phf_macros/**/*.rs"
+	],
+	"collection_name_prefix": "phf_macros"
 }

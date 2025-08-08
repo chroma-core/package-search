@@ -1,13 +1,14 @@
 {
-  "native_identifier": "icu_properties_data",
-  "repo": "unicode-org/icu4x",
-  "registry": "crates.io",
-  "tag_formats": [
-    "icu@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "provider/data/properties/**/*.md",
-    "provider/data/properties/**/*.rs"
-  ]
+	"native_identifier": "icu_properties_data",
+	"repo": "unicode-org/icu4x",
+	"registry": "crates.io",
+	"tag_formats": [
+		"icu@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"provider/data/properties/**/*.md",
+		"provider/data/properties/**/*.rs"
+	],
+	"collection_name_prefix": "icu_properties_data"
 }

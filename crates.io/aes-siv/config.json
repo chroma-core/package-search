@@ -1,13 +1,14 @@
 {
-  "native_identifier": "aes-siv",
-  "repo": "RustCrypto/AEADs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "aes-siv/**/*.md",
-    "aes-siv/**/*.rs"
-  ]
+	"native_identifier": "aes-siv",
+	"repo": "RustCrypto/AEADs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"aes-siv/**/*.md",
+		"aes-siv/**/*.rs"
+	],
+	"collection_name_prefix": "aes-siv"
 }

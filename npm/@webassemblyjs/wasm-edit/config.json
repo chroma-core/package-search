@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@webassemblyjs/wasm-edit",
-  "repo": "xtuc/webassemblyjs",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/wasm-edit/**/*.md",
-    "packages/wasm-edit/**/*.ts",
-    "packages/wasm-edit/**/*.js",
-    "packages/wasm-edit/**/*.tsx",
-    "packages/wasm-edit/**/*.jsx"
-  ]
+	"native_identifier": "@webassemblyjs/wasm-edit",
+	"repo": "xtuc/webassemblyjs",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/wasm-edit/**/*.md",
+		"packages/wasm-edit/**/*.ts",
+		"packages/wasm-edit/**/*.js",
+		"packages/wasm-edit/**/*.tsx",
+		"packages/wasm-edit/**/*.jsx"
+	],
+	"collection_name_prefix": "webassemblyjs_wasm-edit"
 }

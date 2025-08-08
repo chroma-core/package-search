@@ -1,13 +1,14 @@
 {
-  "native_identifier": "umap",
-  "repo": "lmcinnes/umap",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "umap/**/*.md",
-    "umap/**/*.py"
-  ]
+	"native_identifier": "umap",
+	"repo": "lmcinnes/umap",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"umap/**/*.md",
+		"umap/**/*.py"
+	],
+	"collection_name_prefix": "umap"
 }

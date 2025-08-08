@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/auth0/go-jwt-middleware",
-  "repo": "auth0/go-jwt-middleware",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/auth0/go-jwt-middleware",
+	"repo": "auth0/go-jwt-middleware",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_auth0_go-jwt-middleware"
 }

@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@typescript-eslint/visitor-keys",
-  "repo": "typescript-eslint/typescript-eslint",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/visitor-keys/**/*.md",
-    "packages/visitor-keys/**/*.ts",
-    "packages/visitor-keys/**/*.js",
-    "packages/visitor-keys/**/*.tsx",
-    "packages/visitor-keys/**/*.jsx"
-  ]
+	"native_identifier": "@typescript-eslint/visitor-keys",
+	"repo": "typescript-eslint/typescript-eslint",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/visitor-keys/**/*.md",
+		"packages/visitor-keys/**/*.ts",
+		"packages/visitor-keys/**/*.js",
+		"packages/visitor-keys/**/*.tsx",
+		"packages/visitor-keys/**/*.jsx"
+	],
+	"collection_name_prefix": "typescript-eslint_visitor-keys"
 }

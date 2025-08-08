@@ -1,13 +1,14 @@
 {
-  "native_identifier": "scroll_derive",
-  "repo": "m4b/scroll",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "scroll_derive/**/*.md",
-    "scroll_derive/**/*.rs"
-  ]
+	"native_identifier": "scroll_derive",
+	"repo": "m4b/scroll",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"scroll_derive/**/*.md",
+		"scroll_derive/**/*.rs"
+	],
+	"collection_name_prefix": "scroll_derive"
 }

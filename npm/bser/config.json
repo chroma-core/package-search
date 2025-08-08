@@ -1,14 +1,15 @@
 {
-  "native_identifier": "bser",
-  "repo": "facebook/watchman",
-  "registry": "npm",
-  "tag_formats": [],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "watchman/node/bser/**/*.md",
-    "watchman/node/bser/**/*.ts",
-    "watchman/node/bser/**/*.js",
-    "watchman/node/bser/**/*.tsx",
-    "watchman/node/bser/**/*.jsx"
-  ]
+	"native_identifier": "bser",
+	"repo": "facebook/watchman",
+	"registry": "npm",
+	"tag_formats": [],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"watchman/node/bser/**/*.md",
+		"watchman/node/bser/**/*.ts",
+		"watchman/node/bser/**/*.js",
+		"watchman/node/bser/**/*.tsx",
+		"watchman/node/bser/**/*.jsx"
+	],
+	"collection_name_prefix": "bser"
 }

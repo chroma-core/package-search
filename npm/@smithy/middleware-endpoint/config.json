@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/middleware-endpoint",
-  "repo": "smithy-lang/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/middleware-endpoint@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/middleware-endpoint/**/*.md",
-    "packages/middleware-endpoint/**/*.ts",
-    "packages/middleware-endpoint/**/*.js",
-    "packages/middleware-endpoint/**/*.tsx",
-    "packages/middleware-endpoint/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/middleware-endpoint",
+	"repo": "smithy-lang/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/middleware-endpoint@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/middleware-endpoint/**/*.md",
+		"packages/middleware-endpoint/**/*.ts",
+		"packages/middleware-endpoint/**/*.js",
+		"packages/middleware-endpoint/**/*.tsx",
+		"packages/middleware-endpoint/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_middleware-endpoint"
 }

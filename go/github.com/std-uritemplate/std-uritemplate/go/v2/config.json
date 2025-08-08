@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/std-uritemplate/std-uritemplate/go/v2",
-  "repo": "std-uritemplate/std-uritemplate",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "go/v2/**/*.md",
-    "go/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/std-uritemplate/std-uritemplate/go/v2",
+	"repo": "std-uritemplate/std-uritemplate",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"go/v2/**/*.md",
+		"go/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_std-uritemplate_std-uritemplate_go_v2"
 }

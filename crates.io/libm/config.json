@@ -1,14 +1,15 @@
 {
-  "native_identifier": "libm",
-  "repo": "rust-lang/compiler-builtins",
-  "registry": "crates.io",
-  "tag_formats": [
-    "libm-v{major}.{minor}.{patch}",
-    "compiler_builtins-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "libm/**/*.md",
-    "libm/**/*.rs"
-  ]
+	"native_identifier": "libm",
+	"repo": "rust-lang/compiler-builtins",
+	"registry": "crates.io",
+	"tag_formats": [
+		"libm-v{major}.{minor}.{patch}",
+		"compiler_builtins-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"libm/**/*.md",
+		"libm/**/*.rs"
+	],
+	"collection_name_prefix": "libm"
 }

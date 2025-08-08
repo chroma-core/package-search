@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/go-orb/plugins/client/orb_transport/http",
-  "repo": "go-orb/plugins",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "client/orb_transport/http/**/*.md",
-    "client/orb_transport/http/**/*.go"
-  ]
+	"native_identifier": "github.com/go-orb/plugins/client/orb_transport/http",
+	"repo": "go-orb/plugins",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"client/orb_transport/http/**/*.md",
+		"client/orb_transport/http/**/*.go"
+	],
+	"collection_name_prefix": "github.com_go-orb_plugins_client_orb_transport_http"
 }

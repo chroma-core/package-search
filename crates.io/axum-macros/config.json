@@ -1,14 +1,15 @@
 {
-  "native_identifier": "axum-macros",
-  "repo": "tokio-rs/axum",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "axum-core-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "axum-macros/**/*.md",
-    "axum-macros/**/*.rs"
-  ]
+	"native_identifier": "axum-macros",
+	"repo": "tokio-rs/axum",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"axum-core-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"axum-macros/**/*.md",
+		"axum-macros/**/*.rs"
+	],
+	"collection_name_prefix": "axum-macros"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/containers/podman/v4",
-  "repo": "containers/podman",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v4/**/*.md",
-    "v4/**/*.go"
-  ]
+	"native_identifier": "github.com/containers/podman/v4",
+	"repo": "containers/podman",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v4/**/*.md",
+		"v4/**/*.go"
+	],
+	"collection_name_prefix": "github.com_containers_podman_v4"
 }

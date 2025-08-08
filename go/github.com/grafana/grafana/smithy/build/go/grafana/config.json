@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/grafana/grafana/smithy/build/go/grafana",
-  "repo": "grafana/grafana",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "smithy/build/go/grafana/**/*.md",
-    "smithy/build/go/grafana/**/*.go"
-  ]
+	"native_identifier": "github.com/grafana/grafana/smithy/build/go/grafana",
+	"repo": "grafana/grafana",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"smithy/build/go/grafana/**/*.md",
+		"smithy/build/go/grafana/**/*.go"
+	],
+	"collection_name_prefix": "github.com_grafana_grafana_smithy_build_go_grafana"
 }

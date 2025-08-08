@@ -1,13 +1,14 @@
 {
-  "native_identifier": "presidio-analyzer",
-  "repo": "Microsoft/presidio",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "presidio-analyzer/**/*.md",
-    "presidio-analyzer/**/*.py"
-  ]
+	"native_identifier": "presidio-analyzer",
+	"repo": "Microsoft/presidio",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"presidio-analyzer/**/*.md",
+		"presidio-analyzer/**/*.py"
+	],
+	"collection_name_prefix": "presidio-analyzer"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "windows-implement",
-  "repo": "microsoft/windows-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/libs/implement/**/*.md",
-    "crates/libs/implement/**/*.rs"
-  ]
+	"native_identifier": "windows-implement",
+	"repo": "microsoft/windows-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/libs/implement/**/*.md",
+		"crates/libs/implement/**/*.rs"
+	],
+	"collection_name_prefix": "windows-implement"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/apache/rocketmq-clients/golang/v5",
-  "repo": "apache/rocketmq-clients",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "java-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "golang/v5/**/*.md",
-    "golang/v5/**/*.go"
-  ]
+	"native_identifier": "github.com/apache/rocketmq-clients/golang/v5",
+	"repo": "apache/rocketmq-clients",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"java-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"golang/v5/**/*.md",
+		"golang/v5/**/*.go"
+	],
+	"collection_name_prefix": "github.com_apache_rocketmq-clients_golang_v5"
 }

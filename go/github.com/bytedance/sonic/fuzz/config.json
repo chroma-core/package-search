@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/bytedance/sonic/fuzz",
-  "repo": "bytedance/sonic",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "fuzz/**/*.md",
-    "fuzz/**/*.go"
-  ]
+	"native_identifier": "github.com/bytedance/sonic/fuzz",
+	"repo": "bytedance/sonic",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"fuzz/**/*.md",
+		"fuzz/**/*.go"
+	],
+	"collection_name_prefix": "github.com_bytedance_sonic_fuzz"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "g2poly",
-  "repo": "WanzenBug/g2p",
-  "registry": "crates.io",
-  "tag_formats": [
-    "g2poly-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "g2poly/**/*.md",
-    "g2poly/**/*.rs"
-  ]
+	"native_identifier": "g2poly",
+	"repo": "WanzenBug/g2p",
+	"registry": "crates.io",
+	"tag_formats": [
+		"g2poly-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"g2poly/**/*.md",
+		"g2poly/**/*.rs"
+	],
+	"collection_name_prefix": "g2poly"
 }

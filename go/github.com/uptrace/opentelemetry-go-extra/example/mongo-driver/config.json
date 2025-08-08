@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/uptrace/opentelemetry-go-extra/example/mongo-driver",
-  "repo": "uptrace/opentelemetry-go-extra",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "otelgorm/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "example/mongo-driver/**/*.md",
-    "example/mongo-driver/**/*.go"
-  ]
+	"native_identifier": "github.com/uptrace/opentelemetry-go-extra/example/mongo-driver",
+	"repo": "uptrace/opentelemetry-go-extra",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"otelgorm/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"example/mongo-driver/**/*.md",
+		"example/mongo-driver/**/*.go"
+	],
+	"collection_name_prefix": "github.com_uptrace_opentelemetry-go-extra_example_mongo-driver"
 }

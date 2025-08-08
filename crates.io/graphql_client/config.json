@@ -1,13 +1,14 @@
 {
-  "native_identifier": "graphql_client",
-  "repo": "graphql-rust/graphql-client",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "graphql_client/**/*.md",
-    "graphql_client/**/*.rs"
-  ]
+	"native_identifier": "graphql_client",
+	"repo": "graphql-rust/graphql-client",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"graphql_client/**/*.md",
+		"graphql_client/**/*.rs"
+	],
+	"collection_name_prefix": "graphql_client"
 }

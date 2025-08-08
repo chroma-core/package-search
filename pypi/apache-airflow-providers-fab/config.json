@@ -1,13 +1,14 @@
 {
-  "native_identifier": "apache-airflow-providers-fab",
-  "repo": "apache/airflow",
-  "registry": "pypi",
-  "tag_formats": [
-    "providers-fab/{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "providers/fab/**/*.md",
-    "providers/fab/**/*.py"
-  ]
+	"native_identifier": "apache-airflow-providers-fab",
+	"repo": "apache/airflow",
+	"registry": "pypi",
+	"tag_formats": [
+		"providers-fab/{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"providers/fab/**/*.md",
+		"providers/fab/**/*.py"
+	],
+	"collection_name_prefix": "apache-airflow-providers-fab"
 }

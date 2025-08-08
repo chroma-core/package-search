@@ -1,13 +1,14 @@
 {
-  "native_identifier": "libp2p",
-  "repo": "libp2p/rust-libp2p",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "libp2p/**/*.md",
-    "libp2p/**/*.rs"
-  ]
+	"native_identifier": "libp2p",
+	"repo": "libp2p/rust-libp2p",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"libp2p/**/*.md",
+		"libp2p/**/*.rs"
+	],
+	"collection_name_prefix": "libp2p"
 }

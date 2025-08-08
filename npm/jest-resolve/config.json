@@ -1,16 +1,17 @@
 {
-  "native_identifier": "jest-resolve",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-resolve/**/*.md",
-    "packages/jest-resolve/**/*.ts",
-    "packages/jest-resolve/**/*.js",
-    "packages/jest-resolve/**/*.tsx",
-    "packages/jest-resolve/**/*.jsx"
-  ]
+	"native_identifier": "jest-resolve",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-resolve/**/*.md",
+		"packages/jest-resolve/**/*.ts",
+		"packages/jest-resolve/**/*.js",
+		"packages/jest-resolve/**/*.tsx",
+		"packages/jest-resolve/**/*.jsx"
+	],
+	"collection_name_prefix": "jest-resolve"
 }

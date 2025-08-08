@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/kubernetes-csi/external-snapshotter/client/v4",
-  "repo": "kubernetes-csi/external-snapshotter",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "client/v4/**/*.md",
-    "client/v4/**/*.go"
-  ]
+	"native_identifier": "github.com/kubernetes-csi/external-snapshotter/client/v4",
+	"repo": "kubernetes-csi/external-snapshotter",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"client/v4/**/*.md",
+		"client/v4/**/*.go"
+	],
+	"collection_name_prefix": "github.com_kubernetes-csi_external-snapshotter_client_v4"
 }

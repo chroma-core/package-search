@@ -1,17 +1,18 @@
 {
-  "native_identifier": "umbrella",
-  "repo": "thi-ng/umbrella",
-  "registry": "npm",
-  "tag_formats": [
-    "@@{major}.{minor}.{patch}",
-    "@thi.ng/adapt-dpi@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "umbrella",
+	"repo": "thi-ng/umbrella",
+	"registry": "npm",
+	"tag_formats": [
+		"@@{major}.{minor}.{patch}",
+		"@thi.ng/adapt-dpi@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "umbrella"
 }

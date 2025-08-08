@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/rancher-sandbox/rancher-desktop/src/go/rdctl",
-  "repo": "rancher-sandbox/rancher-desktop",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "src/go/rdctl/**/*.md",
-    "src/go/rdctl/**/*.go"
-  ]
+	"native_identifier": "github.com/rancher-sandbox/rancher-desktop/src/go/rdctl",
+	"repo": "rancher-sandbox/rancher-desktop",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"src/go/rdctl/**/*.md",
+		"src/go/rdctl/**/*.go"
+	],
+	"collection_name_prefix": "github.com_rancher-sandbox_rancher-desktop_src_go_rdctl"
 }

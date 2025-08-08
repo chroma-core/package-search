@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/swaggo/swag/example/markdown",
-  "repo": "swaggo/swag",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "example/markdown/**/*.md",
-    "example/markdown/**/*.go"
-  ]
+	"native_identifier": "github.com/swaggo/swag/example/markdown",
+	"repo": "swaggo/swag",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"example/markdown/**/*.md",
+		"example/markdown/**/*.go"
+	],
+	"collection_name_prefix": "github.com_swaggo_swag_example_markdown"
 }

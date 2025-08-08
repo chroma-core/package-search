@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/nmstate/nmstate/rust/src/go/nmstate/v2",
-  "repo": "nmstate/nmstate",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/nmstate/nmstate/rust/src/go/nmstate/v2",
+	"repo": "nmstate/nmstate",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_nmstate_nmstate_rust_src_go_nmstate_v2"
 }

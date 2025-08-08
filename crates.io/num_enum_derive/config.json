@@ -1,13 +1,14 @@
 {
-  "native_identifier": "num_enum_derive",
-  "repo": "illicitonion/num_enum",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "num_enum_derive/**/*.md",
-    "num_enum_derive/**/*.rs"
-  ]
+	"native_identifier": "num_enum_derive",
+	"repo": "illicitonion/num_enum",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"num_enum_derive/**/*.md",
+		"num_enum_derive/**/*.rs"
+	],
+	"collection_name_prefix": "num_enum_derive"
 }

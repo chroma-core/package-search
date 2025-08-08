@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/cucumber/gherkin/go/v26",
-  "repo": "cucumber/gherkin",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "go/v26/**/*.md",
-    "go/v26/**/*.go"
-  ]
+	"native_identifier": "github.com/cucumber/gherkin/go/v26",
+	"repo": "cucumber/gherkin",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"go/v26/**/*.md",
+		"go/v26/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cucumber_gherkin_go_v26"
 }

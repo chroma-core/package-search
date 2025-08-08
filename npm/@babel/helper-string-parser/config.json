@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/helper-string-parser",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-helper-string-parser/**/*.md",
-    "packages/babel-helper-string-parser/**/*.ts",
-    "packages/babel-helper-string-parser/**/*.js",
-    "packages/babel-helper-string-parser/**/*.tsx",
-    "packages/babel-helper-string-parser/**/*.jsx"
-  ]
+	"native_identifier": "@babel/helper-string-parser",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-helper-string-parser/**/*.md",
+		"packages/babel-helper-string-parser/**/*.ts",
+		"packages/babel-helper-string-parser/**/*.js",
+		"packages/babel-helper-string-parser/**/*.tsx",
+		"packages/babel-helper-string-parser/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_helper-string-parser"
 }

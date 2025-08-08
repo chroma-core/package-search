@@ -1,13 +1,14 @@
 {
-  "native_identifier": "microsoft-kiota-authentication-azure",
-  "repo": "microsoft/kiota-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "microsoft-kiota-authentication-azure-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/authentication/**/*.md",
-    "packages/authentication/**/*.py"
-  ]
+	"native_identifier": "microsoft-kiota-authentication-azure",
+	"repo": "microsoft/kiota-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"microsoft-kiota-authentication-azure-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/authentication/**/*.md",
+		"packages/authentication/**/*.py"
+	],
+	"collection_name_prefix": "microsoft-kiota-authentication-azure"
 }

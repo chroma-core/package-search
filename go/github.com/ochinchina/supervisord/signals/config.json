@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/ochinchina/supervisord/signals",
-  "repo": "ochinchina/supervisord",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "signals/**/*.md",
-    "signals/**/*.go"
-  ]
+	"native_identifier": "github.com/ochinchina/supervisord/signals",
+	"repo": "ochinchina/supervisord",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"signals/**/*.md",
+		"signals/**/*.go"
+	],
+	"collection_name_prefix": "github.com_ochinchina_supervisord_signals"
 }

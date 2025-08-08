@@ -1,13 +1,14 @@
 {
-  "native_identifier": "predicates-core",
-  "repo": "assert-rs/predicates-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "predicates-core-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/core/**/*.md",
-    "crates/core/**/*.rs"
-  ]
+	"native_identifier": "predicates-core",
+	"repo": "assert-rs/predicates-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"predicates-core-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/core/**/*.md",
+		"crates/core/**/*.rs"
+	],
+	"collection_name_prefix": "predicates-core"
 }

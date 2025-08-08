@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-transform-arrow-functions",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-plugin-transform-arrow-functions/**/*.md",
-    "babel-plugin-transform-arrow-functions/**/*.ts",
-    "babel-plugin-transform-arrow-functions/**/*.js",
-    "babel-plugin-transform-arrow-functions/**/*.tsx",
-    "babel-plugin-transform-arrow-functions/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-transform-arrow-functions",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-plugin-transform-arrow-functions/**/*.md",
+		"babel-plugin-transform-arrow-functions/**/*.ts",
+		"babel-plugin-transform-arrow-functions/**/*.js",
+		"babel-plugin-transform-arrow-functions/**/*.tsx",
+		"babel-plugin-transform-arrow-functions/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-transform-arrow-functions"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/mikespook/learning-go-zh-cn",
-  "repo": "mikespook/learning-go-zh-cn",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/mikespook/learning-go-zh-cn",
+	"repo": "mikespook/learning-go-zh-cn",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_mikespook_learning-go-zh-cn"
 }

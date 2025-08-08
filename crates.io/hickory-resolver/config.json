@@ -1,13 +1,14 @@
 {
-  "native_identifier": "hickory-resolver",
-  "repo": "hickory-dns/hickory-dns",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "resolver/**/*.md",
-    "resolver/**/*.rs"
-  ]
+	"native_identifier": "hickory-resolver",
+	"repo": "hickory-dns/hickory-dns",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"resolver/**/*.md",
+		"resolver/**/*.rs"
+	],
+	"collection_name_prefix": "hickory-resolver"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "opentelemetry-exporter-otlp",
-  "repo": "open-telemetry/opentelemetry-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "exporter/opentelemetry-exporter-otlp/**/*.md",
-    "exporter/opentelemetry-exporter-otlp/**/*.py"
-  ]
+	"native_identifier": "opentelemetry-exporter-otlp",
+	"repo": "open-telemetry/opentelemetry-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"exporter/opentelemetry-exporter-otlp/**/*.md",
+		"exporter/opentelemetry-exporter-otlp/**/*.py"
+	],
+	"collection_name_prefix": "opentelemetry-exporter-otlp"
 }

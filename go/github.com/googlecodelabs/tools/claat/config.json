@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/googlecodelabs/tools/claat",
-  "repo": "googlecodelabs/tools",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "claat/**/*.md",
-    "claat/**/*.go"
-  ]
+	"native_identifier": "github.com/googlecodelabs/tools/claat",
+	"repo": "googlecodelabs/tools",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"claat/**/*.md",
+		"claat/**/*.go"
+	],
+	"collection_name_prefix": "github.com_googlecodelabs_tools_claat"
 }

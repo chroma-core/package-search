@@ -1,13 +1,14 @@
 {
-  "native_identifier": "gix-actor",
-  "repo": "GitoxideLabs/gitoxide",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "gix-actor/**/*.md",
-    "gix-actor/**/*.rs"
-  ]
+	"native_identifier": "gix-actor",
+	"repo": "GitoxideLabs/gitoxide",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"gix-actor/**/*.md",
+		"gix-actor/**/*.rs"
+	],
+	"collection_name_prefix": "gix-actor"
 }

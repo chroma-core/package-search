@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/googlecloudplatform/opentelemetry-operations-go/exporter/trace",
-  "repo": "googlecloudplatform/opentelemetry-operations-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "exporter/trace/**/*.md",
-    "exporter/trace/**/*.go"
-  ]
+	"native_identifier": "github.com/googlecloudplatform/opentelemetry-operations-go/exporter/trace",
+	"repo": "googlecloudplatform/opentelemetry-operations-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"exporter/trace/**/*.md",
+		"exporter/trace/**/*.go"
+	],
+	"collection_name_prefix": "github.com_googlecloudplatform_opentelemetry-operations-go_exporter_trace"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "pkcs8",
-  "repo": "RustCrypto/formats",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkcs8/**/*.md",
-    "pkcs8/**/*.rs"
-  ]
+	"native_identifier": "pkcs8",
+	"repo": "RustCrypto/formats",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkcs8/**/*.md",
+		"pkcs8/**/*.rs"
+	],
+	"collection_name_prefix": "pkcs8"
 }

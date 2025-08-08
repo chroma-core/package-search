@@ -1,13 +1,14 @@
 {
-  "native_identifier": "flit",
-  "repo": "pypa/flit",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "flit/**/*.md",
-    "flit/**/*.py"
-  ]
+	"native_identifier": "flit",
+	"repo": "pypa/flit",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"flit/**/*.md",
+		"flit/**/*.py"
+	],
+	"collection_name_prefix": "flit"
 }

@@ -1,16 +1,17 @@
 {
-  "native_identifier": "jest-worker",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-worker/**/*.md",
-    "packages/jest-worker/**/*.ts",
-    "packages/jest-worker/**/*.js",
-    "packages/jest-worker/**/*.tsx",
-    "packages/jest-worker/**/*.jsx"
-  ]
+	"native_identifier": "jest-worker",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-worker/**/*.md",
+		"packages/jest-worker/**/*.ts",
+		"packages/jest-worker/**/*.js",
+		"packages/jest-worker/**/*.tsx",
+		"packages/jest-worker/**/*.jsx"
+	],
+	"collection_name_prefix": "jest-worker"
 }

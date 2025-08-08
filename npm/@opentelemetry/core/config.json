@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@opentelemetry/core",
-  "repo": "open-telemetry/opentelemetry-js",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/opentelemetry-core/**/*.md",
-    "packages/opentelemetry-core/**/*.ts",
-    "packages/opentelemetry-core/**/*.js",
-    "packages/opentelemetry-core/**/*.tsx",
-    "packages/opentelemetry-core/**/*.jsx"
-  ]
+	"native_identifier": "@opentelemetry/core",
+	"repo": "open-telemetry/opentelemetry-js",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/opentelemetry-core/**/*.md",
+		"packages/opentelemetry-core/**/*.ts",
+		"packages/opentelemetry-core/**/*.js",
+		"packages/opentelemetry-core/**/*.tsx",
+		"packages/opentelemetry-core/**/*.jsx"
+	],
+	"collection_name_prefix": "opentelemetry_core"
 }

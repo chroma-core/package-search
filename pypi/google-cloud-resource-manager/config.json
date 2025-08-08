@@ -1,13 +1,14 @@
 {
-  "native_identifier": "google-cloud-resource-manager",
-  "repo": "googleapis/google-cloud-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "google-cloud-resource-manager-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/google-cloud-resource-manager/**/*.md",
-    "packages/google-cloud-resource-manager/**/*.py"
-  ]
+	"native_identifier": "google-cloud-resource-manager",
+	"repo": "googleapis/google-cloud-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"google-cloud-resource-manager-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/google-cloud-resource-manager/**/*.md",
+		"packages/google-cloud-resource-manager/**/*.py"
+	],
+	"collection_name_prefix": "google-cloud-resource-manager"
 }

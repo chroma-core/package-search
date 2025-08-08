@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hashicorp/raft/fuzzy",
-  "repo": "hashicorp/raft",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "fuzzy/**/*.md",
-    "fuzzy/**/*.go"
-  ]
+	"native_identifier": "github.com/hashicorp/raft/fuzzy",
+	"repo": "hashicorp/raft",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"fuzzy/**/*.md",
+		"fuzzy/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hashicorp_raft_fuzzy"
 }

@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/helper-remap-async-to-generator",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-helper-remap-async-to-generator/**/*.md",
-    "babel-helper-remap-async-to-generator/**/*.ts",
-    "babel-helper-remap-async-to-generator/**/*.js",
-    "babel-helper-remap-async-to-generator/**/*.tsx",
-    "babel-helper-remap-async-to-generator/**/*.jsx"
-  ]
+	"native_identifier": "@babel/helper-remap-async-to-generator",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-helper-remap-async-to-generator/**/*.md",
+		"babel-helper-remap-async-to-generator/**/*.ts",
+		"babel-helper-remap-async-to-generator/**/*.js",
+		"babel-helper-remap-async-to-generator/**/*.tsx",
+		"babel-helper-remap-async-to-generator/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_helper-remap-async-to-generator"
 }

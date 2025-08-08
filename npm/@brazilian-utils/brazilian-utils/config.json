@@ -1,17 +1,18 @@
 {
-  "native_identifier": "@brazilian-utils/brazilian-utils",
-  "repo": "brazilian-utils/brazilian-utils",
-  "registry": "npm",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}-rc.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "@brazilian-utils/brazilian-utils",
+	"repo": "brazilian-utils/brazilian-utils",
+	"registry": "npm",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}-rc.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "brazilian-utils_brazilian-utils"
 }

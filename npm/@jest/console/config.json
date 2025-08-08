@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@jest/console",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-console/**/*.md",
-    "packages/jest-console/**/*.ts",
-    "packages/jest-console/**/*.js",
-    "packages/jest-console/**/*.tsx",
-    "packages/jest-console/**/*.jsx"
-  ]
+	"native_identifier": "@jest/console",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-console/**/*.md",
+		"packages/jest-console/**/*.ts",
+		"packages/jest-console/**/*.js",
+		"packages/jest-console/**/*.tsx",
+		"packages/jest-console/**/*.jsx"
+	],
+	"collection_name_prefix": "jest_console"
 }

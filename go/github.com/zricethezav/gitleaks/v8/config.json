@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/zricethezav/gitleaks/v8",
-  "repo": "zricethezav/gitleaks",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v8/**/*.md",
-    "v8/**/*.go"
-  ]
+	"native_identifier": "github.com/zricethezav/gitleaks/v8",
+	"repo": "zricethezav/gitleaks",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v8/**/*.md",
+		"v8/**/*.go"
+	],
+	"collection_name_prefix": "github.com_zricethezav_gitleaks_v8"
 }

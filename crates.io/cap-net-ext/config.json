@@ -1,14 +1,15 @@
 {
-  "native_identifier": "cap-net-ext",
-  "repo": "bytecodealliance/cap-std",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cap-async-std-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cap-net-ext/**/*.md",
-    "cap-net-ext/**/*.rs"
-  ]
+	"native_identifier": "cap-net-ext",
+	"repo": "bytecodealliance/cap-std",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cap-async-std-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cap-net-ext/**/*.md",
+		"cap-net-ext/**/*.rs"
+	],
+	"collection_name_prefix": "cap-net-ext"
 }

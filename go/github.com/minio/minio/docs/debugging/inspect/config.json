@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/minio/minio/docs/debugging/inspect",
-  "repo": "minio/minio",
-  "registry": "go",
-  "tag_formats": [
-    "{YYYY}-{MM}-{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "docs/debugging/inspect/**/*.md",
-    "docs/debugging/inspect/**/*.go"
-  ]
+	"native_identifier": "github.com/minio/minio/docs/debugging/inspect",
+	"repo": "minio/minio",
+	"registry": "go",
+	"tag_formats": [
+		"{YYYY}-{MM}-{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"docs/debugging/inspect/**/*.md",
+		"docs/debugging/inspect/**/*.go"
+	],
+	"collection_name_prefix": "github.com_minio_minio_docs_debugging_inspect"
 }

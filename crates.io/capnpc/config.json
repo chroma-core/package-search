@@ -1,13 +1,14 @@
 {
-  "native_identifier": "capnpc",
-  "repo": "capnproto/capnproto-rust",
-  "registry": "crates.io",
-  "tag_formats": [
-    "capnpc-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "capnpc/**/*.md",
-    "capnpc/**/*.rs"
-  ]
+	"native_identifier": "capnpc",
+	"repo": "capnproto/capnproto-rust",
+	"registry": "crates.io",
+	"tag_formats": [
+		"capnpc-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"capnpc/**/*.md",
+		"capnpc/**/*.rs"
+	],
+	"collection_name_prefix": "capnpc"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "weedle2",
-  "repo": "mozilla/uniffi-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "weedle2/**/*.md",
-    "weedle2/**/*.rs"
-  ]
+	"native_identifier": "weedle2",
+	"repo": "mozilla/uniffi-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"weedle2/**/*.md",
+		"weedle2/**/*.rs"
+	],
+	"collection_name_prefix": "weedle2"
 }

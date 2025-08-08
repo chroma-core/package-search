@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/opslevel/opslevel-jq-parser/v2024",
-  "repo": "opslevel/opslevel-jq-parser",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/opslevel/opslevel-jq-parser/v2024",
+	"repo": "opslevel/opslevel-jq-parser",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_opslevel_opslevel-jq-parser_v2024"
 }

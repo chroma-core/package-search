@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/vividvilla/simplesessions/stores/goredis/v9",
-  "repo": "vividvilla/simplesessions",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/vividvilla/simplesessions/stores/goredis/v9",
+	"repo": "vividvilla/simplesessions",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_vividvilla_simplesessions_stores_goredis_v9"
 }

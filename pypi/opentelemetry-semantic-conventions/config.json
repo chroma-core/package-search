@@ -1,13 +1,14 @@
 {
-  "native_identifier": "opentelemetry-semantic-conventions",
-  "repo": "open-telemetry/opentelemetry-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "opentelemetry-semantic-conventions/**/*.md",
-    "opentelemetry-semantic-conventions/**/*.py"
-  ]
+	"native_identifier": "opentelemetry-semantic-conventions",
+	"repo": "open-telemetry/opentelemetry-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"opentelemetry-semantic-conventions/**/*.md",
+		"opentelemetry-semantic-conventions/**/*.py"
+	],
+	"collection_name_prefix": "opentelemetry-semantic-conventions"
 }

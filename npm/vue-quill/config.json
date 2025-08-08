@@ -1,20 +1,21 @@
 {
-  "native_identifier": "vue-quill",
-  "repo": "vueup/vue-quill",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-alpha.{DD}",
-    "v{major}.{minor}.0-alpha.{DD}",
-    "v{major}.0.0-alpha.{DD}",
-    "v{major}.0.{patch}-alpha.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "vue-quill",
+	"repo": "vueup/vue-quill",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-alpha.{DD}",
+		"v{major}.{minor}.0-alpha.{DD}",
+		"v{major}.0.0-alpha.{DD}",
+		"v{major}.0.{patch}-alpha.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "vue-quill"
 }

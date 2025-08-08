@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/uptrace/bun/extra/bunslog",
-  "repo": "uptrace/bun",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "dbfixture/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "extra/bunslog/**/*.md",
-    "extra/bunslog/**/*.go"
-  ]
+	"native_identifier": "github.com/uptrace/bun/extra/bunslog",
+	"repo": "uptrace/bun",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"dbfixture/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"extra/bunslog/**/*.md",
+		"extra/bunslog/**/*.go"
+	],
+	"collection_name_prefix": "github.com_uptrace_bun_extra_bunslog"
 }

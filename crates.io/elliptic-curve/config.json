@@ -1,13 +1,14 @@
 {
-  "native_identifier": "elliptic-curve",
-  "repo": "RustCrypto/traits",
-  "registry": "crates.io",
-  "tag_formats": [
-    "elliptic-curve-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "elliptic-curve/**/*.md",
-    "elliptic-curve/**/*.rs"
-  ]
+	"native_identifier": "elliptic-curve",
+	"repo": "RustCrypto/traits",
+	"registry": "crates.io",
+	"tag_formats": [
+		"elliptic-curve-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"elliptic-curve/**/*.md",
+		"elliptic-curve/**/*.rs"
+	],
+	"collection_name_prefix": "elliptic-curve"
 }

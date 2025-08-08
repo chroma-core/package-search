@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.md",
-    "babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.ts",
-    "babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.js",
-    "babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.tsx",
-    "babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.md",
+		"babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.ts",
+		"babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.js",
+		"babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.tsx",
+		"babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-bugfix-v8-spread-parameters-in-optional-chaining"
 }

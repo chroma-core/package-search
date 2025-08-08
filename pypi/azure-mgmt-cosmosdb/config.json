@@ -1,13 +1,14 @@
 {
-  "native_identifier": "azure-mgmt-cosmosdb",
-  "repo": "azure/azure-sdk-for-python",
-  "registry": "pypi",
-  "tag_formats": [
-    "azure-mgmt-cosmosdb_{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/cosmos/azure-mgmt-cosmosdb/**/*.md",
-    "sdk/cosmos/azure-mgmt-cosmosdb/**/*.py"
-  ]
+	"native_identifier": "azure-mgmt-cosmosdb",
+	"repo": "azure/azure-sdk-for-python",
+	"registry": "pypi",
+	"tag_formats": [
+		"azure-mgmt-cosmosdb_{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/cosmos/azure-mgmt-cosmosdb/**/*.md",
+		"sdk/cosmos/azure-mgmt-cosmosdb/**/*.py"
+	],
+	"collection_name_prefix": "azure-mgmt-cosmosdb"
 }

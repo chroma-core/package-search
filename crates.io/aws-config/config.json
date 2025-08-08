@@ -1,13 +1,14 @@
 {
-  "native_identifier": "aws-config",
-  "repo": "smithy-lang/smithy-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "aws/rust-runtime/aws-config/**/*.md",
-    "aws/rust-runtime/aws-config/**/*.rs"
-  ]
+	"native_identifier": "aws-config",
+	"repo": "smithy-lang/smithy-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"aws/rust-runtime/aws-config/**/*.md",
+		"aws/rust-runtime/aws-config/**/*.rs"
+	],
+	"collection_name_prefix": "aws-config"
 }

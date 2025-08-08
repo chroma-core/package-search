@@ -1,22 +1,23 @@
 {
-  "native_identifier": "kit",
-  "repo": "sveltejs/kit",
-  "registry": "npm",
-  "tag_formats": [
-    "@-v{major}.{minor}.{patch}",
-    "@sveltejs/adapter-auto@{major}.{minor}.{patch}-next.{DD}",
-    "@sveltejs/adapter-auto@{major}.{minor}.{patch}-next.{patch}",
-    "@sveltejs/adapter-auto@{major}.{minor}.0-next.{DD}",
-    "@sveltejs/adapter-auto@{major}.0.0-next.{DD}",
-    "@sveltejs/adapter-auto@{major}.0.{patch}-next.{DD}",
-    "@sveltejs/adapter-auto@{major}.{minor}.{patch}-next.{YY}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "kit",
+	"repo": "sveltejs/kit",
+	"registry": "npm",
+	"tag_formats": [
+		"@-v{major}.{minor}.{patch}",
+		"@sveltejs/adapter-auto@{major}.{minor}.{patch}-next.{DD}",
+		"@sveltejs/adapter-auto@{major}.{minor}.{patch}-next.{patch}",
+		"@sveltejs/adapter-auto@{major}.{minor}.0-next.{DD}",
+		"@sveltejs/adapter-auto@{major}.0.0-next.{DD}",
+		"@sveltejs/adapter-auto@{major}.0.{patch}-next.{DD}",
+		"@sveltejs/adapter-auto@{major}.{minor}.{patch}-next.{YY}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "kit"
 }

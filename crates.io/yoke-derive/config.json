@@ -1,13 +1,14 @@
 {
-  "native_identifier": "yoke-derive",
-  "repo": "unicode-org/icu4x",
-  "registry": "crates.io",
-  "tag_formats": [
-    "icu@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "utils/yoke/derive/**/*.md",
-    "utils/yoke/derive/**/*.rs"
-  ]
+	"native_identifier": "yoke-derive",
+	"repo": "unicode-org/icu4x",
+	"registry": "crates.io",
+	"tag_formats": [
+		"icu@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"utils/yoke/derive/**/*.md",
+		"utils/yoke/derive/**/*.rs"
+	],
+	"collection_name_prefix": "yoke-derive"
 }

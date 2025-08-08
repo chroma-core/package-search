@@ -1,13 +1,14 @@
 {
-  "native_identifier": "sha1-checked",
-  "repo": "RustCrypto/hashes",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sha1-checked/**/*.md",
-    "sha1-checked/**/*.rs"
-  ]
+	"native_identifier": "sha1-checked",
+	"repo": "RustCrypto/hashes",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sha1-checked/**/*.md",
+		"sha1-checked/**/*.rs"
+	],
+	"collection_name_prefix": "sha1-checked"
 }

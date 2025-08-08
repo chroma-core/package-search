@@ -1,13 +1,14 @@
 {
-  "native_identifier": "serde_spanned",
-  "repo": "toml-rs/toml",
-  "registry": "crates.io",
-  "tag_formats": [
-    "serde_spanned-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/serde_spanned/**/*.md",
-    "crates/serde_spanned/**/*.rs"
-  ]
+	"native_identifier": "serde_spanned",
+	"repo": "toml-rs/toml",
+	"registry": "crates.io",
+	"tag_formats": [
+		"serde_spanned-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/serde_spanned/**/*.md",
+		"crates/serde_spanned/**/*.rs"
+	],
+	"collection_name_prefix": "serde_spanned"
 }

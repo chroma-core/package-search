@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/hypermodeinc/modus/lib/wasmextractor",
-  "repo": "hypermodeinc/modus",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cli/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "lib/wasmextractor/**/*.md",
-    "lib/wasmextractor/**/*.go"
-  ]
+	"native_identifier": "github.com/hypermodeinc/modus/lib/wasmextractor",
+	"repo": "hypermodeinc/modus",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cli/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"lib/wasmextractor/**/*.md",
+		"lib/wasmextractor/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hypermodeinc_modus_lib_wasmextractor"
 }

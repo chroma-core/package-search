@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/azure/azure-sdk-for-go/sdk/storage/azblob",
-  "repo": "azure/azure-sdk-for-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/storage/azblob/**/*.md",
-    "sdk/storage/azblob/**/*.go"
-  ]
+	"native_identifier": "github.com/azure/azure-sdk-for-go/sdk/storage/azblob",
+	"repo": "azure/azure-sdk-for-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/storage/azblob/**/*.md",
+		"sdk/storage/azblob/**/*.go"
+	],
+	"collection_name_prefix": "github.com_azure_azure-sdk-for-go_sdk_storage_azblob"
 }

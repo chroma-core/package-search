@@ -1,13 +1,14 @@
 {
-  "native_identifier": "chacha20",
-  "repo": "RustCrypto/stream-ciphers",
-  "registry": "crates.io",
-  "tag_formats": [
-    "chacha20-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "chacha20/**/*.md",
-    "chacha20/**/*.rs"
-  ]
+	"native_identifier": "chacha20",
+	"repo": "RustCrypto/stream-ciphers",
+	"registry": "crates.io",
+	"tag_formats": [
+		"chacha20-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"chacha20/**/*.md",
+		"chacha20/**/*.rs"
+	],
+	"collection_name_prefix": "chacha20"
 }

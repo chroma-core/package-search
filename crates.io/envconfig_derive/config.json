@@ -1,13 +1,14 @@
 {
-  "native_identifier": "envconfig_derive",
-  "repo": "greyblake/envconfig-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "envconfig_derive/**/*.md",
-    "envconfig_derive/**/*.rs"
-  ]
+	"native_identifier": "envconfig_derive",
+	"repo": "greyblake/envconfig-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"envconfig_derive/**/*.md",
+		"envconfig_derive/**/*.rs"
+	],
+	"collection_name_prefix": "envconfig_derive"
 }

@@ -1,17 +1,18 @@
 {
-  "native_identifier": "github.com/keyval-dev/odigos/instrumentor",
-  "repo": "keyval-dev/odigos",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "api/v{major}.{minor}.{patch}",
-    "api/v{major}.0.{patch}",
-    "api/v1.{minor}.{patch}",
-    "api/v{major}.{minor}.{YY}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "instrumentor/**/*.md",
-    "instrumentor/**/*.go"
-  ]
+	"native_identifier": "github.com/keyval-dev/odigos/instrumentor",
+	"repo": "keyval-dev/odigos",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"api/v{major}.{minor}.{patch}",
+		"api/v{major}.0.{patch}",
+		"api/v1.{minor}.{patch}",
+		"api/v{major}.{minor}.{YY}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"instrumentor/**/*.md",
+		"instrumentor/**/*.go"
+	],
+	"collection_name_prefix": "github.com_keyval-dev_odigos_instrumentor"
 }

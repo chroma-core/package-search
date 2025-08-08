@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/elastic/go-elasticsearch/v7",
-  "repo": "elastic/go-elasticsearch",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v7/**/*.md",
-    "v7/**/*.go"
-  ]
+	"native_identifier": "github.com/elastic/go-elasticsearch/v7",
+	"repo": "elastic/go-elasticsearch",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v7/**/*.md",
+		"v7/**/*.go"
+	],
+	"collection_name_prefix": "github.com_elastic_go-elasticsearch_v7"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "keyed_priority_queue",
-  "repo": "AngelicosPhosphoros/keyed_priority_queue",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "keyed_priority_queue",
+	"repo": "AngelicosPhosphoros/keyed_priority_queue",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "keyed_priority_queue"
 }

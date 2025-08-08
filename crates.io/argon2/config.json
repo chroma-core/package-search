@@ -1,13 +1,14 @@
 {
-  "native_identifier": "argon2",
-  "repo": "RustCrypto/password-hashes",
-  "registry": "crates.io",
-  "tag_formats": [
-    "argon2-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "argon2/**/*.md",
-    "argon2/**/*.rs"
-  ]
+	"native_identifier": "argon2",
+	"repo": "RustCrypto/password-hashes",
+	"registry": "crates.io",
+	"tag_formats": [
+		"argon2-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"argon2/**/*.md",
+		"argon2/**/*.rs"
+	],
+	"collection_name_prefix": "argon2"
 }

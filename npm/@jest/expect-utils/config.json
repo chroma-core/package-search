@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@jest/expect-utils",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-expect-utils/**/*.md",
-    "packages/jest-expect-utils/**/*.ts",
-    "packages/jest-expect-utils/**/*.js",
-    "packages/jest-expect-utils/**/*.tsx",
-    "packages/jest-expect-utils/**/*.jsx"
-  ]
+	"native_identifier": "@jest/expect-utils",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-expect-utils/**/*.md",
+		"packages/jest-expect-utils/**/*.ts",
+		"packages/jest-expect-utils/**/*.js",
+		"packages/jest-expect-utils/**/*.tsx",
+		"packages/jest-expect-utils/**/*.jsx"
+	],
+	"collection_name_prefix": "jest_expect-utils"
 }

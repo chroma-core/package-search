@@ -1,13 +1,14 @@
 {
-  "native_identifier": "opentelemetry-instrumentation-urllib",
-  "repo": "open-telemetry/opentelemetry-python-contrib",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}b0"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "instrumentation/opentelemetry-instrumentation-urllib/**/*.md",
-    "instrumentation/opentelemetry-instrumentation-urllib/**/*.py"
-  ]
+	"native_identifier": "opentelemetry-instrumentation-urllib",
+	"repo": "open-telemetry/opentelemetry-python-contrib",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}b0"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"instrumentation/opentelemetry-instrumentation-urllib/**/*.md",
+		"instrumentation/opentelemetry-instrumentation-urllib/**/*.py"
+	],
+	"collection_name_prefix": "opentelemetry-instrumentation-urllib"
 }

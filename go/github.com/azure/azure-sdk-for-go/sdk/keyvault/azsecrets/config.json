@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/azure/azure-sdk-for-go/sdk/keyvault/azsecrets",
-  "repo": "azure/azure-sdk-for-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sdk/keyvault/azsecrets/**/*.md",
-    "sdk/keyvault/azsecrets/**/*.go"
-  ]
+	"native_identifier": "github.com/azure/azure-sdk-for-go/sdk/keyvault/azsecrets",
+	"repo": "azure/azure-sdk-for-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sdk/keyvault/azsecrets/**/*.md",
+		"sdk/keyvault/azsecrets/**/*.go"
+	],
+	"collection_name_prefix": "github.com_azure_azure-sdk-for-go_sdk_keyvault_azsecrets"
 }

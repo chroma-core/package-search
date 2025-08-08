@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/dolthub/dolt/go/gen/proto/dolt/services/eventsapi",
-  "repo": "dolthub/dolt",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "go/gen/proto/dolt/services/eventsapi/**/*.md",
-    "go/gen/proto/dolt/services/eventsapi/**/*.go"
-  ]
+	"native_identifier": "github.com/dolthub/dolt/go/gen/proto/dolt/services/eventsapi",
+	"repo": "dolthub/dolt",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"go/gen/proto/dolt/services/eventsapi/**/*.md",
+		"go/gen/proto/dolt/services/eventsapi/**/*.go"
+	],
+	"collection_name_prefix": "github.com_dolthub_dolt_go_gen_proto_dolt_services_eventsapi"
 }

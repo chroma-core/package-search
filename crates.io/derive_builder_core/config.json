@@ -1,13 +1,14 @@
 {
-  "native_identifier": "derive_builder_core",
-  "repo": "colin-kiegel/rust-derive-builder",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "derive_builder_core/**/*.md",
-    "derive_builder_core/**/*.rs"
-  ]
+	"native_identifier": "derive_builder_core",
+	"repo": "colin-kiegel/rust-derive-builder",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"derive_builder_core/**/*.md",
+		"derive_builder_core/**/*.rs"
+	],
+	"collection_name_prefix": "derive_builder_core"
 }

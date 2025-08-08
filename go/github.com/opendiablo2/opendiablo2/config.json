@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/opendiablo2/opendiablo2",
-  "repo": "opendiablo2/opendiablo2",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}-pre-alpha"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/opendiablo2/opendiablo2",
+	"repo": "opendiablo2/opendiablo2",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}-pre-alpha"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_opendiablo2_opendiablo2"
 }

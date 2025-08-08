@@ -1,16 +1,17 @@
 {
-  "native_identifier": "istanbul-reports",
-  "repo": "istanbuljs/istanbuljs",
-  "registry": "npm",
-  "tag_formats": [
-    "istanbul-reports@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/istanbul-reports/**/*.md",
-    "packages/istanbul-reports/**/*.ts",
-    "packages/istanbul-reports/**/*.js",
-    "packages/istanbul-reports/**/*.tsx",
-    "packages/istanbul-reports/**/*.jsx"
-  ]
+	"native_identifier": "istanbul-reports",
+	"repo": "istanbuljs/istanbuljs",
+	"registry": "npm",
+	"tag_formats": [
+		"istanbul-reports@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/istanbul-reports/**/*.md",
+		"packages/istanbul-reports/**/*.ts",
+		"packages/istanbul-reports/**/*.js",
+		"packages/istanbul-reports/**/*.tsx",
+		"packages/istanbul-reports/**/*.jsx"
+	],
+	"collection_name_prefix": "istanbul-reports"
 }

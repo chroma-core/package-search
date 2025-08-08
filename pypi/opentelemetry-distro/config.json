@@ -1,13 +1,14 @@
 {
-  "native_identifier": "opentelemetry-distro",
-  "repo": "open-telemetry/opentelemetry-python-contrib",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "opentelemetry-distro/**/*.md",
-    "opentelemetry-distro/**/*.py"
-  ]
+	"native_identifier": "opentelemetry-distro",
+	"repo": "open-telemetry/opentelemetry-python-contrib",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"opentelemetry-distro/**/*.md",
+		"opentelemetry-distro/**/*.py"
+	],
+	"collection_name_prefix": "opentelemetry-distro"
 }

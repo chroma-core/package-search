@@ -1,16 +1,17 @@
 {
-  "native_identifier": "num-bigint-dig",
-  "repo": "dignifiedquire/num-bigint",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "num-bigint-{major}.{minor}.{patch}",
-    "num-bigint-0.{minor}.{patch}",
-    "num-bigint-0.1.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.rs"
-  ]
+	"native_identifier": "num-bigint-dig",
+	"repo": "dignifiedquire/num-bigint",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"num-bigint-{major}.{minor}.{patch}",
+		"num-bigint-0.{minor}.{patch}",
+		"num-bigint-0.1.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.rs"
+	],
+	"collection_name_prefix": "num-bigint-dig"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "stdweb-derive",
-  "repo": "koute/stdweb",
-  "registry": "crates.io",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "stdweb-derive/**/*.md",
-    "stdweb-derive/**/*.rs"
-  ]
+	"native_identifier": "stdweb-derive",
+	"repo": "koute/stdweb",
+	"registry": "crates.io",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"stdweb-derive/**/*.md",
+		"stdweb-derive/**/*.rs"
+	],
+	"collection_name_prefix": "stdweb-derive"
 }

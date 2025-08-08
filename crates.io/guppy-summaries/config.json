@@ -1,14 +1,15 @@
 {
-  "native_identifier": "guppy-summaries",
-  "repo": "guppy-rs/guppy",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cargo-hakari-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "guppy-summaries/**/*.md",
-    "guppy-summaries/**/*.rs"
-  ]
+	"native_identifier": "guppy-summaries",
+	"repo": "guppy-rs/guppy",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cargo-hakari-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"guppy-summaries/**/*.md",
+		"guppy-summaries/**/*.rs"
+	],
+	"collection_name_prefix": "guppy-summaries"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/prometheus/client_golang/tutorials/whatsup",
-  "repo": "prometheus/client_golang",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "tutorials/whatsup/**/*.md",
-    "tutorials/whatsup/**/*.go"
-  ]
+	"native_identifier": "github.com/prometheus/client_golang/tutorials/whatsup",
+	"repo": "prometheus/client_golang",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"tutorials/whatsup/**/*.md",
+		"tutorials/whatsup/**/*.go"
+	],
+	"collection_name_prefix": "github.com_prometheus_client_golang_tutorials_whatsup"
 }

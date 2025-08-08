@@ -1,17 +1,18 @@
 {
-  "native_identifier": "github.com/datadog/datadog-agent/pkg/status/health",
-  "repo": "datadog/datadog-agent",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}",
-    "{major}.{patch}.{patch}",
-    "{major}.{major}.{patch}",
-    "{major}.{patch}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/status/health/**/*.md",
-    "pkg/status/health/**/*.go"
-  ]
+	"native_identifier": "github.com/datadog/datadog-agent/pkg/status/health",
+	"repo": "datadog/datadog-agent",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}",
+		"{major}.{patch}.{patch}",
+		"{major}.{major}.{patch}",
+		"{major}.{patch}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/status/health/**/*.md",
+		"pkg/status/health/**/*.go"
+	],
+	"collection_name_prefix": "github.com_datadog_datadog-agent_pkg_status_health"
 }

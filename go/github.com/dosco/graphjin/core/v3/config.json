@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/dosco/graphjin/core/v3",
-  "repo": "dosco/graphjin",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "core/v3/**/*.md",
-    "core/v3/**/*.go"
-  ]
+	"native_identifier": "github.com/dosco/graphjin/core/v3",
+	"repo": "dosco/graphjin",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"core/v3/**/*.md",
+		"core/v3/**/*.go"
+	],
+	"collection_name_prefix": "github.com_dosco_graphjin_core_v3"
 }

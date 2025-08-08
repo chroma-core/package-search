@@ -1,13 +1,14 @@
 {
-  "native_identifier": "rusoto",
-  "repo": "rusoto/rusoto",
-  "registry": "crates.io",
-  "tag_formats": [
-    "rusoto-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "rusoto/**/*.md",
-    "rusoto/**/*.rs"
-  ]
+	"native_identifier": "rusoto",
+	"repo": "rusoto/rusoto",
+	"registry": "crates.io",
+	"tag_formats": [
+		"rusoto-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"rusoto/**/*.md",
+		"rusoto/**/*.rs"
+	],
+	"collection_name_prefix": "rusoto"
 }

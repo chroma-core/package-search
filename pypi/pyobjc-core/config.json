@@ -1,13 +1,14 @@
 {
-  "native_identifier": "pyobjc-core",
-  "repo": "ronaldoussoren/pyobjc",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pyobjc-core/**/*.md",
-    "pyobjc-core/**/*.py"
-  ]
+	"native_identifier": "pyobjc-core",
+	"repo": "ronaldoussoren/pyobjc",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pyobjc-core/**/*.md",
+		"pyobjc-core/**/*.py"
+	],
+	"collection_name_prefix": "pyobjc-core"
 }

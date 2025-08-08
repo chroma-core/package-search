@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/google/tink/go",
-  "repo": "google/tink",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "go/**/*.md",
-    "go/**/*.go"
-  ]
+	"native_identifier": "github.com/google/tink/go",
+	"repo": "google/tink",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"go/**/*.md",
+		"go/**/*.go"
+	],
+	"collection_name_prefix": "github.com_google_tink_go"
 }

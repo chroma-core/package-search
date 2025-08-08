@@ -1,19 +1,20 @@
 {
-  "native_identifier": "goindex",
-  "repo": "alx-xlx/goindex",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}-darkmode-{minor}.{patch}",
-    "{major}.{minor}.{patch}-darkmode-0.{patch}",
-    "{major}.{minor}.{patch}-darkmode-{patch}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "goindex",
+	"repo": "alx-xlx/goindex",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}-darkmode-{minor}.{patch}",
+		"{major}.{minor}.{patch}-darkmode-0.{patch}",
+		"{major}.{minor}.{patch}-darkmode-{patch}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "goindex"
 }

@@ -1,18 +1,19 @@
 {
-  "native_identifier": "shuang",
-  "repo": "bluesky-07/shuang",
-  "registry": "npm",
-  "tag_formats": [
-    "{major}.{minor}",
-    "r{major}",
-    "r{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "shuang",
+	"repo": "bluesky-07/shuang",
+	"registry": "npm",
+	"tag_formats": [
+		"{major}.{minor}",
+		"r{major}",
+		"r{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "shuang"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "gyp",
-  "repo": "nodejs/node-gyp",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "gyp/**/*.md",
-    "gyp/**/*.py"
-  ]
+	"native_identifier": "gyp",
+	"repo": "nodejs/node-gyp",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"gyp/**/*.md",
+		"gyp/**/*.py"
+	],
+	"collection_name_prefix": "gyp"
 }

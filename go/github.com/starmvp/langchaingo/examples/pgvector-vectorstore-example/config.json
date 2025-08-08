@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/starmvp/langchaingo/examples/pgvector-vectorstore-example",
-  "repo": "starmvp/langchaingo",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "examples/pgvector-vectorstore-example/**/*.md",
-    "examples/pgvector-vectorstore-example/**/*.go"
-  ]
+	"native_identifier": "github.com/starmvp/langchaingo/examples/pgvector-vectorstore-example",
+	"repo": "starmvp/langchaingo",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"examples/pgvector-vectorstore-example/**/*.md",
+		"examples/pgvector-vectorstore-example/**/*.go"
+	],
+	"collection_name_prefix": "github.com_starmvp_langchaingo_examples_pgvector-vectorstore-example"
 }

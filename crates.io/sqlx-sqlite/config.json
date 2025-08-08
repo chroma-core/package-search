@@ -1,13 +1,14 @@
 {
-  "native_identifier": "sqlx-sqlite",
-  "repo": "launchbadge/sqlx",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sqlx-sqlite/**/*.md",
-    "sqlx-sqlite/**/*.rs"
-  ]
+	"native_identifier": "sqlx-sqlite",
+	"repo": "launchbadge/sqlx",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sqlx-sqlite/**/*.md",
+		"sqlx-sqlite/**/*.rs"
+	],
+	"collection_name_prefix": "sqlx-sqlite"
 }

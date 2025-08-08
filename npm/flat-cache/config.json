@@ -1,16 +1,17 @@
 {
-  "native_identifier": "flat-cache",
-  "repo": "jaredwray/cacheable",
-  "registry": "npm",
-  "tag_formats": [
-    "{YYYY}-{MM}-{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/flat-cache/**/*.md",
-    "packages/flat-cache/**/*.ts",
-    "packages/flat-cache/**/*.js",
-    "packages/flat-cache/**/*.tsx",
-    "packages/flat-cache/**/*.jsx"
-  ]
+	"native_identifier": "flat-cache",
+	"repo": "jaredwray/cacheable",
+	"registry": "npm",
+	"tag_formats": [
+		"{YYYY}-{MM}-{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/flat-cache/**/*.md",
+		"packages/flat-cache/**/*.ts",
+		"packages/flat-cache/**/*.js",
+		"packages/flat-cache/**/*.tsx",
+		"packages/flat-cache/**/*.jsx"
+	],
+	"collection_name_prefix": "flat-cache"
 }

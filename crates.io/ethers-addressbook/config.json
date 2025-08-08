@@ -1,13 +1,14 @@
 {
-  "native_identifier": "ethers-addressbook",
-  "repo": "gakonst/ethers-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "ethers-addressbook/**/*.md",
-    "ethers-addressbook/**/*.rs"
-  ]
+	"native_identifier": "ethers-addressbook",
+	"repo": "gakonst/ethers-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"ethers-addressbook/**/*.md",
+		"ethers-addressbook/**/*.rs"
+	],
+	"collection_name_prefix": "ethers-addressbook"
 }

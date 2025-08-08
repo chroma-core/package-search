@@ -1,13 +1,14 @@
 {
-  "native_identifier": "postgres-native-tls",
-  "repo": "sfackler/rust-postgres",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "postgres-native-tls/**/*.md",
-    "postgres-native-tls/**/*.rs"
-  ]
+	"native_identifier": "postgres-native-tls",
+	"repo": "sfackler/rust-postgres",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"postgres-native-tls/**/*.md",
+		"postgres-native-tls/**/*.rs"
+	],
+	"collection_name_prefix": "postgres-native-tls"
 }

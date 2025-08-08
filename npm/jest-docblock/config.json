@@ -1,16 +1,17 @@
 {
-  "native_identifier": "jest-docblock",
-  "repo": "jestjs/jest",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/jest-docblock/**/*.md",
-    "packages/jest-docblock/**/*.ts",
-    "packages/jest-docblock/**/*.js",
-    "packages/jest-docblock/**/*.tsx",
-    "packages/jest-docblock/**/*.jsx"
-  ]
+	"native_identifier": "jest-docblock",
+	"repo": "jestjs/jest",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/jest-docblock/**/*.md",
+		"packages/jest-docblock/**/*.ts",
+		"packages/jest-docblock/**/*.js",
+		"packages/jest-docblock/**/*.tsx",
+		"packages/jest-docblock/**/*.jsx"
+	],
+	"collection_name_prefix": "jest-docblock"
 }

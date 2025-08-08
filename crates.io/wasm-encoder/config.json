@@ -1,13 +1,14 @@
 {
-  "native_identifier": "wasm-encoder",
-  "repo": "bytecodealliance/wasm-tools",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crates/wasm-encoder/**/*.md",
-    "crates/wasm-encoder/**/*.rs"
-  ]
+	"native_identifier": "wasm-encoder",
+	"repo": "bytecodealliance/wasm-tools",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crates/wasm-encoder/**/*.md",
+		"crates/wasm-encoder/**/*.rs"
+	],
+	"collection_name_prefix": "wasm-encoder"
 }

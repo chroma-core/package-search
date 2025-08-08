@@ -1,16 +1,17 @@
 {
-  "native_identifier": "session",
-  "repo": "expressjs/session",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "session/**/*.md",
-    "session/**/*.ts",
-    "session/**/*.js",
-    "session/**/*.tsx",
-    "session/**/*.jsx"
-  ]
+	"native_identifier": "session",
+	"repo": "expressjs/session",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"session/**/*.md",
+		"session/**/*.ts",
+		"session/**/*.js",
+		"session/**/*.tsx",
+		"session/**/*.jsx"
+	],
+	"collection_name_prefix": "session"
 }

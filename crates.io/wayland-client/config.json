@@ -1,13 +1,14 @@
 {
-  "native_identifier": "wayland-client",
-  "repo": "smithay/wayland-rs",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "wayland-client/**/*.md",
-    "wayland-client/**/*.rs"
-  ]
+	"native_identifier": "wayland-client",
+	"repo": "smithay/wayland-rs",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"wayland-client/**/*.md",
+		"wayland-client/**/*.rs"
+	],
+	"collection_name_prefix": "wayland-client"
 }

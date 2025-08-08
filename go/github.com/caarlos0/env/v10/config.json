@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/caarlos0/env/v10",
-  "repo": "caarlos0/env",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v10/**/*.md",
-    "v10/**/*.go"
-  ]
+	"native_identifier": "github.com/caarlos0/env/v10",
+	"repo": "caarlos0/env",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v10/**/*.md",
+		"v10/**/*.go"
+	],
+	"collection_name_prefix": "github.com_caarlos0_env_v10"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "metrics-exporter-prometheus",
-  "repo": "metrics-rs/metrics",
-  "registry": "crates.io",
-  "tag_formats": [
-    "metrics-exporter-prometheus-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "metrics-exporter-prometheus/**/*.md",
-    "metrics-exporter-prometheus/**/*.rs"
-  ]
+	"native_identifier": "metrics-exporter-prometheus",
+	"repo": "metrics-rs/metrics",
+	"registry": "crates.io",
+	"tag_formats": [
+		"metrics-exporter-prometheus-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"metrics-exporter-prometheus/**/*.md",
+		"metrics-exporter-prometheus/**/*.rs"
+	],
+	"collection_name_prefix": "metrics-exporter-prometheus"
 }

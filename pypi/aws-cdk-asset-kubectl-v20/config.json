@@ -1,14 +1,15 @@
 {
-  "native_identifier": "aws-cdk-asset-kubectl-v20",
-  "repo": "cdklabs/awscdk-asset-kubectl",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "kubectl-v{major}v{minor}.{patch}.{DD}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "aws-cdk-asset-kubectl-v20",
+	"repo": "cdklabs/awscdk-asset-kubectl",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"kubectl-v{major}v{minor}.{patch}.{DD}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "aws-cdk-asset-kubectl-v20"
 }

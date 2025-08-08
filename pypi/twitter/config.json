@@ -1,18 +1,19 @@
 {
-  "native_identifier": "twitter",
-  "repo": "python-twitter-tools/twitter",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "twitter-{major}.{minor}",
-    "twitter-{major}.{minor}.{patch}",
-    "twitter-{major}.{patch}.{minor}",
-    "twitter-{major}.{minor}.0",
-    "twitter-{major}.{DD}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "twitter",
+	"repo": "python-twitter-tools/twitter",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"twitter-{major}.{minor}",
+		"twitter-{major}.{minor}.{patch}",
+		"twitter-{major}.{patch}.{minor}",
+		"twitter-{major}.{minor}.0",
+		"twitter-{major}.{DD}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "twitter"
 }

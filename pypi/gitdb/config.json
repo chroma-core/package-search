@@ -1,13 +1,14 @@
 {
-  "native_identifier": "gitdb",
-  "repo": "gitpython-developers/gitdb",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "gitdb/**/*.md",
-    "gitdb/**/*.py"
-  ]
+	"native_identifier": "gitdb",
+	"repo": "gitpython-developers/gitdb",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"gitdb/**/*.md",
+		"gitdb/**/*.py"
+	],
+	"collection_name_prefix": "gitdb"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/aws",
-  "repo": "sigstore/sigstore",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/signature/kms/aws/**/*.md",
-    "pkg/signature/kms/aws/**/*.go"
-  ]
+	"native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/aws",
+	"repo": "sigstore/sigstore",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/signature/kms/aws/**/*.md",
+		"pkg/signature/kms/aws/**/*.go"
+	],
+	"collection_name_prefix": "github.com_sigstore_sigstore_pkg_signature_kms_aws"
 }

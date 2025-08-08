@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/korandiz/v4l/demos/viewcam",
-  "repo": "korandiz/v4l",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "demos/viewcam/**/*.md",
-    "demos/viewcam/**/*.go"
-  ]
+	"native_identifier": "github.com/korandiz/v4l/demos/viewcam",
+	"repo": "korandiz/v4l",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"demos/viewcam/**/*.md",
+		"demos/viewcam/**/*.go"
+	],
+	"collection_name_prefix": "github.com_korandiz_v4l_demos_viewcam"
 }

@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/charmbracelet/x/exp/golden",
-  "repo": "charmbracelet/x",
-  "registry": "go",
-  "tag_formats": [
-    "/v{major}.{minor}.{patch}",
-    "ansi/v{major}.{minor}.{patch}",
-    "ansi/v{major}.{patch}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "exp/golden/**/*.md",
-    "exp/golden/**/*.go"
-  ]
+	"native_identifier": "github.com/charmbracelet/x/exp/golden",
+	"repo": "charmbracelet/x",
+	"registry": "go",
+	"tag_formats": [
+		"/v{major}.{minor}.{patch}",
+		"ansi/v{major}.{minor}.{patch}",
+		"ansi/v{major}.{patch}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"exp/golden/**/*.md",
+		"exp/golden/**/*.go"
+	],
+	"collection_name_prefix": "github.com_charmbracelet_x_exp_golden"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/cloudevents/sdk-go/sql/v2",
-  "repo": "cloudevents/sdk-go",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "sql/v2/**/*.md",
-    "sql/v2/**/*.go"
-  ]
+	"native_identifier": "github.com/cloudevents/sdk-go/sql/v2",
+	"repo": "cloudevents/sdk-go",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"sql/v2/**/*.md",
+		"sql/v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_cloudevents_sdk-go_sql_v2"
 }

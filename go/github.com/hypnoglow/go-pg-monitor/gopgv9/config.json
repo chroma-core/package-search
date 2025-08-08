@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/hypnoglow/go-pg-monitor/gopgv9",
-  "repo": "hypnoglow/go-pg-monitor",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "gopgv9/**/*.md",
-    "gopgv9/**/*.go"
-  ]
+	"native_identifier": "github.com/hypnoglow/go-pg-monitor/gopgv9",
+	"repo": "hypnoglow/go-pg-monitor",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"gopgv9/**/*.md",
+		"gopgv9/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hypnoglow_go-pg-monitor_gopgv9"
 }

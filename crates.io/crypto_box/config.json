@@ -1,13 +1,14 @@
 {
-  "native_identifier": "crypto_box",
-  "repo": "RustCrypto/nacl-compat",
-  "registry": "crates.io",
-  "tag_formats": [
-    "crypto_box-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "crypto_box/**/*.md",
-    "crypto_box/**/*.rs"
-  ]
+	"native_identifier": "crypto_box",
+	"repo": "RustCrypto/nacl-compat",
+	"registry": "crates.io",
+	"tag_formats": [
+		"crypto_box-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"crypto_box/**/*.md",
+		"crypto_box/**/*.rs"
+	],
+	"collection_name_prefix": "crypto_box"
 }

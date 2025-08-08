@@ -1,16 +1,17 @@
 {
-  "native_identifier": "github.com/bufbuild/protoc-gen-validate",
-  "repo": "bufbuild/protoc-gen-validate",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "v{major}.{minor}.{patch}-SNAPSHOT.{patch}",
-    "v{patch}.{minor}.{patch}",
-    "v{major}.{major}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/bufbuild/protoc-gen-validate",
+	"repo": "bufbuild/protoc-gen-validate",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"v{major}.{minor}.{patch}-SNAPSHOT.{patch}",
+		"v{patch}.{minor}.{patch}",
+		"v{major}.{major}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_bufbuild_protoc-gen-validate"
 }

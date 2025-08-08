@@ -1,14 +1,15 @@
 {
-  "native_identifier": "cargo-nextest",
-  "repo": "nextest-rs/nextest",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "cargo-nextest-{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "cargo-nextest/**/*.md",
-    "cargo-nextest/**/*.rs"
-  ]
+	"native_identifier": "cargo-nextest",
+	"repo": "nextest-rs/nextest",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"cargo-nextest-{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"cargo-nextest/**/*.md",
+		"cargo-nextest/**/*.rs"
+	],
+	"collection_name_prefix": "cargo-nextest"
 }

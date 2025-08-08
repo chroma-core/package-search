@@ -1,13 +1,14 @@
 {
-  "native_identifier": "match_token",
-  "repo": "servo/html5ever",
-  "registry": "crates.io",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "match_token/**/*.md",
-    "match_token/**/*.rs"
-  ]
+	"native_identifier": "match_token",
+	"repo": "servo/html5ever",
+	"registry": "crates.io",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"match_token/**/*.md",
+		"match_token/**/*.rs"
+	],
+	"collection_name_prefix": "match_token"
 }

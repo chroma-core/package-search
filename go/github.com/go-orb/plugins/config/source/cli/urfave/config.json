@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/go-orb/plugins/config/source/cli/urfave",
-  "repo": "go-orb/plugins",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "config/source/cli/urfave/**/*.md",
-    "config/source/cli/urfave/**/*.go"
-  ]
+	"native_identifier": "github.com/go-orb/plugins/config/source/cli/urfave",
+	"repo": "go-orb/plugins",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"config/source/cli/urfave/**/*.md",
+		"config/source/cli/urfave/**/*.go"
+	],
+	"collection_name_prefix": "github.com_go-orb_plugins_config_source_cli_urfave"
 }

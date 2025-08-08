@@ -1,18 +1,19 @@
 {
-  "native_identifier": "loopback-next",
-  "repo": "loopbackio/loopback-next",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "@loopback/apiconnect@{major}.{minor}.{patch}",
-    "@loopback/apiconnect@{major}.{patch}.{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.tsx",
-    "**/*.jsx"
-  ]
+	"native_identifier": "loopback-next",
+	"repo": "loopbackio/loopback-next",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"@loopback/apiconnect@{major}.{minor}.{patch}",
+		"@loopback/apiconnect@{major}.{patch}.{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.tsx",
+		"**/*.jsx"
+	],
+	"collection_name_prefix": "loopback-next"
 }

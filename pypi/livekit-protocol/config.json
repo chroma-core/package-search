@@ -1,14 +1,15 @@
 {
-  "native_identifier": "livekit-protocol",
-  "repo": "livekit/python-sdks",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "api-v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "livekit-protocol/**/*.md",
-    "livekit-protocol/**/*.py"
-  ]
+	"native_identifier": "livekit-protocol",
+	"repo": "livekit/python-sdks",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"api-v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"livekit-protocol/**/*.md",
+		"livekit-protocol/**/*.py"
+	],
+	"collection_name_prefix": "livekit-protocol"
 }

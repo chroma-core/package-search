@@ -1,13 +1,14 @@
 {
-  "native_identifier": "langchain-openai",
-  "repo": "langchain-ai/langchain",
-  "registry": "pypi",
-  "tag_formats": [
-    "langchain-openai=={major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "libs/partners/openai/**/*.md",
-    "libs/partners/openai/**/*.py"
-  ]
+	"native_identifier": "langchain-openai",
+	"repo": "langchain-ai/langchain",
+	"registry": "pypi",
+	"tag_formats": [
+		"langchain-openai=={major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"libs/partners/openai/**/*.md",
+		"libs/partners/openai/**/*.py"
+	],
+	"collection_name_prefix": "langchain-openai"
 }

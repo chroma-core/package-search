@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/azure",
-  "repo": "sigstore/sigstore",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "pkg/signature/kms/azure/**/*.md",
-    "pkg/signature/kms/azure/**/*.go"
-  ]
+	"native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/azure",
+	"repo": "sigstore/sigstore",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"pkg/signature/kms/azure/**/*.md",
+		"pkg/signature/kms/azure/**/*.go"
+	],
+	"collection_name_prefix": "github.com_sigstore_sigstore_pkg_signature_kms_azure"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/webp-sh/webp_server_go",
-  "repo": "webp-sh/webp_server_go",
-  "registry": "go",
-  "tag_formats": [
-    "{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/webp-sh/webp_server_go",
+	"repo": "webp-sh/webp_server_go",
+	"registry": "go",
+	"tag_formats": [
+		"{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_webp-sh_webp_server_go"
 }

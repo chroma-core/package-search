@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/bwmarrin/discordgo/examples/linked_roles",
-  "repo": "bwmarrin/discordgo",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "examples/linked_roles/**/*.md",
-    "examples/linked_roles/**/*.go"
-  ]
+	"native_identifier": "github.com/bwmarrin/discordgo/examples/linked_roles",
+	"repo": "bwmarrin/discordgo",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"examples/linked_roles/**/*.md",
+		"examples/linked_roles/**/*.go"
+	],
+	"collection_name_prefix": "github.com_bwmarrin_discordgo_examples_linked_roles"
 }

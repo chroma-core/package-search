@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@babel/plugin-syntax-async-generators",
-  "repo": "babel/babel",
-  "registry": "npm",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/babel-plugin-syntax-async-generators/**/*.md",
-    "packages/babel-plugin-syntax-async-generators/**/*.ts",
-    "packages/babel-plugin-syntax-async-generators/**/*.js",
-    "packages/babel-plugin-syntax-async-generators/**/*.tsx",
-    "packages/babel-plugin-syntax-async-generators/**/*.jsx"
-  ]
+	"native_identifier": "@babel/plugin-syntax-async-generators",
+	"repo": "babel/babel",
+	"registry": "npm",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/babel-plugin-syntax-async-generators/**/*.md",
+		"packages/babel-plugin-syntax-async-generators/**/*.ts",
+		"packages/babel-plugin-syntax-async-generators/**/*.js",
+		"packages/babel-plugin-syntax-async-generators/**/*.tsx",
+		"packages/babel-plugin-syntax-async-generators/**/*.jsx"
+	],
+	"collection_name_prefix": "babel_plugin-syntax-async-generators"
 }

@@ -1,15 +1,16 @@
 {
-  "native_identifier": "github.com/tarmac-project/hord/drivers/bbolt",
-  "repo": "tarmac-project/hord",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "drivers/bbolt/v{major}.{minor}.{patch}",
-    "cache/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.go"
-  ]
+	"native_identifier": "github.com/tarmac-project/hord/drivers/bbolt",
+	"repo": "tarmac-project/hord",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"drivers/bbolt/v{major}.{minor}.{patch}",
+		"cache/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.go"
+	],
+	"collection_name_prefix": "github.com_tarmac-project_hord_drivers_bbolt"
 }

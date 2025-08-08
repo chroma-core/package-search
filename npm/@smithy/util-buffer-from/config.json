@@ -1,16 +1,17 @@
 {
-  "native_identifier": "@smithy/util-buffer-from",
-  "repo": "awslabs/smithy-typescript",
-  "registry": "npm",
-  "tag_formats": [
-    "@smithy/util-buffer-from@{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "packages/util-buffer-from/**/*.md",
-    "packages/util-buffer-from/**/*.ts",
-    "packages/util-buffer-from/**/*.js",
-    "packages/util-buffer-from/**/*.tsx",
-    "packages/util-buffer-from/**/*.jsx"
-  ]
+	"native_identifier": "@smithy/util-buffer-from",
+	"repo": "awslabs/smithy-typescript",
+	"registry": "npm",
+	"tag_formats": [
+		"@smithy/util-buffer-from@{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"packages/util-buffer-from/**/*.md",
+		"packages/util-buffer-from/**/*.ts",
+		"packages/util-buffer-from/**/*.js",
+		"packages/util-buffer-from/**/*.tsx",
+		"packages/util-buffer-from/**/*.jsx"
+	],
+	"collection_name_prefix": "smithy_util-buffer-from"
 }

@@ -1,14 +1,15 @@
 {
-  "native_identifier": "github.com/hashicorp/go-secure-stdlib/password",
-  "repo": "hashicorp/go-secure-stdlib",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}",
-    "awsutil/v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "password/**/*.md",
-    "password/**/*.go"
-  ]
+	"native_identifier": "github.com/hashicorp/go-secure-stdlib/password",
+	"repo": "hashicorp/go-secure-stdlib",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}",
+		"awsutil/v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"password/**/*.md",
+		"password/**/*.go"
+	],
+	"collection_name_prefix": "github.com_hashicorp_go-secure-stdlib_password"
 }

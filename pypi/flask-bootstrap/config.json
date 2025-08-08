@@ -1,17 +1,18 @@
 {
-  "native_identifier": "flask-bootstrap",
-  "repo": "mbr/flask-bootstrap",
-  "registry": "pypi",
-  "tag_formats": [
-    "{major}.{minor}.{patch}",
-    "{major}.{minor}.{patch}.{minor}",
-    "{major}.{minor}.{patch}-{patch}",
-    "{major}.{minor}.{patch}.{patch}",
-    "{major}.{minor}.{patch}-{minor}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "**/*.md",
-    "**/*.py"
-  ]
+	"native_identifier": "flask-bootstrap",
+	"repo": "mbr/flask-bootstrap",
+	"registry": "pypi",
+	"tag_formats": [
+		"{major}.{minor}.{patch}",
+		"{major}.{minor}.{patch}.{minor}",
+		"{major}.{minor}.{patch}-{patch}",
+		"{major}.{minor}.{patch}.{patch}",
+		"{major}.{minor}.{patch}-{minor}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"**/*.md",
+		"**/*.py"
+	],
+	"collection_name_prefix": "flask-bootstrap"
 }

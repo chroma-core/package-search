@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/codenotary/immudb/test/e2e/truncation",
-  "repo": "codenotary/immudb",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "test/e2e/truncation/**/*.md",
-    "test/e2e/truncation/**/*.go"
-  ]
+	"native_identifier": "github.com/codenotary/immudb/test/e2e/truncation",
+	"repo": "codenotary/immudb",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"test/e2e/truncation/**/*.md",
+		"test/e2e/truncation/**/*.go"
+	],
+	"collection_name_prefix": "github.com_codenotary_immudb_test_e2e_truncation"
 }

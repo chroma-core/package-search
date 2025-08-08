@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/tarantool/go-tarantool/uuid",
-  "repo": "tarantool/go-tarantool",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "uuid/**/*.md",
-    "uuid/**/*.go"
-  ]
+	"native_identifier": "github.com/tarantool/go-tarantool/uuid",
+	"repo": "tarantool/go-tarantool",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"uuid/**/*.md",
+		"uuid/**/*.go"
+	],
+	"collection_name_prefix": "github.com_tarantool_go-tarantool_uuid"
 }

@@ -1,13 +1,14 @@
 {
-  "native_identifier": "github.com/d5/tengo/v2",
-  "repo": "d5/tengo",
-  "registry": "go",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "v2/**/*.md",
-    "v2/**/*.go"
-  ]
+	"native_identifier": "github.com/d5/tengo/v2",
+	"repo": "d5/tengo",
+	"registry": "go",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"v2/**/*.md",
+		"v2/**/*.go"
+	],
+	"collection_name_prefix": "github.com_d5_tengo_v2"
 }

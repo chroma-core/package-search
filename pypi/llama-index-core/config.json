@@ -1,13 +1,14 @@
 {
-  "native_identifier": "llama-index-core",
-  "repo": "run-llama/llama_index",
-  "registry": "pypi",
-  "tag_formats": [
-    "v{major}.{minor}.{patch}"
-  ],
-  "sentinel_timestamp": "2024-01-01T00:00:00+0000",
-  "include": [
-    "llama-index-core/**/*.md",
-    "llama-index-core/**/*.py"
-  ]
+	"native_identifier": "llama-index-core",
+	"repo": "run-llama/llama_index",
+	"registry": "pypi",
+	"tag_formats": [
+		"v{major}.{minor}.{patch}"
+	],
+	"sentinel_timestamp": "2024-01-01T00:00:00+0000",
+	"include": [
+		"llama-index-core/**/*.md",
+		"llama-index-core/**/*.py"
+	],
+	"collection_name_prefix": "llama-index-core"
 }
