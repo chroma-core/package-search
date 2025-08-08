@@ -3,7 +3,7 @@
 	"repo": "actix/actix-web",
 	"registry": "crates.io",
 	"tag_formats": [
-		"{major}.{minor}.{patch}"
+		"web-v{major}.{minor}.{patch}"
 	],
 	"sentinel_timestamp": "2024-01-01T00:00:00Z",
 	"include": [
