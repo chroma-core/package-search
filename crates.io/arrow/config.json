@@ -1,6 +1,6 @@
 {
 	"native_identifier": "arrow",
-	"repo": "apache/datafusion-ballista",
+	"repo": "apache/arrow-rs",
 	"registry": "crates.io",
 	"tag_formats": [
 		"{major}.{minor}.{patch}"
