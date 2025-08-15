@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-jose/go-jose/jose-util",
-	"repo": "go-jose/go-jose",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"jose-util/**/*.md",
-		"jose-util/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-jose_go-jose_jose-util"
+    "native_identifier": "github.com/go-jose/go-jose/jose-util",
+    "repo": "go-jose/go-jose",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "jose-util/**/*.md",
+        "jose-util/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-jose_go-jose_jose-util",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

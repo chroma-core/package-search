@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-syntax-nullish-coalescing-operator",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.md",
-		"packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.ts",
-		"packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.js",
-		"packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.tsx",
-		"packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-syntax-nullish-coalescing-operator"
+    "native_identifier": "@babel/plugin-syntax-nullish-coalescing-operator",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.md",
+        "packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.ts",
+        "packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.js",
+        "packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.tsx",
+        "packages/babel-plugin-syntax-nullish-coalescing-operator/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-syntax-nullish-coalescing-operator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

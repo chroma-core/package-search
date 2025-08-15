@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jest/fake-timers",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-fake-timers/**/*.md",
-		"packages/jest-fake-timers/**/*.ts",
-		"packages/jest-fake-timers/**/*.js",
-		"packages/jest-fake-timers/**/*.tsx",
-		"packages/jest-fake-timers/**/*.jsx"
-	],
-	"collection_name_prefix": "jest_fake-timers"
+    "native_identifier": "@jest/fake-timers",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-fake-timers/**/*.md",
+        "packages/jest-fake-timers/**/*.ts",
+        "packages/jest-fake-timers/**/*.js",
+        "packages/jest-fake-timers/**/*.tsx",
+        "packages/jest-fake-timers/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest_fake-timers",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

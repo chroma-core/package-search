@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@nodelib/fs.stat",
-	"repo": "nodelib/nodelib",
-	"registry": "npm",
-	"tag_formats": [
-		"@nodelib/fs.stat@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/fs/fs.stat/**/*.md",
-		"packages/fs/fs.stat/**/*.ts",
-		"packages/fs/fs.stat/**/*.js",
-		"packages/fs/fs.stat/**/*.tsx",
-		"packages/fs/fs.stat/**/*.jsx"
-	],
-	"collection_name_prefix": "nodelib_fs.stat"
+    "native_identifier": "@nodelib/fs.stat",
+    "repo": "nodelib/nodelib",
+    "registry": "npm",
+    "tag_formats": [
+        "@nodelib/fs.stat@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/fs/fs.stat/**/*.md",
+        "packages/fs/fs.stat/**/*.ts",
+        "packages/fs/fs.stat/**/*.js",
+        "packages/fs/fs.stat/**/*.tsx",
+        "packages/fs/fs.stat/**/*.jsx"
+    ],
+    "collection_name_prefix": "nodelib_fs.stat",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

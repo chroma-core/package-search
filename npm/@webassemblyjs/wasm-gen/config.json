@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@webassemblyjs/wasm-gen",
-	"repo": "xtuc/webassemblyjs",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/wasm-gen/**/*.md",
-		"packages/wasm-gen/**/*.ts",
-		"packages/wasm-gen/**/*.js",
-		"packages/wasm-gen/**/*.tsx",
-		"packages/wasm-gen/**/*.jsx"
-	],
-	"collection_name_prefix": "webassemblyjs_wasm-gen"
+    "native_identifier": "@webassemblyjs/wasm-gen",
+    "repo": "xtuc/webassemblyjs",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/wasm-gen/**/*.md",
+        "packages/wasm-gen/**/*.ts",
+        "packages/wasm-gen/**/*.js",
+        "packages/wasm-gen/**/*.tsx",
+        "packages/wasm-gen/**/*.jsx"
+    ],
+    "collection_name_prefix": "webassemblyjs_wasm-gen",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

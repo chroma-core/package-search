@@ -1,17 +1,19 @@
 {
-	"native_identifier": "istanbul-lib-instrument",
-	"repo": "istanbuljs/istanbuljs",
-	"registry": "npm",
-	"tag_formats": [
-		"istanbul-lib-instrument@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/istanbul-lib-instrument/**/*.md",
-		"packages/istanbul-lib-instrument/**/*.ts",
-		"packages/istanbul-lib-instrument/**/*.js",
-		"packages/istanbul-lib-instrument/**/*.tsx",
-		"packages/istanbul-lib-instrument/**/*.jsx"
-	],
-	"collection_name_prefix": "istanbul-lib-instrument"
+    "native_identifier": "istanbul-lib-instrument",
+    "repo": "istanbuljs/istanbuljs",
+    "registry": "npm",
+    "tag_formats": [
+        "istanbul-lib-instrument@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/istanbul-lib-instrument/**/*.md",
+        "packages/istanbul-lib-instrument/**/*.ts",
+        "packages/istanbul-lib-instrument/**/*.js",
+        "packages/istanbul-lib-instrument/**/*.tsx",
+        "packages/istanbul-lib-instrument/**/*.jsx"
+    ],
+    "collection_name_prefix": "istanbul-lib-instrument",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/sjlleo/netflix-verify",
-	"repo": "sjlleo/netflix-verify",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_sjlleo_netflix-verify"
+    "native_identifier": "github.com/sjlleo/netflix-verify",
+    "repo": "sjlleo/netflix-verify",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_sjlleo_netflix-verify",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

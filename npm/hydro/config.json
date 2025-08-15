@@ -1,19 +1,21 @@
 {
-	"native_identifier": "hydro",
-	"repo": "hydro-dev/hydro",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}-beta.{patch}",
-		"{major}.{minor}.{patch}-beta.0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "hydro"
+    "native_identifier": "hydro",
+    "repo": "hydro-dev/hydro",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-beta.{patch}",
+        "{major}.{minor}.{patch}-beta.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "hydro",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

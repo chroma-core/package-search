@@ -1,18 +1,20 @@
 {
-	"native_identifier": "github.com/michenriksen/gitrob",
-	"repo": "michenriksen/gitrob",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{minor}-beta",
-		"v{major}.{minor}.{patch}-beta",
-		"v{major}.{minor}.0-beta",
-		"v{major}.0.0-beta"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_michenriksen_gitrob"
+    "native_identifier": "github.com/michenriksen/gitrob",
+    "repo": "michenriksen/gitrob",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{minor}-beta",
+        "v{major}.{minor}.{patch}-beta",
+        "v{major}.{minor}.0-beta",
+        "v{major}.0.0-beta"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_michenriksen_gitrob",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

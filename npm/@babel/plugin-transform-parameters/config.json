@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-parameters",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-plugin-transform-parameters/**/*.md",
-		"packages/babel-plugin-transform-parameters/**/*.ts",
-		"packages/babel-plugin-transform-parameters/**/*.js",
-		"packages/babel-plugin-transform-parameters/**/*.tsx",
-		"packages/babel-plugin-transform-parameters/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-parameters"
+    "native_identifier": "@babel/plugin-transform-parameters",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-plugin-transform-parameters/**/*.md",
+        "packages/babel-plugin-transform-parameters/**/*.ts",
+        "packages/babel-plugin-transform-parameters/**/*.js",
+        "packages/babel-plugin-transform-parameters/**/*.tsx",
+        "packages/babel-plugin-transform-parameters/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-parameters",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

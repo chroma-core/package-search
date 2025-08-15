@@ -1,14 +1,16 @@
 {
-	"native_identifier": "google-cloud-container",
-	"repo": "googleapis/google-cloud-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"google-cloud-container-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/google-cloud-container/**/*.md",
-		"packages/google-cloud-container/**/*.py"
-	],
-	"collection_name_prefix": "google-cloud-container"
+    "native_identifier": "google-cloud-container",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "google-cloud-container-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-cloud-container/**/*.md",
+        "packages/google-cloud-container/**/*.py"
+    ],
+    "collection_name_prefix": "google-cloud-container",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

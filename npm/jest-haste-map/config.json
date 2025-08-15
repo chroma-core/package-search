@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-haste-map",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-haste-map/**/*.md",
-		"packages/jest-haste-map/**/*.ts",
-		"packages/jest-haste-map/**/*.js",
-		"packages/jest-haste-map/**/*.tsx",
-		"packages/jest-haste-map/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-haste-map"
+    "native_identifier": "jest-haste-map",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-haste-map/**/*.md",
+        "packages/jest-haste-map/**/*.ts",
+        "packages/jest-haste-map/**/*.js",
+        "packages/jest-haste-map/**/*.tsx",
+        "packages/jest-haste-map/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-haste-map",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

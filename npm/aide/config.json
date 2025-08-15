@@ -1,17 +1,19 @@
 {
-	"native_identifier": "aide",
-	"repo": "nicepkg/aide",
-	"registry": "npm",
-	"tag_formats": [
-		"aide-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "aide"
+    "native_identifier": "aide",
+    "repo": "nicepkg/aide",
+    "registry": "npm",
+    "tag_formats": [
+        "aide-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "aide",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

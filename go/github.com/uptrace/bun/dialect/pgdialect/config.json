@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/uptrace/bun/dialect/pgdialect",
-	"repo": "uptrace/bun",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"dbfixture/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"dialect/pgdialect/**/*.md",
-		"dialect/pgdialect/**/*.go"
-	],
-	"collection_name_prefix": "github.com_uptrace_bun_dialect_pgdialect"
+    "native_identifier": "github.com/uptrace/bun/dialect/pgdialect",
+    "repo": "uptrace/bun",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "dbfixture/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "dialect/pgdialect/**/*.md",
+        "dialect/pgdialect/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_uptrace_bun_dialect_pgdialect",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/hash-node",
-	"repo": "smithy-lang/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/hash-node@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/hash-node/**/*.md",
-		"packages/hash-node/**/*.ts",
-		"packages/hash-node/**/*.js",
-		"packages/hash-node/**/*.tsx",
-		"packages/hash-node/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_hash-node"
+    "native_identifier": "@smithy/hash-node",
+    "repo": "smithy-lang/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/hash-node@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/hash-node/**/*.md",
+        "packages/hash-node/**/*.ts",
+        "packages/hash-node/**/*.js",
+        "packages/hash-node/**/*.tsx",
+        "packages/hash-node/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_hash-node",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

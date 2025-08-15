@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/fossabot/clash",
-	"repo": "fossabot/clash",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_fossabot_clash"
+    "native_identifier": "github.com/fossabot/clash",
+    "repo": "fossabot/clash",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_fossabot_clash",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "yolov10",
-	"repo": "thu-mig/yolov10",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "yolov10"
+    "native_identifier": "yolov10",
+    "repo": "thu-mig/yolov10",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "yolov10",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

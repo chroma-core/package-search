@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jest/source-map",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-source-map/**/*.md",
-		"packages/jest-source-map/**/*.ts",
-		"packages/jest-source-map/**/*.js",
-		"packages/jest-source-map/**/*.tsx",
-		"packages/jest-source-map/**/*.jsx"
-	],
-	"collection_name_prefix": "jest_source-map"
+    "native_identifier": "@jest/source-map",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-source-map/**/*.md",
+        "packages/jest-source-map/**/*.ts",
+        "packages/jest-source-map/**/*.js",
+        "packages/jest-source-map/**/*.tsx",
+        "packages/jest-source-map/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest_source-map",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

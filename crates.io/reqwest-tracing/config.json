@@ -1,14 +1,16 @@
 {
-	"native_identifier": "reqwest-tracing",
-	"repo": "TrueLayer/reqwest-middleware",
-	"registry": "crates.io",
-	"tag_formats": [
-		"reqwest-tracing-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"reqwest-tracing/**/*.md",
-		"reqwest-tracing/**/*.rs"
-	],
-	"collection_name_prefix": "reqwest-tracing"
+    "native_identifier": "reqwest-tracing",
+    "repo": "TrueLayer/reqwest-middleware",
+    "registry": "crates.io",
+    "tag_formats": [
+        "reqwest-tracing-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "reqwest-tracing/**/*.md",
+        "reqwest-tracing/**/*.rs"
+    ],
+    "collection_name_prefix": "reqwest-tracing",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

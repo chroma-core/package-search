@@ -1,17 +1,19 @@
 {
-	"native_identifier": "scroll-into-view-if-needed",
-	"repo": "scroll-into-view/scroll-into-view-if-needed",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "scroll-into-view-if-needed"
+    "native_identifier": "scroll-into-view-if-needed",
+    "repo": "scroll-into-view/scroll-into-view-if-needed",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "scroll-into-view-if-needed",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

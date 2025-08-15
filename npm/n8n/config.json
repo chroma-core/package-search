@@ -1,20 +1,22 @@
 {
-	"native_identifier": "n8n",
-	"repo": "n8n-io/n8n",
-	"registry": "npm",
-	"tag_formats": [
-		"@v{major}.{minor}.{patch}",
-		"n8n-core@{major}.{minor}.{patch}",
-		"n8n-core@{major}.{patch}.{minor}",
-		"n8n-editor-ui@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "n8n"
+    "native_identifier": "n8n",
+    "repo": "n8n-io/n8n",
+    "registry": "npm",
+    "tag_formats": [
+        "@v{major}.{minor}.{patch}",
+        "n8n-core@{major}.{minor}.{patch}",
+        "n8n-core@{major}.{patch}.{minor}",
+        "n8n-editor-ui@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "n8n",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

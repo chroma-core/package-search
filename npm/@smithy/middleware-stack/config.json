@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/middleware-stack",
-	"repo": "smithy-lang/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/middleware-stack@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/middleware-stack/**/*.md",
-		"packages/middleware-stack/**/*.ts",
-		"packages/middleware-stack/**/*.js",
-		"packages/middleware-stack/**/*.tsx",
-		"packages/middleware-stack/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_middleware-stack"
+    "native_identifier": "@smithy/middleware-stack",
+    "repo": "smithy-lang/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/middleware-stack@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/middleware-stack/**/*.md",
+        "packages/middleware-stack/**/*.ts",
+        "packages/middleware-stack/**/*.js",
+        "packages/middleware-stack/**/*.tsx",
+        "packages/middleware-stack/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_middleware-stack",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

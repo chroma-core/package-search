@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/zyedidia/micro",
-	"repo": "zyedidia/micro",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_zyedidia_micro"
+    "native_identifier": "github.com/zyedidia/micro",
+    "repo": "zyedidia/micro",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_zyedidia_micro",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

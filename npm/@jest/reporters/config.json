@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jest/reporters",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-reporters/**/*.md",
-		"packages/jest-reporters/**/*.ts",
-		"packages/jest-reporters/**/*.js",
-		"packages/jest-reporters/**/*.tsx",
-		"packages/jest-reporters/**/*.jsx"
-	],
-	"collection_name_prefix": "jest_reporters"
+    "native_identifier": "@jest/reporters",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-reporters/**/*.md",
+        "packages/jest-reporters/**/*.ts",
+        "packages/jest-reporters/**/*.js",
+        "packages/jest-reporters/**/*.tsx",
+        "packages/jest-reporters/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest_reporters",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

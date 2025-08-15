@@ -1,14 +1,16 @@
 {
-	"native_identifier": "foreign-types-shared",
-	"repo": "sfackler/foreign-types",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"foreign-types-shared/**/*.md",
-		"foreign-types-shared/**/*.rs"
-	],
-	"collection_name_prefix": "foreign-types-shared"
+    "native_identifier": "foreign-types-shared",
+    "repo": "sfackler/foreign-types",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "foreign-types-shared/**/*.md",
+        "foreign-types-shared/**/*.rs"
+    ],
+    "collection_name_prefix": "foreign-types-shared",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

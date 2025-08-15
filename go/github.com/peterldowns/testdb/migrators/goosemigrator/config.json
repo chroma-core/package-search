@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/peterldowns/testdb/migrators/goosemigrator",
-	"repo": "peterldowns/testdb",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"migrators/atlasmigrator/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_peterldowns_testdb_migrators_goosemigrator"
+    "native_identifier": "github.com/peterldowns/testdb/migrators/goosemigrator",
+    "repo": "peterldowns/testdb",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "migrators/atlasmigrator/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_peterldowns_testdb_migrators_goosemigrator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

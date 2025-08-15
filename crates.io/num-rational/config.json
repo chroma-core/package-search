@@ -1,14 +1,16 @@
 {
-	"native_identifier": "num-rational",
-	"repo": "rust-num/num-rational",
-	"registry": "crates.io",
-	"tag_formats": [
-		"num-rational-{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "num-rational"
+    "native_identifier": "num-rational",
+    "repo": "rust-num/num-rational",
+    "registry": "crates.io",
+    "tag_formats": [
+        "num-rational-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "num-rational",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

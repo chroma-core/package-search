@@ -1,18 +1,20 @@
 {
-	"native_identifier": "fbt",
-	"repo": "facebook/fbt",
-	"registry": "npm",
-	"tag_formats": [
-		"fbt-v{major}.{minor}.{patch}",
-		"babel-plugin-fbt-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "fbt"
+    "native_identifier": "fbt",
+    "repo": "facebook/fbt",
+    "registry": "npm",
+    "tag_formats": [
+        "fbt-v{major}.{minor}.{patch}",
+        "babel-plugin-fbt-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "fbt",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

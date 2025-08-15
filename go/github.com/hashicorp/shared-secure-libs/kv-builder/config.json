@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/hashicorp/shared-secure-libs/kv-builder",
-	"repo": "hashicorp/shared-secure-libs",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"awsutil/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"kv-builder/**/*.md",
-		"kv-builder/**/*.go"
-	],
-	"collection_name_prefix": "github.com_hashicorp_shared-secure-libs_kv-builder"
+    "native_identifier": "github.com/hashicorp/shared-secure-libs/kv-builder",
+    "repo": "hashicorp/shared-secure-libs",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "awsutil/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "kv-builder/**/*.md",
+        "kv-builder/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_hashicorp_shared-secure-libs_kv-builder",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

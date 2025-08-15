@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/decred/dcrwallet/errors",
-	"repo": "decred/dcrwallet",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"errors/**/*.md",
-		"errors/**/*.go"
-	],
-	"collection_name_prefix": "github.com_decred_dcrwallet_errors"
+    "native_identifier": "github.com/decred/dcrwallet/errors",
+    "repo": "decred/dcrwallet",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "errors/**/*.md",
+        "errors/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_decred_dcrwallet_errors",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

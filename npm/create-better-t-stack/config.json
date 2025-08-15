@@ -1,18 +1,20 @@
 {
-	"native_identifier": "create-better-t-stack",
-	"repo": "amanvarshney01/create-better-t-stack",
-	"registry": "npm",
-	"tag_formats": [
-		"@{major}.{minor}.{patch}",
-		"create-better-t-stack@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "create-better-t-stack"
+    "native_identifier": "create-better-t-stack",
+    "repo": "amanvarshney01/create-better-t-stack",
+    "registry": "npm",
+    "tag_formats": [
+        "@{major}.{minor}.{patch}",
+        "create-better-t-stack@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "create-better-t-stack",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

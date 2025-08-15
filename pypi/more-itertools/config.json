@@ -1,14 +1,16 @@
 {
-	"native_identifier": "more-itertools",
-	"repo": "more-itertools/more-itertools",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "more-itertools"
+    "native_identifier": "more-itertools",
+    "repo": "more-itertools/more-itertools",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "more-itertools",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

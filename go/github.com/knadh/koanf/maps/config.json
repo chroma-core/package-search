@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/knadh/koanf/maps",
-	"repo": "knadh/koanf",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"maps/**/*.md",
-		"maps/**/*.go"
-	],
-	"collection_name_prefix": "github.com_knadh_koanf_maps"
+    "native_identifier": "github.com/knadh/koanf/maps",
+    "repo": "knadh/koanf",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "maps/**/*.md",
+        "maps/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_knadh_koanf_maps",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

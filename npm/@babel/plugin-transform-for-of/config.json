@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-for-of",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-for-of/**/*.md",
-		"babel-plugin-transform-for-of/**/*.ts",
-		"babel-plugin-transform-for-of/**/*.js",
-		"babel-plugin-transform-for-of/**/*.tsx",
-		"babel-plugin-transform-for-of/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-for-of"
+    "native_identifier": "@babel/plugin-transform-for-of",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-for-of/**/*.md",
+        "babel-plugin-transform-for-of/**/*.ts",
+        "babel-plugin-transform-for-of/**/*.js",
+        "babel-plugin-transform-for-of/**/*.tsx",
+        "babel-plugin-transform-for-of/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-for-of",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

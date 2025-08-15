@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-member-expression-literals",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-member-expression-literals/**/*.md",
-		"babel-plugin-transform-member-expression-literals/**/*.ts",
-		"babel-plugin-transform-member-expression-literals/**/*.js",
-		"babel-plugin-transform-member-expression-literals/**/*.tsx",
-		"babel-plugin-transform-member-expression-literals/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-member-expression-literals"
+    "native_identifier": "@babel/plugin-transform-member-expression-literals",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-member-expression-literals/**/*.md",
+        "babel-plugin-transform-member-expression-literals/**/*.ts",
+        "babel-plugin-transform-member-expression-literals/**/*.js",
+        "babel-plugin-transform-member-expression-literals/**/*.tsx",
+        "babel-plugin-transform-member-expression-literals/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-member-expression-literals",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

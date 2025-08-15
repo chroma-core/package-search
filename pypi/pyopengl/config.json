@@ -1,19 +1,21 @@
 {
-	"native_identifier": "pyopengl",
-	"repo": "mcfletch/pyopengl",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"release-{major}.{minor}.{patch}",
-		"release-{major}.{major}.{minor}",
-		"release-{major}.{minor}.{patch}a{minor}",
-		"release-{major}.{minor}.{patch}b{minor}",
-		"release-{major}.{minor}.{patch}a{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "pyopengl"
+    "native_identifier": "pyopengl",
+    "repo": "mcfletch/pyopengl",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "release-{major}.{minor}.{patch}",
+        "release-{major}.{major}.{minor}",
+        "release-{major}.{minor}.{patch}a{minor}",
+        "release-{major}.{minor}.{patch}b{minor}",
+        "release-{major}.{minor}.{patch}a{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "pyopengl",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

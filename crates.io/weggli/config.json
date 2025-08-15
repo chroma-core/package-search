@@ -1,14 +1,16 @@
 {
-	"native_identifier": "weggli",
-	"repo": "weggli-rs/weggli",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "weggli"
+    "native_identifier": "weggli",
+    "repo": "weggli-rs/weggli",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "weggli",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

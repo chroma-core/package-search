@@ -1,14 +1,16 @@
 {
-	"native_identifier": "build-env",
-	"repo": "jmesmon/build-env",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "build-env"
+    "native_identifier": "build-env",
+    "repo": "jmesmon/build-env",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "build-env",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "redox_syscall",
-	"repo": "redox-os/syscall",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "redox_syscall"
+    "native_identifier": "redox_syscall",
+    "repo": "redox-os/syscall",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "redox_syscall",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

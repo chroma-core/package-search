@@ -1,17 +1,19 @@
 {
-	"native_identifier": "faster-whisper",
-	"repo": "chenyme/chenyme-aavt",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"V{major}.{minor}",
-		"V{major}.{minor}.{patch}",
-		"V{major}.{minor}.{patch}_Fixbug"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "faster-whisper"
+    "native_identifier": "faster-whisper",
+    "repo": "chenyme/chenyme-aavt",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "V{major}.{minor}",
+        "V{major}.{minor}.{patch}",
+        "V{major}.{minor}.{patch}_Fixbug"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "faster-whisper",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

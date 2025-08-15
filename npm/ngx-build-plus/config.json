@@ -1,18 +1,20 @@
 {
-	"native_identifier": "ngx-build-plus",
-	"repo": "manfredsteyer/ngx-build-plus",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}",
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "ngx-build-plus"
+    "native_identifier": "ngx-build-plus",
+    "repo": "manfredsteyer/ngx-build-plus",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}",
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "ngx-build-plus",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

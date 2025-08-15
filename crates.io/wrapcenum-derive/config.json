@@ -1,14 +1,16 @@
 {
-	"native_identifier": "wrapcenum-derive",
-	"repo": "Cldfire/wrapcenum-derive",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "wrapcenum-derive"
+    "native_identifier": "wrapcenum-derive",
+    "repo": "Cldfire/wrapcenum-derive",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "wrapcenum-derive",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

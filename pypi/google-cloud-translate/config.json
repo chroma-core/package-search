@@ -1,14 +1,16 @@
 {
-	"native_identifier": "google-cloud-translate",
-	"repo": "googleapis/google-cloud-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"google-cloud-translate-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/google-cloud-translate/**/*.md",
-		"packages/google-cloud-translate/**/*.py"
-	],
-	"collection_name_prefix": "google-cloud-translate"
+    "native_identifier": "google-cloud-translate",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "google-cloud-translate-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-cloud-translate/**/*.md",
+        "packages/google-cloud-translate/**/*.py"
+    ],
+    "collection_name_prefix": "google-cloud-translate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

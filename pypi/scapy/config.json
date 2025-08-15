@@ -1,18 +1,20 @@
 {
-	"native_identifier": "scapy",
-	"repo": "secdev/scapy",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}.{DD}",
-		"v{major}.{minor}.{minor}.{patch}",
-		"v{major}.{patch}.{DD}.{minor}",
-		"v{major}.{patch}.{patch}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "scapy"
+    "native_identifier": "scapy",
+    "repo": "secdev/scapy",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}.{DD}",
+        "v{major}.{minor}.{minor}.{patch}",
+        "v{major}.{patch}.{DD}.{minor}",
+        "v{major}.{patch}.{patch}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "scapy",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/aws/smithy-go/metrics/smithyotelmetrics",
-	"repo": "aws/smithy-go",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"metrics/smithyotelmetrics/**/*.md",
-		"metrics/smithyotelmetrics/**/*.go"
-	],
-	"collection_name_prefix": "github.com_aws_smithy-go_metrics_smithyotelmetrics"
+    "native_identifier": "github.com/aws/smithy-go/metrics/smithyotelmetrics",
+    "repo": "aws/smithy-go",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "metrics/smithyotelmetrics/**/*.md",
+        "metrics/smithyotelmetrics/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_aws_smithy-go_metrics_smithyotelmetrics",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

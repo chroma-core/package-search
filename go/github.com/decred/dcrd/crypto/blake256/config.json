@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/decred/dcrd/crypto/blake256",
-	"repo": "decred/dcrd",
-	"registry": "go",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crypto/blake256/**/*.md",
-		"crypto/blake256/**/*.go"
-	],
-	"collection_name_prefix": "github.com_decred_dcrd_crypto_blake256"
+    "native_identifier": "github.com/decred/dcrd/crypto/blake256",
+    "repo": "decred/dcrd",
+    "registry": "go",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crypto/blake256/**/*.md",
+        "crypto/blake256/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_decred_dcrd_crypto_blake256",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

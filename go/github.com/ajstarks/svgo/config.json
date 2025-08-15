@@ -1,16 +1,18 @@
 {
-	"native_identifier": "github.com/ajstarks/svgo",
-	"repo": "ajstarks/svgo",
-	"registry": "go",
-	"tag_formats": [
-		"{YYYY}-{MM}-{DD}",
-		"go.r{major}",
-		"go.r{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_ajstarks_svgo"
+    "native_identifier": "github.com/ajstarks/svgo",
+    "repo": "ajstarks/svgo",
+    "registry": "go",
+    "tag_formats": [
+        "{YYYY}-{MM}-{DD}",
+        "go.r{major}",
+        "go.r{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_ajstarks_svgo",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

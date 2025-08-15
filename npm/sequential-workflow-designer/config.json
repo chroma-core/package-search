@@ -1,17 +1,19 @@
 {
-	"native_identifier": "sequential-workflow-designer",
-	"repo": "nocode-js/sequential-workflow-designer",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "sequential-workflow-designer"
+    "native_identifier": "sequential-workflow-designer",
+    "repo": "nocode-js/sequential-workflow-designer",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "sequential-workflow-designer",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@opentelemetry/semantic-conventions",
-	"repo": "open-telemetry/opentelemetry-js",
-	"registry": "npm",
-	"tag_formats": [
-		"semconv/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"semantic-conventions/**/*.md",
-		"semantic-conventions/**/*.ts",
-		"semantic-conventions/**/*.js",
-		"semantic-conventions/**/*.tsx",
-		"semantic-conventions/**/*.jsx"
-	],
-	"collection_name_prefix": "opentelemetry_semantic-conventions"
+    "native_identifier": "@opentelemetry/semantic-conventions",
+    "repo": "open-telemetry/opentelemetry-js",
+    "registry": "npm",
+    "tag_formats": [
+        "semconv/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "semantic-conventions/**/*.md",
+        "semantic-conventions/**/*.ts",
+        "semantic-conventions/**/*.js",
+        "semantic-conventions/**/*.tsx",
+        "semantic-conventions/**/*.jsx"
+    ],
+    "collection_name_prefix": "opentelemetry_semantic-conventions",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

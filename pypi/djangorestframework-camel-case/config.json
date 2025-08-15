@@ -1,15 +1,17 @@
 {
-	"native_identifier": "djangorestframework-camel-case",
-	"repo": "vbabiy/djangorestframework-camel-case",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}b{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "djangorestframework-camel-case"
+    "native_identifier": "djangorestframework-camel-case",
+    "repo": "vbabiy/djangorestframework-camel-case",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}b{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "djangorestframework-camel-case",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

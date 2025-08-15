@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/stretchr/testify/_codegen",
-	"repo": "stretchr/testify",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"_codegen/**/*.md",
-		"_codegen/**/*.go"
-	],
-	"collection_name_prefix": "github.com_stretchr_testify__codegen"
+    "native_identifier": "github.com/stretchr/testify/_codegen",
+    "repo": "stretchr/testify",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "_codegen/**/*.md",
+        "_codegen/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_stretchr_testify__codegen",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

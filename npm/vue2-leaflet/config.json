@@ -1,17 +1,19 @@
 {
-	"native_identifier": "vue2-leaflet",
-	"repo": "vue-leaflet/vue2leaflet",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue2-leaflet"
+    "native_identifier": "vue2-leaflet",
+    "repo": "vue-leaflet/vue2leaflet",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue2-leaflet",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

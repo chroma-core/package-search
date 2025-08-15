@@ -1,14 +1,16 @@
 {
-	"native_identifier": "toml_edit",
-	"repo": "toml-rs/toml",
-	"registry": "crates.io",
-	"tag_formats": [
-		"toml_edit-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crates/toml_edit/**/*.md",
-		"crates/toml_edit/**/*.rs"
-	],
-	"collection_name_prefix": "toml_edit"
+    "native_identifier": "toml_edit",
+    "repo": "toml-rs/toml",
+    "registry": "crates.io",
+    "tag_formats": [
+        "toml_edit-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crates/toml_edit/**/*.md",
+        "crates/toml_edit/**/*.rs"
+    ],
+    "collection_name_prefix": "toml_edit",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "polars",
-	"repo": "pola-rs/polars",
-	"registry": "pypi",
-	"tag_formats": [
-		"py-{major}.{minor}.{patch}",
-		"py-{patch}.{minor}.{major}",
-		"py-{major}.{patch}.{minor}",
-		"py-{patch}.{YY}.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "polars"
+    "native_identifier": "polars",
+    "repo": "pola-rs/polars",
+    "registry": "pypi",
+    "tag_formats": [
+        "py-{major}.{minor}.{patch}",
+        "py-{patch}.{minor}.{major}",
+        "py-{major}.{patch}.{minor}",
+        "py-{patch}.{YY}.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "polars",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

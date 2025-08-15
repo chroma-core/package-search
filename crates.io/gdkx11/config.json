@@ -1,14 +1,16 @@
 {
-	"native_identifier": "gdkx11",
-	"repo": "gtk-rs/gtk3-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"gdkx11/**/*.md",
-		"gdkx11/**/*.rs"
-	],
-	"collection_name_prefix": "gdkx11"
+    "native_identifier": "gdkx11",
+    "repo": "gtk-rs/gtk3-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "gdkx11/**/*.md",
+        "gdkx11/**/*.rs"
+    ],
+    "collection_name_prefix": "gdkx11",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

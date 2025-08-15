@@ -1,17 +1,19 @@
 {
-	"native_identifier": "react-native-keyboard-spacer",
-	"repo": "andr3whur5t/react-native-keyboard-spacer",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "react-native-keyboard-spacer"
+    "native_identifier": "react-native-keyboard-spacer",
+    "repo": "andr3whur5t/react-native-keyboard-spacer",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "react-native-keyboard-spacer",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

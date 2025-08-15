@@ -1,17 +1,19 @@
 {
-	"native_identifier": "react-native-element-dropdown",
-	"repo": "hoaphantn7604/react-native-element-dropdown",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "react-native-element-dropdown"
+    "native_identifier": "react-native-element-dropdown",
+    "repo": "hoaphantn7604/react-native-element-dropdown",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "react-native-element-dropdown",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

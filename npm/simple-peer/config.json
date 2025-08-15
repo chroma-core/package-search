@@ -1,17 +1,19 @@
 {
-	"native_identifier": "simple-peer",
-	"repo": "feross/simple-peer",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "simple-peer"
+    "native_identifier": "simple-peer",
+    "repo": "feross/simple-peer",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "simple-peer",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

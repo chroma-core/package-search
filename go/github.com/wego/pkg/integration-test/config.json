@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/wego/pkg/integration-test",
-	"repo": "wego/pkg",
-	"registry": "go",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"integration-test/**/*.md",
-		"integration-test/**/*.go"
-	],
-	"collection_name_prefix": "github.com_wego_pkg_integration-test"
+    "native_identifier": "github.com/wego/pkg/integration-test",
+    "repo": "wego/pkg",
+    "registry": "go",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "integration-test/**/*.md",
+        "integration-test/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_wego_pkg_integration-test",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

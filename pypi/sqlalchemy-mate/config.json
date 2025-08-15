@@ -1,21 +1,23 @@
 {
-	"native_identifier": "sqlalchemy-mate",
-	"repo": "MacHu-GWU/sqlalchemy_mate-project",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}.{patch}",
-		"{major}.{major}.{patch}.{minor}",
-		"{major}.{minor}.{minor}.{patch}",
-		"{major}.0.0.{patch}",
-		"{major}.{minor}.{patch}.{minor}",
-		"{major}.{major}.{major}.{patch}",
-		"{major}.{patch}.{patch}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "sqlalchemy-mate"
+    "native_identifier": "sqlalchemy-mate",
+    "repo": "MacHu-GWU/sqlalchemy_mate-project",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}.{patch}",
+        "{major}.{major}.{patch}.{minor}",
+        "{major}.{minor}.{minor}.{patch}",
+        "{major}.0.0.{patch}",
+        "{major}.{minor}.{patch}.{minor}",
+        "{major}.{major}.{major}.{patch}",
+        "{major}.{patch}.{patch}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "sqlalchemy-mate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

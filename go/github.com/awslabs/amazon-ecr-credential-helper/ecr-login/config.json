@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/awslabs/amazon-ecr-credential-helper/ecr-login",
-	"repo": "awslabs/amazon-ecr-credential-helper",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"ecr-login/**/*.md",
-		"ecr-login/**/*.go"
-	],
-	"collection_name_prefix": "github.com_awslabs_amazon-ecr-credential-helper_ecr-login"
+    "native_identifier": "github.com/awslabs/amazon-ecr-credential-helper/ecr-login",
+    "repo": "awslabs/amazon-ecr-credential-helper",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "ecr-login/**/*.md",
+        "ecr-login/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_awslabs_amazon-ecr-credential-helper_ecr-login",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

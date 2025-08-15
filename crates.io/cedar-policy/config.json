@@ -1,14 +1,16 @@
 {
-	"native_identifier": "cedar-policy",
-	"repo": "cedar-policy/cedar",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"cedar-policy/**/*.md",
-		"cedar-policy/**/*.rs"
-	],
-	"collection_name_prefix": "cedar-policy"
+    "native_identifier": "cedar-policy",
+    "repo": "cedar-policy/cedar",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cedar-policy/**/*.md",
+        "cedar-policy/**/*.rs"
+    ],
+    "collection_name_prefix": "cedar-policy",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

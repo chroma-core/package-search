@@ -1,18 +1,20 @@
 {
-	"native_identifier": "apollo-server",
-	"repo": "apollographql/apollo-server",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@apollo/federation@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "apollo-server"
+    "native_identifier": "apollo-server",
+    "repo": "apollographql/apollo-server",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@apollo/federation@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "apollo-server",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

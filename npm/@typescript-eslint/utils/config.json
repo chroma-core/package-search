@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@typescript-eslint/utils",
-	"repo": "typescript-eslint/typescript-eslint",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/utils/**/*.md",
-		"packages/utils/**/*.ts",
-		"packages/utils/**/*.js",
-		"packages/utils/**/*.tsx",
-		"packages/utils/**/*.jsx"
-	],
-	"collection_name_prefix": "typescript-eslint_utils"
+    "native_identifier": "@typescript-eslint/utils",
+    "repo": "typescript-eslint/typescript-eslint",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/utils/**/*.md",
+        "packages/utils/**/*.ts",
+        "packages/utils/**/*.js",
+        "packages/utils/**/*.tsx",
+        "packages/utils/**/*.jsx"
+    ],
+    "collection_name_prefix": "typescript-eslint_utils",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

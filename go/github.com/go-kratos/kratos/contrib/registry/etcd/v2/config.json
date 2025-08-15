@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-kratos/kratos/contrib/registry/etcd/v2",
-	"repo": "go-kratos/kratos",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"contrib/registry/etcd/v2/**/*.md",
-		"contrib/registry/etcd/v2/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-kratos_kratos_contrib_registry_etcd_v2"
+    "native_identifier": "github.com/go-kratos/kratos/contrib/registry/etcd/v2",
+    "repo": "go-kratos/kratos",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "contrib/registry/etcd/v2/**/*.md",
+        "contrib/registry/etcd/v2/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-kratos_kratos_contrib_registry_etcd_v2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

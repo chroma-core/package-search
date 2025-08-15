@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@webassemblyjs/floating-point-hex-parser",
-	"repo": "xtuc/webassemblyjs",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/floating-point-hex-parser/**/*.md",
-		"packages/floating-point-hex-parser/**/*.ts",
-		"packages/floating-point-hex-parser/**/*.js",
-		"packages/floating-point-hex-parser/**/*.tsx",
-		"packages/floating-point-hex-parser/**/*.jsx"
-	],
-	"collection_name_prefix": "webassemblyjs_floating-point-hex-parser"
+    "native_identifier": "@webassemblyjs/floating-point-hex-parser",
+    "repo": "xtuc/webassemblyjs",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/floating-point-hex-parser/**/*.md",
+        "packages/floating-point-hex-parser/**/*.ts",
+        "packages/floating-point-hex-parser/**/*.js",
+        "packages/floating-point-hex-parser/**/*.tsx",
+        "packages/floating-point-hex-parser/**/*.jsx"
+    ],
+    "collection_name_prefix": "webassemblyjs_floating-point-hex-parser",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

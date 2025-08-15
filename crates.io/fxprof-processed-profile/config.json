@@ -1,15 +1,17 @@
 {
-	"native_identifier": "fxprof-processed-profile",
-	"repo": "mstange/samply",
-	"registry": "crates.io",
-	"tag_formats": [
-		"fxprof-processed-profile-v{major}.{minor}.{patch}",
-		"perfrecord-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"fxprof-processed-profile/**/*.md",
-		"fxprof-processed-profile/**/*.rs"
-	],
-	"collection_name_prefix": "fxprof-processed-profile"
+    "native_identifier": "fxprof-processed-profile",
+    "repo": "mstange/samply",
+    "registry": "crates.io",
+    "tag_formats": [
+        "fxprof-processed-profile-v{major}.{minor}.{patch}",
+        "perfrecord-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "fxprof-processed-profile/**/*.md",
+        "fxprof-processed-profile/**/*.rs"
+    ],
+    "collection_name_prefix": "fxprof-processed-profile",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

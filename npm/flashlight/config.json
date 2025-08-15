@@ -1,18 +1,20 @@
 {
-	"native_identifier": "flashlight",
-	"repo": "bamlab/flashlight",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@perf-profiler/appium-test-cases@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "flashlight"
+    "native_identifier": "flashlight",
+    "repo": "bamlab/flashlight",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@perf-profiler/appium-test-cases@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "flashlight",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

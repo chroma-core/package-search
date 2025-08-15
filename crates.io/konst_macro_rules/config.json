@@ -1,14 +1,16 @@
 {
-	"native_identifier": "konst_macro_rules",
-	"repo": "rodrimati1992/konst",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"konst_macro_rules/**/*.md",
-		"konst_macro_rules/**/*.rs"
-	],
-	"collection_name_prefix": "konst_macro_rules"
+    "native_identifier": "konst_macro_rules",
+    "repo": "rodrimati1992/konst",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "konst_macro_rules/**/*.md",
+        "konst_macro_rules/**/*.rs"
+    ],
+    "collection_name_prefix": "konst_macro_rules",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

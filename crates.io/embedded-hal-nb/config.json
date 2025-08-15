@@ -1,15 +1,17 @@
 {
-	"native_identifier": "embedded-hal-nb",
-	"repo": "rust-embedded/embedded-hal",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"embedded-hal-async-v{major}.{minor}.{patch}-alpha.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"embedded-hal-nb/**/*.md",
-		"embedded-hal-nb/**/*.rs"
-	],
-	"collection_name_prefix": "embedded-hal-nb"
+    "native_identifier": "embedded-hal-nb",
+    "repo": "rust-embedded/embedded-hal",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "embedded-hal-async-v{major}.{minor}.{patch}-alpha.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "embedded-hal-nb/**/*.md",
+        "embedded-hal-nb/**/*.rs"
+    ],
+    "collection_name_prefix": "embedded-hal-nb",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

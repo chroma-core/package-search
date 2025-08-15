@@ -1,15 +1,17 @@
 {
-	"native_identifier": "hyper-rustls",
-	"repo": "rustls/hyper-rustls",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v/{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "hyper-rustls"
+    "native_identifier": "hyper-rustls",
+    "repo": "rustls/hyper-rustls",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v/{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "hyper-rustls",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

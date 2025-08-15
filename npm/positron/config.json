@@ -1,18 +1,20 @@
 {
-	"native_identifier": "positron",
-	"repo": "posit-dev/positron",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"{YY}{major}.{minor}.{patch}-{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "positron"
+    "native_identifier": "positron",
+    "repo": "posit-dev/positron",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "{YY}{major}.{minor}.{patch}-{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "positron",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

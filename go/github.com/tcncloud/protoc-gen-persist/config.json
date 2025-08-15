@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/tcncloud/protoc-gen-persist",
-	"repo": "tcncloud/protoc-gen-persist",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_tcncloud_protoc-gen-persist"
+    "native_identifier": "github.com/tcncloud/protoc-gen-persist",
+    "repo": "tcncloud/protoc-gen-persist",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_tcncloud_protoc-gen-persist",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "atomic-waker",
-	"repo": "smol-rs/atomic-waker",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "atomic-waker"
+    "native_identifier": "atomic-waker",
+    "repo": "smol-rs/atomic-waker",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "atomic-waker",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

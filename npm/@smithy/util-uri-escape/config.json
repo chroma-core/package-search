@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/util-uri-escape",
-	"repo": "awslabs/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/util-uri-escape@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/util-uri-escape/**/*.md",
-		"packages/util-uri-escape/**/*.ts",
-		"packages/util-uri-escape/**/*.js",
-		"packages/util-uri-escape/**/*.tsx",
-		"packages/util-uri-escape/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_util-uri-escape"
+    "native_identifier": "@smithy/util-uri-escape",
+    "repo": "awslabs/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/util-uri-escape@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/util-uri-escape/**/*.md",
+        "packages/util-uri-escape/**/*.ts",
+        "packages/util-uri-escape/**/*.js",
+        "packages/util-uri-escape/**/*.tsx",
+        "packages/util-uri-escape/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_util-uri-escape",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

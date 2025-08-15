@@ -1,17 +1,19 @@
 {
-	"native_identifier": "github.com/open-telemetry/otel-arrow/collector/exporter/otelarrowexporter",
-	"repo": "open-telemetry/otel-arrow",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"collector/cmd/otelarrowcol/v{major}.{minor}.{patch}",
-		"v{major}.{minor}.0",
-		"collector/cmd/otelarrowcol/v0.{minor}.0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"collector/exporter/otelarrowexporter/**/*.md",
-		"collector/exporter/otelarrowexporter/**/*.go"
-	],
-	"collection_name_prefix": "github.com_open-telemetry_otel-arrow_collector_exporter_otelarrowexporter"
+    "native_identifier": "github.com/open-telemetry/otel-arrow/collector/exporter/otelarrowexporter",
+    "repo": "open-telemetry/otel-arrow",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "collector/cmd/otelarrowcol/v{major}.{minor}.{patch}",
+        "v{major}.{minor}.0",
+        "collector/cmd/otelarrowcol/v0.{minor}.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "collector/exporter/otelarrowexporter/**/*.md",
+        "collector/exporter/otelarrowexporter/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_open-telemetry_otel-arrow_collector_exporter_otelarrowexporter",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

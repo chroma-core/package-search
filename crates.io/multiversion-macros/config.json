@@ -1,14 +1,16 @@
 {
-	"native_identifier": "multiversion-macros",
-	"repo": "calebzulawski/multiversion",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"multiversion-macros/**/*.md",
-		"multiversion-macros/**/*.rs"
-	],
-	"collection_name_prefix": "multiversion-macros"
+    "native_identifier": "multiversion-macros",
+    "repo": "calebzulawski/multiversion",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "multiversion-macros/**/*.md",
+        "multiversion-macros/**/*.rs"
+    ],
+    "collection_name_prefix": "multiversion-macros",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

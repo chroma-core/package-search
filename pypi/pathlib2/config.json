@@ -1,14 +1,16 @@
 {
-	"native_identifier": "pathlib2",
-	"repo": "jazzband/pathlib2",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "pathlib2"
+    "native_identifier": "pathlib2",
+    "repo": "jazzband/pathlib2",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "pathlib2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

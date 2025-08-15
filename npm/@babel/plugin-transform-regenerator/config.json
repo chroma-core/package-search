@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-regenerator",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-regenerator/**/*.md",
-		"babel-plugin-transform-regenerator/**/*.ts",
-		"babel-plugin-transform-regenerator/**/*.js",
-		"babel-plugin-transform-regenerator/**/*.tsx",
-		"babel-plugin-transform-regenerator/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-regenerator"
+    "native_identifier": "@babel/plugin-transform-regenerator",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-regenerator/**/*.md",
+        "babel-plugin-transform-regenerator/**/*.ts",
+        "babel-plugin-transform-regenerator/**/*.js",
+        "babel-plugin-transform-regenerator/**/*.tsx",
+        "babel-plugin-transform-regenerator/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-regenerator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "actix-web",
-	"repo": "actix/actix-web",
-	"registry": "crates.io",
-	"tag_formats": [
-		"web-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"actix-web/**/*.md",
-		"actix-web/**/*.rs"
-	],
-	"collection_name_prefix": "actix-web"
+    "native_identifier": "actix-web",
+    "repo": "actix/actix-web",
+    "registry": "crates.io",
+    "tag_formats": [
+        "web-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "actix-web/**/*.md",
+        "actix-web/**/*.rs"
+    ],
+    "collection_name_prefix": "actix-web",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

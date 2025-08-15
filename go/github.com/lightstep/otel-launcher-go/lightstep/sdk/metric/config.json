@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/lightstep/otel-launcher-go/lightstep/sdk/metric",
-	"repo": "lightstep/otel-launcher-go",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"lightstep/sdk/metric/**/*.md",
-		"lightstep/sdk/metric/**/*.go"
-	],
-	"collection_name_prefix": "github.com_lightstep_otel-launcher-go_lightstep_sdk_metric"
+    "native_identifier": "github.com/lightstep/otel-launcher-go/lightstep/sdk/metric",
+    "repo": "lightstep/otel-launcher-go",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "lightstep/sdk/metric/**/*.md",
+        "lightstep/sdk/metric/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_lightstep_otel-launcher-go_lightstep_sdk_metric",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "graphql-modules",
-	"repo": "graphql-hive/graphql-modules",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "graphql-modules"
+    "native_identifier": "graphql-modules",
+    "repo": "graphql-hive/graphql-modules",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "graphql-modules",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

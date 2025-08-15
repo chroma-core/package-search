@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/yeqown/go-qrcode/writer/file",
-	"repo": "yeqown/go-qrcode",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"writer/file/**/*.md",
-		"writer/file/**/*.go"
-	],
-	"collection_name_prefix": "github.com_yeqown_go-qrcode_writer_file"
+    "native_identifier": "github.com/yeqown/go-qrcode/writer/file",
+    "repo": "yeqown/go-qrcode",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "writer/file/**/*.md",
+        "writer/file/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_yeqown_go-qrcode_writer_file",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

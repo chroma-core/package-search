@@ -1,22 +1,24 @@
 {
-	"native_identifier": "voyager",
-	"repo": "vega/voyager",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-alpha.{DD}",
-		"v{major}.0.0-alpha.{DD}",
-		"v{major}.{minor}.0-alpha.{DD}",
-		"v{major}.{minor}.{patch}-alpha.{YY}",
-		"v{major}.0.{patch}-alpha.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "voyager"
+    "native_identifier": "voyager",
+    "repo": "vega/voyager",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha.{DD}",
+        "v{major}.0.0-alpha.{DD}",
+        "v{major}.{minor}.0-alpha.{DD}",
+        "v{major}.{minor}.{patch}-alpha.{YY}",
+        "v{major}.0.{patch}-alpha.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "voyager",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

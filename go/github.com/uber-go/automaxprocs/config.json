@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/uber-go/automaxprocs",
-	"repo": "uber-go/automaxprocs",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_uber-go_automaxprocs"
+    "native_identifier": "github.com/uber-go/automaxprocs",
+    "repo": "uber-go/automaxprocs",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_uber-go_automaxprocs",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

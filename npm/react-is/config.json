@@ -1,17 +1,19 @@
 {
-	"native_identifier": "react-is",
-	"repo": "facebook/react",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/react-is/**/*.md",
-		"packages/react-is/**/*.ts",
-		"packages/react-is/**/*.js",
-		"packages/react-is/**/*.tsx",
-		"packages/react-is/**/*.jsx"
-	],
-	"collection_name_prefix": "react-is"
+    "native_identifier": "react-is",
+    "repo": "facebook/react",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/react-is/**/*.md",
+        "packages/react-is/**/*.ts",
+        "packages/react-is/**/*.js",
+        "packages/react-is/**/*.tsx",
+        "packages/react-is/**/*.jsx"
+    ],
+    "collection_name_prefix": "react-is",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

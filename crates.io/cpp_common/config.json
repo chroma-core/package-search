@@ -1,14 +1,16 @@
 {
-	"native_identifier": "cpp_common",
-	"repo": "mystor/rust-cpp",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"cpp_common/**/*.md",
-		"cpp_common/**/*.rs"
-	],
-	"collection_name_prefix": "cpp_common"
+    "native_identifier": "cpp_common",
+    "repo": "mystor/rust-cpp",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cpp_common/**/*.md",
+        "cpp_common/**/*.rs"
+    ],
+    "collection_name_prefix": "cpp_common",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

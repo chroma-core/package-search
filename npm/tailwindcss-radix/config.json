@@ -1,17 +1,19 @@
 {
-	"native_identifier": "tailwindcss-radix",
-	"repo": "ecklf/tailwindcss-radix",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "tailwindcss-radix"
+    "native_identifier": "tailwindcss-radix",
+    "repo": "ecklf/tailwindcss-radix",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "tailwindcss-radix",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/cj123/formulate",
-	"repo": "cj123/formulate",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_cj123_formulate"
+    "native_identifier": "github.com/cj123/formulate",
+    "repo": "cj123/formulate",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_cj123_formulate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

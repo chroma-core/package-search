@@ -1,17 +1,19 @@
 {
-	"native_identifier": "eslint-scope",
-	"repo": "eslint/js",
-	"registry": "npm",
-	"tag_formats": [
-		"eslint-scope-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/eslint-scope/**/*.md",
-		"packages/eslint-scope/**/*.ts",
-		"packages/eslint-scope/**/*.js",
-		"packages/eslint-scope/**/*.tsx",
-		"packages/eslint-scope/**/*.jsx"
-	],
-	"collection_name_prefix": "eslint-scope"
+    "native_identifier": "eslint-scope",
+    "repo": "eslint/js",
+    "registry": "npm",
+    "tag_formats": [
+        "eslint-scope-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/eslint-scope/**/*.md",
+        "packages/eslint-scope/**/*.ts",
+        "packages/eslint-scope/**/*.js",
+        "packages/eslint-scope/**/*.tsx",
+        "packages/eslint-scope/**/*.jsx"
+    ],
+    "collection_name_prefix": "eslint-scope",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

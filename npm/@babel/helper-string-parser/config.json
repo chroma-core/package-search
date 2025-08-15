@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-string-parser",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-string-parser/**/*.md",
-		"packages/babel-helper-string-parser/**/*.ts",
-		"packages/babel-helper-string-parser/**/*.js",
-		"packages/babel-helper-string-parser/**/*.tsx",
-		"packages/babel-helper-string-parser/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-string-parser"
+    "native_identifier": "@babel/helper-string-parser",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-string-parser/**/*.md",
+        "packages/babel-helper-string-parser/**/*.ts",
+        "packages/babel-helper-string-parser/**/*.js",
+        "packages/babel-helper-string-parser/**/*.tsx",
+        "packages/babel-helper-string-parser/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-string-parser",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,15 +1,17 @@
 {
-	"native_identifier": "phue",
-	"repo": "studioimaginaire/phue",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}",
-		"r{major}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "phue"
+    "native_identifier": "phue",
+    "repo": "studioimaginaire/phue",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}",
+        "r{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "phue",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

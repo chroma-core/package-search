@@ -1,14 +1,16 @@
 {
-	"native_identifier": "htbuilder",
-	"repo": "tvst/htbuilder",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "htbuilder"
+    "native_identifier": "htbuilder",
+    "repo": "tvst/htbuilder",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "htbuilder",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

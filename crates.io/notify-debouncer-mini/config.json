@@ -1,14 +1,16 @@
 {
-	"native_identifier": "notify-debouncer-mini",
-	"repo": "notify-rs/notify",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"notify-debouncer-mini/**/*.md",
-		"notify-debouncer-mini/**/*.rs"
-	],
-	"collection_name_prefix": "notify-debouncer-mini"
+    "native_identifier": "notify-debouncer-mini",
+    "repo": "notify-rs/notify",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "notify-debouncer-mini/**/*.md",
+        "notify-debouncer-mini/**/*.rs"
+    ],
+    "collection_name_prefix": "notify-debouncer-mini",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

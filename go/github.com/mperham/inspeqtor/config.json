@@ -1,20 +1,22 @@
 {
-	"native_identifier": "github.com/mperham/inspeqtor",
-	"repo": "mperham/inspeqtor",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-1",
-		"v{major}.{minor}.{patch}-2",
-		"v{major}.{minor}.0-1",
-		"v{major}.{minor}.0-2",
-		"v{major}.{minor}.0",
-		"v{major}.0.0-1"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_mperham_inspeqtor"
+    "native_identifier": "github.com/mperham/inspeqtor",
+    "repo": "mperham/inspeqtor",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-1",
+        "v{major}.{minor}.{patch}-2",
+        "v{major}.{minor}.0-1",
+        "v{major}.{minor}.0-2",
+        "v{major}.{minor}.0",
+        "v{major}.0.0-1"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_mperham_inspeqtor",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

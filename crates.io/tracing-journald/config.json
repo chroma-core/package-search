@@ -1,16 +1,18 @@
 {
-	"native_identifier": "tracing-journald",
-	"repo": "tokio-rs/tracing",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"tracing-{major}.{minor}.{patch}",
-		"tracing-{major}.{minor}.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"tracing-journald/**/*.md",
-		"tracing-journald/**/*.rs"
-	],
-	"collection_name_prefix": "tracing-journald"
+    "native_identifier": "tracing-journald",
+    "repo": "tokio-rs/tracing",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "tracing-{major}.{minor}.{patch}",
+        "tracing-{major}.{minor}.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "tracing-journald/**/*.md",
+        "tracing-journald/**/*.rs"
+    ],
+    "collection_name_prefix": "tracing-journald",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

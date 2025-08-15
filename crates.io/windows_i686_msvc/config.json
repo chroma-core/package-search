@@ -1,14 +1,16 @@
 {
-	"native_identifier": "windows_i686_msvc",
-	"repo": "microsoft/windows-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crates/targets/i686_msvc/**/*.md",
-		"crates/targets/i686_msvc/**/*.rs"
-	],
-	"collection_name_prefix": "windows_i686_msvc"
+    "native_identifier": "windows_i686_msvc",
+    "repo": "microsoft/windows-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crates/targets/i686_msvc/**/*.md",
+        "crates/targets/i686_msvc/**/*.rs"
+    ],
+    "collection_name_prefix": "windows_i686_msvc",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

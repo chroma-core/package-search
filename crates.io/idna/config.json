@@ -1,15 +1,17 @@
 {
-	"native_identifier": "idna",
-	"repo": "servo/rust-url",
-	"registry": "crates.io",
-	"tag_formats": [
-		"idna-v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"idna/**/*.md",
-		"idna/**/*.rs"
-	],
-	"collection_name_prefix": "idna"
+    "native_identifier": "idna",
+    "repo": "servo/rust-url",
+    "registry": "crates.io",
+    "tag_formats": [
+        "idna-v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "idna/**/*.md",
+        "idna/**/*.rs"
+    ],
+    "collection_name_prefix": "idna",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

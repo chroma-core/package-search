@@ -1,17 +1,19 @@
 {
-	"native_identifier": "v8-to-istanbul",
-	"repo": "istanbuljs/v8-to-istanbul",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "v8-to-istanbul"
+    "native_identifier": "v8-to-istanbul",
+    "repo": "istanbuljs/v8-to-istanbul",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "v8-to-istanbul",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

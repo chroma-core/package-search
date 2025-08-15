@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/uniqush/uniqush-push",
-	"repo": "uniqush/uniqush-push",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_uniqush_uniqush-push"
+    "native_identifier": "github.com/uniqush/uniqush-push",
+    "repo": "uniqush/uniqush-push",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_uniqush_uniqush-push",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

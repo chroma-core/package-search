@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-replace-supers",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-replace-supers/**/*.md",
-		"packages/babel-helper-replace-supers/**/*.ts",
-		"packages/babel-helper-replace-supers/**/*.js",
-		"packages/babel-helper-replace-supers/**/*.tsx",
-		"packages/babel-helper-replace-supers/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-replace-supers"
+    "native_identifier": "@babel/helper-replace-supers",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-replace-supers/**/*.md",
+        "packages/babel-helper-replace-supers/**/*.ts",
+        "packages/babel-helper-replace-supers/**/*.js",
+        "packages/babel-helper-replace-supers/**/*.tsx",
+        "packages/babel-helper-replace-supers/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-replace-supers",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/btcsuite/btcwallet/walletdb",
-	"repo": "btcsuite/btcwallet",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"walletdb/**/*.md",
-		"walletdb/**/*.go"
-	],
-	"collection_name_prefix": "github.com_btcsuite_btcwallet_walletdb"
+    "native_identifier": "github.com/btcsuite/btcwallet/walletdb",
+    "repo": "btcsuite/btcwallet",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "walletdb/**/*.md",
+        "walletdb/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_btcsuite_btcwallet_walletdb",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

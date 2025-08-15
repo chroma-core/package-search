@@ -1,16 +1,18 @@
 {
-	"native_identifier": "github.com/sipt/shuttle",
-	"repo": "sipt/shuttle",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"alpha-v{major}.{minor}.{patch}",
-		"beta-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_sipt_shuttle"
+    "native_identifier": "github.com/sipt/shuttle",
+    "repo": "sipt/shuttle",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "alpha-v{major}.{minor}.{patch}",
+        "beta-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_sipt_shuttle",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

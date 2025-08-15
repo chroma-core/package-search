@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-shorthand-properties",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-shorthand-properties/**/*.md",
-		"babel-plugin-transform-shorthand-properties/**/*.ts",
-		"babel-plugin-transform-shorthand-properties/**/*.js",
-		"babel-plugin-transform-shorthand-properties/**/*.tsx",
-		"babel-plugin-transform-shorthand-properties/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-shorthand-properties"
+    "native_identifier": "@babel/plugin-transform-shorthand-properties",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-shorthand-properties/**/*.md",
+        "babel-plugin-transform-shorthand-properties/**/*.ts",
+        "babel-plugin-transform-shorthand-properties/**/*.js",
+        "babel-plugin-transform-shorthand-properties/**/*.tsx",
+        "babel-plugin-transform-shorthand-properties/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-shorthand-properties",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

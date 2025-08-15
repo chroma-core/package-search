@@ -1,17 +1,19 @@
 {
-	"native_identifier": "cheating-daddy",
-	"repo": "sohzm/cheating-daddy",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "cheating-daddy"
+    "native_identifier": "cheating-daddy",
+    "repo": "sohzm/cheating-daddy",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "cheating-daddy",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

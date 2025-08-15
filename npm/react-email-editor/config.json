@@ -1,20 +1,22 @@
 {
-	"native_identifier": "react-email-editor",
-	"repo": "unlayer/react-email-editor",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-beta.{patch}",
-		"v{major}.{minor}.{patch}-beta.0",
-		"v{major}.{minor}.0-beta.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "react-email-editor"
+    "native_identifier": "react-email-editor",
+    "repo": "unlayer/react-email-editor",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-beta.{patch}",
+        "v{major}.{minor}.{patch}-beta.0",
+        "v{major}.{minor}.0-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "react-email-editor",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,18 +1,20 @@
 {
-	"native_identifier": "tlslite-ng",
-	"repo": "tlsfuzzer/tlslite-ng",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-alpha{patch}",
-		"v{major}.{minor}.{patch}-beta{patch}",
-		"v{major}.{minor}.{patch}-beta{minor}",
-		"v{major}.{minor}.{patch}-alpha{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "tlslite-ng"
+    "native_identifier": "tlslite-ng",
+    "repo": "tlsfuzzer/tlslite-ng",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha{patch}",
+        "v{major}.{minor}.{patch}-beta{patch}",
+        "v{major}.{minor}.{patch}-beta{minor}",
+        "v{major}.{minor}.{patch}-alpha{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "tlslite-ng",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

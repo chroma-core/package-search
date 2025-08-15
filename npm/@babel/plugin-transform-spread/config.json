@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-spread",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-spread/**/*.md",
-		"babel-plugin-transform-spread/**/*.ts",
-		"babel-plugin-transform-spread/**/*.js",
-		"babel-plugin-transform-spread/**/*.tsx",
-		"babel-plugin-transform-spread/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-spread"
+    "native_identifier": "@babel/plugin-transform-spread",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-spread/**/*.md",
+        "babel-plugin-transform-spread/**/*.ts",
+        "babel-plugin-transform-spread/**/*.js",
+        "babel-plugin-transform-spread/**/*.tsx",
+        "babel-plugin-transform-spread/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-spread",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "espree",
-	"repo": "eslint/js",
-	"registry": "npm",
-	"tag_formats": [
-		"espree-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/espree/**/*.md",
-		"packages/espree/**/*.ts",
-		"packages/espree/**/*.js",
-		"packages/espree/**/*.tsx",
-		"packages/espree/**/*.jsx"
-	],
-	"collection_name_prefix": "espree"
+    "native_identifier": "espree",
+    "repo": "eslint/js",
+    "registry": "npm",
+    "tag_formats": [
+        "espree-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/espree/**/*.md",
+        "packages/espree/**/*.ts",
+        "packages/espree/**/*.js",
+        "packages/espree/**/*.tsx",
+        "packages/espree/**/*.jsx"
+    ],
+    "collection_name_prefix": "espree",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "docker-registry",
-	"repo": "docker-archive/docker-registry",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "docker-registry"
+    "native_identifier": "docker-registry",
+    "repo": "docker-archive/docker-registry",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "docker-registry",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/valyala/quicktemplate",
-	"repo": "valyala/quicktemplate",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_valyala_quicktemplate"
+    "native_identifier": "github.com/valyala/quicktemplate",
+    "repo": "valyala/quicktemplate",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_valyala_quicktemplate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/rules/golog",
-	"repo": "alibaba/opentelemetry-go-auto-instrumentation",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pkg/rules/golog/**/*.md",
-		"pkg/rules/golog/**/*.go"
-	],
-	"collection_name_prefix": "github.com_alibaba_opentelemetry-go-auto-instrumentation_pkg_rules_golog"
+    "native_identifier": "github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/rules/golog",
+    "repo": "alibaba/opentelemetry-go-auto-instrumentation",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/rules/golog/**/*.md",
+        "pkg/rules/golog/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_alibaba_opentelemetry-go-auto-instrumentation_pkg_rules_golog",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "sm",
-	"repo": "rustic-games/sm",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"sm/**/*.md",
-		"sm/**/*.rs"
-	],
-	"collection_name_prefix": "sm"
+    "native_identifier": "sm",
+    "repo": "rustic-games/sm",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "sm/**/*.md",
+        "sm/**/*.rs"
+    ],
+    "collection_name_prefix": "sm",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

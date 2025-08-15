@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@webassemblyjs/helper-api-error",
-	"repo": "xtuc/webassemblyjs",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/helper-api-error/**/*.md",
-		"packages/helper-api-error/**/*.ts",
-		"packages/helper-api-error/**/*.js",
-		"packages/helper-api-error/**/*.tsx",
-		"packages/helper-api-error/**/*.jsx"
-	],
-	"collection_name_prefix": "webassemblyjs_helper-api-error"
+    "native_identifier": "@webassemblyjs/helper-api-error",
+    "repo": "xtuc/webassemblyjs",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/helper-api-error/**/*.md",
+        "packages/helper-api-error/**/*.ts",
+        "packages/helper-api-error/**/*.js",
+        "packages/helper-api-error/**/*.tsx",
+        "packages/helper-api-error/**/*.jsx"
+    ],
+    "collection_name_prefix": "webassemblyjs_helper-api-error",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@rollup/rollup-linux-x64-musl",
-	"repo": "rollup/rollup",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"npm/rollup-linux-x64-musl/**/*.md",
-		"npm/rollup-linux-x64-musl/**/*.ts",
-		"npm/rollup-linux-x64-musl/**/*.js",
-		"npm/rollup-linux-x64-musl/**/*.tsx",
-		"npm/rollup-linux-x64-musl/**/*.jsx"
-	],
-	"collection_name_prefix": "rollup_rollup-linux-x64-musl"
+    "native_identifier": "@rollup/rollup-linux-x64-musl",
+    "repo": "rollup/rollup",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "npm/rollup-linux-x64-musl/**/*.md",
+        "npm/rollup-linux-x64-musl/**/*.ts",
+        "npm/rollup-linux-x64-musl/**/*.js",
+        "npm/rollup-linux-x64-musl/**/*.tsx",
+        "npm/rollup-linux-x64-musl/**/*.jsx"
+    ],
+    "collection_name_prefix": "rollup_rollup-linux-x64-musl",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

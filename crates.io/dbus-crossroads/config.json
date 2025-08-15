@@ -1,16 +1,18 @@
 {
-	"native_identifier": "dbus-crossroads",
-	"repo": "diwic/dbus-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"dbus-crossroads-v{major}.{minor}.{patch}",
-		"dbus-codegen-v{major}.{minor}.{patch}",
-		"dbus-tokio-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"dbus-crossroads/**/*.md",
-		"dbus-crossroads/**/*.rs"
-	],
-	"collection_name_prefix": "dbus-crossroads"
+    "native_identifier": "dbus-crossroads",
+    "repo": "diwic/dbus-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "dbus-crossroads-v{major}.{minor}.{patch}",
+        "dbus-codegen-v{major}.{minor}.{patch}",
+        "dbus-tokio-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "dbus-crossroads/**/*.md",
+        "dbus-crossroads/**/*.rs"
+    ],
+    "collection_name_prefix": "dbus-crossroads",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

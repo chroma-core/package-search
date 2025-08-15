@@ -1,19 +1,21 @@
 {
-	"native_identifier": "a11y",
-	"repo": "chakra-ui/chakra-ui-vue",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@chakra-ui/nuxt@{major}.{minor}.{patch}",
-		"@chakra-ui/nuxt@0.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "a11y"
+    "native_identifier": "a11y",
+    "repo": "chakra-ui/chakra-ui-vue",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@chakra-ui/nuxt@{major}.{minor}.{patch}",
+        "@chakra-ui/nuxt@0.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "a11y",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

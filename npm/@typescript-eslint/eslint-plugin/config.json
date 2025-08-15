@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@typescript-eslint/eslint-plugin",
-	"repo": "typescript-eslint/typescript-eslint",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/eslint-plugin/**/*.md",
-		"packages/eslint-plugin/**/*.ts",
-		"packages/eslint-plugin/**/*.js",
-		"packages/eslint-plugin/**/*.tsx",
-		"packages/eslint-plugin/**/*.jsx"
-	],
-	"collection_name_prefix": "typescript-eslint_eslint-plugin"
+    "native_identifier": "@typescript-eslint/eslint-plugin",
+    "repo": "typescript-eslint/typescript-eslint",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/eslint-plugin/**/*.md",
+        "packages/eslint-plugin/**/*.ts",
+        "packages/eslint-plugin/**/*.js",
+        "packages/eslint-plugin/**/*.tsx",
+        "packages/eslint-plugin/**/*.jsx"
+    ],
+    "collection_name_prefix": "typescript-eslint_eslint-plugin",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

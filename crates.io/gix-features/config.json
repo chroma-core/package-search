@@ -1,14 +1,16 @@
 {
-	"native_identifier": "gix-features",
-	"repo": "GitoxideLabs/gitoxide",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"gix-features/**/*.md",
-		"gix-features/**/*.rs"
-	],
-	"collection_name_prefix": "gix-features"
+    "native_identifier": "gix-features",
+    "repo": "GitoxideLabs/gitoxide",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "gix-features/**/*.md",
+        "gix-features/**/*.rs"
+    ],
+    "collection_name_prefix": "gix-features",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "opentelemetry-util-http",
-	"repo": "open-telemetry/opentelemetry-python-contrib",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}b0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"util/opentelemetry-util-http/**/*.md",
-		"util/opentelemetry-util-http/**/*.py"
-	],
-	"collection_name_prefix": "opentelemetry-util-http"
+    "native_identifier": "opentelemetry-util-http",
+    "repo": "open-telemetry/opentelemetry-python-contrib",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}b0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "util/opentelemetry-util-http/**/*.md",
+        "util/opentelemetry-util-http/**/*.py"
+    ],
+    "collection_name_prefix": "opentelemetry-util-http",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,21 +1,23 @@
 {
-	"native_identifier": "wechat-bot",
-	"repo": "cixingguangming55555/wechat-bot",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}.{DD}",
-		"{major}.{minor}.{patch}.{YY}",
-		"{major}.{major}.{patch}.{DD}",
-		"{major}.{minor}.{minor}.{YY}",
-		"{major}.{patch}.{minor}.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "wechat-bot"
+    "native_identifier": "wechat-bot",
+    "repo": "cixingguangming55555/wechat-bot",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}.{DD}",
+        "{major}.{minor}.{patch}.{YY}",
+        "{major}.{major}.{patch}.{DD}",
+        "{major}.{minor}.{minor}.{YY}",
+        "{major}.{patch}.{minor}.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "wechat-bot",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

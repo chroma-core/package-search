@@ -1,19 +1,21 @@
 {
-	"native_identifier": "vocs",
-	"repo": "wevm/vocs",
-	"registry": "npm",
-	"tag_formats": [
-		"@{major}.{minor}.{patch}",
-		"vocs@{major}.{minor}.{patch}",
-		"vocs@{major}.{minor}.{patch}-alpha.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vocs"
+    "native_identifier": "vocs",
+    "repo": "wevm/vocs",
+    "registry": "npm",
+    "tag_formats": [
+        "@{major}.{minor}.{patch}",
+        "vocs@{major}.{minor}.{patch}",
+        "vocs@{major}.{minor}.{patch}-alpha.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vocs",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "vue-social-sharing",
-	"repo": "nicolasbeauvais/vue-social-sharing",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue-social-sharing"
+    "native_identifier": "vue-social-sharing",
+    "repo": "nicolasbeauvais/vue-social-sharing",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue-social-sharing",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,22 +1,24 @@
 {
-	"native_identifier": "leon",
-	"repo": "leon-ai/leon",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}-beta.{patch}",
-		"nodejs-bridge_v{major}.{minor}.{patch}",
-		"python-bridge_v{major}.{minor}.{patch}",
-		"tcp-server_v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-beta.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "leon"
+    "native_identifier": "leon",
+    "repo": "leon-ai/leon",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-beta.{patch}",
+        "nodejs-bridge_v{major}.{minor}.{patch}",
+        "python-bridge_v{major}.{minor}.{patch}",
+        "tcp-server_v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "leon",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/aws/aws-k8s-tester/k8s-tester/csi-ebs",
-	"repo": "aws/aws-k8s-tester",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"k8s-tester/csi-ebs/**/*.md",
-		"k8s-tester/csi-ebs/**/*.go"
-	],
-	"collection_name_prefix": "github.com_aws_aws-k8s-tester_k8s-tester_csi-ebs"
+    "native_identifier": "github.com/aws/aws-k8s-tester/k8s-tester/csi-ebs",
+    "repo": "aws/aws-k8s-tester",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "k8s-tester/csi-ebs/**/*.md",
+        "k8s-tester/csi-ebs/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_aws_aws-k8s-tester_k8s-tester_csi-ebs",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

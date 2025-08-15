@@ -1,15 +1,17 @@
 {
-	"native_identifier": "aurae",
-	"repo": "aurae-runtime/aurae",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-aa.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "aurae"
+    "native_identifier": "aurae",
+    "repo": "aurae-runtime/aurae",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-aa.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "aurae",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

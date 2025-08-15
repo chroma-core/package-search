@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/portainer/portainer/pkg/featureflags",
-	"repo": "portainer/portainer",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pkg/featureflags/**/*.md",
-		"pkg/featureflags/**/*.go"
-	],
-	"collection_name_prefix": "github.com_portainer_portainer_pkg_featureflags"
+    "native_identifier": "github.com/portainer/portainer/pkg/featureflags",
+    "repo": "portainer/portainer",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/featureflags/**/*.md",
+        "pkg/featureflags/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_portainer_portainer_pkg_featureflags",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

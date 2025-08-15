@@ -1,17 +1,19 @@
 {
-	"native_identifier": "d3-graphviz",
-	"repo": "magjac/d3-graphviz",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "d3-graphviz"
+    "native_identifier": "d3-graphviz",
+    "repo": "magjac/d3-graphviz",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "d3-graphviz",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

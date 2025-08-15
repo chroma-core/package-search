@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-config",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-config/**/*.md",
-		"packages/jest-config/**/*.ts",
-		"packages/jest-config/**/*.js",
-		"packages/jest-config/**/*.tsx",
-		"packages/jest-config/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-config"
+    "native_identifier": "jest-config",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-config/**/*.md",
+        "packages/jest-config/**/*.ts",
+        "packages/jest-config/**/*.js",
+        "packages/jest-config/**/*.tsx",
+        "packages/jest-config/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-config",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

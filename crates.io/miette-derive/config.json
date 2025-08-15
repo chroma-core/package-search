@@ -1,14 +1,16 @@
 {
-	"native_identifier": "miette-derive",
-	"repo": "zkat/miette",
-	"registry": "crates.io",
-	"tag_formats": [
-		"miette-derive-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"miette-derive/**/*.md",
-		"miette-derive/**/*.rs"
-	],
-	"collection_name_prefix": "miette-derive"
+    "native_identifier": "miette-derive",
+    "repo": "zkat/miette",
+    "registry": "crates.io",
+    "tag_formats": [
+        "miette-derive-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "miette-derive/**/*.md",
+        "miette-derive/**/*.rs"
+    ],
+    "collection_name_prefix": "miette-derive",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

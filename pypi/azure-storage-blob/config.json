@@ -1,14 +1,16 @@
 {
-	"native_identifier": "azure-storage-blob",
-	"repo": "azure/azure-sdk-for-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"azure-storage-blob_{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"sdk/storage/azure-storage-blob/**/*.md",
-		"sdk/storage/azure-storage-blob/**/*.py"
-	],
-	"collection_name_prefix": "azure-storage-blob"
+    "native_identifier": "azure-storage-blob",
+    "repo": "azure/azure-sdk-for-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "azure-storage-blob_{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "sdk/storage/azure-storage-blob/**/*.md",
+        "sdk/storage/azure-storage-blob/**/*.py"
+    ],
+    "collection_name_prefix": "azure-storage-blob",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "add-to-homescreen",
-	"repo": "cubiq/add-to-homescreen",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "add-to-homescreen"
+    "native_identifier": "add-to-homescreen",
+    "repo": "cubiq/add-to-homescreen",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "add-to-homescreen",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

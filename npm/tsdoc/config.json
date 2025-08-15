@@ -1,20 +1,22 @@
 {
-	"native_identifier": "tsdoc",
-	"repo": "microsoft/tsdoc",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@microsoft/tsdoc-config_v{major}.{minor}.{patch}",
-		"@microsoft/tsdoc_v{major}.{minor}.{patch}",
-		"eslint-plugin-tsdoc_v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "tsdoc"
+    "native_identifier": "tsdoc",
+    "repo": "microsoft/tsdoc",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@microsoft/tsdoc-config_v{major}.{minor}.{patch}",
+        "@microsoft/tsdoc_v{major}.{minor}.{patch}",
+        "eslint-plugin-tsdoc_v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "tsdoc",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

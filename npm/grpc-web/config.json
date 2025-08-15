@@ -1,19 +1,21 @@
 {
-	"native_identifier": "grpc-web",
-	"repo": "improbable-eng/grpc-web",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@improbable-eng/grpc-web-fake-transport@{major}.{minor}.{patch}",
-		"@improbable-eng/grpc-web-node-http-transport@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "grpc-web"
+    "native_identifier": "grpc-web",
+    "repo": "improbable-eng/grpc-web",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@improbable-eng/grpc-web-fake-transport@{major}.{minor}.{patch}",
+        "@improbable-eng/grpc-web-node-http-transport@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "grpc-web",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

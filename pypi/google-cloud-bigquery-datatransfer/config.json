@@ -1,14 +1,16 @@
 {
-	"native_identifier": "google-cloud-bigquery-datatransfer",
-	"repo": "googleapis/google-cloud-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"google-cloud-bigquery-datatransfer-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/google-cloud-bigquery-datatransfer/**/*.md",
-		"packages/google-cloud-bigquery-datatransfer/**/*.py"
-	],
-	"collection_name_prefix": "google-cloud-bigquery-datatransfer"
+    "native_identifier": "google-cloud-bigquery-datatransfer",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "google-cloud-bigquery-datatransfer-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-cloud-bigquery-datatransfer/**/*.md",
+        "packages/google-cloud-bigquery-datatransfer/**/*.py"
+    ],
+    "collection_name_prefix": "google-cloud-bigquery-datatransfer",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

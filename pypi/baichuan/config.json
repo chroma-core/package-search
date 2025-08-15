@@ -1,15 +1,17 @@
 {
-	"native_identifier": "baichuan",
-	"repo": "xusenlinzy/api-for-open-llm",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"api-for-open-llm-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "baichuan"
+    "native_identifier": "baichuan",
+    "repo": "xusenlinzy/api-for-open-llm",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "api-for-open-llm-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "baichuan",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

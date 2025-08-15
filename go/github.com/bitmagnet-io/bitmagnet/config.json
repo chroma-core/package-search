@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/bitmagnet-io/bitmagnet",
-	"repo": "bitmagnet-io/bitmagnet",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_bitmagnet-io_bitmagnet"
+    "native_identifier": "github.com/bitmagnet-io/bitmagnet",
+    "repo": "bitmagnet-io/bitmagnet",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_bitmagnet-io_bitmagnet",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

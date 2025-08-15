@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/rancher-sandbox/rancher-desktop/src/go/nerdctl-stub/generate",
-	"repo": "rancher-sandbox/rancher-desktop",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"src/go/nerdctl-stub/generate/**/*.md",
-		"src/go/nerdctl-stub/generate/**/*.go"
-	],
-	"collection_name_prefix": "github.com_rancher-sandbox_rancher-desktop_src_go_nerdctl-stub_generate"
+    "native_identifier": "github.com/rancher-sandbox/rancher-desktop/src/go/nerdctl-stub/generate",
+    "repo": "rancher-sandbox/rancher-desktop",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "src/go/nerdctl-stub/generate/**/*.md",
+        "src/go/nerdctl-stub/generate/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_rancher-sandbox_rancher-desktop_src_go_nerdctl-stub_generate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

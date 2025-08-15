@@ -1,25 +1,27 @@
 {
-	"native_identifier": "vue-lazy-hydration",
-	"repo": "maoberlehner/vue-lazy-hydration",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{minor}-beta.{patch}",
-		"{major}.{minor}.{patch}-beta.{minor}",
-		"{major}.{minor}.{patch}-beta.{DD}",
-		"{major}.{minor}.{minor}-beta.{YY}",
-		"{major}.{minor}.{patch}-beta.{patch}",
-		"{major}.0.0-beta.{patch}",
-		"{major}.0.{patch}-beta.{patch}",
-		"{major}.{minor}.0-beta.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue-lazy-hydration"
+    "native_identifier": "vue-lazy-hydration",
+    "repo": "maoberlehner/vue-lazy-hydration",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{minor}-beta.{patch}",
+        "{major}.{minor}.{patch}-beta.{minor}",
+        "{major}.{minor}.{patch}-beta.{DD}",
+        "{major}.{minor}.{minor}-beta.{YY}",
+        "{major}.{minor}.{patch}-beta.{patch}",
+        "{major}.0.0-beta.{patch}",
+        "{major}.0.{patch}-beta.{patch}",
+        "{major}.{minor}.0-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue-lazy-hydration",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

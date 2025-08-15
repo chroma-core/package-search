@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/kubeshark/kubeshark/tap/dbgctl",
-	"repo": "kubeshark/kubeshark",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"tap/dbgctl/**/*.md",
-		"tap/dbgctl/**/*.go"
-	],
-	"collection_name_prefix": "github.com_kubeshark_kubeshark_tap_dbgctl"
+    "native_identifier": "github.com/kubeshark/kubeshark/tap/dbgctl",
+    "repo": "kubeshark/kubeshark",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "tap/dbgctl/**/*.md",
+        "tap/dbgctl/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_kubeshark_kubeshark_tap_dbgctl",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

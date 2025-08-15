@@ -1,14 +1,16 @@
 {
-	"native_identifier": "academic",
-	"repo": "binary-husky/gpt_academic",
-	"registry": "pypi",
-	"tag_formats": [
-		"version{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "academic"
+    "native_identifier": "academic",
+    "repo": "binary-husky/gpt_academic",
+    "registry": "pypi",
+    "tag_formats": [
+        "version{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "academic",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

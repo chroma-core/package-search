@@ -1,14 +1,16 @@
 {
-	"native_identifier": "ethers-signers",
-	"repo": "gakonst/ethers-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"ethers-signers/**/*.md",
-		"ethers-signers/**/*.rs"
-	],
-	"collection_name_prefix": "ethers-signers"
+    "native_identifier": "ethers-signers",
+    "repo": "gakonst/ethers-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "ethers-signers/**/*.md",
+        "ethers-signers/**/*.rs"
+    ],
+    "collection_name_prefix": "ethers-signers",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

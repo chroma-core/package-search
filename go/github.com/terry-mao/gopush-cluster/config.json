@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/terry-mao/gopush-cluster",
-	"repo": "terry-mao/gopush-cluster",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_terry-mao_gopush-cluster"
+    "native_identifier": "github.com/terry-mao/gopush-cluster",
+    "repo": "terry-mao/gopush-cluster",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_terry-mao_gopush-cluster",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,20 +1,22 @@
 {
-	"native_identifier": "ats",
-	"repo": "srbhr/resume-matcher",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}-old-resume-matcher",
-		"v{major}.{minor}.{patch}-alpha",
-		"v{major}.{minor}.{patch}-alpha.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "ats"
+    "native_identifier": "ats",
+    "repo": "srbhr/resume-matcher",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-old-resume-matcher",
+        "v{major}.{minor}.{patch}-alpha",
+        "v{major}.{minor}.{patch}-alpha.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "ats",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

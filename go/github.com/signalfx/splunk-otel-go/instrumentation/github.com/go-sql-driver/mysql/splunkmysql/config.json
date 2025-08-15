@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-sql-driver/mysql/splunkmysql",
-	"repo": "signalfx/splunk-otel-go",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"instrumentation/github.com/go-sql-driver/mysql/splunkmysql/**/*.md",
-		"instrumentation/github.com/go-sql-driver/mysql/splunkmysql/**/*.go"
-	],
-	"collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_github.com_go-sql-driver_mysql_splunkmysql"
+    "native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-sql-driver/mysql/splunkmysql",
+    "repo": "signalfx/splunk-otel-go",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/github.com/go-sql-driver/mysql/splunkmysql/**/*.md",
+        "instrumentation/github.com/go-sql-driver/mysql/splunkmysql/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_github.com_go-sql-driver_mysql_splunkmysql",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

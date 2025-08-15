@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-typeof-symbol",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-typeof-symbol/**/*.md",
-		"babel-plugin-transform-typeof-symbol/**/*.ts",
-		"babel-plugin-transform-typeof-symbol/**/*.js",
-		"babel-plugin-transform-typeof-symbol/**/*.tsx",
-		"babel-plugin-transform-typeof-symbol/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-typeof-symbol"
+    "native_identifier": "@babel/plugin-transform-typeof-symbol",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-typeof-symbol/**/*.md",
+        "babel-plugin-transform-typeof-symbol/**/*.ts",
+        "babel-plugin-transform-typeof-symbol/**/*.js",
+        "babel-plugin-transform-typeof-symbol/**/*.tsx",
+        "babel-plugin-transform-typeof-symbol/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-typeof-symbol",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

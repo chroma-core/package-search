@@ -1,19 +1,21 @@
 {
-	"native_identifier": "redux-auth",
-	"repo": "lynndylanhurley/redux-auth",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-beta{DD}",
-		"v{major}.{minor}.{patch}-beta{YY}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "redux-auth"
+    "native_identifier": "redux-auth",
+    "repo": "lynndylanhurley/redux-auth",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-beta{DD}",
+        "v{major}.{minor}.{patch}-beta{YY}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "redux-auth",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

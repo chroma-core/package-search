@@ -1,17 +1,19 @@
 {
-	"native_identifier": "vue-easytable",
-	"repo": "happy-coding-clans/vue-easytable",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue-easytable"
+    "native_identifier": "vue-easytable",
+    "repo": "happy-coding-clans/vue-easytable",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue-easytable",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

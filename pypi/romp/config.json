@@ -1,14 +1,16 @@
 {
-	"native_identifier": "romp",
-	"repo": "arthur151/romp",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "romp"
+    "native_identifier": "romp",
+    "repo": "arthur151/romp",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "romp",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/openark/orchestrator",
-	"repo": "openark/orchestrator",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_openark_orchestrator"
+    "native_identifier": "github.com/openark/orchestrator",
+    "repo": "openark/orchestrator",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_openark_orchestrator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

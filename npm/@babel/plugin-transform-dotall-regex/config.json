@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-dotall-regex",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-dotall-regex/**/*.md",
-		"babel-plugin-transform-dotall-regex/**/*.ts",
-		"babel-plugin-transform-dotall-regex/**/*.js",
-		"babel-plugin-transform-dotall-regex/**/*.tsx",
-		"babel-plugin-transform-dotall-regex/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-dotall-regex"
+    "native_identifier": "@babel/plugin-transform-dotall-regex",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-dotall-regex/**/*.md",
+        "babel-plugin-transform-dotall-regex/**/*.ts",
+        "babel-plugin-transform-dotall-regex/**/*.js",
+        "babel-plugin-transform-dotall-regex/**/*.tsx",
+        "babel-plugin-transform-dotall-regex/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-dotall-regex",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

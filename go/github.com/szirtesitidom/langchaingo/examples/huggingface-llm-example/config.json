@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/szirtesitidom/langchaingo/examples/huggingface-llm-example",
-	"repo": "szirtesitidom/langchaingo",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"examples/huggingface-llm-example/**/*.md",
-		"examples/huggingface-llm-example/**/*.go"
-	],
-	"collection_name_prefix": "github.com_szirtesitidom_langchaingo_examples_huggingface-llm-example"
+    "native_identifier": "github.com/szirtesitidom/langchaingo/examples/huggingface-llm-example",
+    "repo": "szirtesitidom/langchaingo",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "examples/huggingface-llm-example/**/*.md",
+        "examples/huggingface-llm-example/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_szirtesitidom_langchaingo_examples_huggingface-llm-example",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

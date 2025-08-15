@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/xakep666/mongo-migrate",
-	"repo": "xakep666/mongo-migrate",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_xakep666_mongo-migrate"
+    "native_identifier": "github.com/xakep666/mongo-migrate",
+    "repo": "xakep666/mongo-migrate",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_xakep666_mongo-migrate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

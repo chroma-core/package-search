@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/traverse",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-traverse/**/*.md",
-		"packages/babel-traverse/**/*.ts",
-		"packages/babel-traverse/**/*.js",
-		"packages/babel-traverse/**/*.tsx",
-		"packages/babel-traverse/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_traverse"
+    "native_identifier": "@babel/traverse",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-traverse/**/*.md",
+        "packages/babel-traverse/**/*.ts",
+        "packages/babel-traverse/**/*.js",
+        "packages/babel-traverse/**/*.tsx",
+        "packages/babel-traverse/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_traverse",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

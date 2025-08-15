@@ -1,24 +1,26 @@
 {
-	"native_identifier": "flarum",
-	"repo": "justjavac/flarum",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}-beta.{patch}",
-		"{major}.{minor}.{patch}-beta.{major}",
-		"{major}.{minor}.{patch}-beta.{minor}",
-		"{major}.{major}.{major}-beta.{patch}",
-		"{minor}.{minor}.{minor}-beta.{patch}",
-		"{patch}.{patch}.{patch}-beta.{patch}",
-		"{major}.{patch}.{minor}-beta.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "flarum"
+    "native_identifier": "flarum",
+    "repo": "justjavac/flarum",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-beta.{patch}",
+        "{major}.{minor}.{patch}-beta.{major}",
+        "{major}.{minor}.{patch}-beta.{minor}",
+        "{major}.{major}.{major}-beta.{patch}",
+        "{minor}.{minor}.{minor}-beta.{patch}",
+        "{patch}.{patch}.{patch}-beta.{patch}",
+        "{major}.{patch}.{minor}-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "flarum",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

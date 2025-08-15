@@ -1,14 +1,16 @@
 {
-	"native_identifier": "iana-time-zone",
-	"repo": "strawlab/iana-time-zone",
-	"registry": "crates.io",
-	"tag_formats": [
-		"haiku/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "iana-time-zone"
+    "native_identifier": "iana-time-zone",
+    "repo": "strawlab/iana-time-zone",
+    "registry": "crates.io",
+    "tag_formats": [
+        "haiku/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "iana-time-zone",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

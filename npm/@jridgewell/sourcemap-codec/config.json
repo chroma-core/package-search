@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jridgewell/sourcemap-codec",
-	"repo": "jridgewell/sourcemaps",
-	"registry": "npm",
-	"tag_formats": [
-		"sourcemap-codec/{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/sourcemap-codec/**/*.md",
-		"packages/sourcemap-codec/**/*.ts",
-		"packages/sourcemap-codec/**/*.js",
-		"packages/sourcemap-codec/**/*.tsx",
-		"packages/sourcemap-codec/**/*.jsx"
-	],
-	"collection_name_prefix": "jridgewell_sourcemap-codec"
+    "native_identifier": "@jridgewell/sourcemap-codec",
+    "repo": "jridgewell/sourcemaps",
+    "registry": "npm",
+    "tag_formats": [
+        "sourcemap-codec/{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/sourcemap-codec/**/*.md",
+        "packages/sourcemap-codec/**/*.ts",
+        "packages/sourcemap-codec/**/*.js",
+        "packages/sourcemap-codec/**/*.tsx",
+        "packages/sourcemap-codec/**/*.jsx"
+    ],
+    "collection_name_prefix": "jridgewell_sourcemap-codec",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

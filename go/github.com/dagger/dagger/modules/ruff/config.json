@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/dagger/dagger/modules/ruff",
-	"repo": "dagger/dagger",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"modules/ruff/**/*.md",
-		"modules/ruff/**/*.go"
-	],
-	"collection_name_prefix": "github.com_dagger_dagger_modules_ruff"
+    "native_identifier": "github.com/dagger/dagger/modules/ruff",
+    "repo": "dagger/dagger",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "modules/ruff/**/*.md",
+        "modules/ruff/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_dagger_dagger_modules_ruff",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

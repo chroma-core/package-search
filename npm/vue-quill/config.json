@@ -1,21 +1,23 @@
 {
-	"native_identifier": "vue-quill",
-	"repo": "vueup/vue-quill",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-alpha.{DD}",
-		"v{major}.{minor}.0-alpha.{DD}",
-		"v{major}.0.0-alpha.{DD}",
-		"v{major}.0.{patch}-alpha.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue-quill"
+    "native_identifier": "vue-quill",
+    "repo": "vueup/vue-quill",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha.{DD}",
+        "v{major}.{minor}.0-alpha.{DD}",
+        "v{major}.0.0-alpha.{DD}",
+        "v{major}.0.{patch}-alpha.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue-quill",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,18 +1,20 @@
 {
-	"native_identifier": "storefront-ui",
-	"repo": "vuestorefront/storefront-ui",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@storefront-ui/shared@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "storefront-ui"
+    "native_identifier": "storefront-ui",
+    "repo": "vuestorefront/storefront-ui",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@storefront-ui/shared@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "storefront-ui",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/kubernetes-sigs/aws-alb-ingress-controller",
-	"repo": "kubernetes-sigs/aws-alb-ingress-controller",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_kubernetes-sigs_aws-alb-ingress-controller"
+    "native_identifier": "github.com/kubernetes-sigs/aws-alb-ingress-controller",
+    "repo": "kubernetes-sigs/aws-alb-ingress-controller",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_kubernetes-sigs_aws-alb-ingress-controller",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

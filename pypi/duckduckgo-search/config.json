@@ -1,14 +1,16 @@
 {
-	"native_identifier": "duckduckgo-search",
-	"repo": "deedy5/duckduckgo_search",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "duckduckgo-search"
+    "native_identifier": "duckduckgo-search",
+    "repo": "deedy5/duckduckgo_search",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "duckduckgo-search",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

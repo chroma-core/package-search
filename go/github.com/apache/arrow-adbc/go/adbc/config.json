@@ -1,16 +1,18 @@
 {
-	"native_identifier": "github.com/apache/arrow-adbc/go/adbc",
-	"repo": "apache/arrow-adbc",
-	"registry": "go",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}",
-		"apache-arrow-adbc-{major}.{minor}.{patch}",
-		"apache-arrow-adbc-{major}.{patch}.0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_apache_arrow-adbc_go_adbc"
+    "native_identifier": "github.com/apache/arrow-adbc/go/adbc",
+    "repo": "apache/arrow-adbc",
+    "registry": "go",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "apache-arrow-adbc-{major}.{minor}.{patch}",
+        "apache-arrow-adbc-{major}.{patch}.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_apache_arrow-adbc_go_adbc",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

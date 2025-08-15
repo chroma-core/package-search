@@ -1,16 +1,18 @@
 {
-	"native_identifier": "intl_pluralrules",
-	"repo": "zbraniecki/pluralrules",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"intl_pluralrules@{major}.{minor}.{patch}",
-		"make_pluralrules@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "intl_pluralrules"
+    "native_identifier": "intl_pluralrules",
+    "repo": "zbraniecki/pluralrules",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "intl_pluralrules@{major}.{minor}.{patch}",
+        "make_pluralrules@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "intl_pluralrules",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

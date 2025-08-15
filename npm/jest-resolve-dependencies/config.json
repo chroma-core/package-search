@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-resolve-dependencies",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-resolve-dependencies/**/*.md",
-		"packages/jest-resolve-dependencies/**/*.ts",
-		"packages/jest-resolve-dependencies/**/*.js",
-		"packages/jest-resolve-dependencies/**/*.tsx",
-		"packages/jest-resolve-dependencies/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-resolve-dependencies"
+    "native_identifier": "jest-resolve-dependencies",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-resolve-dependencies/**/*.md",
+        "packages/jest-resolve-dependencies/**/*.ts",
+        "packages/jest-resolve-dependencies/**/*.js",
+        "packages/jest-resolve-dependencies/**/*.tsx",
+        "packages/jest-resolve-dependencies/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-resolve-dependencies",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

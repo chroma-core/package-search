@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-validator-option",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-validator-option/**/*.md",
-		"packages/babel-helper-validator-option/**/*.ts",
-		"packages/babel-helper-validator-option/**/*.js",
-		"packages/babel-helper-validator-option/**/*.tsx",
-		"packages/babel-helper-validator-option/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-validator-option"
+    "native_identifier": "@babel/helper-validator-option",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-validator-option/**/*.md",
+        "packages/babel-helper-validator-option/**/*.ts",
+        "packages/babel-helper-validator-option/**/*.js",
+        "packages/babel-helper-validator-option/**/*.tsx",
+        "packages/babel-helper-validator-option/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-validator-option",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

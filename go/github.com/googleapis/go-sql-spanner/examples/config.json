@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/googleapis/go-sql-spanner/examples",
-	"repo": "googleapis/go-sql-spanner",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"examples/**/*.md",
-		"examples/**/*.go"
-	],
-	"collection_name_prefix": "github.com_googleapis_go-sql-spanner_examples"
+    "native_identifier": "github.com/googleapis/go-sql-spanner/examples",
+    "repo": "googleapis/go-sql-spanner",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "examples/**/*.md",
+        "examples/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_googleapis_go-sql-spanner_examples",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

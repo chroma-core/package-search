@@ -1,14 +1,16 @@
 {
-	"native_identifier": "ark-ff",
-	"repo": "arkworks-rs/algebra",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"ff/**/*.md",
-		"ff/**/*.rs"
-	],
-	"collection_name_prefix": "ark-ff"
+    "native_identifier": "ark-ff",
+    "repo": "arkworks-rs/algebra",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "ff/**/*.md",
+        "ff/**/*.rs"
+    ],
+    "collection_name_prefix": "ark-ff",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

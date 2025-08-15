@@ -1,17 +1,19 @@
 {
-	"native_identifier": "crypto_secretbox",
-	"repo": "RustCrypto/nacl-compat",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"crypto_box-v{major}.{minor}.{patch}",
-		"crypto_kx-v{major}.{minor}.{patch}",
-		"crypto_secretstream-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crypto_secretbox/**/*.md",
-		"crypto_secretbox/**/*.rs"
-	],
-	"collection_name_prefix": "crypto_secretbox"
+    "native_identifier": "crypto_secretbox",
+    "repo": "RustCrypto/nacl-compat",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "crypto_box-v{major}.{minor}.{patch}",
+        "crypto_kx-v{major}.{minor}.{patch}",
+        "crypto_secretstream-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crypto_secretbox/**/*.md",
+        "crypto_secretbox/**/*.rs"
+    ],
+    "collection_name_prefix": "crypto_secretbox",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

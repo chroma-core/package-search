@@ -1,14 +1,16 @@
 {
-	"native_identifier": "data-warehouse",
-	"repo": "blankerl/dxy-covid-19-data",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "data-warehouse"
+    "native_identifier": "data-warehouse",
+    "repo": "blankerl/dxy-covid-19-data",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "data-warehouse",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-annotate-as-pure",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-annotate-as-pure/**/*.md",
-		"packages/babel-helper-annotate-as-pure/**/*.ts",
-		"packages/babel-helper-annotate-as-pure/**/*.js",
-		"packages/babel-helper-annotate-as-pure/**/*.tsx",
-		"packages/babel-helper-annotate-as-pure/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-annotate-as-pure"
+    "native_identifier": "@babel/helper-annotate-as-pure",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-annotate-as-pure/**/*.md",
+        "packages/babel-helper-annotate-as-pure/**/*.ts",
+        "packages/babel-helper-annotate-as-pure/**/*.js",
+        "packages/babel-helper-annotate-as-pure/**/*.tsx",
+        "packages/babel-helper-annotate-as-pure/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-annotate-as-pure",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

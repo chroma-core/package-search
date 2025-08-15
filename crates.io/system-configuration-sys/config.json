@@ -1,14 +1,16 @@
 {
-	"native_identifier": "system-configuration-sys",
-	"repo": "mullvad/system-configuration-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"system-configuration-sys/**/*.md",
-		"system-configuration-sys/**/*.rs"
-	],
-	"collection_name_prefix": "system-configuration-sys"
+    "native_identifier": "system-configuration-sys",
+    "repo": "mullvad/system-configuration-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "system-configuration-sys/**/*.md",
+        "system-configuration-sys/**/*.rs"
+    ],
+    "collection_name_prefix": "system-configuration-sys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

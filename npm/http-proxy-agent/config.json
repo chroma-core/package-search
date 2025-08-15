@@ -1,17 +1,19 @@
 {
-	"native_identifier": "http-proxy-agent",
-	"repo": "TooTallNate/proxy-agents",
-	"registry": "npm",
-	"tag_formats": [
-		"http-proxy-agent@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/http-proxy-agent/**/*.md",
-		"packages/http-proxy-agent/**/*.ts",
-		"packages/http-proxy-agent/**/*.js",
-		"packages/http-proxy-agent/**/*.tsx",
-		"packages/http-proxy-agent/**/*.jsx"
-	],
-	"collection_name_prefix": "http-proxy-agent"
+    "native_identifier": "http-proxy-agent",
+    "repo": "TooTallNate/proxy-agents",
+    "registry": "npm",
+    "tag_formats": [
+        "http-proxy-agent@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/http-proxy-agent/**/*.md",
+        "packages/http-proxy-agent/**/*.ts",
+        "packages/http-proxy-agent/**/*.js",
+        "packages/http-proxy-agent/**/*.tsx",
+        "packages/http-proxy-agent/**/*.jsx"
+    ],
+    "collection_name_prefix": "http-proxy-agent",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

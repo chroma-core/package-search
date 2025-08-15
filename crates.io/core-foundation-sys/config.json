@@ -1,15 +1,17 @@
 {
-	"native_identifier": "core-foundation-sys",
-	"repo": "servo/core-foundation-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"core-foundation-sys-v{major}.{minor}.{patch}",
-		"cocoa-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"core-foundation-sys/**/*.md",
-		"core-foundation-sys/**/*.rs"
-	],
-	"collection_name_prefix": "core-foundation-sys"
+    "native_identifier": "core-foundation-sys",
+    "repo": "servo/core-foundation-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "core-foundation-sys-v{major}.{minor}.{patch}",
+        "cocoa-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "core-foundation-sys/**/*.md",
+        "core-foundation-sys/**/*.rs"
+    ],
+    "collection_name_prefix": "core-foundation-sys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

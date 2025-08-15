@@ -1,14 +1,16 @@
 {
-	"native_identifier": "tslearn",
-	"repo": "tslearn-team/tslearn",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "tslearn"
+    "native_identifier": "tslearn",
+    "repo": "tslearn-team/tslearn",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "tslearn",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

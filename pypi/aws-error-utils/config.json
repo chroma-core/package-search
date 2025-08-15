@@ -1,14 +1,16 @@
 {
-	"native_identifier": "aws-error-utils",
-	"repo": "benkehoe/aws-error-utils",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "aws-error-utils"
+    "native_identifier": "aws-error-utils",
+    "repo": "benkehoe/aws-error-utils",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "aws-error-utils",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

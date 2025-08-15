@@ -1,14 +1,16 @@
 {
-	"native_identifier": "python-amazon-sp-api",
-	"repo": "saleweaver/python-amazon-sp-api",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "python-amazon-sp-api"
+    "native_identifier": "python-amazon-sp-api",
+    "repo": "saleweaver/python-amazon-sp-api",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "python-amazon-sp-api",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

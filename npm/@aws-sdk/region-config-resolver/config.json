@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@aws-sdk/region-config-resolver",
-	"repo": "aws/aws-sdk-js-v3",
-	"registry": "npm",
-	"tag_formats": [
-		"@aws-sdk/region-config-resolver@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/region-config-resolver/**/*.md",
-		"packages/region-config-resolver/**/*.ts",
-		"packages/region-config-resolver/**/*.js",
-		"packages/region-config-resolver/**/*.tsx",
-		"packages/region-config-resolver/**/*.jsx"
-	],
-	"collection_name_prefix": "aws-sdk_region-config-resolver"
+    "native_identifier": "@aws-sdk/region-config-resolver",
+    "repo": "aws/aws-sdk-js-v3",
+    "registry": "npm",
+    "tag_formats": [
+        "@aws-sdk/region-config-resolver@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/region-config-resolver/**/*.md",
+        "packages/region-config-resolver/**/*.ts",
+        "packages/region-config-resolver/**/*.js",
+        "packages/region-config-resolver/**/*.tsx",
+        "packages/region-config-resolver/**/*.jsx"
+    ],
+    "collection_name_prefix": "aws-sdk_region-config-resolver",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

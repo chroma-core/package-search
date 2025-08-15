@@ -1,14 +1,16 @@
 {
-	"native_identifier": "rarfile",
-	"repo": "markokr/rarfile",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "rarfile"
+    "native_identifier": "rarfile",
+    "repo": "markokr/rarfile",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "rarfile",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

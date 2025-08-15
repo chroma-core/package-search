@@ -1,17 +1,19 @@
 {
-	"native_identifier": "chromium",
-	"repo": "ungoogled-software/ungoogled-chromium-windows",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"{major}.{minor}.{MMMM}.{patch}-{major}.{minor}",
-		"{major}.{minor}.{MMMM}.{patch}-{minor}.{patch}",
-		"{major}.{minor}.{MMMM}.{patch}-{patch}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "chromium"
+    "native_identifier": "chromium",
+    "repo": "ungoogled-software/ungoogled-chromium-windows",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "{major}.{minor}.{MMMM}.{patch}-{major}.{minor}",
+        "{major}.{minor}.{MMMM}.{patch}-{minor}.{patch}",
+        "{major}.{minor}.{MMMM}.{patch}-{patch}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "chromium",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

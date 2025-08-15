@@ -1,18 +1,20 @@
 {
-	"native_identifier": "@electric-sql/pglite",
-	"repo": "electric-sql/pglite",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@electric-sql/pglite@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "electric-sql_pglite"
+    "native_identifier": "@electric-sql/pglite",
+    "repo": "electric-sql/pglite",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@electric-sql/pglite@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "electric-sql_pglite",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

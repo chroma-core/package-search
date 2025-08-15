@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/celestiaorg/rsmt2d",
-	"repo": "celestiaorg/rsmt2d",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_celestiaorg_rsmt2d"
+    "native_identifier": "github.com/celestiaorg/rsmt2d",
+    "repo": "celestiaorg/rsmt2d",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_celestiaorg_rsmt2d",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

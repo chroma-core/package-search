@@ -1,14 +1,16 @@
 {
-	"native_identifier": "jupyter-server",
-	"repo": "jupyter-server/jupyter_server",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "jupyter-server"
+    "native_identifier": "jupyter-server",
+    "repo": "jupyter-server/jupyter_server",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "jupyter-server",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

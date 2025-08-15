@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/aws/karpenter/test",
-	"repo": "aws/karpenter",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"test/**/*.md",
-		"test/**/*.go"
-	],
-	"collection_name_prefix": "github.com_aws_karpenter_test"
+    "native_identifier": "github.com/aws/karpenter/test",
+    "repo": "aws/karpenter",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "test/**/*.md",
+        "test/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_aws_karpenter_test",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

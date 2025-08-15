@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/fetch-http-handler",
-	"repo": "smithy-lang/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/fetch-http-handler@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/fetch-http-handler/**/*.md",
-		"packages/fetch-http-handler/**/*.ts",
-		"packages/fetch-http-handler/**/*.js",
-		"packages/fetch-http-handler/**/*.tsx",
-		"packages/fetch-http-handler/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_fetch-http-handler"
+    "native_identifier": "@smithy/fetch-http-handler",
+    "repo": "smithy-lang/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/fetch-http-handler@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/fetch-http-handler/**/*.md",
+        "packages/fetch-http-handler/**/*.ts",
+        "packages/fetch-http-handler/**/*.js",
+        "packages/fetch-http-handler/**/*.tsx",
+        "packages/fetch-http-handler/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_fetch-http-handler",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

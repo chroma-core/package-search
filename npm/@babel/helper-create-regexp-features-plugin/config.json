@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-create-regexp-features-plugin",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-helper-create-regexp-features-plugin/**/*.md",
-		"babel-helper-create-regexp-features-plugin/**/*.ts",
-		"babel-helper-create-regexp-features-plugin/**/*.js",
-		"babel-helper-create-regexp-features-plugin/**/*.tsx",
-		"babel-helper-create-regexp-features-plugin/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-create-regexp-features-plugin"
+    "native_identifier": "@babel/helper-create-regexp-features-plugin",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-helper-create-regexp-features-plugin/**/*.md",
+        "babel-helper-create-regexp-features-plugin/**/*.ts",
+        "babel-helper-create-regexp-features-plugin/**/*.js",
+        "babel-helper-create-regexp-features-plugin/**/*.tsx",
+        "babel-helper-create-regexp-features-plugin/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-create-regexp-features-plugin",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

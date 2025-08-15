@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/bytecodealliance/wasmtime-go/v14",
-	"repo": "bytecodealliance/wasmtime-go",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"v14/**/*.md",
-		"v14/**/*.go"
-	],
-	"collection_name_prefix": "github.com_bytecodealliance_wasmtime-go_v14"
+    "native_identifier": "github.com/bytecodealliance/wasmtime-go/v14",
+    "repo": "bytecodealliance/wasmtime-go",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v14/**/*.md",
+        "v14/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_bytecodealliance_wasmtime-go_v14",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

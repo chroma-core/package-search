@@ -1,14 +1,16 @@
 {
-	"native_identifier": "pem-rfc7468",
-	"repo": "RustCrypto/formats",
-	"registry": "crates.io",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pem-rfc7468/**/*.md",
-		"pem-rfc7468/**/*.rs"
-	],
-	"collection_name_prefix": "pem-rfc7468"
+    "native_identifier": "pem-rfc7468",
+    "repo": "RustCrypto/formats",
+    "registry": "crates.io",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pem-rfc7468/**/*.md",
+        "pem-rfc7468/**/*.rs"
+    ],
+    "collection_name_prefix": "pem-rfc7468",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

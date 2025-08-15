@@ -1,17 +1,19 @@
 {
-	"native_identifier": "trash-cli",
-	"repo": "andreafrancia/trash-cli",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}.{DD}",
-		"{major}.{minor}.{DD}.{YY}",
-		"{major}.{minor}.{patch}.{YY}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "trash-cli"
+    "native_identifier": "trash-cli",
+    "repo": "andreafrancia/trash-cli",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}.{DD}",
+        "{major}.{minor}.{DD}.{YY}",
+        "{major}.{minor}.{patch}.{YY}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "trash-cli",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

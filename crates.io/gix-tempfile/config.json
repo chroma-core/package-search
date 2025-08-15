@@ -1,14 +1,16 @@
 {
-	"native_identifier": "gix-tempfile",
-	"repo": "GitoxideLabs/gitoxide",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"gix-tempfile/**/*.md",
-		"gix-tempfile/**/*.rs"
-	],
-	"collection_name_prefix": "gix-tempfile"
+    "native_identifier": "gix-tempfile",
+    "repo": "GitoxideLabs/gitoxide",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "gix-tempfile/**/*.md",
+        "gix-tempfile/**/*.rs"
+    ],
+    "collection_name_prefix": "gix-tempfile",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

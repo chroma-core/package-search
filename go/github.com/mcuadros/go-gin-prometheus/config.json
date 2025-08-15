@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/mcuadros/go-gin-prometheus",
-	"repo": "mcuadros/go-gin-prometheus",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_mcuadros_go-gin-prometheus"
+    "native_identifier": "github.com/mcuadros/go-gin-prometheus",
+    "repo": "mcuadros/go-gin-prometheus",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_mcuadros_go-gin-prometheus",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

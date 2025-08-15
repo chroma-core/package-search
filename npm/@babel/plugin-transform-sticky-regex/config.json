@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-sticky-regex",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-sticky-regex/**/*.md",
-		"babel-plugin-transform-sticky-regex/**/*.ts",
-		"babel-plugin-transform-sticky-regex/**/*.js",
-		"babel-plugin-transform-sticky-regex/**/*.tsx",
-		"babel-plugin-transform-sticky-regex/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-sticky-regex"
+    "native_identifier": "@babel/plugin-transform-sticky-regex",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-sticky-regex/**/*.md",
+        "babel-plugin-transform-sticky-regex/**/*.ts",
+        "babel-plugin-transform-sticky-regex/**/*.js",
+        "babel-plugin-transform-sticky-regex/**/*.tsx",
+        "babel-plugin-transform-sticky-regex/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-sticky-regex",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

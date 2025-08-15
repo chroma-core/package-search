@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/google/gvisor",
-	"repo": "google/gvisor",
-	"registry": "go",
-	"tag_formats": [
-		"release-{YYYY}-{MM}-{DD}.0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_google_gvisor"
+    "native_identifier": "github.com/google/gvisor",
+    "repo": "google/gvisor",
+    "registry": "go",
+    "tag_formats": [
+        "release-{YYYY}-{MM}-{DD}.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_google_gvisor",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-reserved-words",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-reserved-words/**/*.md",
-		"babel-plugin-transform-reserved-words/**/*.ts",
-		"babel-plugin-transform-reserved-words/**/*.js",
-		"babel-plugin-transform-reserved-words/**/*.tsx",
-		"babel-plugin-transform-reserved-words/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-reserved-words"
+    "native_identifier": "@babel/plugin-transform-reserved-words",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-reserved-words/**/*.md",
+        "babel-plugin-transform-reserved-words/**/*.ts",
+        "babel-plugin-transform-reserved-words/**/*.js",
+        "babel-plugin-transform-reserved-words/**/*.tsx",
+        "babel-plugin-transform-reserved-words/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-reserved-words",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

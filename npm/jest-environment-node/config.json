@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-environment-node",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-environment-node/**/*.md",
-		"packages/jest-environment-node/**/*.ts",
-		"packages/jest-environment-node/**/*.js",
-		"packages/jest-environment-node/**/*.tsx",
-		"packages/jest-environment-node/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-environment-node"
+    "native_identifier": "jest-environment-node",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-environment-node/**/*.md",
+        "packages/jest-environment-node/**/*.ts",
+        "packages/jest-environment-node/**/*.js",
+        "packages/jest-environment-node/**/*.tsx",
+        "packages/jest-environment-node/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-environment-node",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

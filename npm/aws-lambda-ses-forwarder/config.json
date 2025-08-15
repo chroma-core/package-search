@@ -1,17 +1,19 @@
 {
-	"native_identifier": "aws-lambda-ses-forwarder",
-	"repo": "arithmetric/aws-lambda-ses-forwarder",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "aws-lambda-ses-forwarder"
+    "native_identifier": "aws-lambda-ses-forwarder",
+    "repo": "arithmetric/aws-lambda-ses-forwarder",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "aws-lambda-ses-forwarder",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

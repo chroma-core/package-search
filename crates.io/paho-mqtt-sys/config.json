@@ -1,14 +1,16 @@
 {
-	"native_identifier": "paho-mqtt-sys",
-	"repo": "eclipse/paho.mqtt.rust",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"paho-mqtt-sys/**/*.md",
-		"paho-mqtt-sys/**/*.rs"
-	],
-	"collection_name_prefix": "paho-mqtt-sys"
+    "native_identifier": "paho-mqtt-sys",
+    "repo": "eclipse/paho.mqtt.rust",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "paho-mqtt-sys/**/*.md",
+        "paho-mqtt-sys/**/*.rs"
+    ],
+    "collection_name_prefix": "paho-mqtt-sys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "azure-mgmt-datafactory",
-	"repo": "azure/azure-sdk-for-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"azure-mgmt-datafactory_{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"sdk/datafactory/azure-mgmt-datafactory/**/*.md",
-		"sdk/datafactory/azure-mgmt-datafactory/**/*.py"
-	],
-	"collection_name_prefix": "azure-mgmt-datafactory"
+    "native_identifier": "azure-mgmt-datafactory",
+    "repo": "azure/azure-sdk-for-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "azure-mgmt-datafactory_{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "sdk/datafactory/azure-mgmt-datafactory/**/*.md",
+        "sdk/datafactory/azure-mgmt-datafactory/**/*.py"
+    ],
+    "collection_name_prefix": "azure-mgmt-datafactory",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

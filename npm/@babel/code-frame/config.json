@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/code-frame",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-code-frame/**/*.md",
-		"babel-code-frame/**/*.ts",
-		"babel-code-frame/**/*.js",
-		"babel-code-frame/**/*.tsx",
-		"babel-code-frame/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_code-frame"
+    "native_identifier": "@babel/code-frame",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-code-frame/**/*.md",
+        "babel-code-frame/**/*.ts",
+        "babel-code-frame/**/*.js",
+        "babel-code-frame/**/*.tsx",
+        "babel-code-frame/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_code-frame",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

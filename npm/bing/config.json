@@ -1,22 +1,24 @@
 {
-	"native_identifier": "bing",
-	"repo": "xcss/bing",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-for-php",
-		"v{major}.{minor}-beta-{patch}",
-		"v{major}.{minor}.{patch}-release",
-		"v{major}.{minor}-release",
-		"v{major}.{minor}.0-for-php"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "bing"
+    "native_identifier": "bing",
+    "repo": "xcss/bing",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-for-php",
+        "v{major}.{minor}-beta-{patch}",
+        "v{major}.{minor}.{patch}-release",
+        "v{major}.{minor}-release",
+        "v{major}.{minor}.0-for-php"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "bing",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

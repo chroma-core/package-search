@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@aws-sdk/util-user-agent-browser",
-	"repo": "aws/aws-sdk-js-v3",
-	"registry": "npm",
-	"tag_formats": [
-		"@aws-sdk/util-user-agent-browser@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/util-user-agent-browser/**/*.md",
-		"packages/util-user-agent-browser/**/*.ts",
-		"packages/util-user-agent-browser/**/*.js",
-		"packages/util-user-agent-browser/**/*.tsx",
-		"packages/util-user-agent-browser/**/*.jsx"
-	],
-	"collection_name_prefix": "aws-sdk_util-user-agent-browser"
+    "native_identifier": "@aws-sdk/util-user-agent-browser",
+    "repo": "aws/aws-sdk-js-v3",
+    "registry": "npm",
+    "tag_formats": [
+        "@aws-sdk/util-user-agent-browser@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/util-user-agent-browser/**/*.md",
+        "packages/util-user-agent-browser/**/*.ts",
+        "packages/util-user-agent-browser/**/*.js",
+        "packages/util-user-agent-browser/**/*.tsx",
+        "packages/util-user-agent-browser/**/*.jsx"
+    ],
+    "collection_name_prefix": "aws-sdk_util-user-agent-browser",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

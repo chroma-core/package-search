@@ -1,19 +1,21 @@
 {
-	"native_identifier": "rough-charts",
-	"repo": "beizhedenglong/rough-charts",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"rough-charts@{major}.{minor}.{patch}",
-		"react-roughjs@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "rough-charts"
+    "native_identifier": "rough-charts",
+    "repo": "beizhedenglong/rough-charts",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "rough-charts@{major}.{minor}.{patch}",
+        "react-roughjs@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "rough-charts",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

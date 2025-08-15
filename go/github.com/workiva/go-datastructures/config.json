@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/workiva/go-datastructures",
-	"repo": "workiva/go-datastructures",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_workiva_go-datastructures"
+    "native_identifier": "github.com/workiva/go-datastructures",
+    "repo": "workiva/go-datastructures",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_workiva_go-datastructures",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

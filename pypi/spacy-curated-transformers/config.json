@@ -1,14 +1,16 @@
 {
-	"native_identifier": "spacy-curated-transformers",
-	"repo": "explosion/spacy-curated-transformers",
-	"registry": "pypi",
-	"tag_formats": [
-		"release-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "spacy-curated-transformers"
+    "native_identifier": "spacy-curated-transformers",
+    "repo": "explosion/spacy-curated-transformers",
+    "registry": "pypi",
+    "tag_formats": [
+        "release-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "spacy-curated-transformers",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

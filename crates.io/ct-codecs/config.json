@@ -1,14 +1,16 @@
 {
-	"native_identifier": "ct-codecs",
-	"repo": "jedisct1/rust-ct-codecs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "ct-codecs"
+    "native_identifier": "ct-codecs",
+    "repo": "jedisct1/rust-ct-codecs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "ct-codecs",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

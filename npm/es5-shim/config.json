@@ -1,17 +1,19 @@
 {
-	"native_identifier": "es5-shim",
-	"repo": "es-shims/es5-shim",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "es5-shim"
+    "native_identifier": "es5-shim",
+    "repo": "es-shims/es5-shim",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "es5-shim",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

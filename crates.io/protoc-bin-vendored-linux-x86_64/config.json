@@ -1,14 +1,16 @@
 {
-	"native_identifier": "protoc-bin-vendored-linux-x86_64",
-	"repo": "stepancheg/rust-protoc-bin-vendored",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"protoc-bin-vendored-linux-x86_64/**/*.md",
-		"protoc-bin-vendored-linux-x86_64/**/*.rs"
-	],
-	"collection_name_prefix": "protoc-bin-vendored-linux-x86_64"
+    "native_identifier": "protoc-bin-vendored-linux-x86_64",
+    "repo": "stepancheg/rust-protoc-bin-vendored",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "protoc-bin-vendored-linux-x86_64/**/*.md",
+        "protoc-bin-vendored-linux-x86_64/**/*.rs"
+    ],
+    "collection_name_prefix": "protoc-bin-vendored-linux-x86_64",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

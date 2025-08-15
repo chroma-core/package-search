@@ -1,21 +1,23 @@
 {
-	"native_identifier": "vue-cli-plugin-electron-builder",
-	"repo": "nklayman/vue-cli-plugin-electron-builder",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}",
-		"v{major}.{minor}.0",
-		"v{major}.{minor}.{patch}-alpha.{minor}",
-		"v{major}.{minor}.{patch}-beta.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue-cli-plugin-electron-builder"
+    "native_identifier": "vue-cli-plugin-electron-builder",
+    "repo": "nklayman/vue-cli-plugin-electron-builder",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}",
+        "v{major}.{minor}.0",
+        "v{major}.{minor}.{patch}-alpha.{minor}",
+        "v{major}.{minor}.{patch}-beta.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue-cli-plugin-electron-builder",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

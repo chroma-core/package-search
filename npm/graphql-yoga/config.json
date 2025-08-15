@@ -1,18 +1,20 @@
 {
-	"native_identifier": "graphql-yoga",
-	"repo": "graphql-hive/graphql-yoga",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@graphql-yoga/apollo-link@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "graphql-yoga"
+    "native_identifier": "graphql-yoga",
+    "repo": "graphql-hive/graphql-yoga",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@graphql-yoga/apollo-link@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "graphql-yoga",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

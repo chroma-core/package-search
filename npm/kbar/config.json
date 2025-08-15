@@ -1,21 +1,23 @@
 {
-	"native_identifier": "kbar",
-	"repo": "timc1/kbar",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-beta.{DD}",
-		"v{major}.{minor}.{patch}-beta.{YY}",
-		"v{major}.{minor}.{patch}-beta.{patch}",
-		"v{major}.{minor}.0-beta.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "kbar"
+    "native_identifier": "kbar",
+    "repo": "timc1/kbar",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-beta.{DD}",
+        "v{major}.{minor}.{patch}-beta.{YY}",
+        "v{major}.{minor}.{patch}-beta.{patch}",
+        "v{major}.{minor}.0-beta.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "kbar",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

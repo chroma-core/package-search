@@ -1,17 +1,19 @@
 {
-	"native_identifier": "eslint-module-utils",
-	"repo": "import-js/eslint-plugin-import",
-	"registry": "npm",
-	"tag_formats": [
-		"utils/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"utils/**/*.md",
-		"utils/**/*.ts",
-		"utils/**/*.js",
-		"utils/**/*.tsx",
-		"utils/**/*.jsx"
-	],
-	"collection_name_prefix": "eslint-module-utils"
+    "native_identifier": "eslint-module-utils",
+    "repo": "import-js/eslint-plugin-import",
+    "registry": "npm",
+    "tag_formats": [
+        "utils/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "utils/**/*.md",
+        "utils/**/*.ts",
+        "utils/**/*.js",
+        "utils/**/*.tsx",
+        "utils/**/*.jsx"
+    ],
+    "collection_name_prefix": "eslint-module-utils",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

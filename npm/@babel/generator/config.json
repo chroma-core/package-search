@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/generator",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-generator/**/*.md",
-		"packages/babel-generator/**/*.ts",
-		"packages/babel-generator/**/*.js",
-		"packages/babel-generator/**/*.tsx",
-		"packages/babel-generator/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_generator"
+    "native_identifier": "@babel/generator",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-generator/**/*.md",
+        "packages/babel-generator/**/*.ts",
+        "packages/babel-generator/**/*.js",
+        "packages/babel-generator/**/*.tsx",
+        "packages/babel-generator/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_generator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

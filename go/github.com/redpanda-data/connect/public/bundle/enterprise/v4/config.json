@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/redpanda-data/connect/public/bundle/enterprise/v4",
-	"repo": "redpanda-data/connect",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"public/bundle/enterprise/v4/**/*.md",
-		"public/bundle/enterprise/v4/**/*.go"
-	],
-	"collection_name_prefix": "github.com_redpanda-data_connect_public_bundle_enterprise_v4"
+    "native_identifier": "github.com/redpanda-data/connect/public/bundle/enterprise/v4",
+    "repo": "redpanda-data/connect",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "public/bundle/enterprise/v4/**/*.md",
+        "public/bundle/enterprise/v4/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_redpanda-data_connect_public_bundle_enterprise_v4",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

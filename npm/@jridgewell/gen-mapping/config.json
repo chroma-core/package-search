@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jridgewell/gen-mapping",
-	"repo": "jridgewell/sourcemaps",
-	"registry": "npm",
-	"tag_formats": [
-		"gen-mapping/{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/gen-mapping/**/*.md",
-		"packages/gen-mapping/**/*.ts",
-		"packages/gen-mapping/**/*.js",
-		"packages/gen-mapping/**/*.tsx",
-		"packages/gen-mapping/**/*.jsx"
-	],
-	"collection_name_prefix": "jridgewell_gen-mapping"
+    "native_identifier": "@jridgewell/gen-mapping",
+    "repo": "jridgewell/sourcemaps",
+    "registry": "npm",
+    "tag_formats": [
+        "gen-mapping/{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/gen-mapping/**/*.md",
+        "packages/gen-mapping/**/*.ts",
+        "packages/gen-mapping/**/*.js",
+        "packages/gen-mapping/**/*.tsx",
+        "packages/gen-mapping/**/*.jsx"
+    ],
+    "collection_name_prefix": "jridgewell_gen-mapping",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

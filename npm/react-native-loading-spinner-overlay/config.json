@@ -1,17 +1,19 @@
 {
-	"native_identifier": "react-native-loading-spinner-overlay",
-	"repo": "ladjs/react-native-loading-spinner-overlay",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "react-native-loading-spinner-overlay"
+    "native_identifier": "react-native-loading-spinner-overlay",
+    "repo": "ladjs/react-native-loading-spinner-overlay",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "react-native-loading-spinner-overlay",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

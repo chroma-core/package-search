@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-syntax-private-property-in-object",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-syntax-private-property-in-object/**/*.md",
-		"babel-plugin-syntax-private-property-in-object/**/*.ts",
-		"babel-plugin-syntax-private-property-in-object/**/*.js",
-		"babel-plugin-syntax-private-property-in-object/**/*.tsx",
-		"babel-plugin-syntax-private-property-in-object/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-syntax-private-property-in-object"
+    "native_identifier": "@babel/plugin-syntax-private-property-in-object",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-syntax-private-property-in-object/**/*.md",
+        "babel-plugin-syntax-private-property-in-object/**/*.ts",
+        "babel-plugin-syntax-private-property-in-object/**/*.js",
+        "babel-plugin-syntax-private-property-in-object/**/*.tsx",
+        "babel-plugin-syntax-private-property-in-object/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-syntax-private-property-in-object",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

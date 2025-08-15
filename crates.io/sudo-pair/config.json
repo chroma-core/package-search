@@ -1,17 +1,19 @@
 {
-	"native_identifier": "sudo-pair",
-	"repo": "square/sudo_pair",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"sudo_pair-v{major}.{minor}.{patch}",
-		"sudo_plugin-sys-v{major}.{minor}.{patch}",
-		"sudo_plugin-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "sudo-pair"
+    "native_identifier": "sudo-pair",
+    "repo": "square/sudo_pair",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "sudo_pair-v{major}.{minor}.{patch}",
+        "sudo_plugin-sys-v{major}.{minor}.{patch}",
+        "sudo_plugin-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "sudo-pair",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

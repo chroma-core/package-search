@@ -1,15 +1,17 @@
 {
-	"native_identifier": "psm",
-	"repo": "rust-lang/stacker",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"psm-{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"psm/**/*.md",
-		"psm/**/*.rs"
-	],
-	"collection_name_prefix": "psm"
+    "native_identifier": "psm",
+    "repo": "rust-lang/stacker",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "psm-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "psm/**/*.md",
+        "psm/**/*.rs"
+    ],
+    "collection_name_prefix": "psm",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

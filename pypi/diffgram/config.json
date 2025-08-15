@@ -1,14 +1,16 @@
 {
-	"native_identifier": "diffgram",
-	"repo": "diffgram/diffgram",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "diffgram"
+    "native_identifier": "diffgram",
+    "repo": "diffgram/diffgram",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "diffgram",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

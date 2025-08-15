@@ -1,17 +1,19 @@
 {
-	"native_identifier": "languine",
-	"repo": "languine-ai/languine",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "languine"
+    "native_identifier": "languine",
+    "repo": "languine-ai/languine",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "languine",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

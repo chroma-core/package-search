@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@webassemblyjs/wasm-parser",
-	"repo": "xtuc/webassemblyjs",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/wasm-parser/**/*.md",
-		"packages/wasm-parser/**/*.ts",
-		"packages/wasm-parser/**/*.js",
-		"packages/wasm-parser/**/*.tsx",
-		"packages/wasm-parser/**/*.jsx"
-	],
-	"collection_name_prefix": "webassemblyjs_wasm-parser"
+    "native_identifier": "@webassemblyjs/wasm-parser",
+    "repo": "xtuc/webassemblyjs",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/wasm-parser/**/*.md",
+        "packages/wasm-parser/**/*.ts",
+        "packages/wasm-parser/**/*.js",
+        "packages/wasm-parser/**/*.tsx",
+        "packages/wasm-parser/**/*.jsx"
+    ],
+    "collection_name_prefix": "webassemblyjs_wasm-parser",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "babel-plugin-polyfill-regenerator",
-	"repo": "babel/babel-polyfills",
-	"registry": "npm",
-	"tag_formats": [
-		"babel-plugin-polyfill-regenerator@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-plugin-polyfill-regenerator/**/*.md",
-		"packages/babel-plugin-polyfill-regenerator/**/*.ts",
-		"packages/babel-plugin-polyfill-regenerator/**/*.js",
-		"packages/babel-plugin-polyfill-regenerator/**/*.tsx",
-		"packages/babel-plugin-polyfill-regenerator/**/*.jsx"
-	],
-	"collection_name_prefix": "babel-plugin-polyfill-regenerator"
+    "native_identifier": "babel-plugin-polyfill-regenerator",
+    "repo": "babel/babel-polyfills",
+    "registry": "npm",
+    "tag_formats": [
+        "babel-plugin-polyfill-regenerator@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-plugin-polyfill-regenerator/**/*.md",
+        "packages/babel-plugin-polyfill-regenerator/**/*.ts",
+        "packages/babel-plugin-polyfill-regenerator/**/*.js",
+        "packages/babel-plugin-polyfill-regenerator/**/*.tsx",
+        "packages/babel-plugin-polyfill-regenerator/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel-plugin-polyfill-regenerator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

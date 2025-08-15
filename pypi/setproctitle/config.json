@@ -1,14 +1,16 @@
 {
-	"native_identifier": "setproctitle",
-	"repo": "dvarrazzo/py-setproctitle",
-	"registry": "pypi",
-	"tag_formats": [
-		"version-{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "setproctitle"
+    "native_identifier": "setproctitle",
+    "repo": "dvarrazzo/py-setproctitle",
+    "registry": "pypi",
+    "tag_formats": [
+        "version-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "setproctitle",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

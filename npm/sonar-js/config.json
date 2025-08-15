@@ -1,21 +1,23 @@
 {
-	"native_identifier": "sonar-js",
-	"repo": "sonarsource/sonarjs",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}",
-		"{major}.{minor}.{patch}.{MMMM}",
-		"{major}.{minor}.0.{MMMM}",
-		"{major}.{minor}.{patch}.{DD}{YY}",
-		"{major}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "sonar-js"
+    "native_identifier": "sonar-js",
+    "repo": "sonarsource/sonarjs",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}",
+        "{major}.{minor}.{patch}.{MMMM}",
+        "{major}.{minor}.0.{MMMM}",
+        "{major}.{minor}.{patch}.{DD}{YY}",
+        "{major}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "sonar-js",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

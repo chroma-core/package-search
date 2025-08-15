@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/aws/aws-sdk-go-v2/service/sagemaker",
-	"repo": "aws/aws-sdk-go-v2",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"service/sagemaker/**/*.md",
-		"service/sagemaker/**/*.go"
-	],
-	"collection_name_prefix": "github.com_aws_aws-sdk-go-v2_service_sagemaker"
+    "native_identifier": "github.com/aws/aws-sdk-go-v2/service/sagemaker",
+    "repo": "aws/aws-sdk-go-v2",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "service/sagemaker/**/*.md",
+        "service/sagemaker/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_aws_aws-sdk-go-v2_service_sagemaker",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

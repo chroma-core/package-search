@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/yeqown/go-qrcode/writer/terminal",
-	"repo": "yeqown/go-qrcode",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"writer/terminal/**/*.md",
-		"writer/terminal/**/*.go"
-	],
-	"collection_name_prefix": "github.com_yeqown_go-qrcode_writer_terminal"
+    "native_identifier": "github.com/yeqown/go-qrcode/writer/terminal",
+    "repo": "yeqown/go-qrcode",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "writer/terminal/**/*.md",
+        "writer/terminal/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_yeqown_go-qrcode_writer_terminal",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

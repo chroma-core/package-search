@@ -1,14 +1,16 @@
 {
-	"native_identifier": "coverage-badge",
-	"repo": "dbrgn/coverage-badge",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "coverage-badge"
+    "native_identifier": "coverage-badge",
+    "repo": "dbrgn/coverage-badge",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "coverage-badge",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

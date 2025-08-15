@@ -1,14 +1,16 @@
 {
-	"native_identifier": "parking_lot_core",
-	"repo": "Amanieu/parking_lot",
-	"registry": "crates.io",
-	"tag_formats": [
-		"parking_lot_core-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"core/**/*.md",
-		"core/**/*.rs"
-	],
-	"collection_name_prefix": "parking_lot_core"
+    "native_identifier": "parking_lot_core",
+    "repo": "Amanieu/parking_lot",
+    "registry": "crates.io",
+    "tag_formats": [
+        "parking_lot_core-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "core/**/*.md",
+        "core/**/*.rs"
+    ],
+    "collection_name_prefix": "parking_lot_core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

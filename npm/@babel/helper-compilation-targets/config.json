@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-compilation-targets",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-compilation-targets/**/*.md",
-		"packages/babel-helper-compilation-targets/**/*.ts",
-		"packages/babel-helper-compilation-targets/**/*.js",
-		"packages/babel-helper-compilation-targets/**/*.tsx",
-		"packages/babel-helper-compilation-targets/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-compilation-targets"
+    "native_identifier": "@babel/helper-compilation-targets",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-compilation-targets/**/*.md",
+        "packages/babel-helper-compilation-targets/**/*.ts",
+        "packages/babel-helper-compilation-targets/**/*.js",
+        "packages/babel-helper-compilation-targets/**/*.tsx",
+        "packages/babel-helper-compilation-targets/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-compilation-targets",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

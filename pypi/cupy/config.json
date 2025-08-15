@@ -1,14 +1,16 @@
 {
-	"native_identifier": "cupy",
-	"repo": "cupy/cupy",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"cupy/**/*.md",
-		"cupy/**/*.py"
-	],
-	"collection_name_prefix": "cupy"
+    "native_identifier": "cupy",
+    "repo": "cupy/cupy",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cupy/**/*.md",
+        "cupy/**/*.py"
+    ],
+    "collection_name_prefix": "cupy",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

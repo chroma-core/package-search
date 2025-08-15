@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-redis/redis/extra/redisotel/v8",
-	"repo": "go-redis/redis",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"extra/redisotel/v8/**/*.md",
-		"extra/redisotel/v8/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-redis_redis_extra_redisotel_v8"
+    "native_identifier": "github.com/go-redis/redis/extra/redisotel/v8",
+    "repo": "go-redis/redis",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "extra/redisotel/v8/**/*.md",
+        "extra/redisotel/v8/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-redis_redis_extra_redisotel_v8",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

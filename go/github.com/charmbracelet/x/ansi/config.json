@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/charmbracelet/x/ansi",
-	"repo": "charmbracelet/x",
-	"registry": "go",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}",
-		"ansi/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"ansi/**/*.md",
-		"ansi/**/*.go"
-	],
-	"collection_name_prefix": "github.com_charmbracelet_x_ansi"
+    "native_identifier": "github.com/charmbracelet/x/ansi",
+    "repo": "charmbracelet/x",
+    "registry": "go",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "ansi/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "ansi/**/*.md",
+        "ansi/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_charmbracelet_x_ansi",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

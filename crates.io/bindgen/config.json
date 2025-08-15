@@ -1,14 +1,16 @@
 {
-	"native_identifier": "bindgen",
-	"repo": "rust-lang/rust-bindgen",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"bindgen/**/*.md",
-		"bindgen/**/*.rs"
-	],
-	"collection_name_prefix": "bindgen"
+    "native_identifier": "bindgen",
+    "repo": "rust-lang/rust-bindgen",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "bindgen/**/*.md",
+        "bindgen/**/*.rs"
+    ],
+    "collection_name_prefix": "bindgen",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

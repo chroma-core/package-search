@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/decred/dcrwallet/wallet/v3",
-	"repo": "decred/dcrwallet",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"wallet/v3/**/*.md",
-		"wallet/v3/**/*.go"
-	],
-	"collection_name_prefix": "github.com_decred_dcrwallet_wallet_v3"
+    "native_identifier": "github.com/decred/dcrwallet/wallet/v3",
+    "repo": "decred/dcrwallet",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "wallet/v3/**/*.md",
+        "wallet/v3/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_decred_dcrwallet_wallet_v3",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

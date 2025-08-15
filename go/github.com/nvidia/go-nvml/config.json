@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/nvidia/go-nvml",
-	"repo": "nvidia/go-nvml",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_nvidia_go-nvml"
+    "native_identifier": "github.com/nvidia/go-nvml",
+    "repo": "nvidia/go-nvml",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_nvidia_go-nvml",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

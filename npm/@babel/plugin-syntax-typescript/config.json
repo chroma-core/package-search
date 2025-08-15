@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-syntax-typescript",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-plugin-syntax-typescript/**/*.md",
-		"packages/babel-plugin-syntax-typescript/**/*.ts",
-		"packages/babel-plugin-syntax-typescript/**/*.js",
-		"packages/babel-plugin-syntax-typescript/**/*.tsx",
-		"packages/babel-plugin-syntax-typescript/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-syntax-typescript"
+    "native_identifier": "@babel/plugin-syntax-typescript",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-plugin-syntax-typescript/**/*.md",
+        "packages/babel-plugin-syntax-typescript/**/*.ts",
+        "packages/babel-plugin-syntax-typescript/**/*.js",
+        "packages/babel-plugin-syntax-typescript/**/*.tsx",
+        "packages/babel-plugin-syntax-typescript/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-syntax-typescript",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,19 +1,21 @@
 {
-	"native_identifier": "enzyme",
-	"repo": "airbnb/enzyme",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"enzyme-adapter-react-{DD}@{major}.{minor}.{patch}",
-		"enzyme-adapter-react-{YY}@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "enzyme"
+    "native_identifier": "enzyme",
+    "repo": "airbnb/enzyme",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "enzyme-adapter-react-{DD}@{major}.{minor}.{patch}",
+        "enzyme-adapter-react-{YY}@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "enzyme",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

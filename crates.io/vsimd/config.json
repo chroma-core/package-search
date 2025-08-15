@@ -1,14 +1,16 @@
 {
-	"native_identifier": "vsimd",
-	"repo": "Nugine/simd",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crates/vsimd/**/*.md",
-		"crates/vsimd/**/*.rs"
-	],
-	"collection_name_prefix": "vsimd"
+    "native_identifier": "vsimd",
+    "repo": "Nugine/simd",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crates/vsimd/**/*.md",
+        "crates/vsimd/**/*.rs"
+    ],
+    "collection_name_prefix": "vsimd",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

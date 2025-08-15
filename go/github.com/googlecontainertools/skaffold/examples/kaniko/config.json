@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/googlecontainertools/skaffold/examples/kaniko",
-	"repo": "googlecontainertools/skaffold",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"examples/kaniko/**/*.md",
-		"examples/kaniko/**/*.go"
-	],
-	"collection_name_prefix": "github.com_googlecontainertools_skaffold_examples_kaniko"
+    "native_identifier": "github.com/googlecontainertools/skaffold/examples/kaniko",
+    "repo": "googlecontainertools/skaffold",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "examples/kaniko/**/*.md",
+        "examples/kaniko/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_googlecontainertools_skaffold_examples_kaniko",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

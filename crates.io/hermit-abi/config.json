@@ -1,21 +1,23 @@
 {
-	"native_identifier": "hermit-abi",
-	"repo": "hermit-os/hermit-rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"hermit-abi-0.{minor}.{patch}",
-		"hermit-abi-{major}.{minor}.{patch}",
-		"hermit-{major}.{minor}.{patch}",
-		"hermit-abi-{major}.{minor}.{DD}",
-		"hermit-abi-0.1.{patch}",
-		"hermit-{major}.{minor}.{minor}",
-		"hermit-{major}.{patch}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"hermit-abi/**/*.md",
-		"hermit-abi/**/*.rs"
-	],
-	"collection_name_prefix": "hermit-abi"
+    "native_identifier": "hermit-abi",
+    "repo": "hermit-os/hermit-rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "hermit-abi-0.{minor}.{patch}",
+        "hermit-abi-{major}.{minor}.{patch}",
+        "hermit-{major}.{minor}.{patch}",
+        "hermit-abi-{major}.{minor}.{DD}",
+        "hermit-abi-0.1.{patch}",
+        "hermit-{major}.{minor}.{minor}",
+        "hermit-{major}.{patch}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "hermit-abi/**/*.md",
+        "hermit-abi/**/*.rs"
+    ],
+    "collection_name_prefix": "hermit-abi",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

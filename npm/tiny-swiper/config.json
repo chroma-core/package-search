@@ -1,17 +1,19 @@
 {
-	"native_identifier": "tiny-swiper",
-	"repo": "joe223/tiny-swiper",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "tiny-swiper"
+    "native_identifier": "tiny-swiper",
+    "repo": "joe223/tiny-swiper",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "tiny-swiper",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

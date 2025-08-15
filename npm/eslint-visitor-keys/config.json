@@ -1,17 +1,19 @@
 {
-	"native_identifier": "eslint-visitor-keys",
-	"repo": "eslint/js",
-	"registry": "npm",
-	"tag_formats": [
-		"eslint-visitor-keys-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/eslint-visitor-keys/**/*.md",
-		"packages/eslint-visitor-keys/**/*.ts",
-		"packages/eslint-visitor-keys/**/*.js",
-		"packages/eslint-visitor-keys/**/*.tsx",
-		"packages/eslint-visitor-keys/**/*.jsx"
-	],
-	"collection_name_prefix": "eslint-visitor-keys"
+    "native_identifier": "eslint-visitor-keys",
+    "repo": "eslint/js",
+    "registry": "npm",
+    "tag_formats": [
+        "eslint-visitor-keys-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/eslint-visitor-keys/**/*.md",
+        "packages/eslint-visitor-keys/**/*.ts",
+        "packages/eslint-visitor-keys/**/*.js",
+        "packages/eslint-visitor-keys/**/*.tsx",
+        "packages/eslint-visitor-keys/**/*.jsx"
+    ],
+    "collection_name_prefix": "eslint-visitor-keys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

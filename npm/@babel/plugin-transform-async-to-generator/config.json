@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-async-to-generator",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-async-to-generator/**/*.md",
-		"babel-plugin-transform-async-to-generator/**/*.ts",
-		"babel-plugin-transform-async-to-generator/**/*.js",
-		"babel-plugin-transform-async-to-generator/**/*.tsx",
-		"babel-plugin-transform-async-to-generator/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-async-to-generator"
+    "native_identifier": "@babel/plugin-transform-async-to-generator",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-async-to-generator/**/*.md",
+        "babel-plugin-transform-async-to-generator/**/*.ts",
+        "babel-plugin-transform-async-to-generator/**/*.js",
+        "babel-plugin-transform-async-to-generator/**/*.tsx",
+        "babel-plugin-transform-async-to-generator/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-async-to-generator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

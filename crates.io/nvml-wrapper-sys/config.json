@@ -1,14 +1,16 @@
 {
-	"native_identifier": "nvml-wrapper-sys",
-	"repo": "Cldfire/nvml-wrapper",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"nvml-wrapper-sys/**/*.md",
-		"nvml-wrapper-sys/**/*.rs"
-	],
-	"collection_name_prefix": "nvml-wrapper-sys"
+    "native_identifier": "nvml-wrapper-sys",
+    "repo": "Cldfire/nvml-wrapper",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "nvml-wrapper-sys/**/*.md",
+        "nvml-wrapper-sys/**/*.rs"
+    ],
+    "collection_name_prefix": "nvml-wrapper-sys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

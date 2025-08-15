@@ -1,14 +1,16 @@
 {
-	"native_identifier": "xsalsa20poly1305",
-	"repo": "RustCrypto/AEADs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"xsalsa20poly1305/**/*.md",
-		"xsalsa20poly1305/**/*.rs"
-	],
-	"collection_name_prefix": "xsalsa20poly1305"
+    "native_identifier": "xsalsa20poly1305",
+    "repo": "RustCrypto/AEADs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "xsalsa20poly1305/**/*.md",
+        "xsalsa20poly1305/**/*.rs"
+    ],
+    "collection_name_prefix": "xsalsa20poly1305",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

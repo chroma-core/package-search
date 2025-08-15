@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/redis/go-redis/example/otel",
-	"repo": "redis/go-redis",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"example/otel/**/*.md",
-		"example/otel/**/*.go"
-	],
-	"collection_name_prefix": "github.com_redis_go-redis_example_otel"
+    "native_identifier": "github.com/redis/go-redis/example/otel",
+    "repo": "redis/go-redis",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "example/otel/**/*.md",
+        "example/otel/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_redis_go-redis_example_otel",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "github.com/google/sqlcommenter/go/database/sql",
-	"repo": "google/sqlcommenter",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"go/database/sql/v{major}.{minor}.{patch}-beta",
-		"go/core/v{major}.{minor}.{patch}",
-		"go/core/v{major}.{minor}.{patch}-beta"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"go/database/sql/**/*.md",
-		"go/database/sql/**/*.go"
-	],
-	"collection_name_prefix": "github.com_google_sqlcommenter_go_database_sql"
+    "native_identifier": "github.com/google/sqlcommenter/go/database/sql",
+    "repo": "google/sqlcommenter",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "go/database/sql/v{major}.{minor}.{patch}-beta",
+        "go/core/v{major}.{minor}.{patch}",
+        "go/core/v{major}.{minor}.{patch}-beta"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "go/database/sql/**/*.md",
+        "go/database/sql/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_google_sqlcommenter_go_database_sql",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-util",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-util/**/*.md",
-		"packages/jest-util/**/*.ts",
-		"packages/jest-util/**/*.js",
-		"packages/jest-util/**/*.tsx",
-		"packages/jest-util/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-util"
+    "native_identifier": "jest-util",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-util/**/*.md",
+        "packages/jest-util/**/*.ts",
+        "packages/jest-util/**/*.js",
+        "packages/jest-util/**/*.tsx",
+        "packages/jest-util/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-util",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/jm33-m0/emp3r0r",
-	"repo": "jm33-m0/emp3r0r",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_jm33-m0_emp3r0r"
+    "native_identifier": "github.com/jm33-m0/emp3r0r",
+    "repo": "jm33-m0/emp3r0r",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_jm33-m0_emp3r0r",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

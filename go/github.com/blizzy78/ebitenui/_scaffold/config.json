@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/blizzy78/ebitenui/_scaffold",
-	"repo": "blizzy78/ebitenui",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"_scaffold/**/*.md",
-		"_scaffold/**/*.go"
-	],
-	"collection_name_prefix": "github.com_blizzy78_ebitenui__scaffold"
+    "native_identifier": "github.com/blizzy78/ebitenui/_scaffold",
+    "repo": "blizzy78/ebitenui",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "_scaffold/**/*.md",
+        "_scaffold/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_blizzy78_ebitenui__scaffold",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

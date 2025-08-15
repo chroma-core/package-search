@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/cloudevents/sdk-go/samples/gochan",
-	"repo": "cloudevents/sdk-go",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"samples/gochan/**/*.md",
-		"samples/gochan/**/*.go"
-	],
-	"collection_name_prefix": "github.com_cloudevents_sdk-go_samples_gochan"
+    "native_identifier": "github.com/cloudevents/sdk-go/samples/gochan",
+    "repo": "cloudevents/sdk-go",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "samples/gochan/**/*.md",
+        "samples/gochan/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_cloudevents_sdk-go_samples_gochan",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

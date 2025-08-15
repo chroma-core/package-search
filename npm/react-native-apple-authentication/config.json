@@ -1,17 +1,19 @@
 {
-	"native_identifier": "react-native-apple-authentication",
-	"repo": "invertase/react-native-apple-authentication",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "react-native-apple-authentication"
+    "native_identifier": "react-native-apple-authentication",
+    "repo": "invertase/react-native-apple-authentication",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "react-native-apple-authentication",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

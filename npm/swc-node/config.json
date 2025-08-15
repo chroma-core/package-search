@@ -1,19 +1,21 @@
 {
-	"native_identifier": "swc-node",
-	"repo": "swc-project/swc-node",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"@swc-node/core@{major}.{minor}.{patch}",
-		"@swc-node/core@{major}.{patch}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "swc-node"
+    "native_identifier": "swc-node",
+    "repo": "swc-project/swc-node",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "@swc-node/core@{major}.{minor}.{patch}",
+        "@swc-node/core@{major}.{patch}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "swc-node",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

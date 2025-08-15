@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-pg/pg/extra/pgdebug",
-	"repo": "go-pg/pg",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"extra/pgdebug/**/*.md",
-		"extra/pgdebug/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-pg_pg_extra_pgdebug"
+    "native_identifier": "github.com/go-pg/pg/extra/pgdebug",
+    "repo": "go-pg/pg",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "extra/pgdebug/**/*.md",
+        "extra/pgdebug/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-pg_pg_extra_pgdebug",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

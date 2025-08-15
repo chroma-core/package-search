@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-syntax-json-strings",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-plugin-syntax-json-strings/**/*.md",
-		"packages/babel-plugin-syntax-json-strings/**/*.ts",
-		"packages/babel-plugin-syntax-json-strings/**/*.js",
-		"packages/babel-plugin-syntax-json-strings/**/*.tsx",
-		"packages/babel-plugin-syntax-json-strings/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-syntax-json-strings"
+    "native_identifier": "@babel/plugin-syntax-json-strings",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-plugin-syntax-json-strings/**/*.md",
+        "packages/babel-plugin-syntax-json-strings/**/*.ts",
+        "packages/babel-plugin-syntax-json-strings/**/*.js",
+        "packages/babel-plugin-syntax-json-strings/**/*.tsx",
+        "packages/babel-plugin-syntax-json-strings/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-syntax-json-strings",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

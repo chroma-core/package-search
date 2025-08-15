@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/util-base64",
-	"repo": "awslabs/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/util-base64@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/util-base64/**/*.md",
-		"packages/util-base64/**/*.ts",
-		"packages/util-base64/**/*.js",
-		"packages/util-base64/**/*.tsx",
-		"packages/util-base64/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_util-base64"
+    "native_identifier": "@smithy/util-base64",
+    "repo": "awslabs/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/util-base64@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/util-base64/**/*.md",
+        "packages/util-base64/**/*.ts",
+        "packages/util-base64/**/*.js",
+        "packages/util-base64/**/*.tsx",
+        "packages/util-base64/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_util-base64",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

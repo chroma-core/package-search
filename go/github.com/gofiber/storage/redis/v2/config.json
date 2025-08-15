@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/gofiber/storage/redis/v2",
-	"repo": "gofiber/storage",
-	"registry": "go",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"redis/v2/**/*.md",
-		"redis/v2/**/*.go"
-	],
-	"collection_name_prefix": "github.com_gofiber_storage_redis_v2"
+    "native_identifier": "github.com/gofiber/storage/redis/v2",
+    "repo": "gofiber/storage",
+    "registry": "go",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "redis/v2/**/*.md",
+        "redis/v2/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_gofiber_storage_redis_v2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

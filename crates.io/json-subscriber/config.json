@@ -1,14 +1,16 @@
 {
-	"native_identifier": "json-subscriber",
-	"repo": "mladedav/json-subscriber",
-	"registry": "crates.io",
-	"tag_formats": [
-		"json-subscriber-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "json-subscriber"
+    "native_identifier": "json-subscriber",
+    "repo": "mladedav/json-subscriber",
+    "registry": "crates.io",
+    "tag_formats": [
+        "json-subscriber-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "json-subscriber",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

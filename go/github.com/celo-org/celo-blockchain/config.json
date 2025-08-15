@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/celo-org/celo-blockchain",
-	"repo": "celo-org/celo-blockchain",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_celo-org_celo-blockchain"
+    "native_identifier": "github.com/celo-org/celo-blockchain",
+    "repo": "celo-org/celo-blockchain",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_celo-org_celo-blockchain",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

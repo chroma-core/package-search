@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/bytedance/sonic/loader",
-	"repo": "bytedance/sonic",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"loader/**/*.md",
-		"loader/**/*.go"
-	],
-	"collection_name_prefix": "github.com_bytedance_sonic_loader"
+    "native_identifier": "github.com/bytedance/sonic/loader",
+    "repo": "bytedance/sonic",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "loader/**/*.md",
+        "loader/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_bytedance_sonic_loader",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

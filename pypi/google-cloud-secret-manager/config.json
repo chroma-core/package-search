@@ -1,14 +1,16 @@
 {
-	"native_identifier": "google-cloud-secret-manager",
-	"repo": "googleapis/google-cloud-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"google-cloud-secret-manager-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/google-cloud-secret-manager/**/*.md",
-		"packages/google-cloud-secret-manager/**/*.py"
-	],
-	"collection_name_prefix": "google-cloud-secret-manager"
+    "native_identifier": "google-cloud-secret-manager",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "google-cloud-secret-manager-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-cloud-secret-manager/**/*.md",
+        "packages/google-cloud-secret-manager/**/*.py"
+    ],
+    "collection_name_prefix": "google-cloud-secret-manager",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

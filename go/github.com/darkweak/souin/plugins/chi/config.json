@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/darkweak/souin/plugins/chi",
-	"repo": "darkweak/souin",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"plugins/chi/**/*.md",
-		"plugins/chi/**/*.go"
-	],
-	"collection_name_prefix": "github.com_darkweak_souin_plugins_chi"
+    "native_identifier": "github.com/darkweak/souin/plugins/chi",
+    "repo": "darkweak/souin",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "plugins/chi/**/*.md",
+        "plugins/chi/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_darkweak_souin_plugins_chi",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

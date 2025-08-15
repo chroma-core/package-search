@@ -1,14 +1,16 @@
 {
-	"native_identifier": "jupyter-nbextensions-configurator",
-	"repo": "jupyter-contrib/jupyter_nbextensions_configurator",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "jupyter-nbextensions-configurator"
+    "native_identifier": "jupyter-nbextensions-configurator",
+    "repo": "jupyter-contrib/jupyter_nbextensions_configurator",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "jupyter-nbextensions-configurator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

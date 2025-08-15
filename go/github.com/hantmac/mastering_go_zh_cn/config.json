@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/hantmac/mastering_go_zh_cn",
-	"repo": "hantmac/mastering_go_zh_cn",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_hantmac_mastering_go_zh_cn"
+    "native_identifier": "github.com/hantmac/mastering_go_zh_cn",
+    "repo": "hantmac/mastering_go_zh_cn",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_hantmac_mastering_go_zh_cn",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

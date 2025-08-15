@@ -1,14 +1,16 @@
 {
-	"native_identifier": "base64-simd",
-	"repo": "Nugine/simd",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crates/base64-simd/**/*.md",
-		"crates/base64-simd/**/*.rs"
-	],
-	"collection_name_prefix": "base64-simd"
+    "native_identifier": "base64-simd",
+    "repo": "Nugine/simd",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crates/base64-simd/**/*.md",
+        "crates/base64-simd/**/*.rs"
+    ],
+    "collection_name_prefix": "base64-simd",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/google/go-containerregistry/cmd/krane",
-	"repo": "google/go-containerregistry",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"cmd/krane/**/*.md",
-		"cmd/krane/**/*.go"
-	],
-	"collection_name_prefix": "github.com_google_go-containerregistry_cmd_krane"
+    "native_identifier": "github.com/google/go-containerregistry/cmd/krane",
+    "repo": "google/go-containerregistry",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cmd/krane/**/*.md",
+        "cmd/krane/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_google_go-containerregistry_cmd_krane",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

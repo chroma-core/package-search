@@ -1,14 +1,16 @@
 {
-	"native_identifier": "zune-jpeg",
-	"repo": "etemesi254/zune-image",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}-jpeg"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"crates/zune-jpeg/**/*.md",
-		"crates/zune-jpeg/**/*.rs"
-	],
-	"collection_name_prefix": "zune-jpeg"
+    "native_identifier": "zune-jpeg",
+    "repo": "etemesi254/zune-image",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}-jpeg"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crates/zune-jpeg/**/*.md",
+        "crates/zune-jpeg/**/*.rs"
+    ],
+    "collection_name_prefix": "zune-jpeg",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

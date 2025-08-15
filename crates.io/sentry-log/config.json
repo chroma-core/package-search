@@ -1,14 +1,16 @@
 {
-	"native_identifier": "sentry-log",
-	"repo": "getsentry/sentry-rust",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"sentry-log/**/*.md",
-		"sentry-log/**/*.rs"
-	],
-	"collection_name_prefix": "sentry-log"
+    "native_identifier": "sentry-log",
+    "repo": "getsentry/sentry-rust",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "sentry-log/**/*.md",
+        "sentry-log/**/*.rs"
+    ],
+    "collection_name_prefix": "sentry-log",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

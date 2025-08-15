@@ -1,14 +1,16 @@
 {
-	"native_identifier": "enum-ordinalize",
-	"repo": "magiclen/enum-ordinalize",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"enum-ordinalize/**/*.md",
-		"enum-ordinalize/**/*.rs"
-	],
-	"collection_name_prefix": "enum-ordinalize"
+    "native_identifier": "enum-ordinalize",
+    "repo": "magiclen/enum-ordinalize",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "enum-ordinalize/**/*.md",
+        "enum-ordinalize/**/*.rs"
+    ],
+    "collection_name_prefix": "enum-ordinalize",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

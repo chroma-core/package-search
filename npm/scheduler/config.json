@@ -1,17 +1,19 @@
 {
-	"native_identifier": "scheduler",
-	"repo": "facebook/react",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/scheduler/**/*.md",
-		"packages/scheduler/**/*.ts",
-		"packages/scheduler/**/*.js",
-		"packages/scheduler/**/*.tsx",
-		"packages/scheduler/**/*.jsx"
-	],
-	"collection_name_prefix": "scheduler"
+    "native_identifier": "scheduler",
+    "repo": "facebook/react",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/scheduler/**/*.md",
+        "packages/scheduler/**/*.ts",
+        "packages/scheduler/**/*.js",
+        "packages/scheduler/**/*.tsx",
+        "packages/scheduler/**/*.jsx"
+    ],
+    "collection_name_prefix": "scheduler",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/osmosis-labs/osmosis/x/ibc-hooks",
-	"repo": "osmosis-labs/osmosis",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"x/ibc-hooks/**/*.md",
-		"x/ibc-hooks/**/*.go"
-	],
-	"collection_name_prefix": "github.com_osmosis-labs_osmosis_x_ibc-hooks"
+    "native_identifier": "github.com/osmosis-labs/osmosis/x/ibc-hooks",
+    "repo": "osmosis-labs/osmosis",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "x/ibc-hooks/**/*.md",
+        "x/ibc-hooks/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_osmosis-labs_osmosis_x_ibc-hooks",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

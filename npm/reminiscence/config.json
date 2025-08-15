@@ -1,17 +1,19 @@
 {
-	"native_identifier": "reminiscence",
-	"repo": "kanishka-linux/reminiscence",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "reminiscence"
+    "native_identifier": "reminiscence",
+    "repo": "kanishka-linux/reminiscence",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "reminiscence",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

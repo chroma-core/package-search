@@ -1,19 +1,21 @@
 {
-	"native_identifier": "streaming",
-	"repo": "butterproject/butter-desktop",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-a",
-		"v{major}.{minor}.{patch}-flatpak{patch}-a"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "streaming"
+    "native_identifier": "streaming",
+    "repo": "butterproject/butter-desktop",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-a",
+        "v{major}.{minor}.{patch}-flatpak{patch}-a"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "streaming",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

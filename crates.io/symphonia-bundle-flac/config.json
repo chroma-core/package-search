@@ -1,14 +1,16 @@
 {
-	"native_identifier": "symphonia-bundle-flac",
-	"repo": "pdeljanov/Symphonia",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"symphonia-bundle-flac/**/*.md",
-		"symphonia-bundle-flac/**/*.rs"
-	],
-	"collection_name_prefix": "symphonia-bundle-flac"
+    "native_identifier": "symphonia-bundle-flac",
+    "repo": "pdeljanov/Symphonia",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "symphonia-bundle-flac/**/*.md",
+        "symphonia-bundle-flac/**/*.rs"
+    ],
+    "collection_name_prefix": "symphonia-bundle-flac",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

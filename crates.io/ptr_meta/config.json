@@ -1,14 +1,16 @@
 {
-	"native_identifier": "ptr_meta",
-	"repo": "rkyv/ptr_meta",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"ptr_meta/**/*.md",
-		"ptr_meta/**/*.rs"
-	],
-	"collection_name_prefix": "ptr_meta"
+    "native_identifier": "ptr_meta",
+    "repo": "rkyv/ptr_meta",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "ptr_meta/**/*.md",
+        "ptr_meta/**/*.rs"
+    ],
+    "collection_name_prefix": "ptr_meta",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

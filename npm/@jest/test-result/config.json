@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jest/test-result",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-test-result/**/*.md",
-		"packages/jest-test-result/**/*.ts",
-		"packages/jest-test-result/**/*.js",
-		"packages/jest-test-result/**/*.tsx",
-		"packages/jest-test-result/**/*.jsx"
-	],
-	"collection_name_prefix": "jest_test-result"
+    "native_identifier": "@jest/test-result",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-test-result/**/*.md",
+        "packages/jest-test-result/**/*.ts",
+        "packages/jest-test-result/**/*.js",
+        "packages/jest-test-result/**/*.tsx",
+        "packages/jest-test-result/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest_test-result",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

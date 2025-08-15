@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-optimise-call-expression",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-optimise-call-expression/**/*.md",
-		"packages/babel-helper-optimise-call-expression/**/*.ts",
-		"packages/babel-helper-optimise-call-expression/**/*.js",
-		"packages/babel-helper-optimise-call-expression/**/*.tsx",
-		"packages/babel-helper-optimise-call-expression/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-optimise-call-expression"
+    "native_identifier": "@babel/helper-optimise-call-expression",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-optimise-call-expression/**/*.md",
+        "packages/babel-helper-optimise-call-expression/**/*.ts",
+        "packages/babel-helper-optimise-call-expression/**/*.js",
+        "packages/babel-helper-optimise-call-expression/**/*.tsx",
+        "packages/babel-helper-optimise-call-expression/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-optimise-call-expression",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

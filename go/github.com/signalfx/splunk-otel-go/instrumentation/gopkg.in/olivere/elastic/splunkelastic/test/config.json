@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/gopkg.in/olivere/elastic/splunkelastic/test",
-	"repo": "signalfx/splunk-otel-go",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"instrumentation/gopkg.in/olivere/elastic/splunkelastic/test/**/*.md",
-		"instrumentation/gopkg.in/olivere/elastic/splunkelastic/test/**/*.go"
-	],
-	"collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_gopkg.in_olivere_elastic_splunkelastic_test"
+    "native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/gopkg.in/olivere/elastic/splunkelastic/test",
+    "repo": "signalfx/splunk-otel-go",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/gopkg.in/olivere/elastic/splunkelastic/test/**/*.md",
+        "instrumentation/gopkg.in/olivere/elastic/splunkelastic/test/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_gopkg.in_olivere_elastic_splunkelastic_test",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

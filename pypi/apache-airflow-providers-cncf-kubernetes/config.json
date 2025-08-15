@@ -1,14 +1,16 @@
 {
-	"native_identifier": "apache-airflow-providers-cncf-kubernetes",
-	"repo": "apache/airflow",
-	"registry": "pypi",
-	"tag_formats": [
-		"providers-cncf-kubernetes/{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"providers/cncf/kubernetes/**/*.md",
-		"providers/cncf/kubernetes/**/*.py"
-	],
-	"collection_name_prefix": "apache-airflow-providers-cncf-kubernetes"
+    "native_identifier": "apache-airflow-providers-cncf-kubernetes",
+    "repo": "apache/airflow",
+    "registry": "pypi",
+    "tag_formats": [
+        "providers-cncf-kubernetes/{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "providers/cncf/kubernetes/**/*.md",
+        "providers/cncf/kubernetes/**/*.py"
+    ],
+    "collection_name_prefix": "apache-airflow-providers-cncf-kubernetes",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

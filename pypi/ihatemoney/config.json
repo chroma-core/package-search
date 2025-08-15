@@ -1,14 +1,16 @@
 {
-	"native_identifier": "ihatemoney",
-	"repo": "spiral-project/ihatemoney",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "ihatemoney"
+    "native_identifier": "ihatemoney",
+    "repo": "spiral-project/ihatemoney",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "ihatemoney",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,24 +1,26 @@
 {
-	"native_identifier": "vibetunnel",
-	"repo": "amantus-ai/vibetunnel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}-beta.{patch}",
-		"v{major}.{minor}.{patch}-beta.{patch}",
-		"v{major}.{minor}.0-beta.{patch}",
-		"v{major}.0-beta.{patch}",
-		"v{major}.{minor}.{patch}-beta.{YY}",
-		"v{major}.{minor}.{patch}-beta.{DD}",
-		"v{major}.0.0-beta.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vibetunnel"
+    "native_identifier": "vibetunnel",
+    "repo": "amantus-ai/vibetunnel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}-beta.{patch}",
+        "v{major}.{minor}.{patch}-beta.{patch}",
+        "v{major}.{minor}.0-beta.{patch}",
+        "v{major}.0-beta.{patch}",
+        "v{major}.{minor}.{patch}-beta.{YY}",
+        "v{major}.{minor}.{patch}-beta.{DD}",
+        "v{major}.0.0-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vibetunnel",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

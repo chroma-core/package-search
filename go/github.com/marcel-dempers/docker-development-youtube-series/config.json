@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/marcel-dempers/docker-development-youtube-series",
-	"repo": "marcel-dempers/docker-development-youtube-series",
-	"registry": "go",
-	"tag_formats": [
-		"part{major}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_marcel-dempers_docker-development-youtube-series"
+    "native_identifier": "github.com/marcel-dempers/docker-development-youtube-series",
+    "repo": "marcel-dempers/docker-development-youtube-series",
+    "registry": "go",
+    "tag_formats": [
+        "part{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_marcel-dempers_docker-development-youtube-series",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

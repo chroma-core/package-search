@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/fwhezfwhez/tcpx",
-	"repo": "fwhezfwhez/tcpx",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_fwhezfwhez_tcpx"
+    "native_identifier": "github.com/fwhezfwhez/tcpx",
+    "repo": "fwhezfwhez/tcpx",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_fwhezfwhez_tcpx",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

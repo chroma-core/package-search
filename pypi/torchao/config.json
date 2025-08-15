@@ -1,14 +1,16 @@
 {
-	"native_identifier": "torchao",
-	"repo": "pytorch/ao",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"torchao/**/*.md",
-		"torchao/**/*.py"
-	],
-	"collection_name_prefix": "torchao"
+    "native_identifier": "torchao",
+    "repo": "pytorch/ao",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "torchao/**/*.md",
+        "torchao/**/*.py"
+    ],
+    "collection_name_prefix": "torchao",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

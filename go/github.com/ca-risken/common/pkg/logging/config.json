@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/ca-risken/common/pkg/logging",
-	"repo": "ca-risken/common",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pkg/logging/**/*.md",
-		"pkg/logging/**/*.go"
-	],
-	"collection_name_prefix": "github.com_ca-risken_common_pkg_logging"
+    "native_identifier": "github.com/ca-risken/common/pkg/logging",
+    "repo": "ca-risken/common",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/logging/**/*.md",
+        "pkg/logging/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_ca-risken_common_pkg_logging",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

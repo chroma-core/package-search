@@ -1,17 +1,19 @@
 {
-	"native_identifier": "fb-watchman",
-	"repo": "facebook/watchman",
-	"registry": "npm",
-	"tag_formats": [
-		"v{YYYY}.{MM}.{DD}.00"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "fb-watchman"
+    "native_identifier": "fb-watchman",
+    "repo": "facebook/watchman",
+    "registry": "npm",
+    "tag_formats": [
+        "v{YYYY}.{MM}.{DD}.00"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "fb-watchman",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

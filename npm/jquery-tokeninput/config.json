@@ -1,20 +1,22 @@
 {
-	"native_identifier": "jquery-tokeninput",
-	"repo": "loopj/jquery-tokeninput",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"jquery-tokeninput-{major}.{minor}",
-		"jquery-tokeninput-{major}.{minor}.{patch}",
-		"jquery-tokeninput-{major}.{minor}.0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "jquery-tokeninput"
+    "native_identifier": "jquery-tokeninput",
+    "repo": "loopj/jquery-tokeninput",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "jquery-tokeninput-{major}.{minor}",
+        "jquery-tokeninput-{major}.{minor}.{patch}",
+        "jquery-tokeninput-{major}.{minor}.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "jquery-tokeninput",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/cloudquery/cloudquery/plugins/destination/bigquery",
-	"repo": "cloudquery/cloudquery",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"cli-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"plugins/destination/bigquery/**/*.md",
-		"plugins/destination/bigquery/**/*.go"
-	],
-	"collection_name_prefix": "github.com_cloudquery_cloudquery_plugins_destination_bigquery"
+    "native_identifier": "github.com/cloudquery/cloudquery/plugins/destination/bigquery",
+    "repo": "cloudquery/cloudquery",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cli-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "plugins/destination/bigquery/**/*.md",
+        "plugins/destination/bigquery/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_cloudquery_cloudquery_plugins_destination_bigquery",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

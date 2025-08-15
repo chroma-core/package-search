@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-orb/plugins/server/http",
-	"repo": "go-orb/plugins",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"server/http/**/*.md",
-		"server/http/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-orb_plugins_server_http"
+    "native_identifier": "github.com/go-orb/plugins/server/http",
+    "repo": "go-orb/plugins",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "server/http/**/*.md",
+        "server/http/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-orb_plugins_server_http",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

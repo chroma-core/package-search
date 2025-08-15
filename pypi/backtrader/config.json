@@ -1,17 +1,19 @@
 {
-	"native_identifier": "backtrader",
-	"repo": "mementum/backtrader",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}.{DD}",
-		"{major}.{minor}.{patch}.{YY}",
-		"{major}.{minor}.{DD}.{YY}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "backtrader"
+    "native_identifier": "backtrader",
+    "repo": "mementum/backtrader",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}.{DD}",
+        "{major}.{minor}.{patch}.{YY}",
+        "{major}.{minor}.{DD}.{YY}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "backtrader",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,18 +1,20 @@
 {
-	"native_identifier": "nextest-metadata",
-	"repo": "nextest-rs/nextest",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"cargo-nextest-{major}.{minor}.{patch}",
-		"cargo-nextest-{major}.{minor}.{patch}-rc.{patch}",
-		"cargo-nextest-{patch}.{minor}.{major}",
-		"cargo-nextest-{major}.{minor}.{DD}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"nextest-metadata/**/*.md",
-		"nextest-metadata/**/*.rs"
-	],
-	"collection_name_prefix": "nextest-metadata"
+    "native_identifier": "nextest-metadata",
+    "repo": "nextest-rs/nextest",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cargo-nextest-{major}.{minor}.{patch}",
+        "cargo-nextest-{major}.{minor}.{patch}-rc.{patch}",
+        "cargo-nextest-{patch}.{minor}.{major}",
+        "cargo-nextest-{major}.{minor}.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "nextest-metadata/**/*.md",
+        "nextest-metadata/**/*.rs"
+    ],
+    "collection_name_prefix": "nextest-metadata",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

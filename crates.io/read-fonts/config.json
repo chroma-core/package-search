@@ -1,14 +1,16 @@
 {
-	"native_identifier": "read-fonts",
-	"repo": "googlefonts/fontations",
-	"registry": "crates.io",
-	"tag_formats": [
-		"read-fonts-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"read-fonts/**/*.md",
-		"read-fonts/**/*.rs"
-	],
-	"collection_name_prefix": "read-fonts"
+    "native_identifier": "read-fonts",
+    "repo": "googlefonts/fontations",
+    "registry": "crates.io",
+    "tag_formats": [
+        "read-fonts-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "read-fonts/**/*.md",
+        "read-fonts/**/*.rs"
+    ],
+    "collection_name_prefix": "read-fonts",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

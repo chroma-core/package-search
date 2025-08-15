@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@jest/schemas",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-schemas/**/*.md",
-		"packages/jest-schemas/**/*.ts",
-		"packages/jest-schemas/**/*.js",
-		"packages/jest-schemas/**/*.tsx",
-		"packages/jest-schemas/**/*.jsx"
-	],
-	"collection_name_prefix": "jest_schemas"
+    "native_identifier": "@jest/schemas",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-schemas/**/*.md",
+        "packages/jest-schemas/**/*.ts",
+        "packages/jest-schemas/**/*.js",
+        "packages/jest-schemas/**/*.tsx",
+        "packages/jest-schemas/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest_schemas",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

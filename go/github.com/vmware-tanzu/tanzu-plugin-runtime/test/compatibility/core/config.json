@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/vmware-tanzu/tanzu-plugin-runtime/test/compatibility/core",
-	"repo": "vmware-tanzu/tanzu-plugin-runtime",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"test/compatibility/core/**/*.md",
-		"test/compatibility/core/**/*.go"
-	],
-	"collection_name_prefix": "github.com_vmware-tanzu_tanzu-plugin-runtime_test_compatibility_core"
+    "native_identifier": "github.com/vmware-tanzu/tanzu-plugin-runtime/test/compatibility/core",
+    "repo": "vmware-tanzu/tanzu-plugin-runtime",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "test/compatibility/core/**/*.md",
+        "test/compatibility/core/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_vmware-tanzu_tanzu-plugin-runtime_test_compatibility_core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

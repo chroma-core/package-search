@@ -1,14 +1,16 @@
 {
-	"native_identifier": "mljar-supervised",
-	"repo": "mljar/mljar-supervised",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "mljar-supervised"
+    "native_identifier": "mljar-supervised",
+    "repo": "mljar/mljar-supervised",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "mljar-supervised",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "ua-parser-js",
-	"repo": "faisalman/ua-parser-js",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "ua-parser-js"
+    "native_identifier": "ua-parser-js",
+    "repo": "faisalman/ua-parser-js",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "ua-parser-js",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

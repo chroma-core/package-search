@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-unicode-escapes",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-unicode-escapes/**/*.md",
-		"babel-plugin-transform-unicode-escapes/**/*.ts",
-		"babel-plugin-transform-unicode-escapes/**/*.js",
-		"babel-plugin-transform-unicode-escapes/**/*.tsx",
-		"babel-plugin-transform-unicode-escapes/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-unicode-escapes"
+    "native_identifier": "@babel/plugin-transform-unicode-escapes",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-unicode-escapes/**/*.md",
+        "babel-plugin-transform-unicode-escapes/**/*.ts",
+        "babel-plugin-transform-unicode-escapes/**/*.js",
+        "babel-plugin-transform-unicode-escapes/**/*.tsx",
+        "babel-plugin-transform-unicode-escapes/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-unicode-escapes",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

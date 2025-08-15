@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-transform-computed-properties",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-transform-computed-properties/**/*.md",
-		"babel-plugin-transform-computed-properties/**/*.ts",
-		"babel-plugin-transform-computed-properties/**/*.js",
-		"babel-plugin-transform-computed-properties/**/*.tsx",
-		"babel-plugin-transform-computed-properties/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-transform-computed-properties"
+    "native_identifier": "@babel/plugin-transform-computed-properties",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-transform-computed-properties/**/*.md",
+        "babel-plugin-transform-computed-properties/**/*.ts",
+        "babel-plugin-transform-computed-properties/**/*.js",
+        "babel-plugin-transform-computed-properties/**/*.tsx",
+        "babel-plugin-transform-computed-properties/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-transform-computed-properties",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

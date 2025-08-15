@@ -1,17 +1,19 @@
 {
-	"native_identifier": "tailwind-variants",
-	"repo": "heroui-inc/tailwind-variants",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "tailwind-variants"
+    "native_identifier": "tailwind-variants",
+    "repo": "heroui-inc/tailwind-variants",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "tailwind-variants",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

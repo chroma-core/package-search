@@ -1,14 +1,16 @@
 {
-	"native_identifier": "pkcs1",
-	"repo": "RustCrypto/formats",
-	"registry": "crates.io",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pkcs1/**/*.md",
-		"pkcs1/**/*.rs"
-	],
-	"collection_name_prefix": "pkcs1"
+    "native_identifier": "pkcs1",
+    "repo": "RustCrypto/formats",
+    "registry": "crates.io",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkcs1/**/*.md",
+        "pkcs1/**/*.rs"
+    ],
+    "collection_name_prefix": "pkcs1",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

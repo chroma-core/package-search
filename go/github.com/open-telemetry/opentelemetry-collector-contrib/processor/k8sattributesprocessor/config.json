@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor",
-	"repo": "open-telemetry/opentelemetry-collector-contrib",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"cmd/configschema/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"processor/k8sattributesprocessor/**/*.md",
-		"processor/k8sattributesprocessor/**/*.go"
-	],
-	"collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_processor_k8sattributesprocessor"
+    "native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor",
+    "repo": "open-telemetry/opentelemetry-collector-contrib",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cmd/configschema/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "processor/k8sattributesprocessor/**/*.md",
+        "processor/k8sattributesprocessor/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_processor_k8sattributesprocessor",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

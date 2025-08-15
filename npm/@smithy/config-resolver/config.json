@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/config-resolver",
-	"repo": "smithy-lang/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/config-resolver@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/config-resolver/**/*.md",
-		"packages/config-resolver/**/*.ts",
-		"packages/config-resolver/**/*.js",
-		"packages/config-resolver/**/*.tsx",
-		"packages/config-resolver/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_config-resolver"
+    "native_identifier": "@smithy/config-resolver",
+    "repo": "smithy-lang/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/config-resolver@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/config-resolver/**/*.md",
+        "packages/config-resolver/**/*.ts",
+        "packages/config-resolver/**/*.js",
+        "packages/config-resolver/**/*.tsx",
+        "packages/config-resolver/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_config-resolver",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

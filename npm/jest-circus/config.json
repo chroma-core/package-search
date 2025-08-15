@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-circus",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-circus/**/*.md",
-		"packages/jest-circus/**/*.ts",
-		"packages/jest-circus/**/*.js",
-		"packages/jest-circus/**/*.tsx",
-		"packages/jest-circus/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-circus"
+    "native_identifier": "jest-circus",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-circus/**/*.md",
+        "packages/jest-circus/**/*.ts",
+        "packages/jest-circus/**/*.js",
+        "packages/jest-circus/**/*.tsx",
+        "packages/jest-circus/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-circus",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,15 +1,17 @@
 {
-	"native_identifier": "github.com/uptrace/opentelemetry-go-extra/otellogrus",
-	"repo": "uptrace/opentelemetry-go-extra",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"otelgorm/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"otellogrus/**/*.md",
-		"otellogrus/**/*.go"
-	],
-	"collection_name_prefix": "github.com_uptrace_opentelemetry-go-extra_otellogrus"
+    "native_identifier": "github.com/uptrace/opentelemetry-go-extra/otellogrus",
+    "repo": "uptrace/opentelemetry-go-extra",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "otelgorm/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "otellogrus/**/*.md",
+        "otellogrus/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_uptrace_opentelemetry-go-extra_otellogrus",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

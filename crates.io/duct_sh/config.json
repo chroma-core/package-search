@@ -1,14 +1,16 @@
 {
-	"native_identifier": "duct_sh",
-	"repo": "oconnor663/duct.rs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"duct_sh/**/*.md",
-		"duct_sh/**/*.rs"
-	],
-	"collection_name_prefix": "duct_sh"
+    "native_identifier": "duct_sh",
+    "repo": "oconnor663/duct.rs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "duct_sh/**/*.md",
+        "duct_sh/**/*.rs"
+    ],
+    "collection_name_prefix": "duct_sh",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

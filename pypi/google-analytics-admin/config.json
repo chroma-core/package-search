@@ -1,14 +1,16 @@
 {
-	"native_identifier": "google-analytics-admin",
-	"repo": "googleapis/google-cloud-python",
-	"registry": "pypi",
-	"tag_formats": [
-		"google-analytics-admin-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/google-analytics-admin/**/*.md",
-		"packages/google-analytics-admin/**/*.py"
-	],
-	"collection_name_prefix": "google-analytics-admin"
+    "native_identifier": "google-analytics-admin",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "pypi",
+    "tag_formats": [
+        "google-analytics-admin-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-analytics-admin/**/*.md",
+        "packages/google-analytics-admin/**/*.py"
+    ],
+    "collection_name_prefix": "google-analytics-admin",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

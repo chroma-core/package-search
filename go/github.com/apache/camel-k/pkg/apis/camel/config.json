@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/apache/camel-k/pkg/apis/camel",
-	"repo": "apache/camel-k",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pkg/apis/camel/**/*.md",
-		"pkg/apis/camel/**/*.go"
-	],
-	"collection_name_prefix": "github.com_apache_camel-k_pkg_apis_camel"
+    "native_identifier": "github.com/apache/camel-k/pkg/apis/camel",
+    "repo": "apache/camel-k",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/apis/camel/**/*.md",
+        "pkg/apis/camel/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_apache_camel-k_pkg_apis_camel",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

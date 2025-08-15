@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/alexedwards/scs/boltstore",
-	"repo": "alexedwards/scs",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"boltstore/**/*.md",
-		"boltstore/**/*.go"
-	],
-	"collection_name_prefix": "github.com_alexedwards_scs_boltstore"
+    "native_identifier": "github.com/alexedwards/scs/boltstore",
+    "repo": "alexedwards/scs",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "boltstore/**/*.md",
+        "boltstore/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_alexedwards_scs_boltstore",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

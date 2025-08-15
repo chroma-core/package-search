@@ -1,17 +1,19 @@
 {
-	"native_identifier": "babel-plugin-polyfill-corejs2",
-	"repo": "babel/babel-polyfills",
-	"registry": "npm",
-	"tag_formats": [
-		"babel-plugin-polyfill-corejs2@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-plugin-polyfill-corejs2/**/*.md",
-		"packages/babel-plugin-polyfill-corejs2/**/*.ts",
-		"packages/babel-plugin-polyfill-corejs2/**/*.js",
-		"packages/babel-plugin-polyfill-corejs2/**/*.tsx",
-		"packages/babel-plugin-polyfill-corejs2/**/*.jsx"
-	],
-	"collection_name_prefix": "babel-plugin-polyfill-corejs2"
+    "native_identifier": "babel-plugin-polyfill-corejs2",
+    "repo": "babel/babel-polyfills",
+    "registry": "npm",
+    "tag_formats": [
+        "babel-plugin-polyfill-corejs2@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-plugin-polyfill-corejs2/**/*.md",
+        "packages/babel-plugin-polyfill-corejs2/**/*.ts",
+        "packages/babel-plugin-polyfill-corejs2/**/*.js",
+        "packages/babel-plugin-polyfill-corejs2/**/*.tsx",
+        "packages/babel-plugin-polyfill-corejs2/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel-plugin-polyfill-corejs2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

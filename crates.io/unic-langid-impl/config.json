@@ -1,16 +1,18 @@
 {
-	"native_identifier": "unic-langid-impl",
-	"repo": "zbraniecki/unic-locale",
-	"registry": "crates.io",
-	"tag_formats": [
-		"@{major}.{minor}.{patch}",
-		"unic-langid@{major}.{minor}.{patch}",
-		"unic-locale@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"unic-langid-impl/**/*.md",
-		"unic-langid-impl/**/*.rs"
-	],
-	"collection_name_prefix": "unic-langid-impl"
+    "native_identifier": "unic-langid-impl",
+    "repo": "zbraniecki/unic-locale",
+    "registry": "crates.io",
+    "tag_formats": [
+        "@{major}.{minor}.{patch}",
+        "unic-langid@{major}.{minor}.{patch}",
+        "unic-locale@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "unic-langid-impl/**/*.md",
+        "unic-langid-impl/**/*.rs"
+    ],
+    "collection_name_prefix": "unic-langid-impl",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

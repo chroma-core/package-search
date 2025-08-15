@@ -1,14 +1,16 @@
 {
-	"native_identifier": "as-raw-xcb-connection",
-	"repo": "psychon/as-raw-xcb-connection",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "as-raw-xcb-connection"
+    "native_identifier": "as-raw-xcb-connection",
+    "repo": "psychon/as-raw-xcb-connection",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "as-raw-xcb-connection",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

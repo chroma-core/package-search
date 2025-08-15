@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/onsdigital/golang-neo4j-bolt-driver",
-	"repo": "onsdigital/golang-neo4j-bolt-driver",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_onsdigital_golang-neo4j-bolt-driver"
+    "native_identifier": "github.com/onsdigital/golang-neo4j-bolt-driver",
+    "repo": "onsdigital/golang-neo4j-bolt-driver",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_onsdigital_golang-neo4j-bolt-driver",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

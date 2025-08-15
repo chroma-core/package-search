@@ -1,16 +1,18 @@
 {
-	"native_identifier": "github.com/ioki-mobility/summaraizer",
-	"repo": "ioki-mobility/summaraizer",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-alpha.{DD}",
-		"v{major}.{minor}.{patch}-alpha.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_ioki-mobility_summaraizer"
+    "native_identifier": "github.com/ioki-mobility/summaraizer",
+    "repo": "ioki-mobility/summaraizer",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha.{DD}",
+        "v{major}.{minor}.{patch}-alpha.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_ioki-mobility_summaraizer",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

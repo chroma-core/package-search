@@ -1,17 +1,19 @@
 {
-	"native_identifier": "pretty-format",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/pretty-format/**/*.md",
-		"packages/pretty-format/**/*.ts",
-		"packages/pretty-format/**/*.js",
-		"packages/pretty-format/**/*.tsx",
-		"packages/pretty-format/**/*.jsx"
-	],
-	"collection_name_prefix": "pretty-format"
+    "native_identifier": "pretty-format",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/pretty-format/**/*.md",
+        "packages/pretty-format/**/*.ts",
+        "packages/pretty-format/**/*.js",
+        "packages/pretty-format/**/*.tsx",
+        "packages/pretty-format/**/*.jsx"
+    ],
+    "collection_name_prefix": "pretty-format",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

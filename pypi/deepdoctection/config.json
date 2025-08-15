@@ -1,23 +1,25 @@
 {
-	"native_identifier": "deepdoctection",
-	"repo": "deepdoctection/deepdoctection",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v.{major}.{minor}",
-		"v.{major}.{minor}.{patch}",
-		"v.{major}.{minor}.0",
-		"v.{major}.{patch}",
-		"v.{patch}.{minor}",
-		"v.{minor}.{major}.{patch}",
-		"v.{patch}.{minor}.0",
-		"v.{minor}.{patch}.0",
-		"v.{major}.{DD}.0"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "deepdoctection"
+    "native_identifier": "deepdoctection",
+    "repo": "deepdoctection/deepdoctection",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v.{major}.{minor}",
+        "v.{major}.{minor}.{patch}",
+        "v.{major}.{minor}.0",
+        "v.{major}.{patch}",
+        "v.{patch}.{minor}",
+        "v.{minor}.{major}.{patch}",
+        "v.{patch}.{minor}.0",
+        "v.{minor}.{patch}.0",
+        "v.{major}.{DD}.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "deepdoctection",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

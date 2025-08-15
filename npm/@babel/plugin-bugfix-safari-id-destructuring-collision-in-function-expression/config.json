@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.md",
-		"babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.ts",
-		"babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.js",
-		"babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.tsx",
-		"babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_plugin-bugfix-safari-id-destructuring-collision-in-function-expression"
+    "native_identifier": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.md",
+        "babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.ts",
+        "babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.js",
+        "babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.tsx",
+        "babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

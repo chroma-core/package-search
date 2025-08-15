@@ -1,14 +1,16 @@
 {
-	"native_identifier": "prost-reflect-derive",
-	"repo": "andrewhickman/prost-reflect",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"prost-reflect-derive/**/*.md",
-		"prost-reflect-derive/**/*.rs"
-	],
-	"collection_name_prefix": "prost-reflect-derive"
+    "native_identifier": "prost-reflect-derive",
+    "repo": "andrewhickman/prost-reflect",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "prost-reflect-derive/**/*.md",
+        "prost-reflect-derive/**/*.rs"
+    ],
+    "collection_name_prefix": "prost-reflect-derive",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

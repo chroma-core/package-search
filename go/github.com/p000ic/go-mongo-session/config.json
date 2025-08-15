@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/p000ic/go-mongo-session",
-	"repo": "p000ic/go-mongo-session",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_p000ic_go-mongo-session"
+    "native_identifier": "github.com/p000ic/go-mongo-session",
+    "repo": "p000ic/go-mongo-session",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_p000ic_go-mongo-session",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

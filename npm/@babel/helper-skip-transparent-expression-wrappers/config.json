@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/helper-skip-transparent-expression-wrappers",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-helper-skip-transparent-expression-wrappers/**/*.md",
-		"packages/babel-helper-skip-transparent-expression-wrappers/**/*.ts",
-		"packages/babel-helper-skip-transparent-expression-wrappers/**/*.js",
-		"packages/babel-helper-skip-transparent-expression-wrappers/**/*.tsx",
-		"packages/babel-helper-skip-transparent-expression-wrappers/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_helper-skip-transparent-expression-wrappers"
+    "native_identifier": "@babel/helper-skip-transparent-expression-wrappers",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-helper-skip-transparent-expression-wrappers/**/*.md",
+        "packages/babel-helper-skip-transparent-expression-wrappers/**/*.ts",
+        "packages/babel-helper-skip-transparent-expression-wrappers/**/*.js",
+        "packages/babel-helper-skip-transparent-expression-wrappers/**/*.tsx",
+        "packages/babel-helper-skip-transparent-expression-wrappers/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_helper-skip-transparent-expression-wrappers",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

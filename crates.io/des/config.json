@@ -1,14 +1,16 @@
 {
-	"native_identifier": "des",
-	"repo": "RustCrypto/block-ciphers",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"des/**/*.md",
-		"des/**/*.rs"
-	],
-	"collection_name_prefix": "des"
+    "native_identifier": "des",
+    "repo": "RustCrypto/block-ciphers",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "des/**/*.md",
+        "des/**/*.rs"
+    ],
+    "collection_name_prefix": "des",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/wego/pkg/database/postgres",
-	"repo": "wego/pkg",
-	"registry": "go",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"database/postgres/**/*.md",
-		"database/postgres/**/*.go"
-	],
-	"collection_name_prefix": "github.com_wego_pkg_database_postgres"
+    "native_identifier": "github.com/wego/pkg/database/postgres",
+    "repo": "wego/pkg",
+    "registry": "go",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "database/postgres/**/*.md",
+        "database/postgres/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_wego_pkg_database_postgres",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

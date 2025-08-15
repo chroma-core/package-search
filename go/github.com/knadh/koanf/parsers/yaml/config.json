@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/knadh/koanf/parsers/yaml",
-	"repo": "knadh/koanf",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"parsers/yaml/**/*.md",
-		"parsers/yaml/**/*.go"
-	],
-	"collection_name_prefix": "github.com_knadh_koanf_parsers_yaml"
+    "native_identifier": "github.com/knadh/koanf/parsers/yaml",
+    "repo": "knadh/koanf",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "parsers/yaml/**/*.md",
+        "parsers/yaml/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_knadh_koanf_parsers_yaml",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

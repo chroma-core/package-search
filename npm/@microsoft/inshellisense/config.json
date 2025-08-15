@@ -1,19 +1,21 @@
 {
-	"native_identifier": "@microsoft/inshellisense",
-	"repo": "microsoft/inshellisense",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"{major}.{minor}.{patch}-rc.{DD}",
-		"{major}.{minor}.{patch}-rc.{YY}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "microsoft_inshellisense"
+    "native_identifier": "@microsoft/inshellisense",
+    "repo": "microsoft/inshellisense",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-rc.{DD}",
+        "{major}.{minor}.{patch}-rc.{YY}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "microsoft_inshellisense",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

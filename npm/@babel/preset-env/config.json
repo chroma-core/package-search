@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@babel/preset-env",
-	"repo": "babel/babel",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"babel-preset-env/**/*.md",
-		"babel-preset-env/**/*.ts",
-		"babel-preset-env/**/*.js",
-		"babel-preset-env/**/*.tsx",
-		"babel-preset-env/**/*.jsx"
-	],
-	"collection_name_prefix": "babel_preset-env"
+    "native_identifier": "@babel/preset-env",
+    "repo": "babel/babel",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "babel-preset-env/**/*.md",
+        "babel-preset-env/**/*.ts",
+        "babel-preset-env/**/*.js",
+        "babel-preset-env/**/*.tsx",
+        "babel-preset-env/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel_preset-env",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

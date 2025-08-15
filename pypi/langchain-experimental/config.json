@@ -1,16 +1,18 @@
 {
-	"native_identifier": "langchain-experimental",
-	"repo": "langchain-ai/langchain-experimental",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"libs/experimental/v{major}.{minor}.{patch}",
-		"libs/experimental/v{major}.{minor}.{patch}.post{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "langchain-experimental"
+    "native_identifier": "langchain-experimental",
+    "repo": "langchain-ai/langchain-experimental",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "libs/experimental/v{major}.{minor}.{patch}",
+        "libs/experimental/v{major}.{minor}.{patch}.post{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "langchain-experimental",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

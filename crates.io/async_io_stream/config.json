@@ -1,14 +1,16 @@
 {
-	"native_identifier": "async_io_stream",
-	"repo": "najamelan/async_io_stream",
-	"registry": "crates.io",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.rs"
-	],
-	"collection_name_prefix": "async_io_stream"
+    "native_identifier": "async_io_stream",
+    "repo": "najamelan/async_io_stream",
+    "registry": "crates.io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "async_io_stream",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

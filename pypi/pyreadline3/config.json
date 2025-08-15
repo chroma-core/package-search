@@ -1,14 +1,16 @@
 {
-	"native_identifier": "pyreadline3",
-	"repo": "pyreadline3/pyreadline3",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "pyreadline3"
+    "native_identifier": "pyreadline3",
+    "repo": "pyreadline3/pyreadline3",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "pyreadline3",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

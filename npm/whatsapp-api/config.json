@@ -1,21 +1,23 @@
 {
-	"native_identifier": "whatsapp-api",
-	"repo": "chrishubert/whatsapp-api",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"v{major}.{minor}.{patch}-alpha.{patch}",
-		"v{major}.{minor}.{patch}-alpha.{patch}-{patch}",
-		"v{major}.{minor}.{patch}-webpack-exodus",
-		"v{major}.{minor}.{patch}-webpack-exodus.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "whatsapp-api"
+    "native_identifier": "whatsapp-api",
+    "repo": "chrishubert/whatsapp-api",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha.{patch}",
+        "v{major}.{minor}.{patch}-alpha.{patch}-{patch}",
+        "v{major}.{minor}.{patch}-webpack-exodus",
+        "v{major}.{minor}.{patch}-webpack-exodus.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "whatsapp-api",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

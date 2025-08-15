@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/inspektor-gadget/inspektor-gadget/tools/testjson2md",
-	"repo": "inspektor-gadget/inspektor-gadget",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"tools/testjson2md/**/*.md",
-		"tools/testjson2md/**/*.go"
-	],
-	"collection_name_prefix": "github.com_inspektor-gadget_inspektor-gadget_tools_testjson2md"
+    "native_identifier": "github.com/inspektor-gadget/inspektor-gadget/tools/testjson2md",
+    "repo": "inspektor-gadget/inspektor-gadget",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "tools/testjson2md/**/*.md",
+        "tools/testjson2md/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_inspektor-gadget_inspektor-gadget_tools_testjson2md",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

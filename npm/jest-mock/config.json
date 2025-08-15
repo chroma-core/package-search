@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-mock",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-mock/**/*.md",
-		"packages/jest-mock/**/*.ts",
-		"packages/jest-mock/**/*.js",
-		"packages/jest-mock/**/*.tsx",
-		"packages/jest-mock/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-mock"
+    "native_identifier": "jest-mock",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-mock/**/*.md",
+        "packages/jest-mock/**/*.ts",
+        "packages/jest-mock/**/*.js",
+        "packages/jest-mock/**/*.tsx",
+        "packages/jest-mock/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-mock",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

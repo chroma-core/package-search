@@ -1,17 +1,19 @@
 {
-	"native_identifier": "pm2-logrotate",
-	"repo": "keymetrics/pm2-logrotate",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "pm2-logrotate"
+    "native_identifier": "pm2-logrotate",
+    "repo": "keymetrics/pm2-logrotate",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "pm2-logrotate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

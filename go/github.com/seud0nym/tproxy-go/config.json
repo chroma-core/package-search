@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/seud0nym/tproxy-go",
-	"repo": "seud0nym/tproxy-go",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_seud0nym_tproxy-go"
+    "native_identifier": "github.com/seud0nym/tproxy-go",
+    "repo": "seud0nym/tproxy-go",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_seud0nym_tproxy-go",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@aws-sdk/credential-provider-ini",
-	"repo": "aws/aws-sdk-js-v3",
-	"registry": "npm",
-	"tag_formats": [
-		"@aws-sdk/credential-provider-ini@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/credential-provider-ini/**/*.md",
-		"packages/credential-provider-ini/**/*.ts",
-		"packages/credential-provider-ini/**/*.js",
-		"packages/credential-provider-ini/**/*.tsx",
-		"packages/credential-provider-ini/**/*.jsx"
-	],
-	"collection_name_prefix": "aws-sdk_credential-provider-ini"
+    "native_identifier": "@aws-sdk/credential-provider-ini",
+    "repo": "aws/aws-sdk-js-v3",
+    "registry": "npm",
+    "tag_formats": [
+        "@aws-sdk/credential-provider-ini@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/credential-provider-ini/**/*.md",
+        "packages/credential-provider-ini/**/*.ts",
+        "packages/credential-provider-ini/**/*.js",
+        "packages/credential-provider-ini/**/*.tsx",
+        "packages/credential-provider-ini/**/*.jsx"
+    ],
+    "collection_name_prefix": "aws-sdk_credential-provider-ini",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

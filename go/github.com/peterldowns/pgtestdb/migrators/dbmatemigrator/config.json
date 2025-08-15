@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/peterldowns/pgtestdb/migrators/dbmatemigrator",
-	"repo": "peterldowns/pgtestdb",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"migrators/dbmatemigrator/**/*.md",
-		"migrators/dbmatemigrator/**/*.go"
-	],
-	"collection_name_prefix": "github.com_peterldowns_pgtestdb_migrators_dbmatemigrator"
+    "native_identifier": "github.com/peterldowns/pgtestdb/migrators/dbmatemigrator",
+    "repo": "peterldowns/pgtestdb",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "migrators/dbmatemigrator/**/*.md",
+        "migrators/dbmatemigrator/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_peterldowns_pgtestdb_migrators_dbmatemigrator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

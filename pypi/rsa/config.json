@@ -1,16 +1,18 @@
 {
-	"native_identifier": "rsa",
-	"repo": "sybrenstuvel/python-rsa",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}",
-		"version-{major}.{minor}",
-		"version-{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "rsa"
+    "native_identifier": "rsa",
+    "repo": "sybrenstuvel/python-rsa",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "version-{major}.{minor}",
+        "version-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "rsa",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

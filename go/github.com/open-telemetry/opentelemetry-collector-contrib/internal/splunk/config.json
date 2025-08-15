@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk",
-	"repo": "open-telemetry/opentelemetry-collector-contrib",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"internal/splunk/**/*.md",
-		"internal/splunk/**/*.go"
-	],
-	"collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_internal_splunk"
+    "native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk",
+    "repo": "open-telemetry/opentelemetry-collector-contrib",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "internal/splunk/**/*.md",
+        "internal/splunk/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_internal_splunk",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

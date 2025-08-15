@@ -1,17 +1,19 @@
 {
-	"native_identifier": "jest-validate",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/jest-validate/**/*.md",
-		"packages/jest-validate/**/*.ts",
-		"packages/jest-validate/**/*.js",
-		"packages/jest-validate/**/*.tsx",
-		"packages/jest-validate/**/*.jsx"
-	],
-	"collection_name_prefix": "jest-validate"
+    "native_identifier": "jest-validate",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/jest-validate/**/*.md",
+        "packages/jest-validate/**/*.ts",
+        "packages/jest-validate/**/*.js",
+        "packages/jest-validate/**/*.tsx",
+        "packages/jest-validate/**/*.jsx"
+    ],
+    "collection_name_prefix": "jest-validate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

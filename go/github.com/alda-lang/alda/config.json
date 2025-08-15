@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/alda-lang/alda",
-	"repo": "alda-lang/alda",
-	"registry": "go",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.go"
-	],
-	"collection_name_prefix": "github.com_alda-lang_alda"
+    "native_identifier": "github.com/alda-lang/alda",
+    "repo": "alda-lang/alda",
+    "registry": "go",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_alda-lang_alda",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

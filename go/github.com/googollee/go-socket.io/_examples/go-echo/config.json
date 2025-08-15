@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/googollee/go-socket.io/_examples/go-echo",
-	"repo": "googollee/go-socket.io",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"_examples/go-echo/**/*.md",
-		"_examples/go-echo/**/*.go"
-	],
-	"collection_name_prefix": "github.com_googollee_go-socket.io__examples_go-echo"
+    "native_identifier": "github.com/googollee/go-socket.io/_examples/go-echo",
+    "repo": "googollee/go-socket.io",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "_examples/go-echo/**/*.md",
+        "_examples/go-echo/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_googollee_go-socket.io__examples_go-echo",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

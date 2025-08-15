@@ -1,15 +1,17 @@
 {
-	"native_identifier": "trie-root",
-	"repo": "paritytech/trie",
-	"registry": "crates.io",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"memory-db-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"trie-root/**/*.md",
-		"trie-root/**/*.rs"
-	],
-	"collection_name_prefix": "trie-root"
+    "native_identifier": "trie-root",
+    "repo": "paritytech/trie",
+    "registry": "crates.io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "memory-db-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "trie-root/**/*.md",
+        "trie-root/**/*.rs"
+    ],
+    "collection_name_prefix": "trie-root",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

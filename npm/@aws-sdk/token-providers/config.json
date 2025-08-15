@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@aws-sdk/token-providers",
-	"repo": "aws/aws-sdk-js-v3",
-	"registry": "npm",
-	"tag_formats": [
-		"@aws-sdk/token-providers@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/token-providers/**/*.md",
-		"packages/token-providers/**/*.ts",
-		"packages/token-providers/**/*.js",
-		"packages/token-providers/**/*.tsx",
-		"packages/token-providers/**/*.jsx"
-	],
-	"collection_name_prefix": "aws-sdk_token-providers"
+    "native_identifier": "@aws-sdk/token-providers",
+    "repo": "aws/aws-sdk-js-v3",
+    "registry": "npm",
+    "tag_formats": [
+        "@aws-sdk/token-providers@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/token-providers/**/*.md",
+        "packages/token-providers/**/*.ts",
+        "packages/token-providers/**/*.js",
+        "packages/token-providers/**/*.tsx",
+        "packages/token-providers/**/*.jsx"
+    ],
+    "collection_name_prefix": "aws-sdk_token-providers",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

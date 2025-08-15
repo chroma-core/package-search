@@ -1,17 +1,19 @@
 {
-	"native_identifier": "kysely",
-	"repo": "kysely-org/kysely",
-	"registry": "npm",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "kysely"
+    "native_identifier": "kysely",
+    "repo": "kysely-org/kysely",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "kysely",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

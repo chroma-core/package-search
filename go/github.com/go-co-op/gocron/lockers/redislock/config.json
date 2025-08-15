@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-co-op/gocron/lockers/redislock",
-	"repo": "go-co-op/gocron",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"lockers/redislock/**/*.md",
-		"lockers/redislock/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-co-op_gocron_lockers_redislock"
+    "native_identifier": "github.com/go-co-op/gocron/lockers/redislock",
+    "repo": "go-co-op/gocron",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "lockers/redislock/**/*.md",
+        "lockers/redislock/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-co-op_gocron_lockers_redislock",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

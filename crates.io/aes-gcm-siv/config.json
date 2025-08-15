@@ -1,14 +1,16 @@
 {
-	"native_identifier": "aes-gcm-siv",
-	"repo": "RustCrypto/AEADs",
-	"registry": "crates.io",
-	"tag_formats": [
-		"/v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"aes-gcm-siv/**/*.md",
-		"aes-gcm-siv/**/*.rs"
-	],
-	"collection_name_prefix": "aes-gcm-siv"
+    "native_identifier": "aes-gcm-siv",
+    "repo": "RustCrypto/AEADs",
+    "registry": "crates.io",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "aes-gcm-siv/**/*.md",
+        "aes-gcm-siv/**/*.rs"
+    ],
+    "collection_name_prefix": "aes-gcm-siv",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@webassemblyjs/wast-printer",
-	"repo": "xtuc/webassemblyjs",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/wast-printer/**/*.md",
-		"packages/wast-printer/**/*.ts",
-		"packages/wast-printer/**/*.js",
-		"packages/wast-printer/**/*.tsx",
-		"packages/wast-printer/**/*.jsx"
-	],
-	"collection_name_prefix": "webassemblyjs_wast-printer"
+    "native_identifier": "@webassemblyjs/wast-printer",
+    "repo": "xtuc/webassemblyjs",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/wast-printer/**/*.md",
+        "packages/wast-printer/**/*.ts",
+        "packages/wast-printer/**/*.js",
+        "packages/wast-printer/**/*.tsx",
+        "packages/wast-printer/**/*.jsx"
+    ],
+    "collection_name_prefix": "webassemblyjs_wast-printer",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

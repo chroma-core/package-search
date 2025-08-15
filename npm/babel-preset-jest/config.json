@@ -1,17 +1,19 @@
 {
-	"native_identifier": "babel-preset-jest",
-	"repo": "jestjs/jest",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/babel-preset-jest/**/*.md",
-		"packages/babel-preset-jest/**/*.ts",
-		"packages/babel-preset-jest/**/*.js",
-		"packages/babel-preset-jest/**/*.tsx",
-		"packages/babel-preset-jest/**/*.jsx"
-	],
-	"collection_name_prefix": "babel-preset-jest"
+    "native_identifier": "babel-preset-jest",
+    "repo": "jestjs/jest",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/babel-preset-jest/**/*.md",
+        "packages/babel-preset-jest/**/*.ts",
+        "packages/babel-preset-jest/**/*.js",
+        "packages/babel-preset-jest/**/*.tsx",
+        "packages/babel-preset-jest/**/*.jsx"
+    ],
+    "collection_name_prefix": "babel-preset-jest",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

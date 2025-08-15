@@ -1,17 +1,19 @@
 {
-	"native_identifier": "auto-subs",
-	"repo": "tmoroney/auto-subs",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "auto-subs"
+    "native_identifier": "auto-subs",
+    "repo": "tmoroney/auto-subs",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "auto-subs",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

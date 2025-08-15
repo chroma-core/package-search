@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/gcp",
-	"repo": "sigstore/sigstore",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"pkg/signature/kms/gcp/**/*.md",
-		"pkg/signature/kms/gcp/**/*.go"
-	],
-	"collection_name_prefix": "github.com_sigstore_sigstore_pkg_signature_kms_gcp"
+    "native_identifier": "github.com/sigstore/sigstore/pkg/signature/kms/gcp",
+    "repo": "sigstore/sigstore",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/signature/kms/gcp/**/*.md",
+        "pkg/signature/kms/gcp/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_sigstore_sigstore_pkg_signature_kms_gcp",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

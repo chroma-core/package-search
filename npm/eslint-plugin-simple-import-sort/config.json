@@ -1,17 +1,19 @@
 {
-	"native_identifier": "eslint-plugin-simple-import-sort",
-	"repo": "lydell/eslint-plugin-simple-import-sort",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "eslint-plugin-simple-import-sort"
+    "native_identifier": "eslint-plugin-simple-import-sort",
+    "repo": "lydell/eslint-plugin-simple-import-sort",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "eslint-plugin-simple-import-sort",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

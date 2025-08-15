@@ -1,17 +1,19 @@
 {
-	"native_identifier": "vue-draggable-next",
-	"repo": "sortablejs/vue.draggable.next",
-	"registry": "npm",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.tsx",
-		"**/*.jsx"
-	],
-	"collection_name_prefix": "vue-draggable-next"
+    "native_identifier": "vue-draggable-next",
+    "repo": "sortablejs/vue.draggable.next",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx"
+    ],
+    "collection_name_prefix": "vue-draggable-next",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

@@ -1,14 +1,16 @@
 {
-	"native_identifier": "strawberry",
-	"repo": "strawberry-graphql/strawberry",
-	"registry": "pypi",
-	"tag_formats": [
-		"{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"strawberry/**/*.md",
-		"strawberry/**/*.py"
-	],
-	"collection_name_prefix": "strawberry"
+    "native_identifier": "strawberry",
+    "repo": "strawberry-graphql/strawberry",
+    "registry": "pypi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "strawberry/**/*.md",
+        "strawberry/**/*.py"
+    ],
+    "collection_name_prefix": "strawberry",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

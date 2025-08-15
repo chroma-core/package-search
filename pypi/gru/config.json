@@ -1,16 +1,18 @@
 {
-	"native_identifier": "gru",
-	"repo": "dalinvip/cnn-lstm-bilstm-deepcnn-clstm-in-pytorch",
-	"registry": "pypi",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}",
-		"pytorch{major}.{minor}.{patch}",
-		"pytorch{major}.{minor}.{patch}-old_version_{YY}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"**/*.md",
-		"**/*.py"
-	],
-	"collection_name_prefix": "gru"
+    "native_identifier": "gru",
+    "repo": "dalinvip/cnn-lstm-bilstm-deepcnn-clstm-in-pytorch",
+    "registry": "pypi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "pytorch{major}.{minor}.{patch}",
+        "pytorch{major}.{minor}.{patch}-old_version_{YY}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "gru",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

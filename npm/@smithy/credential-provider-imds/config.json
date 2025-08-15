@@ -1,17 +1,19 @@
 {
-	"native_identifier": "@smithy/credential-provider-imds",
-	"repo": "smithy-lang/smithy-typescript",
-	"registry": "npm",
-	"tag_formats": [
-		"@smithy/credential-provider-imds@{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"packages/credential-provider-imds/**/*.md",
-		"packages/credential-provider-imds/**/*.ts",
-		"packages/credential-provider-imds/**/*.js",
-		"packages/credential-provider-imds/**/*.tsx",
-		"packages/credential-provider-imds/**/*.jsx"
-	],
-	"collection_name_prefix": "smithy_credential-provider-imds"
+    "native_identifier": "@smithy/credential-provider-imds",
+    "repo": "smithy-lang/smithy-typescript",
+    "registry": "npm",
+    "tag_formats": [
+        "@smithy/credential-provider-imds@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/credential-provider-imds/**/*.md",
+        "packages/credential-provider-imds/**/*.ts",
+        "packages/credential-provider-imds/**/*.js",
+        "packages/credential-provider-imds/**/*.tsx",
+        "packages/credential-provider-imds/**/*.jsx"
+    ],
+    "collection_name_prefix": "smithy_credential-provider-imds",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

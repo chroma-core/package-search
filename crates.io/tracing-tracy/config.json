@@ -1,14 +1,16 @@
 {
-	"native_identifier": "tracing-tracy",
-	"repo": "nagisa/rust_tracy_client",
-	"registry": "crates.io",
-	"tag_formats": [
-		"tracing-tracy-v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"tracing-tracy/**/*.md",
-		"tracing-tracy/**/*.rs"
-	],
-	"collection_name_prefix": "tracing-tracy"
+    "native_identifier": "tracing-tracy",
+    "repo": "nagisa/rust_tracy_client",
+    "registry": "crates.io",
+    "tag_formats": [
+        "tracing-tracy-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "tracing-tracy/**/*.md",
+        "tracing-tracy/**/*.rs"
+    ],
+    "collection_name_prefix": "tracing-tracy",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

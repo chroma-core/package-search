@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/go-micro/plugins/v4/wrapper/trace/opentracing",
-	"repo": "go-micro/plugins",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"v4/wrapper/trace/opentracing/**/*.md",
-		"v4/wrapper/trace/opentracing/**/*.go"
-	],
-	"collection_name_prefix": "github.com_go-micro_plugins_v4_wrapper_trace_opentracing"
+    "native_identifier": "github.com/go-micro/plugins/v4/wrapper/trace/opentracing",
+    "repo": "go-micro/plugins",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v4/wrapper/trace/opentracing/**/*.md",
+        "v4/wrapper/trace/opentracing/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-micro_plugins_v4_wrapper_trace_opentracing",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }

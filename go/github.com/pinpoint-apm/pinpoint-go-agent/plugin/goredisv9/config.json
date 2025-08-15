@@ -1,14 +1,16 @@
 {
-	"native_identifier": "github.com/pinpoint-apm/pinpoint-go-agent/plugin/goredisv9",
-	"repo": "pinpoint-apm/pinpoint-go-agent",
-	"registry": "go",
-	"tag_formats": [
-		"v{major}.{minor}.{patch}"
-	],
-	"sentinel_timestamp": "2020-01-01T00:00:00Z",
-	"include": [
-		"plugin/goredisv9/**/*.md",
-		"plugin/goredisv9/**/*.go"
-	],
-	"collection_name_prefix": "github.com_pinpoint-apm_pinpoint-go-agent_plugin_goredisv9"
+    "native_identifier": "github.com/pinpoint-apm/pinpoint-go-agent/plugin/goredisv9",
+    "repo": "pinpoint-apm/pinpoint-go-agent",
+    "registry": "go",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "plugin/goredisv9/**/*.md",
+        "plugin/goredisv9/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_pinpoint-apm_pinpoint-go-agent_plugin_goredisv9",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
 }
