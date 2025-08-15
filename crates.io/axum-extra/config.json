@@ -7,7 +7,7 @@
 		"axum-core-v{major}.{minor}.{patch}",
 		"axum-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"axum-extra/**/*.md",
 		"axum-extra/**/*.rs"

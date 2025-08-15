@@ -12,7 +12,7 @@
 		"apache-arrow-{minor}.{patch}.{major}",
 		"apache-arrow-{major}.{patch}.0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"go/v15/**/*.md",
 		"go/v15/**/*.go"

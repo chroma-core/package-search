@@ -7,7 +7,7 @@
 		"async-icq/v{major}.{minor}.{patch}",
 		"middleware/packet-forward-middleware/v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"modules/ibc-hooks/v7/**/*.md",
 		"modules/ibc-hooks/v7/**/*.go"

@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"env_filter-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"crates/env_filter/**/*.md",
 		"crates/env_filter/**/*.rs"

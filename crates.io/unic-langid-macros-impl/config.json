@@ -9,7 +9,7 @@
 		"unic-locale@{major}.{minor}.{patch}",
 		"unic-locale@{major}.{minor}.0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"unic-langid-macros-impl/**/*.md",
 		"unic-langid-macros-impl/**/*.rs"

@@ -7,7 +7,7 @@
 		"cmd/river/v{major}.{minor}.{patch}",
 		"cmd/river/v{major}.{patch}.{minor}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"riverdriver/riverpgxv5/**/*.md",
 		"riverdriver/riverpgxv5/**/*.go"

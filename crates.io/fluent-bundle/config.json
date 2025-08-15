@@ -7,7 +7,7 @@
 		"fluent-bundle@{major}.{minor}.{patch}",
 		"fluent-bundle@{major}.{DD}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"fluent-bundle/**/*.md",
 		"fluent-bundle/**/*.rs"

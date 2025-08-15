@@ -6,7 +6,7 @@
 		"core-foundation-sys-v{major}.{minor}.{patch}",
 		"cocoa-v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"core-foundation-sys/**/*.md",
 		"core-foundation-sys/**/*.rs"

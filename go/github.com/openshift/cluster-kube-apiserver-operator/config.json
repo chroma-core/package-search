@@ -11,7 +11,7 @@
 		"v{major}.{minor}.{patch}-alpha.{minor}",
 		"v{major}.0.{patch}-alpha.0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.go"

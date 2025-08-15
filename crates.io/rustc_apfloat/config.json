@@ -7,7 +7,7 @@
 		"{major}.{minor}.{patch}+llvm-462a31f5a5ab",
 		"rustc_apfloat-v{major}.{minor}.{patch}+llvm-462a31f5a5ab"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.rs"

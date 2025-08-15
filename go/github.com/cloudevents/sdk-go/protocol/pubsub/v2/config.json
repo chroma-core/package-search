@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"protocol/pubsub/v2/**/*.md",
 		"protocol/pubsub/v2/**/*.go"

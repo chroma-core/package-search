@@ -6,7 +6,7 @@
 		"{major}.{minor}",
 		"{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"abi_stable_shared/**/*.md",
 		"abi_stable_shared/**/*.rs"

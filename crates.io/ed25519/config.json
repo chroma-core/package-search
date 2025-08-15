@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"ed25519/v{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"ed25519/**/*.md",
 		"ed25519/**/*.rs"

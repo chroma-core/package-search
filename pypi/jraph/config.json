@@ -9,7 +9,7 @@
 		"{major}.{minor}.{patch}.dev",
 		"v{major}.{minor}.{patch}.dev0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.py"

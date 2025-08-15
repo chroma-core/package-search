@@ -8,7 +8,7 @@
 		"middleware/packet-forward-middleware/v{major}.{minor}.0",
 		"async-icq/v{major}.{minor}.0"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"middleware/packet-forward-middleware/e2e/**/*.md",
 		"middleware/packet-forward-middleware/e2e/**/*.go"

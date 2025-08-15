@@ -9,7 +9,7 @@
 		"@cockroachlabs/cluster-ui@{major}.{patch}.{minor}",
 		"@cockroachlabs/cluster-ui@{YY}.{patch}.{minor}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.go"

@@ -5,7 +5,7 @@
 	"tag_formats": [
 		"{major}.{minor}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"prost-reflect/**/*.md",
 		"prost-reflect/**/*.rs"

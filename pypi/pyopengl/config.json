@@ -10,7 +10,7 @@
 		"release-{major}.{minor}.{patch}b{minor}",
 		"release-{major}.{minor}.{patch}a{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"**/*.md",
 		"**/*.py"

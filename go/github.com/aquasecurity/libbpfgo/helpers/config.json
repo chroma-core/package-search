@@ -12,7 +12,7 @@
 		"helpers/v{major}.{patch}.{minor}",
 		"v{major}.{minor}.{patch}-libbpf-{minor}.{major}.{patch}"
 	],
-	"sentinel_timestamp": "2024-01-01T00:00:00Z",
+	"sentinel_timestamp": "2020-01-01T00:00:00Z",
 	"include": [
 		"helpers/**/*.md",
 		"helpers/**/*.go"
