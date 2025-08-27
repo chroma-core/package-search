@@ -1,0 +1,16 @@
+{
+  "native_identifier": "graphql-query-derive",
+  "repo": "graphql-rust/graphql-client",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "graphql_query_derive/**/*.md",
+    "graphql_query_derive/**/*.rs"
+  ],
+  "collection_name_prefix": "graphql-query-derive",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

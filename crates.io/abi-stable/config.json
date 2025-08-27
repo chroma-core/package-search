@@ -1,0 +1,17 @@
+{
+  "native_identifier": "abi-stable",
+  "repo": "rodrimati1992/abi_stable_crates",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}",
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "abi_stable/**/*.md",
+    "abi_stable/**/*.rs"
+  ],
+  "collection_name_prefix": "abi-stable",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

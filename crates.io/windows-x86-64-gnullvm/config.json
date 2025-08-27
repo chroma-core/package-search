@@ -1,0 +1,16 @@
+{
+  "native_identifier": "windows-x86-64-gnullvm",
+  "repo": "microsoft/windows-rs",
+  "registry": "crates.io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "crates/targets/x86_64_gnullvm/**/*.md",
+    "crates/targets/x86_64_gnullvm/**/*.rs"
+  ],
+  "collection_name_prefix": "windows-x86-64-gnullvm",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

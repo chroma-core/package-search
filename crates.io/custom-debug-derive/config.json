@@ -1,0 +1,16 @@
+{
+  "native_identifier": "custom-debug-derive",
+  "repo": "panicbit/custom_debug",
+  "registry": "crates.io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "custom_debug_derive/**/*.md",
+    "custom_debug_derive/**/*.rs"
+  ],
+  "collection_name_prefix": "custom-debug-derive",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}
