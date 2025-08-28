@@ -1,9 +1,9 @@
 {
     "native_identifier": "tensorflow",
-    "repo": "nickliqian/cnn_captcha",
+    "repo": "tensorflow/tensorflow",
     "registry": "pypi",
     "tag_formats": [
-        "v{major}.{minor}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
