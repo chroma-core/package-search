@@ -3,7 +3,7 @@
     "repo": "RustCrypto/utils",
     "registry": "crates.io",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "block-buffer-v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

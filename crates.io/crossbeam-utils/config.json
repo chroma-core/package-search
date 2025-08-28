@@ -3,8 +3,6 @@
     "repo": "crossbeam-rs/crossbeam",
     "registry": "crates.io",
     "tag_formats": [
-        "v{major}.{minor}.{patch}",
-        "crossbeam-channel-{major}.{minor}.{patch}",
         "crossbeam-utils-{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",

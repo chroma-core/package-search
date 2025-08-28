@@ -3,8 +3,7 @@
     "repo": "cryptocorrosion/cryptocorrosion",
     "registry": "crates.io",
     "tag_formats": [
-        "blake-{major}.{minor}.{patch}",
-        "c2-chacha-{major}.{minor}.{patch}"
+        "ppv-lite86-{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
