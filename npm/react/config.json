@@ -1,9 +1,9 @@
 {
     "native_identifier": "react",
-    "repo": "betasu/big-react",
+    "repo": "facebook/react",
     "registry": "npm",
     "tag_formats": [
-        "v{major}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
