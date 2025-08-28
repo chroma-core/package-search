@@ -3,7 +3,7 @@
     "repo": "cheeriojs/cheerio",
     "registry": "npm",
     "tag_formats": [
-        "{major}.{minor}.{patch}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

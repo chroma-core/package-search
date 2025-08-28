@@ -1,9 +1,9 @@
 {
     "native_identifier": "jquery",
-    "repo": "stowball/jquery-rwdimagemaps",
+    "repo": "jquery/jquery",
     "registry": "npm",
     "tag_formats": [
-        "{major}.{minor}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

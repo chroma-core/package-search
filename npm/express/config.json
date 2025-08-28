@@ -1,9 +1,10 @@
 {
     "native_identifier": "express",
-    "repo": "heavrnl/nexus-terminal",
+    "repo": "expressjs/express",
     "registry": "npm",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

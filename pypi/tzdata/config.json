@@ -3,7 +3,7 @@
     "repo": "python/tzdata",
     "registry": "pypi",
     "tag_formats": [
-        "{major}.{minor}"
+        "{YYYY}.{major}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

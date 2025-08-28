@@ -1,6 +1,6 @@
 {
     "native_identifier": "typescript",
-    "repo": "alefragnani/vscode-project-manager",
+    "repo": "microsoft/TypeScript",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

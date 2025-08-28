@@ -1,9 +1,9 @@
 {
     "native_identifier": "redis",
-    "repo": "redis/redisinsight",
+    "repo": "redis/node-redis",
     "registry": "npm",
     "tag_formats": [
-        "{major}.{minor}.{patch}"
+        "redis@{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

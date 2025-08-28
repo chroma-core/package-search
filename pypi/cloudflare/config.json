@@ -1,9 +1,9 @@
 {
     "native_identifier": "cloudflare",
-    "repo": "pielco11/fav-up",
+    "repo": "cloudflare/cloudflare-python",
     "registry": "pypi",
     "tag_formats": [
-        "v{major}.{minor}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

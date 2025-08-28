@@ -3,7 +3,7 @@
     "repo": "certifi/python-certifi",
     "registry": "pypi",
     "tag_formats": [
-        "{major}.{minor}.{patch}"
+        "{YYYY}.{MM}.{DD}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

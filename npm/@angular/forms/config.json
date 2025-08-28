@@ -1,9 +1,9 @@
 {
-    "native_identifier": "g",
-    "repo": "antvis/g",
+    "native_identifier": "@angular/forms",
+    "repo": "angular/angular",
     "registry": "npm",
     "tag_formats": [
-        "@antv/g@{major}.{minor}.{patch}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
@@ -13,7 +13,7 @@
         "**/*.tsx",
         "**/*.jsx"
     ],
-    "collection_name_prefix": "g",
+    "collection_name_prefix": "angular_forms",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }

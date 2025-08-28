@@ -1,10 +1,9 @@
 {
     "native_identifier": "eslint",
-    "repo": "ts-safeql/safeql",
+    "repo": "eslint/eslint",
     "registry": "npm",
     "tag_formats": [
-        "@-v{major}.{minor}.{patch}",
-        "@ts-safeql/eslint-plugin@{major}.{minor}.{patch}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
