@@ -1,11 +1,9 @@
 {
     "native_identifier": "clap",
-    "repo": "robbert-vdh/nih-plug",
+    "repo": "clap-rs/clap",
     "registry": "crates.io",
     "tag_formats": [
-        "{major}.{minor}.{patch}",
-        "spectral-compressor-{major}.{minor}.{patch}",
-        "buffr-glitch-{major}.{minor}.{patch}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

@@ -1,16 +1,16 @@
 {
-    "native_identifier": "digest",
-    "repo": "RustCrypto/traits",
+    "native_identifier": "thiserror-impl",
+    "repo": "dtolnay/thiserror",
     "registry": "crates.io",
     "tag_formats": [
-        "digest-v{major}.{minor}.{patch}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
-        "digest/**/*.md",
-        "digest/**/*.rs"
+        "impl/**/*.md",
+        "impl/**/*.rs"
     ],
-    "collection_name_prefix": "digest",
+    "collection_name_prefix": "thiserror-impl",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }
