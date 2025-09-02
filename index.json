@@ -2142,6 +2142,8 @@
         "npm/domutils",
         "npm/dot-prop",
         "npm/dotenv",
+        "npm/drizzle-kit",
+        "npm/drizzle-orm",
         "npm/dunder-proto",
         "npm/ecdsa-sig-formatter",
         "npm/ee-first",

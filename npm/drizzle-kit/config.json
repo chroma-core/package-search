@@ -1,0 +1,19 @@
+{
+    "native_identifier": "drizzle-kit",
+    "repo": "drizzle-team/drizzle-orm",
+    "registry": "npm",
+    "tag_formats": [
+        "drizzle-kit@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "drizzle-kit/**/*.md",
+        "drizzle-kit/**/*.ts",
+        "drizzle-kit/**/*.js",
+        "drizzle-kit/**/*.tsx",
+        "drizzle-kit/**/*.jsx"
+    ],
+    "collection_name_prefix": "drizzle-kit",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
