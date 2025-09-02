@@ -4,7 +4,8 @@
     "registry": "npm",
     "tag_formats": [
         "@{major}.{minor}.{patch}",
-        "shadcn-ui@{major}.{minor}.{patch}"
+        "shadcn-ui@{major}.{minor}.{patch}",
+        "shadcn@{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
@@ -14,7 +15,7 @@
         "**/*.tsx",
         "**/*.jsx"
     ],
-    "collection_name_prefix": "ui",
+    "collection_name_prefix": "shadcn-ui",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }

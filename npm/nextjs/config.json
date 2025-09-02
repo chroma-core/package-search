@@ -1,6 +1,6 @@
 {
     "native_identifier": "nextjs",
-    "repo": "gitroomhq/postiz-app",
+    "repo": "vercel/next.js",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

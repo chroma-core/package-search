@@ -1,6 +1,6 @@
 {
     "native_identifier": "better-auth",
-    "repo": "alan345/fullstack-saas-boilerplate",
+    "repo": "better-auth/better-auth",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"
