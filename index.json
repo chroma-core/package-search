@@ -3202,6 +3202,7 @@
         "pypi/mcp",
         "pypi/mdit-py-plugins",
         "pypi/mdurl",
+        "pypi/mechanicalsoup",
         "pypi/mergedeep",
         "pypi/microsoft-kiota-abstractions",
         "pypi/microsoft-kiota-authentication-azure",
