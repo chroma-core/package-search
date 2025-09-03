@@ -1,16 +1,20 @@
 {
-    "native_identifier": "torch",
-    "repo": "pytorch/pytorch",
-    "registry": "pypi",
+    "native_identifier": "k6",
+    "repo": "grafana/k6",
+    "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
         "**/*.md",
-        "**/*.py"
+        "**/*.ts",
+        "**/*.js",
+        "**/*.tsx",
+        "**/*.jsx",
+        "**/*.go"
     ],
-    "collection_name_prefix": "torch",
+    "collection_name_prefix": "k6",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }
