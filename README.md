@@ -30,9 +30,9 @@ code-collections/
 │   └── ...
 └── go/                          # Go packages
     ├── github.com/
-        ├────── gin-gonic/
-                    gin/
-        │   └──       config.json
+    │   └── gin-gonic/
+    │       └── gin/
+    │           └── config.json
     └── ...
 ```
 
