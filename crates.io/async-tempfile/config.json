@@ -1,17 +1,17 @@
 {
-    "native_identifier": "pyyaml",
-    "repo": "yaml/pyyaml",
-    "registry": "pypi",
+    "native_identifier": "async-tempfile",
+    "repo": "sunsided/async-tempfile-rs",
+    "registry": "crates.io",
     "tag_formats": [
-        "{major}.{minor}",
+        "v{major}.{minor}.{patch}",
         "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
         "**/*.md",
-        "**/*.py"
+        "**/*.rs"
     ],
-    "collection_name_prefix": "pyyaml",
+    "collection_name_prefix": "async-tempfile",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }
