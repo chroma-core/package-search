@@ -1,0 +1,4 @@
+[project]
+name = "ci_checks"
+requires-python = ">=3.13"
+dependencies = []

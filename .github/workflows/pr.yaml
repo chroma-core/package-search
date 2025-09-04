@@ -13,7 +13,8 @@ jobs:
           with:
             regexp: '\[(ENH|BUG|DOC|TST|BLD|PERF|TYP|CLN|CHORE|RELEASE|HOTFIX)\].*'
             helpMessage: 'Please prefix your PR with one of [ENH], [BUG], [DOC], [TST], [BLD], [PERF], [TYP], [CLN], [CHORE], [RELEASE], or [HOTFIX]. You must push new code to this PR for this check to run again.'    
-  validate-files:
+  validate-changes:
+    name: 'Validate Changes'
     runs-on: blacksmith-2vcpu-ubuntu-2204
     steps:
       - name: Checkout code
@@ -36,10 +37,10 @@ jobs:
         run: echo "files=$(git diff --name-only --diff-filter=ACMR ${{ github.base_ref }} ${{ github.head_ref }} | xargs)" >> $GITHUB_OUTPUT
 
       - name: Install dependencies
-        working-directory: .github/scripts/validate_files
+        working-directory: .github/scripts/validate_changes
         run: uv sync
     
       - name: Run validation script
-        working-directory: .github/scripts/validate_files
+        working-directory: .github/scripts/validate_changes
         if: steps.changed-files.outputs.files != ''
         run: uv run main.py ${{ steps.changed-files.outputs.files }}
