@@ -1,0 +1,16 @@
+{
+    "native_identifier": "rust-lang/rust",
+    "collection_name_prefix": "rust-lang_rust",
+    "repo": "rust-lang/rust",
+    "registry": "github_releases",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "library/std/**/*.rs",
+        "library/std/**/*.md"
+    ],
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
