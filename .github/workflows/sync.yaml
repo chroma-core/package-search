@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Install uv
@@ -25,11 +25,11 @@ jobs:
         with:
           python-version: '3.13'          
 
-      - name: Install Dependencies
+      - name: Install dependencies
         working-directory: .github/scripts/sync
         run: uv sync
     
-      - name: Run Script
+      - name: Run script
         working-directory: .github/scripts/sync
         env:
           CHROMA_TENANT_UUID: ${{ secrets.CHROMA_TENANT_UUID }}

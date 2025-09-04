@@ -8,7 +8,7 @@ jobs:
     name: Check Title
     runs-on: ubuntu-latest
     steps:
-        - name: Check Title
+        - name: Check title
           uses: Slashgear/action-check-pr-title@v4.3.0
           with:
             regexp: '\[(ENH|BUG|DOC|TST|BLD|PERF|TYP|CLN|CHORE|RELEASE|HOTFIX)\].*'
@@ -17,7 +17,7 @@ jobs:
     name: Validate Changes
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,15 +32,15 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Determine Changed Files
+      - name: Determine changed files
         id: changed-files
         run: echo "files=$(git diff --name-only --diff-filter=ACMR ${{ github.base_ref }} ${{ github.head_ref }} | xargs)" >> $GITHUB_OUTPUT
 
-      - name: Install Dependencies
+      - name: Install dependencies
         working-directory: .github/scripts/validate_changes
         run: uv sync
     
-      - name: Run Script
+      - name: Run script
         working-directory: .github/scripts/validate_changes
         if: steps.changed-files.outputs.files != ''
         run: uv run main.py ${{ steps.changed-files.outputs.files }}
