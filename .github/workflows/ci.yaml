@@ -1,0 +1,32 @@
+name: CI Checks
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ci-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        working-directory: .github/scripts/validate_files
+        run: uv sync
+
+      - name: Run CI checks script
+        working-directory: .github/scripts/validate_files      
+        run: uv run main.py
