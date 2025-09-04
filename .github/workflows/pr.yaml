@@ -5,19 +5,19 @@ on:
 
 jobs:
   check-title:
-    name: 'Check Title'
+    name: Check Title
     runs-on: blacksmith-2vcpu-ubuntu-2204
     steps:
-        - name: 'Check Title'
+        - name: Check Title
           uses: Slashgear/action-check-pr-title@v4.3.0
           with:
             regexp: '\[(ENH|BUG|DOC|TST|BLD|PERF|TYP|CLN|CHORE|RELEASE|HOTFIX)\].*'
-            helpMessage: 'Please prefix your PR with one of [ENH], [BUG], [DOC], [TST], [BLD], [PERF], [TYP], [CLN], [CHORE], [RELEASE], or [HOTFIX]. You must push new code to this PR for this check to run again.'    
+            helpMessage: Please prefix your PR with one of [ENH], [BUG], [DOC], [TST], [BLD], [PERF], [TYP], [CLN], [CHORE], [RELEASE], or [HOTFIX]. You must push new code to this PR for this check to run again.
   validate-changes:
-    name: 'Validate Changes'
+    name: Validate Changes
     runs-on: blacksmith-2vcpu-ubuntu-2204
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,15 +32,15 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Get changed files
+      - name: Determine Changed Files
         id: changed-files
         run: echo "files=$(git diff --name-only --diff-filter=ACMR ${{ github.base_ref }} ${{ github.head_ref }} | xargs)" >> $GITHUB_OUTPUT
 
-      - name: Install dependencies
+      - name: Install Dependencies
         working-directory: .github/scripts/validate_changes
         run: uv sync
     
-      - name: Run validation script
+      - name: Run Script
         working-directory: .github/scripts/validate_changes
         if: steps.changed-files.outputs.files != ''
         run: uv run main.py ${{ steps.changed-files.outputs.files }}

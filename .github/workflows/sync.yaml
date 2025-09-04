@@ -7,11 +7,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-scheduled-script:
-    runs-on: ubuntu-latest
+  run-sync:
+    name: Run Sync
+    runs-on: blacksmith-2vcpu-ubuntu-2204
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Install uv
@@ -24,11 +25,11 @@ jobs:
         with:
           python-version: '3.13'          
 
-      - name: Install dependencies
+      - name: Install Dependencies
         working-directory: .github/scripts/sync
         run: uv sync
     
-      - name: Run sync job
+      - name: Run Script
         working-directory: .github/scripts/sync
         env:
           CHROMA_TENANT_UUID: ${{ secrets.CHROMA_TENANT_UUID }}
