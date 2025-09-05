@@ -1,0 +1,16 @@
+{
+    "native_identifier": "gdk4",
+    "repo": "gtk-rs/gtk4-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "gdk4/**/*.md",
+        "gdk4/**/*.rs"
+    ],
+    "collection_name_prefix": "gdk4",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/oauth2-proxy/oauth2-proxy/v7",
+    "repo": "oauth2-proxy/oauth2-proxy",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v7/**/*.md",
+        "v7/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_oauth2-proxy_oauth2-proxy_v7",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

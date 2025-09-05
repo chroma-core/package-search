@@ -1,0 +1,16 @@
+{
+  "native_identifier": "server-fn-macro",
+  "repo": "leptos-rs/leptos",
+  "registry": "crates_io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "server_fn_macro/**/*.md",
+    "server_fn_macro/**/*.rs"
+  ],
+  "collection_name_prefix": "server-fn-macro",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

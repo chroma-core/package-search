@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/gunsluo/go-example/mailslurper",
+    "repo": "gunsluo/go-example",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "mailslurper/**/*.md",
+        "mailslurper/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_gunsluo_go-example_mailslurper",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

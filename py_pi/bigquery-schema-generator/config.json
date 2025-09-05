@@ -1,0 +1,16 @@
+{
+    "native_identifier": "bigquery-schema-generator",
+    "repo": "bxparks/bigquery-schema-generator",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "bigquery-schema-generator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

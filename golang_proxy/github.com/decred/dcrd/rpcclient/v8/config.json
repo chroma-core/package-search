@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/decred/dcrd/rpcclient/v8",
+    "repo": "decred/dcrd",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "rpcclient/v8/**/*.md",
+        "rpcclient/v8/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_decred_dcrd_rpcclient_v8",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

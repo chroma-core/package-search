@@ -1,0 +1,16 @@
+{
+    "native_identifier": "aws-lc-fips-sys",
+    "repo": "aws/aws-lc-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "aws-lc-fips-sys/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "aws-lc-fips-sys/**/*.md",
+        "aws-lc-fips-sys/**/*.rs"
+    ],
+    "collection_name_prefix": "aws-lc-fips-sys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

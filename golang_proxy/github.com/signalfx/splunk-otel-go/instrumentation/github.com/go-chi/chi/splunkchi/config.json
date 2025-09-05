@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-chi/chi/splunkchi",
+    "repo": "signalfx/splunk-otel-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/github.com/go-chi/chi/splunkchi/**/*.md",
+        "instrumentation/github.com/go-chi/chi/splunkchi/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_github.com_go-chi_chi_splunkchi",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

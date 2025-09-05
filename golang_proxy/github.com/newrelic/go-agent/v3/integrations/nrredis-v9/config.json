@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/newrelic/go-agent/v3/integrations/nrredis-v9",
+    "repo": "newrelic/go-agent",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v3/integrations/nrredis-v9/**/*.md",
+        "v3/integrations/nrredis-v9/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_newrelic_go-agent_v3_integrations_nrredis-v9",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

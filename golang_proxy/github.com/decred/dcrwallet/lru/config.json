@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/decred/dcrwallet/lru",
+    "repo": "decred/dcrwallet",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "lru/**/*.md",
+        "lru/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_decred_dcrwallet_lru",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

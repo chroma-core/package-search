@@ -1,0 +1,19 @@
+{
+    "native_identifier": "arro3-core",
+    "repo": "kylebarron/arro3",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "py-v{major}.{minor}.{patch}",
+        "py-v{major}.{minor}.{patch}-beta.{patch}",
+        "py-v{major}.{minor}.0-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "arro3-core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

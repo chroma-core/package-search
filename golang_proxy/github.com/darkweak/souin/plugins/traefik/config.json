@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/darkweak/souin/plugins/traefik",
+    "repo": "darkweak/souin",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "plugins/traefik/**/*.md",
+        "plugins/traefik/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_darkweak_souin_plugins_traefik",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

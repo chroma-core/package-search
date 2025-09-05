@@ -1,0 +1,19 @@
+{
+    "native_identifier": "language",
+    "repo": "roc-lang/roc",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-alpha{patch}",
+        "{major}.{minor}.{patch}-alpha{patch}-rolling",
+        "alpha{patch}-rolling"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "language",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

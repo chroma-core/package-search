@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/goccy/go-yaml/cmd/ycat",
+    "repo": "goccy/go-yaml",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cmd/ycat/**/*.md",
+        "cmd/ycat/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_goccy_go-yaml_cmd_ycat",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

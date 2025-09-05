@@ -1,0 +1,16 @@
+{
+    "native_identifier": "azure-storage-file",
+    "repo": "Azure/azure-storage-python",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "azure-storage-file/**/*.md",
+        "azure-storage-file/**/*.py"
+    ],
+    "collection_name_prefix": "azure-storage-file",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

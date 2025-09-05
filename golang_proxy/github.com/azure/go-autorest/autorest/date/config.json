@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/Azure/go-autorest/autorest/date",
+    "repo": "Azure/go-autorest",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "autorest/date/**/*.md",
+        "autorest/date/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_Azure_go-autorest_autorest_date",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

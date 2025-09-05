@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/redis/go-redis/extra/redisotel/v9",
+    "repo": "redis/go-redis",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "extra/redisotel/v9/**/*.md",
+        "extra/redisotel/v9/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_redis_go-redis_extra_redisotel_v9",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

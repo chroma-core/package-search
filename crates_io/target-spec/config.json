@@ -1,0 +1,18 @@
+{
+    "native_identifier": "target-spec",
+    "repo": "guppy-rs/guppy",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "target-spec-{major}.{minor}.{patch}",
+        "cargo-hakari-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "target-spec/**/*.md",
+        "target-spec/**/*.rs"
+    ],
+    "collection_name_prefix": "target-spec",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

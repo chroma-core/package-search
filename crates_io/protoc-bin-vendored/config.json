@@ -1,0 +1,16 @@
+{
+    "native_identifier": "protoc-bin-vendored",
+    "repo": "stepancheg/rust-protoc-bin-vendored",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "protoc-bin-vendored/**/*.md",
+        "protoc-bin-vendored/**/*.rs"
+    ],
+    "collection_name_prefix": "protoc-bin-vendored",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

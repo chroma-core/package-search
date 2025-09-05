@@ -1,0 +1,16 @@
+{
+    "native_identifier": "django-permissionedforms",
+    "repo": "wagtail/django-permissionedforms",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "django-permissionedforms",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

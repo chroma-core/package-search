@@ -1,0 +1,16 @@
+{
+    "native_identifier": "console-subscriber",
+    "repo": "tokio-rs/console",
+    "registry": "crates_io",
+    "tag_formats": [
+        "console-subscriber-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "console-subscriber/**/*.md",
+        "console-subscriber/**/*.rs"
+    ],
+    "collection_name_prefix": "console-subscriber",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

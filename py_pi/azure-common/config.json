@@ -1,0 +1,16 @@
+{
+    "native_identifier": "azure-common",
+    "repo": "azure/azure-sdk-for-python",
+    "registry": "py_pi",
+    "tag_formats": [
+        "azure-common_{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "sdk/core/azure-common/**/*.md",
+        "sdk/core/azure-common/**/*.py"
+    ],
+    "collection_name_prefix": "azure-common",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

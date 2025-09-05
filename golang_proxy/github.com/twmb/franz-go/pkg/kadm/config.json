@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/twmb/franz-go/pkg/kadm",
+    "repo": "twmb/franz-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/kadm/**/*.md",
+        "pkg/kadm/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_twmb_franz-go_pkg_kadm",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

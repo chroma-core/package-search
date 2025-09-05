@@ -1,0 +1,16 @@
+{
+    "native_identifier": "tower-http",
+    "repo": "tower-rs/tower-http",
+    "registry": "crates_io",
+    "tag_formats": [
+        "tower-http-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "tower-http",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

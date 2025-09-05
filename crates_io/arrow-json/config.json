@@ -1,0 +1,16 @@
+{
+    "native_identifier": "arrow-json",
+    "repo": "apache/arrow-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "arrow-json/**/*.md",
+        "arrow-json/**/*.rs"
+    ],
+    "collection_name_prefix": "arrow-json",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

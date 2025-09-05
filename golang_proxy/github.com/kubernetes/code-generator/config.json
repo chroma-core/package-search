@@ -1,0 +1,22 @@
+{
+    "native_identifier": "github.com/kubernetes/code-generator",
+    "repo": "kubernetes/code-generator",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "kubernetes-{major}.{minor}.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-alpha.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-beta.{patch}",
+        "kubernetes-{major}.{minor}.0-alpha.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-beta.0",
+        "kubernetes-{major}.{major}.{patch}-beta.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_kubernetes_code-generator",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

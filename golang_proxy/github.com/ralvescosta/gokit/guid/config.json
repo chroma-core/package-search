@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/ralvescosta/gokit/guid",
+    "repo": "ralvescosta/gokit",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "auth/v{major}.{minor}.{patch}-beta.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "guid/**/*.md",
+        "guid/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_ralvescosta_gokit_guid",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

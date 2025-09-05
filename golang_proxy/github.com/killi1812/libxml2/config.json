@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/killi1812/libxml2",
+    "repo": "killi1812/libxml2",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_killi1812_libxml2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

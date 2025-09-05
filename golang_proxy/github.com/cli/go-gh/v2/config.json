@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/cli/go-gh/v2",
+    "repo": "cli/go-gh",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v2/**/*.md",
+        "v2/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_cli_go-gh_v2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/open-telemetry/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc",
+    "repo": "open-telemetry/opentelemetry-go-contrib",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/google.golang.org/grpc/**/*.md",
+        "instrumentation/google.golang.org/grpc/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_open-telemetry_opentelemetry-go-contrib_instrumentation_google.golang.org_grpc",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

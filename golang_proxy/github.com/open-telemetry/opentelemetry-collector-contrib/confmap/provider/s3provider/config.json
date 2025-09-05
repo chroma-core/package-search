@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/s3provider",
+    "repo": "open-telemetry/opentelemetry-collector-contrib",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cmd/configschema/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "confmap/provider/s3provider/**/*.md",
+        "confmap/provider/s3provider/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_confmap_provider_s3provider",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

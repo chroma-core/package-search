@@ -1,0 +1,21 @@
+{
+    "native_identifier": "github.com/kubernetes/sample-controller",
+    "repo": "kubernetes/sample-controller",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "kubernetes-{major}.{minor}.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-beta.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-alpha.{patch}",
+        "kubernetes-{major}.{minor}.0-alpha.{patch}",
+        "kubernetes-{major}.{minor}.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_kubernetes_sample-controller",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

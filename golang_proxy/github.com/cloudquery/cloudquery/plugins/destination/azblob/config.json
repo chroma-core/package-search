@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/cloudquery/cloudquery/plugins/destination/azblob",
+    "repo": "cloudquery/cloudquery",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cli-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "plugins/destination/azblob/**/*.md",
+        "plugins/destination/azblob/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_cloudquery_cloudquery_plugins_destination_azblob",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

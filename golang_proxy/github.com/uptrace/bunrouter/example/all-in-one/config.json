@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/uptrace/bunrouter/example/all-in-one",
+    "repo": "uptrace/bunrouter",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "example/all-in-one/**/*.md",
+        "example/all-in-one/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_uptrace_bunrouter_example_all-in-one",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

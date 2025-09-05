@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/instana/go-sensor/instrumentation/instaawssdk",
+    "repo": "instana/go-sensor",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "instrumentation/instaawssdk/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/instaawssdk/**/*.md",
+        "instrumentation/instaawssdk/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_instana_go-sensor_instrumentation_instaawssdk",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

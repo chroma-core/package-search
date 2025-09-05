@@ -1,0 +1,17 @@
+{
+  "native_identifier": "zbus-names",
+  "repo": "dbus2/zbus",
+  "registry": "crates_io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}",
+    "zbus-{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "zbus_names/**/*.md",
+    "zbus_names/**/*.rs"
+  ],
+  "collection_name_prefix": "zbus-names",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

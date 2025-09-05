@@ -1,0 +1,18 @@
+{
+    "native_identifier": "der-oid-macro",
+    "repo": "rusticata/der-parser",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "der-parser-{major}.{minor}.{patch}",
+        "der-parser-{patch}.{minor}.{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "der-oid-macro/**/*.md",
+        "der-oid-macro/**/*.rs"
+    ],
+    "collection_name_prefix": "der-oid-macro",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

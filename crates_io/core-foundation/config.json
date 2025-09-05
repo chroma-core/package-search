@@ -1,0 +1,18 @@
+{
+    "native_identifier": "core-foundation",
+    "repo": "servo/core-foundation-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "core-foundation-v{major}.{minor}.{patch}",
+        "cocoa-v{major}.{minor}.{patch}",
+        "core-foundation-sys-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "core-foundation/**/*.md",
+        "core-foundation/**/*.rs"
+    ],
+    "collection_name_prefix": "core-foundation",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

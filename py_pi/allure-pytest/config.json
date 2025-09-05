@@ -1,0 +1,16 @@
+{
+    "native_identifier": "allure-pytest",
+    "repo": "allure-framework/allure-python",
+    "registry": "py_pi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "allure-pytest/**/*.md",
+        "allure-pytest/**/*.py"
+    ],
+    "collection_name_prefix": "allure-pytest",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

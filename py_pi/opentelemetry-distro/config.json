@@ -1,0 +1,16 @@
+{
+    "native_identifier": "opentelemetry-distro",
+    "repo": "open-telemetry/opentelemetry-python-contrib",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "opentelemetry-distro/**/*.md",
+        "opentelemetry-distro/**/*.py"
+    ],
+    "collection_name_prefix": "opentelemetry-distro",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

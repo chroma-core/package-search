@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/uptrace/bun/dialect/mysqldialect",
+    "repo": "uptrace/bun",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "dbfixture/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "dialect/mysqldialect/**/*.md",
+        "dialect/mysqldialect/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_uptrace_bun_dialect_mysqldialect",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

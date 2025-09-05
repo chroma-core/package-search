@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/gofiber/template/mustache/v2",
+    "repo": "gofiber/template",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "mustache/v2/**/*.md",
+        "mustache/v2/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_gofiber_template_mustache_v2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

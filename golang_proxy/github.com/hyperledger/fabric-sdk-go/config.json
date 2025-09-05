@@ -1,0 +1,22 @@
+{
+    "native_identifier": "github.com/hyperledger/fabric-sdk-go",
+    "repo": "hyperledger/fabric-sdk-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha",
+        "v{major}.{minor}.{patch}-alpha{minor}",
+        "v{major}.{minor}.{patch}-alpha{patch}",
+        "v{major}.{minor}.{patch}-beta{major}",
+        "v{major}.{minor}.{patch}-beta{minor}",
+        "v{major}.{minor}.{patch}-beta{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_hyperledger_fabric-sdk-go",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

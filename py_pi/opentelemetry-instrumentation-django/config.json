@@ -1,0 +1,16 @@
+{
+    "native_identifier": "opentelemetry-instrumentation-django",
+    "repo": "open-telemetry/opentelemetry-python-contrib",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}b0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/opentelemetry-instrumentation-django/**/*.md",
+        "instrumentation/opentelemetry-instrumentation-django/**/*.py"
+    ],
+    "collection_name_prefix": "opentelemetry-instrumentation-django",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

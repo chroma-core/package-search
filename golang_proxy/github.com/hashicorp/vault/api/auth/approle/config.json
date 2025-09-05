@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/hashicorp/vault/api/auth/approle",
+    "repo": "hashicorp/vault",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "api/auth/approle/**/*.md",
+        "api/auth/approle/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_hashicorp_vault_api_auth_approle",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,18 @@
+{
+    "native_identifier": "iterators",
+    "repo": "leangaurav/pypi_iterator",
+    "registry": "py_pi",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "v_{major}.{minor}.{patch}",
+        "v_{patch}.{minor}.{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "iterators",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

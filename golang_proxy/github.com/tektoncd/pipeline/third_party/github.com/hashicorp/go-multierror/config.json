@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/tektoncd/pipeline/third_party/github.com/hashicorp/go-multierror",
+    "repo": "tektoncd/pipeline",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "third_party/github.com/hashicorp/go-multierror/**/*.md",
+        "third_party/github.com/hashicorp/go-multierror/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_tektoncd_pipeline_third_party_github.com_hashicorp_go-multierror",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

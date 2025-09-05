@@ -1,0 +1,16 @@
+{
+    "native_identifier": "blake2",
+    "repo": "RustCrypto/hashes",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "blake2/**/*.md",
+        "blake2/**/*.rs"
+    ],
+    "collection_name_prefix": "blake2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

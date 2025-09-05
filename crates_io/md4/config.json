@@ -1,0 +1,16 @@
+{
+    "native_identifier": "md4",
+    "repo": "RustCrypto/hashes",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "md4/**/*.md",
+        "md4/**/*.rs"
+    ],
+    "collection_name_prefix": "md4",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

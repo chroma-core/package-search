@@ -1,0 +1,17 @@
+{
+    "native_identifier": "scrypt",
+    "repo": "RustCrypto/password-hashes",
+    "registry": "crates_io",
+    "tag_formats": [
+        "scrypt-v{major}.{minor}.{patch}",
+        "argon2-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "scrypt/**/*.md",
+        "scrypt/**/*.rs"
+    ],
+    "collection_name_prefix": "scrypt",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

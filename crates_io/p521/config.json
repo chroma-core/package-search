@@ -1,0 +1,16 @@
+{
+    "native_identifier": "p521",
+    "repo": "RustCrypto/elliptic-curves",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "p521/**/*.md",
+        "p521/**/*.rs"
+    ],
+    "collection_name_prefix": "p521",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/esm-dev/esm.sh",
+    "repo": "esm-dev/esm.sh",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_esm-dev_esm.sh",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

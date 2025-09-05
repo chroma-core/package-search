@@ -1,0 +1,16 @@
+{
+    "native_identifier": "prost-types",
+    "repo": "tokio-rs/prost",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "prost-types/**/*.md",
+        "prost-types/**/*.rs"
+    ],
+    "collection_name_prefix": "prost-types",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

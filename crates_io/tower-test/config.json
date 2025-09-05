@@ -1,0 +1,17 @@
+{
+    "native_identifier": "tower-test",
+    "repo": "tower-rs/tower",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "tower-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "tower-test/**/*.md",
+        "tower-test/**/*.rs"
+    ],
+    "collection_name_prefix": "tower-test",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

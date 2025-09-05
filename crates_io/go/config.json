@@ -1,0 +1,20 @@
+{
+    "native_identifier": "go",
+    "repo": "oxfeeefeee/goscript",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-alpha{patch}-stack-based",
+        "v{major}.{minor}.{patch}-alpha{patch}-register-based",
+        "v{major}.{minor}.{patch}-alpha{patch}-crates_io-publish",
+        "v{major}.{minor}.{patch}-crates_io-publish"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "go",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

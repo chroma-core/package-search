@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/urfave/negroni/v3",
+    "repo": "urfave/negroni",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v3/**/*.md",
+        "v3/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_urfave_negroni_v3",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

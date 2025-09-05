@@ -1,0 +1,19 @@
+{
+    "native_identifier": "x509-certificate",
+    "repo": "indygreg/cryptography-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}",
+        "x509-certificate/{major}.{minor}.{patch}",
+        "cryptographic-message-syntax/{major}.{minor}.{patch}",
+        "pgp-cleartext/{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "x509-certificate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

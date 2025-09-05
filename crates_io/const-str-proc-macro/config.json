@@ -1,0 +1,16 @@
+{
+    "native_identifier": "const-str-proc-macro",
+    "repo": "Nugine/const-str",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "const-str-proc-macro/**/*.md",
+        "const-str-proc-macro/**/*.rs"
+    ],
+    "collection_name_prefix": "const-str-proc-macro",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

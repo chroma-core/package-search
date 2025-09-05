@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/couchbase/sync_gateway",
+    "repo": "couchbase/sync_gateway",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_couchbase_sync_gateway",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+  "native_identifier": "cpp-build",
+  "repo": "mystor/rust-cpp",
+  "registry": "crates_io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "cpp_build/**/*.md",
+    "cpp_build/**/*.rs"
+  ],
+  "collection_name_prefix": "cpp-build",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

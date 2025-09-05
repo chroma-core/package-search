@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/signalfx/splunk-otel-go/instrumentation/github.com/lib/pq/splunkpq",
+    "repo": "signalfx/splunk-otel-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "instrumentation/github.com/lib/pq/splunkpq/**/*.md",
+        "instrumentation/github.com/lib/pq/splunkpq/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_signalfx_splunk-otel-go_instrumentation_github.com_lib_pq_splunkpq",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

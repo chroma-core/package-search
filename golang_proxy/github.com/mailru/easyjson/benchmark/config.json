@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/mailru/easyjson/benchmark",
+    "repo": "mailru/easyjson",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "benchmark/**/*.md",
+        "benchmark/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_mailru_easyjson_benchmark",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
