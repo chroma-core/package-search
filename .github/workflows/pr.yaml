@@ -37,7 +37,7 @@ jobs:
         run: |
           git fetch origin ${{ github.base_ref }} --depth=1
           git config diff.renameLimit 50000
-          files=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD | xargs)
+          files=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD | tr '\n' ' ')
           echo "files=$files" >> $GITHUB_OUTPUT
 
       - name: Install dependencies
