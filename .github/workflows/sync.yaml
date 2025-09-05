@@ -32,6 +32,7 @@ jobs:
         working-directory: .github/scripts/sync
         env:
           CHROMA_TENANT_UUID: ${{ secrets.CHROMA_TENANT_UUID }}
+          CHROMA_TEAM_ID: ${{ secrets.CHROMA_TEAM_ID }}
           CHROMA_API_KEY: ${{ secrets.CHROMA_API_KEY }}
         run: uv run main.py
 
