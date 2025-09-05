@@ -6,7 +6,7 @@ on:
 jobs:
   check-title:
     name: Check Title
-    runs-on: blacksmith-2vcpu-ubuntu-2204
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     steps:
         - name: Check title
           uses: Slashgear/action-check-pr-title@v4.3.0
