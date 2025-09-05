@@ -1,6 +1,6 @@
 {
     "native_identifier": "django",
-    "repo": "jpadilla/django-rest-framework-jwt",
+    "repo": "django/django",
     "registry": "pypi",
     "tag_formats": [
         "{major}.{minor}.{patch}"
