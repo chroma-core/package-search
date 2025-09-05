@@ -2,14 +2,15 @@ name: Sync Indexed Collections
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
 
   workflow_dispatch:
 
 jobs:
   run-sync:
     name: Run Sync
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+    # runs-on: blacksmith-4vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code

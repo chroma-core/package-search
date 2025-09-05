@@ -6,7 +6,8 @@ on:
 jobs:
   check-title:
     name: Check Title
-    runs-on: blacksmith-2vcpu-ubuntu-2204
+    # runs-on: blacksmith-2vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
     steps:
         - name: Check title
           uses: Slashgear/action-check-pr-title@v4.3.0
@@ -15,7 +16,8 @@ jobs:
             helpMessage: Please prefix your PR with one of [ENH], [BUG], [DOC], [TST], [BLD], [PERF], [TYP], [CLN], [CHORE], [RELEASE], or [HOTFIX]. You must push new code to this PR for this check to run again.
   validate-changes:
     name: Validate Changes
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+    # runs-on: blacksmith-4vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
