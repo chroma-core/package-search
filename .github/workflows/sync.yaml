@@ -48,8 +48,8 @@ jobs:
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --global user.email "bot@trychroma.com"
-          git config --global user.name "Chroma Bot"
+          git config --global user.email "tools.external+atlantis@trychroma.com"
+          git config --global user.name "Chroma Droid"
           git add versions.json
           git commit -m "$(cat <<'EOF'
           [AUTOGEN] update versions.json from sync script
