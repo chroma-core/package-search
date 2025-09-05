@@ -54,8 +54,6 @@ def main(file_paths):
         try:
             resolved_path = resolve_file_path(file_path, repo_root)
             resolved_paths.append(resolved_path)
-            if resolved_path != file_path:
-                logger.info(f"Resolved '{file_path}' to '{resolved_path}'")
         except FileNotFoundError as e:
             logger.error(str(e))
             failed_files.append(file_path)
