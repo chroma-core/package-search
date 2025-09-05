@@ -166,7 +166,7 @@ def load_versions_json() -> Dict:
             return json.load(f)
     except FileNotFoundError:
         raise SyncError(
-            "versions.json file not found. The file must exist before running sync."
+            "versions.json file not found. The file must exist before running sync job."
         )
     except Exception as e:
         raise SyncError(f"Failed to load versions.json: {str(e)}")
