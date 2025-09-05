@@ -47,6 +47,8 @@ jobs:
 
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.CODE_COLLECTIONS_REPO_ACCESS_TOKEN }}
         run: |
           git config --global user.email "tools.external+atlantis@trychroma.com"
           git config --global user.name "Chroma Droid"
