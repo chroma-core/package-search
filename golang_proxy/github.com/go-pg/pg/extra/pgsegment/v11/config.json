@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/go-pg/pg/extra/pgsegment/v11",
+    "repo": "go-pg/pg",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "extra/pgsegment/v11/**/*.md",
+        "extra/pgsegment/v11/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-pg_pg_extra_pgsegment_v11",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

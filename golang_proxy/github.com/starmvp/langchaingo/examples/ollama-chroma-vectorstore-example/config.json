@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/starmvp/langchaingo/examples/ollama-chroma-vectorstore-example",
+    "repo": "starmvp/langchaingo",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "examples/ollama-chroma-vectorstore-example/**/*.md",
+        "examples/ollama-chroma-vectorstore-example/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_starmvp_langchaingo_examples_ollama-chroma-vectorstore-example",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

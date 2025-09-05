@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/kubeflow/kubeflow/components/profile-controller",
+    "repo": "kubeflow/kubeflow",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "components/profile-controller/**/*.md",
+        "components/profile-controller/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_kubeflow_kubeflow_components_profile-controller",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

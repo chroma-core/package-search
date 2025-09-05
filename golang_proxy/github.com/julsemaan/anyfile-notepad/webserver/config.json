@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/julsemaan/anyfile-notepad/webserver",
+    "repo": "julsemaan/anyfile-notepad",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "webserver/**/*.md",
+        "webserver/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_julsemaan_anyfile-notepad_webserver",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

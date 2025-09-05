@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/googollee/go-socket.io/_examples/gf",
+    "repo": "googollee/go-socket.io",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "_examples/gf/**/*.md",
+        "_examples/gf/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_googollee_go-socket.io__examples_gf",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

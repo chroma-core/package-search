@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/dgraph-io/dgo",
+    "repo": "dgraph-io/dgo",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_dgraph-io_dgo",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

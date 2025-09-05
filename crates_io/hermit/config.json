@@ -1,0 +1,19 @@
+{
+    "native_identifier": "hermit",
+    "repo": "hermit-os/hermit-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "hermit-{major}.{minor}.{patch}",
+        "hermit-abi-0.1.{patch}",
+        "hermit-abi-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "hermit/**/*.md",
+        "hermit/**/*.rs"
+    ],
+    "collection_name_prefix": "hermit",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

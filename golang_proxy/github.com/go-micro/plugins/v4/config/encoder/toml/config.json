@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/go-micro/plugins/v4/config/encoder/toml",
+    "repo": "go-micro/plugins",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "v4/config/encoder/toml/**/*.md",
+        "v4/config/encoder/toml/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-micro_plugins_v4_config_encoder_toml",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

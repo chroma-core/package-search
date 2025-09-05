@@ -1,0 +1,16 @@
+{
+    "native_identifier": "google-cloud-orchestration-airflow",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "py_pi",
+    "tag_formats": [
+        "google-cloud-orchestration-airflow-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-cloud-orchestration-airflow/**/*.md",
+        "packages/google-cloud-orchestration-airflow/**/*.py"
+    ],
+    "collection_name_prefix": "google-cloud-orchestration-airflow",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/go-rod/rod/lib/examples/custom-websocket",
+    "repo": "go-rod/rod",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "lib/examples/custom-websocket/**/*.md",
+        "lib/examples/custom-websocket/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_go-rod_rod_lib_examples_custom-websocket",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

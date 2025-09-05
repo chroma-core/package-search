@@ -1,0 +1,20 @@
+{
+    "native_identifier": "theano",
+    "repo": "theano/theano",
+    "registry": "py_pi",
+    "tag_formats": [
+        "rel-v{major}.{minor}.{patch}",
+        "rel-{major}.{minor}.{patch}",
+        "rel-{major}.{minor}.{patch}beta{patch}",
+        "rel-{major}.{minor}.{patch}beta{minor}",
+        "rel-{major}.{minor}.0beta{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "theano",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,19 @@
+{
+    "native_identifier": "github.com/kubernetes/client-go",
+    "repo": "kubernetes/client-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "kubernetes-{major}.{minor}.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-beta.{patch}",
+        "kubernetes-{major}.{minor}.{patch}-alpha.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_kubernetes_client-go",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

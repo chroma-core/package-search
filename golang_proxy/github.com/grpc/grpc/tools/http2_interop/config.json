@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/grpc/grpc/tools/http2_interop",
+    "repo": "grpc/grpc",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "tools/http2_interop/**/*.md",
+        "tools/http2_interop/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_grpc_grpc_tools_http2_interop",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

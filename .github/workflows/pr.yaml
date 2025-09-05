@@ -44,5 +44,6 @@ jobs:
         run: uv sync
     
       - name: Run script
+        working-directory: .github/scripts/validate_changes
         if: steps.changed-files.outputs.files != ''
-        run: uv run .github/scripts/validate_changes/main.py ${{ steps.changed-files.outputs.files }}
+        run: uv run main.py ${{ steps.changed-files.outputs.files }}

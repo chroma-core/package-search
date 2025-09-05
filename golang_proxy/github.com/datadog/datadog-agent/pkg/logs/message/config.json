@@ -1,0 +1,18 @@
+{
+    "native_identifier": "github.com/datadog/datadog-agent/pkg/logs/message",
+    "repo": "datadog/datadog-agent",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}",
+        "{major}.{DD}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "pkg/logs/message/**/*.md",
+        "pkg/logs/message/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_datadog_datadog-agent_pkg_logs_message",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

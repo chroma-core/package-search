@@ -1,0 +1,17 @@
+{
+  "native_identifier": "rand-xorshift",
+  "repo": "rust-random/rngs",
+  "registry": "crates_io",
+  "tag_formats": [
+    "{major}.{minor}.{patch}",
+    "rand_xorshift-{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "rand_xorshift/**/*.md",
+    "rand_xorshift/**/*.rs"
+  ],
+  "collection_name_prefix": "rand-xorshift",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

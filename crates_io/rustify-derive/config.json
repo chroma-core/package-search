@@ -1,0 +1,16 @@
+{
+  "native_identifier": "rustify-derive",
+  "repo": "jmgilman/rustify",
+  "registry": "crates_io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "rustify_derive/**/*.md",
+    "rustify_derive/**/*.rs"
+  ],
+  "collection_name_prefix": "rustify-derive",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

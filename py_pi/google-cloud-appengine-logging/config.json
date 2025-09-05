@@ -1,0 +1,16 @@
+{
+    "native_identifier": "google-cloud-appengine-logging",
+    "repo": "googleapis/google-cloud-python",
+    "registry": "py_pi",
+    "tag_formats": [
+        "google-cloud-appengine-logging-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/google-cloud-appengine-logging/**/*.md",
+        "packages/google-cloud-appengine-logging/**/*.py"
+    ],
+    "collection_name_prefix": "google-cloud-appengine-logging",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

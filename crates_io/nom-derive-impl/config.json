@@ -1,0 +1,18 @@
+{
+    "native_identifier": "nom-derive-impl",
+    "repo": "rust-bakery/nom-derive",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "nom-derive-{major}.{minor}.{patch}",
+        "{major}.{minor}.{patch}-beta{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "nom-derive-impl/**/*.md",
+        "nom-derive-impl/**/*.rs"
+    ],
+    "collection_name_prefix": "nom-derive-impl",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

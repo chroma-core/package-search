@@ -1,0 +1,17 @@
+{
+    "native_identifier": "bcrypt-pbkdf",
+    "repo": "RustCrypto/password-hashes",
+    "registry": "crates_io",
+    "tag_formats": [
+        "bcrypt-pbkdf-v{major}.{minor}.{patch}",
+        "argon2-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "bcrypt-pbkdf/**/*.md",
+        "bcrypt-pbkdf/**/*.rs"
+    ],
+    "collection_name_prefix": "bcrypt-pbkdf",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,18 @@
+{
+    "native_identifier": "picky-asn1",
+    "repo": "Devolutions/picky-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "picky-asn1-{major}.{minor}.{patch}",
+        "picky-asn1-{patch}.{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "picky-asn1",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

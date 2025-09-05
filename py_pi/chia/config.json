@@ -1,0 +1,20 @@
+{
+    "native_identifier": "chia",
+    "repo": "swar/swar-chia-plot-manager",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v.{major}.{minor}.{patch}",
+        "v.{patch}.{minor}.{major}",
+        "v{major}.{minor}.{patch}b",
+        "v.{major}.{patch}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "chia",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

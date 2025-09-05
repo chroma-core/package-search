@@ -1,0 +1,16 @@
+{
+    "native_identifier": "x11rb",
+    "repo": "psychon/x11rb",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "x11rb/**/*.md",
+        "x11rb/**/*.rs"
+    ],
+    "collection_name_prefix": "x11rb",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

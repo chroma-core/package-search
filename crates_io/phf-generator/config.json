@@ -1,0 +1,16 @@
+{
+  "native_identifier": "phf-generator",
+  "repo": "rust-phf/rust-phf",
+  "registry": "crates_io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "phf_generator/**/*.md",
+    "phf_generator/**/*.rs"
+  ],
+  "collection_name_prefix": "phf-generator",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

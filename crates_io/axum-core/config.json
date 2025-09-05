@@ -1,0 +1,16 @@
+{
+    "native_identifier": "axum-core",
+    "repo": "tokio-rs/axum",
+    "registry": "crates_io",
+    "tag_formats": [
+        "axum-core-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "axum-core/**/*.md",
+        "axum-core/**/*.rs"
+    ],
+    "collection_name_prefix": "axum-core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/expr-lang/expr/debug",
+    "repo": "expr-lang/expr",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "debug/**/*.md",
+        "debug/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_expr-lang_expr_debug",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

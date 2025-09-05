@@ -1,0 +1,17 @@
+{
+    "native_identifier": "cocoa",
+    "repo": "servo/core-foundation-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "cocoa-v{major}.{minor}.{patch}",
+        "core-foundation-sys-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cocoa/**/*.md",
+        "cocoa/**/*.rs"
+    ],
+    "collection_name_prefix": "cocoa",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

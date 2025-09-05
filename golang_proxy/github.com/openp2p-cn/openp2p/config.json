@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/openp2p-cn/openp2p",
+    "repo": "openp2p-cn/openp2p",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_openp2p-cn_openp2p",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

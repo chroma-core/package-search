@@ -1,0 +1,22 @@
+{
+    "native_identifier": "github.com/aquasecurity/libbpfgo",
+    "repo": "aquasecurity/libbpfgo",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-libbpf-{major}.{minor}.{patch}",
+        "helpers/v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-libbpf-{major}.{minor}",
+        "v{major}.{minor}.{patch}-libbpf-{minor}.{patch}.{patch}",
+        "helpers/v{major}.{patch}.{minor}",
+        "v{major}.{minor}.{patch}-libbpf-{patch}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_aquasecurity_libbpfgo",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "globset",
+    "repo": "BurntSushi/ripgrep",
+    "registry": "crates_io",
+    "tag_formats": [
+        "globset-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "crates/globset/**/*.md",
+        "crates/globset/**/*.rs"
+    ],
+    "collection_name_prefix": "globset",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

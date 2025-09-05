@@ -1,0 +1,16 @@
+{
+    "native_identifier": "tauri-winrt-notification",
+    "repo": "tauri-apps/winrt-notification",
+    "registry": "crates_io",
+    "tag_formats": [
+        "tauri-winrt-notification-v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.rs"
+    ],
+    "collection_name_prefix": "tauri-winrt-notification",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,17 @@
+{
+    "native_identifier": "pathlib-mate",
+    "repo": "MacHu-GWU/pathlib_mate-project",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{YYYY}-{MM}-{DD}",
+        "{major}-{minor}-{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "pathlib-mate",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

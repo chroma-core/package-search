@@ -1,0 +1,21 @@
+{
+    "native_identifier": "github.com/keyval-dev/odigos/cli",
+    "repo": "keyval-dev/odigos",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "api/v{major}.{minor}.{patch}",
+        "api/v{major}.{patch}.{DD}",
+        "api/v{major}.0.{patch}",
+        "api/v{patch}.{minor}.{major}",
+        "api/v{major}.{minor}.{DD}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cli/**/*.md",
+        "cli/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_keyval-dev_odigos_cli",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

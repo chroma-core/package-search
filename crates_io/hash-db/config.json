@@ -1,0 +1,17 @@
+{
+    "native_identifier": "hash-db",
+    "repo": "paritytech/trie",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "memory-db-v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "hash-db/**/*.md",
+        "hash-db/**/*.rs"
+    ],
+    "collection_name_prefix": "hash-db",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

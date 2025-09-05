@@ -1,0 +1,16 @@
+{
+    "native_identifier": "langchain-core",
+    "repo": "langchain-ai/langchain",
+    "registry": "py_pi",
+    "tag_formats": [
+        "langchain-core=={major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "libs/core/**/*.md",
+        "libs/core/**/*.py"
+    ],
+    "collection_name_prefix": "langchain-core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

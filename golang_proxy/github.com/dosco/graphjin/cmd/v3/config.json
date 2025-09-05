@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/dosco/graphjin/cmd/v3",
+    "repo": "dosco/graphjin",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "cmd/v3/**/*.md",
+        "cmd/v3/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_dosco_graphjin_cmd_v3",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

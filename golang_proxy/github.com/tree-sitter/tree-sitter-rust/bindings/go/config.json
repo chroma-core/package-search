@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/tree-sitter/tree-sitter-rust/bindings/go",
+    "repo": "tree-sitter/tree-sitter-rust",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "bindings/go/**/*.md",
+        "bindings/go/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_tree-sitter_tree-sitter-rust_bindings_go",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

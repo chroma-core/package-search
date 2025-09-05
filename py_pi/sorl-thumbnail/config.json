@@ -1,0 +1,16 @@
+{
+    "native_identifier": "sorl-thumbnail",
+    "repo": "jazzband/sorl-thumbnail",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "sorl-thumbnail",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

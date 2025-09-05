@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver",
+    "repo": "open-telemetry/opentelemetry-collector-contrib",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cmd/configschema/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "receiver/dockerstatsreceiver/**/*.md",
+        "receiver/dockerstatsreceiver/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_open-telemetry_opentelemetry-collector-contrib_receiver_dockerstatsreceiver",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

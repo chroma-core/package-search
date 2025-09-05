@@ -1,0 +1,18 @@
+{
+    "native_identifier": "github.com/riverqueue/river/riverdriver/riverdatabasesql",
+    "repo": "riverqueue/river",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cmd/river/v{major}.{minor}.{patch}",
+        "cmd/river/v{patch}.{minor}.{major}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "riverdriver/riverdatabasesql/**/*.md",
+        "riverdriver/riverdatabasesql/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_riverqueue_river_riverdriver_riverdatabasesql",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/webp-sh/webp_server_go",
+    "repo": "webp-sh/webp_server_go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_webp-sh_webp_server_go",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

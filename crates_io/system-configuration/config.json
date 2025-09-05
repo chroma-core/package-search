@@ -1,0 +1,16 @@
+{
+    "native_identifier": "system-configuration",
+    "repo": "mullvad/system-configuration-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "system-configuration/**/*.md",
+        "system-configuration/**/*.rs"
+    ],
+    "collection_name_prefix": "system-configuration",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

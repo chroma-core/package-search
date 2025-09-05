@@ -1,0 +1,20 @@
+{
+    "native_identifier": "secretflow",
+    "repo": "secretflow/secretflow",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}a",
+        "v{major}.{minor}.{patch}b{patch}",
+        "v{major}.{minor}.{patch}.dev{YY}{MMMM}",
+        "v{major}.{major}.{patch}b{patch}",
+        "v{major}.{minor}.{patch}b{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "secretflow",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

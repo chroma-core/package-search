@@ -1,0 +1,17 @@
+{
+    "native_identifier": "github.com/ningpengtao-coder/oauth2-proxy",
+    "repo": "ningpengtao-coder/oauth2-proxy",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "v{major}.{minor}.{patch}-fixed"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_ningpengtao-coder_oauth2-proxy",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,22 @@
+{
+    "native_identifier": "github.com/qax-os/goreporter",
+    "repo": "qax-os/goreporter",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "version{major}.{minor}.{patch}",
+        "version{major}.{minor}.0",
+        "version-{major}.{minor}.{patch}",
+        "version-{major}.{minor}.0",
+        "version{major}.{minor}.0-beta{patch}",
+        "version{major}.0.0-beta{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_qax-os_goreporter",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,18 @@
+{
+    "native_identifier": "libsystemd-sys",
+    "repo": "codyps/rust-systemd",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "libsystemd-sys-{major}.{minor}.{patch}",
+        "systemd-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "libsystemd-sys/**/*.md",
+        "libsystemd-sys/**/*.rs"
+    ],
+    "collection_name_prefix": "libsystemd-sys",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

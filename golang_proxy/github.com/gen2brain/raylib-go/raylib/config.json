@@ -1,0 +1,18 @@
+{
+    "native_identifier": "github.com/gen2brain/raylib-go/raylib",
+    "repo": "gen2brain/raylib-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "{major}.{minor}-dev",
+        "raylib/v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "raylib/**/*.md",
+        "raylib/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_gen2brain_raylib-go_raylib",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

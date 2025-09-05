@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/vugu/vugu/full-test-data/test3",
+    "repo": "vugu/vugu",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "full-test-data/test3/**/*.md",
+        "full-test-data/test3/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_vugu_vugu_full-test-data_test3",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,19 @@
+{
+    "native_identifier": "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/e2e",
+    "repo": "cosmos/ibc-apps",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "/v{major}.{minor}.{patch}",
+        "middleware/packet-forward-middleware/v{major}.{minor}.{patch}",
+        "middleware/packet-forward-middleware/v{major}.{minor}.0",
+        "async-icq/v{major}.{minor}.0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "middleware/packet-forward-middleware/e2e/**/*.md",
+        "middleware/packet-forward-middleware/e2e/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_cosmos_ibc-apps_middleware_packet-forward-middleware_e2e",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

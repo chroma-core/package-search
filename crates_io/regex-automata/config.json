@@ -1,0 +1,16 @@
+{
+    "native_identifier": "regex-automata",
+    "repo": "rust-lang/regex",
+    "registry": "crates_io",
+    "tag_formats": [
+        "regex-automata-{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "regex-automata/**/*.md",
+        "regex-automata/**/*.rs"
+    ],
+    "collection_name_prefix": "regex-automata",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

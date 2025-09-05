@@ -1,0 +1,16 @@
+{
+    "native_identifier": "i18n-embed-fl",
+    "repo": "kellpossible/cargo-i18n",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "i18n-embed-fl/**/*.md",
+        "i18n-embed-fl/**/*.rs"
+    ],
+    "collection_name_prefix": "i18n-embed-fl",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

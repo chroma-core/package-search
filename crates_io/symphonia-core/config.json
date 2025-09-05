@@ -1,0 +1,16 @@
+{
+    "native_identifier": "symphonia-core",
+    "repo": "pdeljanov/Symphonia",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "symphonia-core/**/*.md",
+        "symphonia-core/**/*.rs"
+    ],
+    "collection_name_prefix": "symphonia-core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

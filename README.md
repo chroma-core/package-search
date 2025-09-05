@@ -24,7 +24,7 @@ code-collections/
 │   ├── requests/
 │   │   └── config.json
 │   └── ...
-├── crates.io/                   # Rust packages
+├── crates_io/                   # Rust packages
 │   ├── serde/
 │   │   └── config.json
 │   └── ...
@@ -67,7 +67,7 @@ Anyone can request additional packages to be indexed by creating a Pull Request.
    - `native_identifier`: The identifier used by the registry on which the package is hosted. For most registries, this should be the colloquial name of the package. For GitHub Releases, this should be the owning user's or organization's username, followed by a forward slash, followed by the name of the repository (e.g., `chroma-core/code-collections`). For Golang modules, this should be the full module path (e.g., `github.com/stretchr/testify/`).
    - `collection_name_prefix`: The text that will precede the version in the name of Chroma collections created for this package. We name collections as `<collection_name_prefix>_<version>`. The collection name is used to query the indexed records within Chroma, so this should generally be the colloquial name of the package or some permutation of it. Note that the collection name prefix must be globally unique within a registry. That is, no two packages in the same registry may have the same collection name prefix.
    - `repo`: The GitHub repository in which the package's source code is maintained. Provide the username of the owning user or organization, followed by a forward slash, followed by the name of the repository.
-   - `registry`: The registry to which versions of the package are published. Must be one of "npm", "pypi", "crates.io", "go", or "github_releases".
+   - `registry`: The registry to which versions of the package are published. Must be one of "npm", "py_pi", "crates_io", "golang_proxy", or "github_releases".
    - `tag_formats`: Array of git tag formats enumerating **all possible tag formats** for versions of the package you'd like to be indexed. Please note that Chroma assumes that a package version can be resolved to a tagged—either annotated or lightweight—git commit. We handle the version-to-tag resolution for you, but we can only resolve to tag formats we know exist, which we obtain from this configuration field. See the [Tag Formatting Guide](./TAG_FORMATS.md) for more information.
    - `sentinel_timestamp`: The earliest indexed time; versions published before it are excluded. Must be a [RFC 3339/ISO 8601](https://ijmacd.github.io/rfc3339-iso8601/)-compliant timestamp.
    - `include`: Array of [glob patterns](https://code.visualstudio.com/docs/editor/glob-patterns) for files to index (e.g., `["**/*.md", "**/*.ts", "**/*.js"]`).
@@ -89,7 +89,7 @@ Anyone can request additional packages to be indexed by creating a Pull Request.
 The repository currently indexes packages from:
 - **npm** - JavaScript/TypeScript packages
 - **PyPI** - Python packages
-- **crates.io** - Rust packages
+- **crates_io** - Rust packages
 - **Golang** - Go packages
 - **GitHub Releases** - Packages distributed via GitHub Releases
 
@@ -98,7 +98,7 @@ The repository currently indexes packages from:
 - Ensure the package is publicly available and well-maintained
 - Verify the `native_identifier` matches the package name in the registry exactly
 - Confirm the GitHub repository exists and is accessible
-- Use the correct registry value: "npm", "pypi", "crates.io", "go", or "github_releases"
+- Use the correct registry value: "npm", "py_pi", "crates_io", "golang_proxy", or "github_releases"
 - Format the `tag_formats` array to match the actual GitHub release tags
 - Set `sentinel_timestamp` to a reasonable starting point for historical indexing
 - Use glob patterns in the `include` array (e.g., `"**/*.md"` instead of `".md"`)

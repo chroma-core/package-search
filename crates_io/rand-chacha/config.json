@@ -1,0 +1,16 @@
+{
+  "native_identifier": "rand-chacha",
+  "repo": "rust-random/rand",
+  "registry": "crates_io",
+  "tag_formats": [
+    "rand_chacha-{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "rand_chacha/**/*.md",
+    "rand_chacha/**/*.rs"
+  ],
+  "collection_name_prefix": "rand-chacha",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

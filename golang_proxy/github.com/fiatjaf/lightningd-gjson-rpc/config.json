@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/fiatjaf/lightningd-gjson-rpc",
+    "repo": "fiatjaf/lightningd-gjson-rpc",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.go"
+    ],
+    "collection_name_prefix": "github.com_fiatjaf_lightningd-gjson-rpc",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

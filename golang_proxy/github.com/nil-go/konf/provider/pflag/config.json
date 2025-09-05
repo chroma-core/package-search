@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/nil-go/konf/provider/pflag",
+    "repo": "nil-go/konf",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "provider/pflag/**/*.md",
+        "provider/pflag/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_nil-go_konf_provider_pflag",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

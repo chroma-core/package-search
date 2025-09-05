@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/madflojo/tarmac/example/toolkit/wasm",
+    "repo": "madflojo/tarmac",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "example/toolkit/wasm/**/*.md",
+        "example/toolkit/wasm/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_madflojo_tarmac_example_toolkit_wasm",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

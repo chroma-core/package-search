@@ -1,0 +1,16 @@
+{
+  "native_identifier": "schemafy-core",
+  "repo": "Marwes/schemafy",
+  "registry": "crates_io",
+  "tag_formats": [
+    "v{major}.{minor}.{patch}"
+  ],
+  "sentinel_timestamp": "2020-01-01T00:00:00Z",
+  "include": [
+    "schemafy_core/**/*.md",
+    "schemafy_core/**/*.rs"
+  ],
+  "collection_name_prefix": "schemafy-core",
+  "version_sample_relative_size": 0.5,
+  "version_sample_max_size": 5
+}

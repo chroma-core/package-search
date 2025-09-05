@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/confluentinc/confluent-kafka-go/soaktest/v2",
+    "repo": "confluentinc/confluent-kafka-go",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "soaktest/v2/**/*.md",
+        "soaktest/v2/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_confluentinc_confluent-kafka-go_soaktest_v2",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,24 @@
+{
+    "native_identifier": "ward",
+    "repo": "darrenburns/ward",
+    "registry": "py_pi",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "release/{major}.{minor}.{patch}a0",
+        "release/{major}.{minor}.{patch}b0",
+        "release/{major}.{minor}.0a0",
+        "release/{major}.{minor}.0b0",
+        "release/0.{minor}.{patch}a0",
+        "release/0.{minor}.{patch}b0",
+        "release/0.{minor}.0a0",
+        "release/0.{minor}.0b0"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "**/*.md",
+        "**/*.py"
+    ],
+    "collection_name_prefix": "ward",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

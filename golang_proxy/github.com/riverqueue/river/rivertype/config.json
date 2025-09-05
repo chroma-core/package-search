@@ -1,0 +1,19 @@
+{
+    "native_identifier": "github.com/riverqueue/river/rivertype",
+    "repo": "riverqueue/river",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}",
+        "cmd/river/v{major}.{minor}.{patch}",
+        "cmd/river/v{major}.{patch}.{minor}",
+        "cmd/river/v{patch}.{major}.{minor}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "rivertype/**/*.md",
+        "rivertype/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_riverqueue_river_rivertype",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

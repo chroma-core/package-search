@@ -1,0 +1,16 @@
+{
+    "native_identifier": "stdweb-internal-runtime",
+    "repo": "koute/stdweb",
+    "registry": "crates_io",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "stdweb-internal-runtime/**/*.md",
+        "stdweb-internal-runtime/**/*.rs"
+    ],
+    "collection_name_prefix": "stdweb-internal-runtime",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

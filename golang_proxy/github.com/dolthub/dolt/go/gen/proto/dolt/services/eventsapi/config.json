@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/dolthub/dolt/go/gen/proto/dolt/services/eventsapi",
+    "repo": "dolthub/dolt",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "go/gen/proto/dolt/services/eventsapi/**/*.md",
+        "go/gen/proto/dolt/services/eventsapi/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_dolthub_dolt_go_gen_proto_dolt_services_eventsapi",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

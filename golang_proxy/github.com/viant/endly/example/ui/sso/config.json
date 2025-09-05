@@ -1,0 +1,16 @@
+{
+    "native_identifier": "github.com/viant/endly/example/ui/sso",
+    "repo": "viant/endly",
+    "registry": "golang_proxy",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "example/ui/sso/**/*.md",
+        "example/ui/sso/**/*.go"
+    ],
+    "collection_name_prefix": "github.com_viant_endly_example_ui_sso",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,16 @@
+{
+    "native_identifier": "webauthn-rs-core",
+    "repo": "kanidm/webauthn-rs",
+    "registry": "crates_io",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "webauthn-rs-core/**/*.md",
+        "webauthn-rs-core/**/*.rs"
+    ],
+    "collection_name_prefix": "webauthn-rs-core",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
