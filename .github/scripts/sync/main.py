@@ -163,60 +163,74 @@ def mark_collection_public(
     )
 
 
-def load_versions_json() -> Dict:
-    try:
-        with open(VERSIONS_JSON_PATH, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        raise SyncError(
-            "versions.json file not found. The file must exist before running sync job."
-        )
-    except Exception as e:
-        raise SyncError(f"Failed to load versions.json: {str(e)}")
 
 
 def save_versions_json(versions_data: Dict) -> None:
+    """
+    Completely overwrites versions.json with the provided data.
+    Uses sort_keys to ensure consistent ordering.
+    """
     try:
         with open(VERSIONS_JSON_PATH, "w") as f:
-            json.dump(versions_data, f, indent=2)
+            json.dump(versions_data, f, indent=2, sort_keys=True)
     except Exception as e:
         raise SyncError(f"Failed to save versions.json: {str(e)}")
 
 
-def update_versions_json(
-    versions_data: Dict, database: str, collections: List[Collection]
-) -> None:
-    if database not in versions_data["versions"]:
+def build_versions_data_from_collections(
+    all_finished_collections: Dict[str, List[Collection]]
+) -> Dict:
+    """
+    Build the complete versions.json data structure from scratch based on
+    all finished collections, rather than updating incrementally.
+    Ensures consistent ordering to minimize diffs.
+    """
+    versions_data = {"versions": {}}
+    
+    # Sort databases alphabetically for consistent ordering
+    sorted_databases = sorted(all_finished_collections.keys())
+    
+    for database in sorted_databases:
+        collections = all_finished_collections[database]
+        if not collections:
+            continue
+            
         versions_data["versions"][database] = {}
-
-    # Group collections by prefix
-    grouped_by_prefix = {}
-    for collection in collections:
-        prefix, version_str = parse_collection_name(collection.name)
-        if prefix and version_str:
-            if prefix not in grouped_by_prefix:
-                grouped_by_prefix[prefix] = []
-            grouped_by_prefix[prefix].append(version_str)
-        else:
-            logger.warning(
-                f"Could not parse collection name '{collection.name}' in database '{database}'"
-            )
-
-    # Sort versions for each prefix and update the data
-    for prefix, version_strings in grouped_by_prefix.items():
-        try:
-            # Sort versions in descending order using the 'packaging' library
-            sorted_versions = sorted(version_strings, key=version.parse, reverse=True)
-            versions_data["versions"][database][prefix] = sorted_versions
-        except Exception as e:
-            logger.warning(
-                f"Could not sort versions for prefix '{prefix}' in database '{database}': {str(e)}"
-            )
-            logger.info("Falling back to simple string sorting")
-            # Fallback to simple string sorting
-            versions_data["versions"][database][prefix] = sorted(
-                version_strings, reverse=True
-            )
+        
+        # Group collections by prefix
+        grouped_by_prefix = {}
+        for collection in collections:
+            prefix, version_str = parse_collection_name(collection.name)
+            if prefix and version_str:
+                if prefix not in grouped_by_prefix:
+                    grouped_by_prefix[prefix] = []
+                grouped_by_prefix[prefix].append(version_str)
+            else:
+                logger.warning(
+                    f"Could not parse collection name '{collection.name}' in database '{database}'"
+                )
+        
+        # Sort prefixes alphabetically for consistent ordering
+        sorted_prefixes = sorted(grouped_by_prefix.keys())
+        
+        # Sort versions for each prefix
+        for prefix in sorted_prefixes:
+            version_strings = grouped_by_prefix[prefix]
+            try:
+                # Sort versions in descending order using the 'packaging' library
+                sorted_versions = sorted(version_strings, key=version.parse, reverse=True)
+                versions_data["versions"][database][prefix] = sorted_versions
+            except Exception as e:
+                logger.warning(
+                    f"Could not sort versions for prefix '{prefix}' in database '{database}': {str(e)}"
+                )
+                logger.info("Falling back to simple string sorting")
+                # Fallback to simple string sorting
+                versions_data["versions"][database][prefix] = sorted(
+                    version_strings, reverse=True
+                )
+    
+    return versions_data
 
 
 def main():
@@ -386,25 +400,13 @@ def main():
     for db_name, collections in all_finished_collections.items():
         logger.info(f"  • {db_name}: {len(collections)} finished collections")
 
-    # Update versions.json and mark collections as public
-    logger.subsection("Updating Data")
-    logger.info("Updating versions.json and marking collections as public")
-
-    # Load current versions.json
-    try:
-        versions_data = load_versions_json()
-        logger.success("Loaded current versions.json")
-    except SyncError as e:
-        logger.critical(str(e))
-        sys.exit(1)
-
-    # Update versions.json with new collections
-    for database, collections in all_finished_collections.items():
-        if collections:
-            logger.info(
-                f"Updating versions.json for {len(collections)} collections in '{database}'"
-            )
-            update_versions_json(versions_data, database, collections)
+    # Build complete versions.json data from scratch
+    logger.subsection("Building Versions Data")
+    logger.info("Building complete versions.json data from all finished collections")
+    
+    # Build the complete data structure from scratch
+    versions_data = build_versions_data_from_collections(all_finished_collections)
+    logger.success(f"Built versions data with {len(versions_data['versions'])} databases")
 
     # Mark collections as public with global concurrent processing
     logger.subsection("Marking Collections Public")
@@ -460,13 +462,13 @@ def main():
             logger.error(error)
         sys.exit(1)
 
-    # Save updated versions.json
+    # Save complete versions.json (overwriting existing file)
     logger.subsection("Saving Results")
-    logger.info("Saving updated versions.json")
+    logger.info("Overwriting versions.json with complete data")
 
     try:
         save_versions_json(versions_data)
-        logger.success("Successfully updated versions.json")
+        logger.success("Successfully overwrote versions.json")
     except SyncError as e:
         logger.critical(str(e))
         sys.exit(1)
