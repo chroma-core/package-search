@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@sentry/aws-serverless",
+    "repo": "getsentry/sentry-javascript",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/aws-serverless/**/*.md",
+        "packages/aws-serverless/**/*.ts",
+        "packages/aws-serverless/**/*.js",
+        "packages/aws-serverless/**/*.tsx",
+        "packages/aws-serverless/**/*.jsx"
+    ],
+    "collection_name_prefix": "sentry_aws-serverless",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

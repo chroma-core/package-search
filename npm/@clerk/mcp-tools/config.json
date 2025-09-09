@@ -1,9 +1,9 @@
 {
-    "native_identifier": "supertest",
-    "repo": "forwardemail/supertest",
+    "native_identifier": "@clerk/mcp-tools",
+    "repo": "clerk/mcp-tools",
     "registry": "npm",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
@@ -13,7 +13,7 @@
         "**/*.tsx",
         "**/*.jsx"
     ],
-    "collection_name_prefix": "supertest",
+    "collection_name_prefix": "clerk_mcp-tools",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }

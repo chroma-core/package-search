@@ -1,0 +1,19 @@
+{
+    "native_identifier": "inngest",
+    "repo": "inngest/inngest-js",
+    "registry": "npm",
+    "tag_formats": [
+        "inngest@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/inngest/**/*.md",
+        "packages/inngest/**/*.ts",
+        "packages/inngest/**/*.js",
+        "packages/inngest/**/*.tsx",
+        "packages/inngest/**/*.jsx"
+    ],
+    "collection_name_prefix": "inngest",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

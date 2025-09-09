@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@sentry/vite-plugin",
+    "repo": "getsentry/sentry-javascript-bundler-plugins",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/vite-plugin/**/*.md",
+        "packages/vite-plugin/**/*.ts",
+        "packages/vite-plugin/**/*.js",
+        "packages/vite-plugin/**/*.tsx",
+        "packages/vite-plugin/**/*.jsx"
+    ],
+    "collection_name_prefix": "sentry_vite-plugin",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

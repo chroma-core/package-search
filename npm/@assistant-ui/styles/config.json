@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@assistant-ui/styles",
+    "repo": "assistant-ui/assistant-ui",
+    "registry": "npm",
+    "tag_formats": [
+        "@assistant-ui/styles@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/styles/**/*.md",
+        "packages/styles/**/*.ts",
+        "packages/styles/**/*.js",
+        "packages/styles/**/*.tsx",
+        "packages/styles/**/*.jsx"
+    ],
+    "collection_name_prefix": "assistant-ui_styles",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,19 @@
+{
+    "native_identifier": "react-router",
+    "repo": "remix-run/react-router",
+    "registry": "npm",
+    "tag_formats": [
+        "react-router@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/react-router/**/*.md",
+        "packages/react-router/**/*.ts",
+        "packages/react-router/**/*.js",
+        "packages/react-router/**/*.tsx",
+        "packages/react-router/**/*.jsx"
+    ],
+    "collection_name_prefix": "react-router",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
