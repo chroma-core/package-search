@@ -19,7 +19,7 @@ jobs:
   sync-production:
     if: github.event_name == 'schedule' || github.event.inputs.environment == 'production'
     name: Run Sync (production)
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
     environment: production
     steps:
       - name: Checkout code
@@ -76,7 +76,7 @@ jobs:
   sync-staging:
     if: github.event_name == 'schedule' || github.event.inputs.environment == 'staging'
     name: Run Sync (staging)
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
     environment: staging
     steps:
       - name: Checkout code
