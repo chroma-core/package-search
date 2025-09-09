@@ -40,7 +40,9 @@ Each package has its own configuration file located at `<registry>/<native_ident
 
 ## Adding New Packages
 
-Anyone can request additional packages to be indexed by creating a Pull Request. Here's how:
+### Preferred Method: Pull Request (Faster Review)
+
+We strongly encourage submitting a Pull Request when you have all the required configuration information, as PRs receive **faster review turnaround times**. Here's how:
 
 1. **Fork this repository**
 2. **Create a new directory** at `<registry>/<native_identifier>/`
@@ -75,8 +77,19 @@ Anyone can request additional packages to be indexed by creating a Pull Request.
    - `version_sample_max_size`: This field bounds the sample size in the case that there are many versions. The number of versions in a sample for a given package will never be more than the value provided for this field.
 
 4. **Update the index.json file** to include your new package in the packages that Chroma will scan during the next index job
-5. **Create a Pull Request** with a clear description of the package you're adding
+5. **Create a Pull Request** with a clear description of the package you're adding (use our [PR template](.github/pull_request_template.md))
 6. **Wait for review** - a member of the Chroma team will review your PR
+
+### Alternative Method: Submit an Issue
+
+If you don't have all the required configuration details (such as version sampling logic or tag formats), you can submit an issue instead:
+
+1. **Create a new issue** using our [package request issue template](.github/ISSUE_TEMPLATE/package-request.md)
+2. **Provide the package name, registry, and a link** to its homepage or GitHub repository
+3. **Include any configuration details you know** - the more information you provide, the faster we can process your request
+4. **Wait for the Chroma team** to gather the missing configuration details and add the package
+
+**Note**: Issues typically have longer processing times compared to PRs since our team needs to research and configure the missing details.
 
 ## Review Process
 
