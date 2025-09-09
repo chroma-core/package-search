@@ -28,8 +28,8 @@ Please verify the following before submitting:
   - [ ] `tag_formats` array matches actual GitHub release tag patterns
   - [ ] `sentinel_timestamp` is in RFC 3339/ISO 8601 format
   - [ ] `include` contains valid glob patterns (e.g., `"**/*.md"` not `".md"`)
-  - [ ] `version_sample_relative_size` is set (if applicable)
-  - [ ] `version_sample_max_size` is set (if applicable)
+  - [ ] `version_sample_relative_size` is set
+  - [ ] `version_sample_max_size` is set
 - [ ] Updated `index.json` to include the new package
 - [ ] For monorepos: glob patterns target only the specific package subdirectory
 
