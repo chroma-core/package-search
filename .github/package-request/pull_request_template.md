@@ -3,7 +3,6 @@
 ### Package Information
 - **Package Name**: 
 - **Registry**: <!-- npm / py_pi / crates_io / golang_proxy / github_releases -->
-- **Native Identifier**: 
 - **GitHub Repository**: <!-- Format: owner/repo -->
 
 ### Why should this package be indexed?
