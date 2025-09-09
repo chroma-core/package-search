@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@clerk/backend",
+    "repo": "clerk/javascript",
+    "registry": "npm",
+    "tag_formats": [
+        "@clerk/backend@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/backend/**/*.md",
+        "packages/backend/**/*.ts",
+        "packages/backend/**/*.js",
+        "packages/backend/**/*.tsx",
+        "packages/backend/**/*.jsx"
+    ],
+    "collection_name_prefix": "clerk_backend",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

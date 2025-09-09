@@ -1,0 +1,19 @@
+{
+    "native_identifier": "shadcn",
+    "repo": "shadcn/ui",
+    "registry": "npm",
+    "tag_formats": [
+        "shadcn@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/shadcn/**/*.md",
+        "packages/shadcn/**/*.ts",
+        "packages/shadcn/**/*.js",
+        "packages/shadcn/**/*.tsx",
+        "packages/shadcn/**/*.jsx"
+    ],
+    "collection_name_prefix": "shadcn",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

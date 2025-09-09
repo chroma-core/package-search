@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@types/supertest",
+    "repo": "DefinitelyTyped/DefinitelyTyped",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "types/supertest/**/*.md",
+        "types/supertest/**/*.ts",
+        "types/supertest/**/*.js",
+        "types/supertest/**/*.tsx",
+        "types/supertest/**/*.jsx"
+    ],
+    "collection_name_prefix": "types_supertest",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

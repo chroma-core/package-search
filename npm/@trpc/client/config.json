@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@trpc/client",
+    "repo": "trpc/trpc",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/client/**/*.md",
+        "packages/client/**/*.ts",
+        "packages/client/**/*.js",
+        "packages/client/**/*.tsx",
+        "packages/client/**/*.jsx"
+    ],
+    "collection_name_prefix": "trpc_client",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
