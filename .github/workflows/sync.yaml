@@ -5,15 +5,27 @@ on:
     - cron: '0 * * * *'
 
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run sync for'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - staging
 
 jobs:
-  run-sync:
-    name: Run Sync
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+  sync-production:
+    if: github.event_name == 'schedule' || github.event.inputs.environment == 'production'
+    name: Run Sync (production)
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    environment: production
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          ref: main
           token: ${{ secrets.CODE_COLLECTIONS_REPO_ACCESS_TOKEN }}
 
       - name: Install uv
@@ -36,6 +48,8 @@ jobs:
           CHROMA_TENANT_UUID: ${{ secrets.CHROMA_TENANT_UUID }}
           CHROMA_TEAM_ID: ${{ secrets.CHROMA_TEAM_ID }}
           CHROMA_API_KEY: ${{ secrets.CHROMA_API_KEY }}
+          CHROMA_API_URL: ${{ vars.CHROMA_API_URL }}
+          CHROMA_BACKEND_URL: ${{ vars.CHROMA_BACKEND_URL }}          
         run: uv run main.py
 
       - name: Check for changes
@@ -58,3 +72,60 @@ jobs:
           EOF
           )"
           git push origin main
+
+  sync-staging:
+    if: github.event_name == 'schedule' || github.event.inputs.environment == 'staging'
+    name: Run Sync (staging)
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    environment: staging
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+          token: ${{ secrets.CODE_COLLECTIONS_REPO_ACCESS_TOKEN }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'          
+
+      - name: Install dependencies
+        working-directory: .github/scripts/sync
+        run: uv sync
+    
+      - name: Run script
+        working-directory: .github/scripts/sync
+        env:
+          CHROMA_TENANT_UUID: ${{ secrets.CHROMA_TENANT_UUID }}
+          CHROMA_TEAM_ID: ${{ secrets.CHROMA_TEAM_ID }}
+          CHROMA_API_KEY: ${{ secrets.CHROMA_API_KEY }}
+          CHROMA_API_URL: ${{ vars.CHROMA_API_URL }}
+          CHROMA_BACKEND_URL: ${{ vars.CHROMA_BACKEND_URL }}
+        run: uv run main.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if git diff --quiet versions.json; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --global user.email "tools.external+atlantis@trychroma.com"
+          git config --global user.name "Chroma Droid"
+          git add versions.json
+          git commit -m "$(cat <<'EOF'
+          [AUTOGEN] update versions.json from sync script
+          EOF
+          )"
+          git push origin staging
