@@ -11,7 +11,7 @@ This repository serves as the authoritative source of truth for packages that Ch
 The repository is organized as follows:
 
 ```
-code-collections/
+package-search/
 ├── index.json                   # Enumerates all packages that have been or are being run through the indexing pipeline
 ├── versions.json                # Enumerates all presently indexed packages and versions
 ├── npm/                         # npm packages
