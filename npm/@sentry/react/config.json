@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@sentry/react",
+    "repo": "getsentry/sentry-javascript",
+    "registry": "npm",
+    "tag_formats": [
+        "{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/react/**/*.md",
+        "packages/react/**/*.ts",
+        "packages/react/**/*.js",
+        "packages/react/**/*.tsx",
+        "packages/react/**/*.jsx"
+    ],
+    "collection_name_prefix": "sentry_react",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

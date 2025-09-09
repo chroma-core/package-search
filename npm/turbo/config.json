@@ -1,6 +1,6 @@
 {
     "native_identifier": "turbo",
-    "repo": "hotwired/turbo",
+    "repo": "vercel/turbo",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

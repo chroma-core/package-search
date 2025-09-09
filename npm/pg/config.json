@@ -1,0 +1,19 @@
+{
+    "native_identifier": "pg",
+    "repo": "brianc/node-postgres",
+    "registry": "npm",
+    "tag_formats": [
+        "pg@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/pg/**/*.md",
+        "packages/pg/**/*.ts",
+        "packages/pg/**/*.js",
+        "packages/pg/**/*.tsx",
+        "packages/pg/**/*.jsx"
+    ],
+    "collection_name_prefix": "pg",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@vitejs/plugin-react-swc",
+    "repo": "vitejs/vite-plugin-react",
+    "registry": "npm",
+    "tag_formats": [
+        "plugin-react-swc@{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/plugin-react-swc/**/*.md",
+        "packages/plugin-react-swc/**/*.ts",
+        "packages/plugin-react-swc/**/*.js",
+        "packages/plugin-react-swc/**/*.tsx",
+        "packages/plugin-react-swc/**/*.jsx"
+    ],
+    "collection_name_prefix": "vitejs_plugin-react-swc",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}
