@@ -1,6 +1,6 @@
 {
     "native_identifier": "supertest",
-    "repo": "ladjs/supertest",
+    "repo": "forwardemail/supertest",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"
