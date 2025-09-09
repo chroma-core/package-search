@@ -5,9 +5,6 @@
 - **Registry**: <!-- npm / py_pi / crates_io / golang_proxy / github_releases -->
 - **GitHub Repository**: <!-- Format: owner/repo -->
 
-### Why should this package be indexed?
-<!-- Provide context about the package's relevance, popularity, and community value -->
-
 ### Package Details
 - **Description**: <!-- Brief description of what the package does -->
 - **Weekly Downloads/Stars**: <!-- Provide metrics showing package popularity -->
