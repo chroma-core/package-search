@@ -1,6 +1,6 @@
 ---
 name: Package Request
-about: Request a package when you don't have all the required configuration details
+about: Request a package
 title: '[PACKAGE REQUEST] <Package Name>'
 labels: package-request
 assignees: ''
@@ -9,7 +9,7 @@ assignees: ''
 
 ## Package Request
 
-> **Note**: We strongly encourage submitting a Pull Request if you have all the required information, as PRs receive faster review turnaround times. Use this issue template only if you're missing configuration details like version sampling logic or tag formats.
+> **Note**: We strongly encourage submitting a Pull Request if you have all the required information, as PRs receive faster review turnaround times.
 
 ### Package Information
 - **Package Name**: 
