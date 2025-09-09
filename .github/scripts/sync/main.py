@@ -19,7 +19,6 @@ from logger import logger
 DATABASES = ["npm", "py_pi", "crates_io", "golang_proxy", "github_releases"]
 MAX_CONCURRENT_CHROMA_READS = 10
 MAX_CONCURRENT_DASHBOARD_BACKEND_WRITES = 50
-DASHBOARD_BACKEND_URL = "https://backend.trychroma.com"
 MAX_RETRIES_MARK_PUBLIC = 3
 BASE_RETRY_DELAY = 1.0
 VERSIONS_JSON_PATH = "../../../versions.json"
@@ -30,13 +29,13 @@ class SyncError(Exception):
 
 
 def initialize_clients(
-    chroma_tenant_uuid: str, chroma_api_key: str
+    chroma_api_url: str, chroma_tenant_uuid: str, chroma_api_key: str
 ) -> Dict[str, CloudClient]:
     clients = {}
     for database in DATABASES:
         try:
             clients[database] = CloudClient(
-                cloud_host="api.trychroma.com",
+                cloud_host=chroma_api_url.split("https://")[1],
                 tenant=chroma_tenant_uuid,
                 database=database,
                 api_key=chroma_api_key,
@@ -109,9 +108,13 @@ def parse_collection_name(collection_name: str) -> Tuple[Optional[str], Optional
 
 
 def mark_collection_public(
-    collection: Collection, chroma_team_id: str, database: str, chroma_api_key: str
+    collection: Collection,
+    chroma_backend_url: str,
+    chroma_team_id: str,
+    database: str,
+    chroma_api_key: str,
 ) -> Tuple[bool, Optional[str]]:
-    url = f"{DASHBOARD_BACKEND_URL}/api/v1/public-collections"
+    url = f"{chroma_backend_url}/api/v1/public-collections"
     headers = {"x-api-key": chroma_api_key}
     payload = {
         "teamId": chroma_team_id,
@@ -224,6 +227,8 @@ def main():
     chroma_tenant_uuid = os.getenv("CHROMA_TENANT_UUID")
     chroma_team_id = os.getenv("CHROMA_TEAM_ID")
     chroma_api_key = os.getenv("CHROMA_API_KEY")
+    chroma_api_url = os.getenv("CHROMA_API_URL")
+    chroma_backend_url = os.getenv("CHROMA_BACKEND_URL")
 
     if not chroma_tenant_uuid:
         logger.critical("The CHROMA_TENANT_UUID environment variable was not found")
@@ -246,13 +251,27 @@ def main():
         )
         sys.exit(1)
 
+    if not chroma_api_url:
+        logger.critical("The CHROMA_API_URL environment variable was not found")
+        logger.error(
+            "Please ensure you have created the secret in your repository settings"
+        )
+        sys.exit(1)
+
+    if not chroma_backend_url:
+        logger.critical("The CHROMA_BACKEND_URL environment variable was not found")
+        logger.error(
+            "Please ensure you have created the secret in your repository settings"
+        )
+        sys.exit(1)
+
     logger.success("Successfully accessed required environment variables")
 
     # Initialize chroma clients for all databases
     logger.subsection("Initializing Clients")
     logger.info("Initializing chroma clients for all databases")
 
-    clients = initialize_clients(chroma_tenant_uuid, chroma_api_key)
+    clients = initialize_clients(chroma_api_url, chroma_tenant_uuid, chroma_api_key)
     if len(clients) != len(DATABASES):
         logger.critical("Failed to initialize clients for all databases")
         sys.exit(1)
@@ -412,6 +431,7 @@ def main():
             executor.submit(
                 mark_collection_public,
                 collection,
+                chroma_backend_url,
                 chroma_team_id,
                 database,
                 chroma_api_key,
