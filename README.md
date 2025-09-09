@@ -1,4 +1,4 @@
-# Chroma Code Collections
+# Chroma Package Search
 
 This repository contains a curated list of public code packages that Chroma keeps indexed into Chroma collections. The repository currently indexes **26K+** packages across various registries.
 
