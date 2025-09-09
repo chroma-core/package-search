@@ -192,9 +192,7 @@ def build_versions_data_from_collections(
     
     for database in sorted_databases:
         collections = all_finished_collections[database]
-        if not collections:
-            continue
-            
+        # Always add the database to versions_data, even if empty
         versions_data["versions"][database] = {}
         
         # Group collections by prefix
@@ -349,7 +347,8 @@ def main():
     total_metadata_checks = len(metadata_tasks)
     logger.info(f"Checking metadata for {total_metadata_checks} collections")
 
-    all_finished_collections = {}
+    # Initialize all_finished_collections with all databases to ensure they're all included
+    all_finished_collections = {db: [] for db in DATABASES}
     metadata_errors = []
     processed_metadata = 0
 
@@ -379,8 +378,6 @@ def main():
                     f"Error checking metadata for '{collection_name}' in '{db_name}': {error}"
                 )
             elif collection:  # Collection has finished_ingest = true
-                if db_name not in all_finished_collections:
-                    all_finished_collections[db_name] = []
                 all_finished_collections[db_name].append(collection)
 
     if metadata_errors:
