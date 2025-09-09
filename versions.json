@@ -2455,6 +2455,7 @@
         "0.4.20"
       ]
     },
+    "github_releases": {},
     "golang_proxy": {
       "github.com_99designs_gqlgen": [
         "0.13.0"
