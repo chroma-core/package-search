@@ -1,5 +1,5 @@
 name: Sync Indexed Collections
-
+run-name: Sync Indexed Collections (${{ github.event.inputs.environment }})
 on:
   schedule:
     - cron: '0 * * * *'
@@ -19,7 +19,7 @@ jobs:
   sync-production:
     if: github.event_name == 'schedule' || github.event.inputs.environment == 'production'
     name: Run Sync (production)
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     environment: production
     steps:
       - name: Checkout code
@@ -76,7 +76,7 @@ jobs:
   sync-staging:
     if: github.event_name == 'schedule' || github.event.inputs.environment == 'staging'
     name: Run Sync (staging)
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     environment: staging
     steps:
       - name: Checkout code
