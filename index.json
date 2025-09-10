@@ -4826,7 +4826,5 @@
         "py_pi/zope-event",
         "py_pi/zope-interface",
         "py_pi/zstandard"
-    ],
-    "generated_at": "2025-09-10T01:27:52Z",
-    "count": 4807
+    ]
 }
