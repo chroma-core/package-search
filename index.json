@@ -3662,7 +3662,5 @@
         "github_releases/llvm/llvm-project",
         "github_releases/python/cpython",
         "github_releases/rust-lang/rust"
-    ],
-    "generated_at": "2025-09-04T12:10:34Z",
-    "count": 3639
+    ]
 }
