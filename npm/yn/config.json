@@ -1,6 +1,6 @@
 {
     "native_identifier": "yn",
-    "repo": "purocean/yn",
+    "repo": "sindresorhus/yn",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

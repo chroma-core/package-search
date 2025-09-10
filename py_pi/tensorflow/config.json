@@ -8,7 +8,8 @@
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
         "**/*.md",
-        "**/*.py"
+        "**/*.py",
+        "**/*.cpp"
     ],
     "collection_name_prefix": "tensorflow",
     "version_sample_relative_size": 0.5,

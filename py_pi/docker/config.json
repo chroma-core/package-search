@@ -1,9 +1,9 @@
 {
     "native_identifier": "docker",
-    "repo": "boerderij/varken",
+    "repo": "docker/docker-py",
     "registry": "py_pi",
     "tag_formats": [
-        "v{major}.{minor}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

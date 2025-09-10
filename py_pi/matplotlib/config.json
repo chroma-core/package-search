@@ -1,9 +1,9 @@
 {
     "native_identifier": "matplotlib",
-    "repo": "rougier/matplotlib-tutorial",
+    "repo": "matplotlib/matplotlib",
     "registry": "py_pi",
     "tag_formats": [
-        "{major}.{minor}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

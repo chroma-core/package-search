@@ -1,6 +1,6 @@
 {
     "native_identifier": "black",
-    "repo": "nbqa-dev/nbqa",
+    "repo": "psf/black",
     "registry": "py_pi",
     "tag_formats": [
         "{major}.{minor}.{patch}"

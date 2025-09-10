@@ -1,6 +1,6 @@
 {
     "native_identifier": "notebook",
-    "repo": "w01fh4cker/vcenterkit",
+    "repo": "jupyter/notebook",
     "registry": "py_pi",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

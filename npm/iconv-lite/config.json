@@ -1,6 +1,6 @@
 {
     "native_identifier": "iconv-lite",
-    "repo": "ashtuchkin/iconv-lite",
+    "repo": "pillarjs/iconv-lite",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

@@ -1,17 +1,17 @@
 {
     "native_identifier": "expect",
-    "repo": "mjackson/expect",
+    "repo": "jestjs/jest",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
-        "**/*.md",
-        "**/*.ts",
-        "**/*.js",
-        "**/*.tsx",
-        "**/*.jsx"
+        "packages/expect/**/*.md",
+        "packages/expect/**/*.ts",
+        "packages/expect/**/*.js",
+        "packages/expect/**/*.tsx",
+        "packages/expect/**/*.jsx"
     ],
     "collection_name_prefix": "expect",
     "version_sample_relative_size": 0.5,

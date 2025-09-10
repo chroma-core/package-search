@@ -1,6 +1,6 @@
 {
     "native_identifier": "bytecode",
-    "repo": "rocky/python-decompile3",
+    "repo": "MatthieuDartiailh/bytecode",
     "registry": "py_pi",
     "tag_formats": [
         "{major}.{minor}.{patch}"
