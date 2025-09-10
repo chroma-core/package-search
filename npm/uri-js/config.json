@@ -1,9 +1,9 @@
 {
     "native_identifier": "uri-js",
-    "repo": "medialize/uri.js",
+    "repo": "garycourt/uri-js",
     "registry": "npm",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

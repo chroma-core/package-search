@@ -1,5 +1,5 @@
 {
-    "native_identifier": "supabase-js",
+    "native_identifier": "@supabase/supabase-js",
     "repo": "supabase/supabase-js",
     "registry": "npm",
     "tag_formats": [
@@ -13,7 +13,7 @@
         "**/*.tsx",
         "**/*.jsx"
     ],
-    "collection_name_prefix": "supabase-js",
+    "collection_name_prefix": "supabase_supabase-js",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }

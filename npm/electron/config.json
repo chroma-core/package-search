@@ -1,6 +1,6 @@
 {
     "native_identifier": "electron",
-    "repo": "zenghongtu/ppet",
+    "repo": "electron/electron",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

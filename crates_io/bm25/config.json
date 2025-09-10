@@ -1,6 +1,6 @@
 {
     "native_identifier": "bm25",
-    "repo": "seekstorm/seekstorm",
+    "repo": "Michael-JB/bm25",
     "registry": "crates_io",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

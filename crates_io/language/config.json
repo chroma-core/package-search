@@ -1,12 +1,9 @@
 {
     "native_identifier": "language",
-    "repo": "roc-lang/roc",
+    "repo": "hack-ink/language",
     "registry": "crates_io",
     "tag_formats": [
-        "v{major}.{minor}.{patch}",
-        "{major}.{minor}.{patch}-alpha{patch}",
-        "{major}.{minor}.{patch}-alpha{patch}-rolling",
-        "alpha{patch}-rolling"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

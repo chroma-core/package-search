@@ -1,9 +1,9 @@
 {
     "native_identifier": "asyncio",
-    "repo": "neoteroi/blacksheep",
+    "repo": "python/asyncio",
     "registry": "py_pi",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

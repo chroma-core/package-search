@@ -1,9 +1,9 @@
 {
     "native_identifier": "daft",
-    "repo": "eventual-inc/daft",
+    "repo": "oxidecomputer/daft",
     "registry": "crates_io",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "daft-{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

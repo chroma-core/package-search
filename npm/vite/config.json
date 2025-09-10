@@ -1,6 +1,6 @@
 {
     "native_identifier": "vite",
-    "repo": "nuxt/vite",
+    "repo": "vitejs/vite",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

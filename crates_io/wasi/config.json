@@ -1,6 +1,6 @@
 {
     "native_identifier": "wasi",
-    "repo": "bytecodealliance/wasi",
+    "repo": "bytecodealliance/wasi-rs",
     "registry": "crates_io",
     "tag_formats": [
         "{major}.{minor}.{patch}"
