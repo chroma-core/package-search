@@ -13,7 +13,7 @@ assignees: ''
 
 ### Package Information
 - **Package Name**: 
-- **Registry**: <!-- npm / py_pi / crates_io / golang_proxy / github_releases -->
+- **Registry**: <!-- NPM / PyPI / crates.io / Golang Proxy / GitHub Releases -->
 - **Package Homepage/GitHub Repository**: <!-- Provide link to homepage or GitHub repo -->
 
 ### Available Information
