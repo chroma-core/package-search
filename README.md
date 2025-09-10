@@ -4,6 +4,7 @@ This repository contains a curated list of public code packages that Chroma keep
 
 Quick links:
 
+* [Install Package Search MCP](https://trychroma.com/package-search)
 * [View available packages](https://github.com/chroma-core/package-search/blob/main/versions.json)
 * [Add a package](https://github.com/chroma-core/package-search/issues/new?template=package-request.md)
 
