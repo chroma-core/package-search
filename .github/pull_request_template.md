@@ -2,7 +2,7 @@
 
 ### Package Information
 - **Package Name**: 
-- **Registry**: <!-- npm / py_pi / crates_io / golang_proxy / github_releases -->
+- **Registry**: <!-- NPM / PyPI / crates.io / Golang Proxy / GitHub Releases -->
 - **GitHub Repository**: <!-- Format: owner/repo -->
 
 ### Package Details

@@ -106,10 +106,10 @@ If you don't have all the required configuration details (such as version sampli
 ## Current Index
 
 The repository currently indexes packages from:
-- **npm** - JavaScript/TypeScript packages
+- **NPM** - JavaScript/TypeScript packages
 - **PyPI** - Python packages
-- **crates_io** - Rust packages
-- **Golang** - Go packages
+- **crates.io** - Rust crates
+- **Golang Proxy** - Go modules
 - **GitHub Releases** - Packages distributed via GitHub Releases
 
 ## Contributing Guidelines
@@ -117,7 +117,6 @@ The repository currently indexes packages from:
 - Ensure the package is publicly available and well-maintained
 - Verify the `native_identifier` matches the package name in the registry exactly
 - Confirm the GitHub repository exists and is accessible
-- Use the correct registry value: "npm", "py_pi", "crates_io", "golang_proxy", or "github_releases"
 - Format the `tag_formats` array to match the actual GitHub release tags
 - Set `sentinel_timestamp` to a reasonable starting point for historical indexing
 - Use glob patterns in the `include` array (e.g., `"**/*.md"` instead of `".md"`)
