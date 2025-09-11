@@ -48,7 +48,7 @@ Create or edit `~/.cursor/mcp.json`:
 <details>
 <summary><b>VS Code (Copilot Chat MCP)</b></summary>
 
-In your `.vscode/mcp.json` file, add:
+Create or edit `.vscode/mcp.json`:
 
 ```json
 {
@@ -71,7 +71,7 @@ In your `.vscode/mcp.json` file, add:
 <summary><b>Windsurf</b></summary>
 
 
-Add to Windsurf MCP settings:
+Open the Windsurf MCP settings and edit to include:
 
 ```json
 {
