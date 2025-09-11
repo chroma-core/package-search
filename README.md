@@ -17,8 +17,8 @@ Chroma’s Package Search MCP server is a remote MCP server you can use from man
 | Server URL | `https://mcp.trychroma.com/package-search/v1` |
 | Auth header | `x-chroma-token: <YOUR_CHROMA_API_KEY>` |
 
-[!NOTE]
-Get an API key at [trychroma.com/package-search](https://trychroma.com/package-search)
+> [!NOTE]
+> Get an API key at [trychroma.com/package-search](https://trychroma.com/package-search)
 
 ### How to configure in common clients
 
