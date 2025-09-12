@@ -27,10 +27,8 @@ Chroma’s Package Search MCP server is a remote MCP server you can use from man
 
 <details>
 <summary><b>Cursor</b></summary>
-
-
+  
 Create or edit `~/.cursor/mcp.json`:
-
 ```json
 {
   "mcpServers": {
@@ -49,9 +47,8 @@ Create or edit `~/.cursor/mcp.json`:
 
 <details>
 <summary><b>VS Code (Copilot Chat MCP)</b></summary>
-
+  
 Create or edit `.vscode/mcp.json`:
-
 ```json
 {
   "servers": {
@@ -70,9 +67,8 @@ Create or edit `.vscode/mcp.json`:
 
 <details>
 <summary><b>Windsurf</b></summary>
-
+  
 Open the Windsurf MCP settings and edit to include:
-
 ```json
 {
   "mcpServers": {
@@ -90,10 +86,8 @@ Open the Windsurf MCP settings and edit to include:
 
 <details>
 <summary><b>Warp</b></summary>
-
-
+  
 Add the following to your Warp MCP config. Make sure to click "Start" on the server after adding.
-
 ```json
 {
     "package-search": {
@@ -110,9 +104,8 @@ Add the following to your Warp MCP config. Make sure to click "Start" on the ser
 
 <details>
 <summary><b>Codex</b></summary>
-
+  
 Add the following to your `~/.codex/config.toml` file with your Chroma Cloud API key:
-
 ```toml
 [mcp_servers.package-search]
 command = "npx"
@@ -124,9 +117,8 @@ env = { X_CHROMA_TOKEN = "<YOUR_CHROMA_API_KEY>" }
 
 <details>
 <summary><b>Claude Code</b></summary>
-
+  
 Run the following command in your terminal:
-
 ```bash
 claude mcp add --transport http package-search https://mcp.trychroma.com/package-search/v1 --header "x-chroma-token: <YOUR_CHROMA_API_KEY>"
 ```
@@ -184,8 +176,6 @@ response = client.beta.messages.create(
 )
 print(response)
 ```
-
-(The Package Search MCP server has special-case handling for the Anthropic SDK's authorization headers.)
 
 </details>
 
@@ -249,9 +239,8 @@ asyncio.run(main())
 
 <details>
 <summary><b>Ollama (via <code>ollmcp</code>)</b></summary>
-
+  
 Create mcp_config.json:
-
 ```json
 {
   "mcpServers": {
@@ -276,10 +265,8 @@ ollmcp --servers-json /path/to/mcp_config.json --model qwen2.5
 
 <details>
 <summary><b>Open Code</b></summary>
-
-
+  
 Add to `~/.config/opencode/opencode.json:`:
-
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
