@@ -163,7 +163,7 @@ print(resp)
 <details>
 <summary><b>Anthropic SDK (Python)</b></summary>
 
-```
+```python
 import anthropic
 
 client = anthropic.Anthropic(api_key="<YOUR_ANTHROPIC_API_KEY>")
