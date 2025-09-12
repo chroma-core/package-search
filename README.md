@@ -15,7 +15,10 @@ Chroma’s Package Search MCP server is a remote MCP server you can use from man
 | Field | Value |
 |-------|-------|
 | Server URL | `https://mcp.trychroma.com/package-search/v1` |
-| Auth header | `x-chroma-token: <YOUR_CHROMA_API_KEY>` |
+| Auth Header Name<sup>*</sup> | `x-chroma-token` |
+| Auth Header Value | `<YOUR_CHROMA_API_KEY>` |
+
+<sup>*</sup>For the Anthropic API, since custom headers are not yet supported as of 2025-09-12, we accept the `Authorization` header instead.
 
 > [!NOTE]
 > Get an API key at [trychroma.com/package-search](https://trychroma.com/package-search)
