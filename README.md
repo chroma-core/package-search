@@ -134,7 +134,7 @@ claude mcp add --transport http package-search https://mcp.trychroma.com/package
 </details>
 
 <details>
-<summary><b>OpenAI SDK</b></summary>
+<summary><b>OpenAI SDK (Python)</b></summary>
 
 ```python
 from openai import OpenAI
@@ -161,7 +161,7 @@ print(resp)
 
 
 <details>
-<summary><b>Anthropic SDK</b></summary>
+<summary><b>Anthropic SDK (Python)</b></summary>
 
 ```
 import anthropic
@@ -189,6 +189,35 @@ print(response)
 
 </details>
 
+<details>
+<summary><b>Google Gemini SDK (Python)</b></summary>
+
+```python
+import asyncio
+from mcp import ClientSession
+from mcp.client.streamable_http import streamablehttp_client
+from google import genai
+
+client = genai.Client(api_key="<YOUR_GEMINI_API_KEY>")
+
+async def run():
+    async with streamablehttp_client(
+        "https://mcp.trychroma.com/package-search/v1",
+        headers={"x-chroma-token": "<YOUR_CHROMA_API_KEY>"},
+    ) as (read, write, _):
+        async with ClientSession(read, write) as session:
+            await session.initialize()
+            prompt = "what logging levels are available in uber's zap go module?"
+            response = await client.aio.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+                config=genai.types.GenerateContentConfig(temperature=0, tools=[session]),
+            )
+            print(response.text if hasattr(response, "text") else response)
+asyncio.run(run())
+```
+
+</details>
 
 <details>
 <summary><b>MCP SDK (Python)</b></summary>
@@ -218,41 +247,8 @@ asyncio.run(main())
 
 </details>
 
-
-<details>
-<summary><b>Google Gemini SDK</b></summary>
-
-```python
-import asyncio
-from mcp import ClientSession
-from mcp.client.streamable_http import streamablehttp_client
-from google import genai
-
-client = genai.Client(api_key="<YOUR_GEMINI_API_KEY>")
-
-async def run():
-    async with streamablehttp_client(
-        "https://mcp.trychroma.com/package-search/v1",
-        headers={"x-chroma-token": "<YOUR_CHROMA_API_KEY>"},
-    ) as (read, write, _):
-        async with ClientSession(read, write) as session:
-            await session.initialize()
-            prompt = "what logging levels are available in uber's zap go module?"
-            response = await client.aio.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
-                config=genai.types.GenerateContentConfig(temperature=0, tools=[session]),
-            )
-            print(response.text if hasattr(response, "text") else response)
-asyncio.run(run())
-```
-
-</details>
-
-
 <details>
 <summary><b>Ollama (via <code>ollmcp</code>)</b></summary>
-
 
 Create mcp_config.json:
 
