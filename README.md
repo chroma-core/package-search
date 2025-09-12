@@ -44,7 +44,6 @@ Create or edit `~/.cursor/mcp.json`:
 
 </details>
 
-
 <details>
 <summary><b>VS Code (Copilot Chat MCP)</b></summary>
 
@@ -69,7 +68,6 @@ Create or edit `.vscode/mcp.json`:
 <details>
 <summary><b>Windsurf</b></summary>
 
-
 Open the Windsurf MCP settings and edit to include:
 
 ```json
@@ -82,6 +80,26 @@ Open the Windsurf MCP settings and edit to include:
       }
     }
   }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Warp</b></summary>
+
+
+Add the following to your Warp MCP config. Make sure to click "Start" on the server after adding.
+
+```json
+{
+    "package-search": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.trychroma.com/package-search/v1", "--header", "x-chroma-token: ${X_CHROMA_TOKEN}"],
+      "env": {
+        "X_CHROMA_TOKEN": "<YOUR_CHROMA_API_KEY>"
+      }
+    }
 }
 ```
 
