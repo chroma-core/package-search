@@ -66,6 +66,19 @@ Create or edit `.vscode/mcp.json`:
 
 </details>
 
+<details>
+<summary><b>OpenAI Codex </b></summary>
+
+Add the following to your `~/.codex/config.toml` file with your Chroma Cloud API key:
+
+```toml
+[mcp_servers.package-search]
+command = "npx"
+args = ["mcp-remote", "https://mcp.trychroma.com/package-search/v1", "--header", "x-chroma-token: ${X_CHROMA_TOKEN}"]
+env = { X_CHROMA_TOKEN = "<YOUR_CHROMA_API_KEY>" }
+```
+
+</details>
 
 <details>
 <summary><b>Windsurf</b></summary>
@@ -252,21 +265,6 @@ Add to `~/.config/opencode/opencode.json:`:
     }
   }
 }
-```
-
-</details>
-
-
-<details>
-<summary><b>OpenAI Codex </b></summary>
-
-Add the following to your `~/.codex/config.toml` file with your Chroma Cloud API key:
-
-```toml
-[mcp_servers.package-search]
-command = "npx"
-args = ["mcp-remote", "https://mcp.trychroma.com/package-search/v1", "--header", "x-chroma-token: ${X_CHROMA_TOKEN}"]
-env = { X_CHROMA_TOKEN = "<YOUR_CHROMA_API_KEY>" }
 ```
 
 </details>
