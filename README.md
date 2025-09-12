@@ -176,7 +176,7 @@ asyncio.run(main())
 
 
 <details>
-<summary><b>Google Gemini SDK)/b></summary>
+<summary><b>Google Gemini SDK</b></summary>
 
 ```python
 import asyncio
