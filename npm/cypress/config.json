@@ -1,6 +1,6 @@
 {
     "native_identifier": "cypress",
-    "repo": "sorry-cypress/sorry-cypress",
+    "repo": "cypress-io/cypress",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

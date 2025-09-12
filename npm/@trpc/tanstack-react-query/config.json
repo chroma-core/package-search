@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@trpc/tanstack-react-query",
+    "repo": "trpc/trpc",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/tanstack-react-query/**/*.md",
+        "packages/tanstack-react-query/**/*.ts",
+        "packages/tanstack-react-query/**/*.js",
+        "packages/tanstack-react-query/**/*.tsx",
+        "packages/tanstack-react-query/**/*.jsx"
+    ],
+    "collection_name_prefix": "trpc_tanstack-react-query",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

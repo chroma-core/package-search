@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@langchain/mcp-adapters",
+    "repo": "langchain-ai/langchainjs",
+    "registry": "npm",
+    "tag_formats": [
+        "@langchain/mcp-adapters=={major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "libs/langchain-mcp-adapters/**/*.md",
+        "libs/langchain-mcp-adapters/**/*.ts",
+        "libs/langchain-mcp-adapters/**/*.js",
+        "libs/langchain-mcp-adapters/**/*.tsx",
+        "libs/langchain-mcp-adapters/**/*.jsx"
+    ],
+    "collection_name_prefix": "langchain_mcp-adapters",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

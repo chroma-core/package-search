@@ -1,10 +1,9 @@
 {
     "native_identifier": "chakra-ui",
-    "repo": "chakra-ui/chakra-ui",
+    "repo": "segunadebayo/chakra-ui",
     "registry": "npm",
     "tag_formats": [
-        "@{major}.{minor}.{patch}",
-        "@chakra-ui/accordion@{major}.{minor}.{patch}"
+        "v{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

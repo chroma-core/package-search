@@ -1,6 +1,6 @@
 {
     "native_identifier": "element-ui",
-    "repo": "thegreatjavascript/fakescreenshot",
+    "repo": "elemefe/element",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

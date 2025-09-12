@@ -1,0 +1,19 @@
+{
+    "native_identifier": "class-variance-authority",
+    "repo": "joe-bell/cva",
+    "registry": "npm",
+    "tag_formats": [
+        "v{major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "packages/class-variance-authority/**/*.md",
+        "packages/class-variance-authority/**/*.ts",
+        "packages/class-variance-authority/**/*.js",
+        "packages/class-variance-authority/**/*.tsx",
+        "packages/class-variance-authority/**/*.jsx"
+    ],
+    "collection_name_prefix": "class-variance-authority",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

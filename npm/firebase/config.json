@@ -1,9 +1,9 @@
 {
     "native_identifier": "firebase",
-    "repo": "insin/react-hn",
+    "repo": "firebase/firebase-js-sdk",
     "registry": "npm",
     "tag_formats": [
-        "v{major}.{minor}.{patch}"
+        "firebase@{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

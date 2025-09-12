@@ -3,10 +3,7 @@
     "repo": "pola-rs/polars",
     "registry": "py_pi",
     "tag_formats": [
-        "py-{major}.{minor}.{patch}",
-        "py-{patch}.{minor}.{major}",
-        "py-{major}.{patch}.{minor}",
-        "py-{patch}.{YY}.{DD}"
+        "py-{major}.{minor}.{patch}"
     ],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [

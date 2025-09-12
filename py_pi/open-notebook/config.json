@@ -1,6 +1,6 @@
 {
     "native_identifier": "open-notebook",
-    "repo": "lfnovo/open-notebook",
+    "repo": "usnistgov/open-notebook",
     "registry": "py_pi",
     "tag_formats": [
         "v{major}.{minor}.{patch}"

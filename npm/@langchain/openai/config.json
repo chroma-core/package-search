@@ -1,0 +1,19 @@
+{
+    "native_identifier": "@langchain/openai",
+    "repo": "langchain-ai/langchainjs",
+    "registry": "npm",
+    "tag_formats": [
+        "@langchain/openai=={major}.{minor}.{patch}"
+    ],
+    "sentinel_timestamp": "2020-01-01T00:00:00Z",
+    "include": [
+        "libs/langchain-openai/**/*.md",
+        "libs/langchain-openai/**/*.ts",
+        "libs/langchain-openai/**/*.js",
+        "libs/langchain-openai/**/*.tsx",
+        "libs/langchain-openai/**/*.jsx"
+    ],
+    "collection_name_prefix": "langchain_openai",
+    "version_sample_relative_size": 0.5,
+    "version_sample_max_size": 5
+}

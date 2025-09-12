@@ -1,6 +1,6 @@
 {
     "native_identifier": "core-js",
-    "repo": "octokit/core.js",
+    "repo": "zloirock/core-js",
     "registry": "npm",
     "tag_formats": [
         "v{major}.{minor}.{patch}"
