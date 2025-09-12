@@ -31,3 +31,28 @@ jobs:
       - name: Run script
         working-directory: .github/scripts/ci_checks
         run: uv run main.py
+
+  alert-on-failure:
+    name: Create PagerDuty incident on failure
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    if: ${{ always() && contains(needs.*.result, 'failure') }}
+    needs:
+      - ci-checks
+    steps:
+      - uses: Entle/action-pagerduty-alert@1.0.5
+        with:
+          pagerduty-integration-key: '${{ secrets.PAGERDUTY_INTEGRATION_KEY }}'
+          pagerduty-dedup-key: ci-checks-failed
+
+  resolve-alert-on-success: 
+    name: Resolve PagerDuty incident on success
+    runs-on: blacksmith-4vcpu-ubuntu-2404
+    if: ${{ always() && !contains(needs.*.result, 'failure') }}
+    needs:
+      - ci-checks
+    steps:
+      - uses: Entle/action-pagerduty-alert@1.0.5
+        with:
+          pagerduty-integration-key: '${{ secrets.PAGERDUTY_INTEGRATION_KEY }}'
+          pagerduty-dedup-key: ci-checks-failed
+          resolve: true
