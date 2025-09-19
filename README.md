@@ -4,21 +4,21 @@ This repository contains a curated list of public code packages that Chroma keep
 
 Quick links:
 
-* [Install Package Search MCP](https://trychroma.com/package-search)
-* [View available packages](https://github.com/chroma-core/package-search/blob/main/versions.json)
-* [Add a package](https://github.com/chroma-core/package-search/issues/new?template=package-request.md)
+- [Install Package Search MCP](https://trychroma.com/package-search)
+- [View available packages](https://github.com/chroma-core/package-search/blob/main/versions.json)
+- [Add a package](https://github.com/chroma-core/package-search/issues/new?template=package-request.md)
 
 ## How to Install
 
 Chroma’s Package Search MCP server is a remote MCP server you can use from many clients.
 
-| Field | Value |
-|-------|-------|
-| Server URL | `https://mcp.trychroma.com/package-search/v1` |
-| Auth Header Name<sup>*</sup> | `x-chroma-token` |
-| Auth Header Value | `<YOUR_CHROMA_API_KEY>` |
+| Field                         | Value                                         |
+| ----------------------------- | --------------------------------------------- |
+| Server URL                    | `https://mcp.trychroma.com/package-search/v1` |
+| Auth Header Name<sup>\*</sup> | `x-chroma-token`                              |
+| Auth Header Value             | `<YOUR_CHROMA_API_KEY>`                       |
 
-<sup>*</sup>For the Anthropic API, since custom headers are not yet supported as of 2025-09-12, we accept the `Authorization` header instead.
+<sup>\*</sup>For the Anthropic API, since custom headers are not yet supported as of 2025-09-12, we accept the `Authorization` header instead.
 
 > [!NOTE]
 > Get an API key at [trychroma.com/package-search](https://trychroma.com/package-search)
@@ -151,7 +151,6 @@ print(resp)
 
 </details>
 
-
 <details>
 <summary><b>Anthropic SDK (Python)</b></summary>
 
@@ -262,7 +261,6 @@ ollmcp --servers-json /path/to/mcp_config.json --model qwen2.5
 
 </details>
 
-
 <details>
 <summary><b>Open Code</b></summary>
   
@@ -328,29 +326,25 @@ We strongly encourage submitting a Pull Request when you have all the required c
 1. **Fork this repository**
 2. **Create a new directory** at `<registry>/<native_identifier>/`
 3. **Add a `config.json` file** in that directory following this format:
+
    ```json
    {
      "native_identifier": "chromadb",
      "collection_name_prefix": "chromadb",
      "repo": "chroma-core/chroma",
      "registry": "py_pi",
-     "tag_formats": [
-       "{major}.{minor}.{patch}",
-     ],
+     "tag_formats": ["{major}.{minor}.{patch}"],
      "sentinel_timestamp": "2024-01-01T00:00:00Z",
-     "include": [
-       "**/*.md",
-       "**/*.py",
-       "**/*.rs",
-     ]
+     "include": ["**/*.md", "**/*.py", "**/*.rs"]
    }
    ```
 
    **Required Fields:**
+
    - `native_identifier`: The identifier used by the registry on which the package is hosted. For most registries, this should be the colloquial name of the package. For GitHub Releases, this should be the owning user's or organization's username, followed by a forward slash, followed by the name of the repository (e.g., `chroma-core/code-collections`). For Golang modules, this should be the full module path (e.g., `github.com/stretchr/testify/`).
    - `collection_name_prefix`: The text that will precede the version in the name of Chroma collections created for this package. We name collections as `<collection_name_prefix>_<version>`. The collection name is used to query the indexed records within Chroma, so this should generally be the colloquial name of the package or some permutation of it. Note that the collection name prefix must be globally unique within a registry. That is, no two packages in the same registry may have the same collection name prefix.
    - `repo`: The GitHub repository in which the package's source code is maintained. Provide the username of the owning user or organization, followed by a forward slash, followed by the name of the repository.
-   - `registry`: The registry to which versions of the package are published. Must be one of "npm", "py_pi", "crates_io", "golang_proxy", or "github_releases".
+   - `registry`: The registry to which versions of the package are published. Must be one of "npm", "py_pi", "crates_io", "golang_proxy", "github_releases", or "terraform".
    - `tag_formats`: Array of git tag formats enumerating **all possible tag formats** for versions of the package you'd like to be indexed. Please note that Chroma assumes that a package version can be resolved to a tagged—either annotated or lightweight—git commit. We handle the version-to-tag resolution for you, but we can only resolve to tag formats we know exist, which we obtain from this configuration field. See the [Tag Formatting Guide](./TAG_FORMATS.md) for more information.
    - `sentinel_timestamp`: The earliest indexed time; versions published before it are excluded. Must be a [RFC 3339/ISO 8601](https://ijmacd.github.io/rfc3339-iso8601/)-compliant timestamp.
    - `include`: Array of [glob patterns](https://code.visualstudio.com/docs/editor/glob-patterns) for files to index (e.g., `["**/*.md", "**/*.ts", "**/*.js"]`).
@@ -381,6 +375,7 @@ If you don't have all the required configuration details (such as version sampli
 ## Current Index
 
 The repository currently indexes packages from:
+
 - **NPM** - JavaScript/TypeScript packages
 - **PyPI** - Python packages
 - **crates.io** - Rust crates
@@ -410,11 +405,7 @@ If the repository you're adding is a monorepo (contains multiple packages), you 
   "registry": "npm",
   "tag_formats": ["v{major}.{minor}.{patch}"],
   "sentinel_timestamp": "2024-01-01T00:00:00Z",
-  "include": [
-    "my-package/**/*.md",
-    "my-package/**/*.ts",
-    "my-package/**/*.js"
-  ]
+  "include": ["my-package/**/*.md", "my-package/**/*.ts", "my-package/**/*.js"]
 }
 ```
 
@@ -422,4 +413,4 @@ This ensures that only files within the `my-package/` directory are indexed, not
 
 ---
 
-*This repository is maintained by the Chroma team to support our code search and retrieval capabilities.*
+_This repository is maintained by the Chroma team to support our code search and retrieval capabilities._

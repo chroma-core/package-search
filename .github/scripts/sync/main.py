@@ -16,7 +16,14 @@ from logger import logger
 
 
 # Configuration
-DATABASES = ["npm", "py_pi", "crates_io", "golang_proxy", "github_releases"]
+DATABASES = [
+    "npm",
+    "py_pi",
+    "crates_io",
+    "golang_proxy",
+    "github_releases",
+    "terraform",
+]
 MAX_CONCURRENT_CHROMA_READS = 10
 MAX_CONCURRENT_DASHBOARD_BACKEND_WRITES = 50
 MAX_RETRIES_MARK_PUBLIC = 3
@@ -163,8 +170,6 @@ def mark_collection_public(
     )
 
 
-
-
 def save_versions_json(versions_data: Dict) -> None:
     """
     Completely overwrites versions.json with the provided data.
@@ -178,7 +183,7 @@ def save_versions_json(versions_data: Dict) -> None:
 
 
 def build_versions_data_from_collections(
-    all_finished_collections: Dict[str, List[Collection]]
+    all_finished_collections: Dict[str, List[Collection]],
 ) -> Dict:
     """
     Build the complete versions.json data structure from scratch based on
@@ -186,15 +191,15 @@ def build_versions_data_from_collections(
     Ensures consistent ordering to minimize diffs.
     """
     versions_data = {"versions": {}}
-    
+
     # Sort databases alphabetically for consistent ordering
     sorted_databases = sorted(all_finished_collections.keys())
-    
+
     for database in sorted_databases:
         collections = all_finished_collections[database]
         # Always add the database to versions_data, even if empty
         versions_data["versions"][database] = {}
-        
+
         # Group collections by prefix
         grouped_by_prefix = {}
         for collection in collections:
@@ -207,16 +212,18 @@ def build_versions_data_from_collections(
                 logger.warning(
                     f"Could not parse collection name '{collection.name}' in database '{database}'"
                 )
-        
+
         # Sort prefixes alphabetically for consistent ordering
         sorted_prefixes = sorted(grouped_by_prefix.keys())
-        
+
         # Sort versions for each prefix
         for prefix in sorted_prefixes:
             version_strings = grouped_by_prefix[prefix]
             try:
                 # Sort versions in descending order using the 'packaging' library
-                sorted_versions = sorted(version_strings, key=version.parse, reverse=True)
+                sorted_versions = sorted(
+                    version_strings, key=version.parse, reverse=True
+                )
                 versions_data["versions"][database][prefix] = sorted_versions
             except Exception as e:
                 logger.warning(
@@ -227,7 +234,7 @@ def build_versions_data_from_collections(
                 versions_data["versions"][database][prefix] = sorted(
                     version_strings, reverse=True
                 )
-    
+
     return versions_data
 
 
@@ -400,10 +407,12 @@ def main():
     # Build complete versions.json data from scratch
     logger.subsection("Building Versions Data")
     logger.info("Building complete versions.json data from all finished collections")
-    
+
     # Build the complete data structure from scratch
     versions_data = build_versions_data_from_collections(all_finished_collections)
-    logger.success(f"Built versions data with {len(versions_data['versions'])} databases")
+    logger.success(
+        f"Built versions data with {len(versions_data['versions'])} databases"
+    )
 
     # Mark collections as public with global concurrent processing
     logger.subsection("Marking Collections Public")

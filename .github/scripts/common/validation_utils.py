@@ -3,8 +3,22 @@ import json
 import re
 from pathlib import Path
 
-VALID_REGISTRIES = ["npm", "py_pi", "crates_io", "golang_proxy", "github_releases"]
-REQUIRED_REGISTRIES = ["github_releases", "golang_proxy", "py_pi", "npm", "crates_io"]
+VALID_REGISTRIES = [
+    "npm",
+    "py_pi",
+    "crates_io",
+    "golang_proxy",
+    "github_releases",
+    "terraform",
+]
+REQUIRED_REGISTRIES = [
+    "github_releases",
+    "golang_proxy",
+    "py_pi",
+    "npm",
+    "crates_io",
+    "terraform",
+]
 TIMESTAMP_PATTERN = r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$"
 VERSION_PATTERN = r"^\d+\.\d+(\.\d+)?$"
 
