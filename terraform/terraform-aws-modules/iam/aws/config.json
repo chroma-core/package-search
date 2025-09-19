@@ -1,10 +1,8 @@
 {
-    "native_identifier": "zthreading",
-    "repo": "LamaAni/zthreading.py",
-    "registry": "py_pi",
-    "tag_formats": [
-        "{major}.{minor}.{patch}"
-    ],
+    "native_identifier": "terraform-aws-modules/iam/aws",
+    "repo": "terraform-aws-modules/terraform-aws-iam",
+    "registry": "terraform",
+    "tag_formats": [],
     "sentinel_timestamp": "2020-01-01T00:00:00Z",
     "include": [
         "**/CMakeLists.txt",
@@ -130,7 +128,7 @@
         "**/*.log",
         "**/*.nix"
     ],
-    "collection_name_prefix": "zthreading",
+    "collection_name_prefix": "terraform-aws-modules_iam_aws",
     "version_sample_relative_size": 0.5,
     "version_sample_max_size": 5
 }
