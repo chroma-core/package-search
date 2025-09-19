@@ -3661,6 +3661,7 @@
         "github_releases/golang/go",
         "github_releases/llvm/llvm-project",
         "github_releases/python/cpython",
-        "github_releases/rust-lang/rust"
+        "github_releases/rust-lang/rust",
+        "terraform-aws-modules/iam/aws"
     ]
 }
