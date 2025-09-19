@@ -1,17 +1,20 @@
 ## Package Request
 
 ### Package Information
-- **Package Name**: 
+
+- **Package Name**:
 - **Registry**: <!-- NPM / PyPI / crates.io / Golang Proxy / GitHub Releases -->
 - **GitHub Repository**: <!-- Format: owner/repo -->
 
 ### Package Details
+
 - **Description**: <!-- Brief description of what the package does -->
 - **Weekly Downloads/Stars**: <!-- Provide metrics showing package popularity -->
 - **Last Updated**: <!-- When was the package last updated? -->
 - **License**: <!-- Package license type -->
 
 ### Checklist
+
 Please verify the following before submitting:
 
 - [ ] Package is publicly available and actively maintained
@@ -20,7 +23,7 @@ Please verify the following before submitting:
   - [ ] `native_identifier` matches the package name exactly as it appears in the registry
   - [ ] `collection_name_prefix` is globally unique within the registry
   - [ ] `repo` points to a valid, accessible GitHub repository
-  - [ ] `registry` is one of: "npm", "py_pi", "crates_io", "golang_proxy", or "github_releases"
+  - [ ] `registry` is one of: "npm", "py_pi", "crates_io", "golang_proxy", "github_releases", or "terraform"
   - [ ] `tag_formats` array matches actual GitHub release tag patterns
   - [ ] `sentinel_timestamp` is in RFC 3339/ISO 8601 format
   - [ ] `include` contains valid glob patterns (e.g., `"**/*.md"` not `".md"`)
@@ -30,4 +33,5 @@ Please verify the following before submitting:
 - [ ] For monorepos: glob patterns target only the specific package subdirectory
 
 ### Additional Notes
+
 <!-- Any other relevant information about the package or special considerations -->
