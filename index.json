@@ -4825,6 +4825,7 @@
         "py_pi/zipp",
         "py_pi/zope-event",
         "py_pi/zope-interface",
-        "py_pi/zstandard"
+        "py_pi/zstandard",
+        "terraform/terraform-aws-modules/iam/aws"
     ]
 }
