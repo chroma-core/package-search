@@ -7096,7 +7096,11 @@
         "7.8.0"
       ],
       "babel_plugin-transform-arrow-functions": [
-        "7.25.7"
+        "7.27.1",
+        "7.25.9",
+        "7.25.7",
+        "7.24.7",
+        "7.24.6"
       ],
       "babel_plugin-transform-async-to-generator": [
         "7.27.1",
@@ -7243,7 +7247,11 @@
         "7.24.6"
       ],
       "babel_plugin-transform-spread": [
-        "7.24.7"
+        "7.27.1",
+        "7.25.9",
+        "7.25.7",
+        "7.24.7",
+        "7.24.6"
       ],
       "babel_plugin-transform-sticky-regex": [
         "7.27.1",
@@ -10326,6 +10334,15 @@
       ],
       "azure-mgmt-containerinstance": [
         "8.0.0",
+        "3.0.0"
+      ],
+      "azure-mgmt-containerservice": [
+        "39.0.0",
+        "36.0.0"
+      ],
+      "azure-mgmt-monitor": [
+        "6.0.0",
+        "4.0.0",
         "3.0.0"
       ],
       "babel": [
