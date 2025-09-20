@@ -10349,7 +10349,9 @@
       ],
       "azure-mgmt-containerregistry": [
         "13.0.0",
-        "11.0.0"
+        "12.0.0",
+        "11.0.0",
+        "10.3.0"
       ],
       "azure-mgmt-containerservice": [
         "39.0.0",
