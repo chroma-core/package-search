@@ -202,6 +202,7 @@
         "52.0.0"
       ],
       "arrow-csv": [
+        "56.0.0",
         "55.0.0",
         "54.0.0",
         "53.0.0",
@@ -1443,8 +1444,10 @@
         "0.3.27"
       ],
       "futures-task": [
+        "0.3.31",
         "0.3.30",
         "0.3.29",
+        "0.3.28",
         "0.3.27"
       ],
       "futures-util": [
@@ -7001,7 +7004,9 @@
       ],
       "babel-plugin-jest-hoist": [
         "30.0.1",
-        "30.0.0"
+        "30.0.0",
+        "28.0.0",
+        "26.0.0"
       ],
       "babel-plugin-polyfill-corejs2": [
         "0.4.14",
@@ -7040,6 +7045,8 @@
         "26.0.0"
       ],
       "babel_code-frame": [
+        "7.27.1",
+        "7.26.2",
         "7.26.0",
         "7.25.9",
         "7.25.7"
@@ -7277,6 +7284,10 @@
       ],
       "babel_plugin-transform-modules-amd": [
         "7.27.1",
+        "7.25.9",
+        "7.25.7",
+        "7.24.7",
+        "7.23.0",
         "7.13.0"
       ],
       "babel_plugin-transform-modules-systemjs": [
@@ -7989,6 +8000,9 @@
       ],
       "esrecurse": [
         "4.3.0"
+      ],
+      "estree-walker": [
+        "3.0.2"
       ],
       "event-target-shim": [
         "6.0.2",
@@ -9555,7 +9569,9 @@
       ],
       "smithy_service-error-classification": [
         "4.1.2",
-        "4.1.0"
+        "4.1.0",
+        "3.0.0",
+        "2.1.0"
       ],
       "smithy_shared-ini-file-loader": [
         "2.3.0"
@@ -11284,6 +11300,7 @@
         "0.7.0"
       ],
       "google-cloud-appengine-logging": [
+        "1.4.0",
         "1.3.0"
       ],
       "google-cloud-audit-log": [
