@@ -5924,6 +5924,9 @@
         "0.8.0",
         "0.4.0"
       ],
+      "github.com_kubernetes_client-go": [
+        "0.34.0"
+      ],
       "github.com_kubernetes_ingress-nginx": [
         "1.0.0"
       ],
