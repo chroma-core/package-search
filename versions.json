@@ -6736,6 +6736,7 @@
         "1.11.0"
       ],
       "github.com_unidoc_unioffice": [
+        "1.39.0",
         "1.38.0"
       ],
       "github.com_upspin_upspin": [
@@ -9657,7 +9658,8 @@
       ],
       "smithy_core": [
         "3.0.0",
-        "2.0.0"
+        "2.0.0",
+        "1.0.0"
       ],
       "smithy_hash-node": [
         "2.1.0"
