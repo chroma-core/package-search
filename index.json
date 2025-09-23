@@ -2753,6 +2753,8 @@
         "npm/@langchain/core",
         "npm/@langchain/mcp-adapters",
         "npm/@langchain/openai",
+        "npm/@mastra/core",
+        "npm/@mastra/evals",
         "npm/@modelcontextprotocol/sdk",
         "npm/@mui/material",
         "npm/@nodelib/fs.scandir",
