@@ -11706,6 +11706,9 @@
         "1.9.6",
         "1.9.5"
       ],
+      "github.com_kubernetes_kubernetes": [
+        "1.34.0"
+      ],
       "github.com_kubernetes_minikube": [
         "1.37.0",
         "1.36.0",
