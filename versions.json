@@ -11288,6 +11288,7 @@
         "1.0.0"
       ],
       "github.com_harvester_harvester": [
+        "1.6.0",
         "1.0.0"
       ],
       "github.com_hashicorp_consul": [
@@ -11586,6 +11587,7 @@
         "1.1.0"
       ],
       "github.com_karmada-io_karmada": [
+        "1.15.0",
         "1.0.0"
       ],
       "github.com_kataras_iris": [
@@ -11816,6 +11818,7 @@
         "1.0.13"
       ],
       "github.com_linuxkit_linuxkit": [
+        "1.8.0",
         "1.7.0",
         "1.6.0",
         "1.5.0",
