@@ -5701,6 +5701,7 @@
         "0.6.0"
       ],
       "github.com_cri-o_cri-o": [
+        "1.32.0",
         "1.30.0"
       ],
       "github.com_crossplane_crossplane": [
@@ -16324,7 +16325,8 @@
       ],
       "mlflow": [
         "3.3.0",
-        "3.2.0"
+        "3.2.0",
+        "3.1.0"
       ],
       "mlflow-skinny": [
         "3.3.0",
