@@ -5777,6 +5777,9 @@
         "0.20.0",
         "0.10.0"
       ],
+      "github.com_devtron-labs_devtron": [
+        "1.6.0"
+      ],
       "github.com_diggerhq_digger": [
         "0.6.0",
         "0.5.0",
@@ -6983,6 +6986,9 @@
         "1.2.3",
         "1.2.0",
         "1.1.0"
+      ],
+      "github.com_karmada-io_karmada": [
+        "1.15.0"
       ],
       "github.com_kataras_iris": [
         "0.0.2"
