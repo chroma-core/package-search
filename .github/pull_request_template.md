@@ -23,7 +23,7 @@ Please verify the following before submitting:
   - [ ] `native_identifier` matches the package name exactly as it appears in the registry
   - [ ] `collection_name_prefix` is globally unique within the registry
   - [ ] `repo` points to a valid, accessible GitHub repository
-  - [ ] `registry` is one of: "npm", "py_pi", "crates_io", "golang_proxy", "github_releases", or "terraform"
+  - [ ] `registry` is one of: "npm", "py_pi", "crates_io", "golang_proxy", "github_releases", "terraform", or "ruby_gems"
   - [ ] `tag_formats` array matches actual GitHub release tag patterns
   - [ ] `sentinel_timestamp` is in RFC 3339/ISO 8601 format
   - [ ] `include` contains valid glob patterns (e.g., `"**/*.md"` not `".md"`)
