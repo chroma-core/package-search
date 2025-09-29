@@ -10,6 +10,7 @@ VALID_REGISTRIES = [
     "golang_proxy",
     "github_releases",
     "terraform",
+    "ruby_gems",
 ]
 REQUIRED_REGISTRIES = [
     "github_releases",
@@ -18,6 +19,7 @@ REQUIRED_REGISTRIES = [
     "npm",
     "crates_io",
     "terraform",
+    "ruby_gems",
 ]
 TIMESTAMP_PATTERN = r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$"
 VERSION_PATTERN = r"^\d+\.\d+(\.\d+)?$"
