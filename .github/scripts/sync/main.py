@@ -23,6 +23,7 @@ DATABASES = [
     "golang_proxy",
     "github_releases",
     "terraform",
+    "ruby_gems",
 ]
 MAX_CONCURRENT_CHROMA_READS = 10
 MAX_CONCURRENT_DASHBOARD_BACKEND_WRITES = 50
