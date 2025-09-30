@@ -363,7 +363,7 @@ def main():
     processed_metadata = 0
 
     with concurrent.futures.ThreadPoolExecutor(
-        max_workers=MAX_CONCURRENT_CHROMA_READS
+        max_workers=max_concurrent_chroma_reads
     ) as executor:
         # Submit metadata check tasks globally
         future_to_task = {
