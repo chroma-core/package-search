@@ -12939,6 +12939,7 @@
         "7.0.0"
       ],
       "typescript-eslint_typescript-estree": [
+        "8.45.0",
         "8.44.0",
         "8.43.0",
         "8.42.0",
