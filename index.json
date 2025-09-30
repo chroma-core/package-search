@@ -1,5 +1,5 @@
 {
     "packages": [
-        "ruby_gems/bundler"
+        "ruby_gems/aasm"
     ]
 }
