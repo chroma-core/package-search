@@ -25,7 +25,7 @@ DATABASES = [
     "terraform",
     "ruby_gems",
 ]
-MAX_CONCURRENT_CHROMA_READS = 10
+
 MAX_CONCURRENT_DASHBOARD_BACKEND_WRITES = 50
 MAX_RETRIES_MARK_PUBLIC = 3
 BASE_RETRY_DELAY = 1.0
@@ -287,6 +287,8 @@ def main():
 
     logger.success("Successfully accessed required environment variables")
 
+    max_concurrent_chroma_reads = 5 if "devchroma" in chroma_api_url else 10
+
     # Initialize chroma clients for all databases
     logger.subsection("Initializing Clients")
     logger.info("Initializing chroma clients for all databases")
@@ -312,7 +314,7 @@ def main():
     list_errors = []
 
     with concurrent.futures.ThreadPoolExecutor(
-        max_workers=MAX_CONCURRENT_CHROMA_READS
+        max_workers=max_concurrent_chroma_reads
     ) as executor:
         # Submit list_collections tasks for all databases
         future_to_db = {
