@@ -5280,6 +5280,7 @@
         "1.12.10"
       ],
       "github.com_benbjohnson_litestream": [
+        "0.5.0",
         "0.3.13",
         "0.3.12"
       ],
