@@ -287,7 +287,7 @@ def main():
 
     logger.success("Successfully accessed required environment variables")
 
-    max_concurrent_chroma_reads = 5 if "devchroma" in chroma_api_url else 10
+    max_concurrent_chroma_reads = 3 if "devchroma" in chroma_api_url else 8
 
     # Initialize chroma clients for all databases
     logger.subsection("Initializing Clients")
