@@ -10,9 +10,10 @@ import requests
 from chromadb import CloudClient, Collection
 from packaging import version
 
-# Import logger from common module
+# Import logger and retry utils from common module
 sys.path.insert(0, str(Path(__file__).parent / ".." / "common"))
 from logger import logger
+from retry_utils import retry_with_exponential_backoff
 
 
 # Configuration
@@ -78,9 +79,14 @@ def list_collections_for_database(
         offset = 0
         limit = 1000
 
+        # Create a retry-wrapped version of list_collections
+        @retry_with_exponential_backoff(max_retries=3, base_delay=1.0, logger=logger)
+        def _list_collections_with_retry(limit: int, offset: int):
+            return client.list_collections(limit=limit, offset=offset)
+
         # Get all collections in batches
         while True:
-            collections_page = client.list_collections(limit=limit, offset=offset)
+            collections_page = _list_collections_with_retry(limit=limit, offset=offset)
             if not collections_page:
                 break
             all_collection_names.extend([coll.name for coll in collections_page])
@@ -95,7 +101,12 @@ def get_collection_metadata(
     database: str, collection_name: str, client: CloudClient
 ) -> Tuple[str, str, Optional[Collection], Optional[str]]:
     try:
-        full_collection = client.get_collection(name=collection_name)
+        # Create a retry-wrapped version of get_collection
+        @retry_with_exponential_backoff(max_retries=3, base_delay=1.0, logger=logger)
+        def _get_collection_with_retry(name: str):
+            return client.get_collection(name=name)
+
+        full_collection = _get_collection_with_retry(name=collection_name)
         if (
             full_collection.metadata
             and full_collection.metadata.get("finished_ingest") is True
