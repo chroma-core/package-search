@@ -11939,6 +11939,7 @@
         "1.0.0"
       ],
       "github.com_loft-sh_vcluster": [
+        "0.29.0",
         "0.28.0"
       ],
       "github.com_luraproject_lura": [
@@ -24293,6 +24294,7 @@
         "2.0.0"
       ],
       "onnxruntime": [
+        "1.23.0",
         "1.22.0",
         "1.21.0",
         "1.20.0",
