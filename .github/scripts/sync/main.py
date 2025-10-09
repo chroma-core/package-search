@@ -77,7 +77,7 @@ def list_collections_for_database(
     try:
         all_collection_names: List[str] = []
         offset = 0
-        limit = 1000
+        limit = 100
 
         # Create a retry-wrapped version of list_collections
         @retry_with_exponential_backoff(max_retries=3, base_delay=1.0, logger=logger)
