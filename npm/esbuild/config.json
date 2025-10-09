@@ -61,7 +61,7 @@
         "**/*.mdx",
         "**/*.yaml",
         "**/*.yml",
-        "**/*.json",
+        "**/package.json",
         "**/*.jsonc",
         "**/*.json5",
         "**/*.geojson",

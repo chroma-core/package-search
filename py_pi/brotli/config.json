@@ -125,7 +125,7 @@
         "**/*.dart",
         "**/*.hs",
         "**/*.lhs",
-        "**/*.txt",
+        "**/requirements.txt",
         "**/*.text",
         "**/*.log",
         "**/*.nix"
