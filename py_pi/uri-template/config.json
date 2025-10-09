@@ -1,6 +1,6 @@
 {
   "native_identifier": "uri-template",
-  "repo": "python-hyper/uritemplate",
+  "repo": "plinss/uri-template",
   "registry": "py_pi",
   "tag_formats": [
     "{major}.{minor}.{patch}"
