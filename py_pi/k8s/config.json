@@ -1,6 +1,6 @@
 {
     "native_identifier": "k8s",
-    "repo": "kubernetes-client/python",
+    "repo": "fiaas/k8s",
     "registry": "py_pi",
     "tag_formats": [
         "v{major}.{minor}.{patch}"
