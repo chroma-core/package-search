@@ -126,7 +126,7 @@
   ],
   "native_identifier": "cocoapods-core",
   "registry": "ruby_gems",
-  "repo": "CocoaPods/CocoaPods",
+  "repo": "CocoaPods/Core",
   "sentinel_timestamp": "2020-01-01T00:00:00Z",
   "tag_formats": [
     "{major}.{minor}.{patch}"
