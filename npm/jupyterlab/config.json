@@ -61,7 +61,7 @@
         "jupyterlab/**/*.mdx",
         "jupyterlab/**/*.yaml",
         "jupyterlab/**/*.yml",
-        "jupyterlab/**/*.json",
+        "jupyterlab/**/package.json",
         "jupyterlab/**/*.jsonc",
         "jupyterlab/**/*.json5",
         "jupyterlab/**/*.geojson",
