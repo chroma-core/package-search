@@ -49,7 +49,7 @@ jobs:
           CHROMA_TEAM_ID: ${{ secrets.CHROMA_TEAM_ID }}
           CHROMA_API_KEY: ${{ secrets.CHROMA_API_KEY }}
           CHROMA_API_URL: ${{ vars.CHROMA_API_URL }}
-          CHROMA_BACKEND_URL: ${{ vars.CHROMA_BACKEND_URL }}          
+          CHROMA_BACKEND_URL: ${{ vars.CHROMA_BACKEND_URL }}
         run: uv run main.py
 
       - name: Check for changes
@@ -93,7 +93,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'          
+          python-version: '3.13'
 
       - name: Install dependencies
         working-directory: .github/scripts/sync
@@ -135,24 +135,26 @@ jobs:
     runs-on: blacksmith-4vcpu-ubuntu-2404
     if: ${{ always() && contains(needs.*.result, 'failure') }}
     needs:
-      - sync-production
       - sync-staging
-    steps:
-      - uses: Entle/action-pagerduty-alert@1.0.5
-        with:
-          pagerduty-integration-key: '${{ secrets.PAGERDUTY_INTEGRATION_KEY }}'
-          pagerduty-dedup-key: sync-failed
-
-  resolve-alert-on-success: 
-    name: Resolve PagerDuty incident on success
-    runs-on: blacksmith-4vcpu-ubuntu-2404
-    if: ${{ always() && !contains(needs.*.result, 'failure') }}
-    needs:
       - sync-production
-      - sync-staging
+    strategy:
+      matrix:
+        target:
+          - environment: staging
+            job_id: sync-staging
+            dedup_key: sync-staging-failed
+            severity: warning
+          - environment: production
+            job_id: sync-production
+            dedup_key: sync-production-failed
+            severity: error
     steps:
-      - uses: Entle/action-pagerduty-alert@1.0.5
+      - name: Notify PagerDuty
+        if: ${{ needs[matrix.target.job_id].result == 'failure' }}
+        uses: ACyphus/pagerduty-send-event@v1
         with:
-          pagerduty-integration-key: '${{ secrets.PAGERDUTY_INTEGRATION_KEY }}'
-          pagerduty-dedup-key: sync-failed
-          resolve: true
+          integration-key: ${{ secrets.PAGERDUTY_INTEGRATION_KEY }}
+          dedup-key: ${{ matrix.target.dedup_key }}
+          event-action: trigger
+          summary: ${{ format('Sync (versions.json generated) failed on {0}', matrix.target.environment) }}
+          severity: ${{ matrix.target.severity }}
