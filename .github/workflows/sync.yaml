@@ -149,7 +149,7 @@ jobs:
             dedup_key: sync-production-failed
             severity: error
     steps:
-      - name: Notify PagerDuty
+      - name: Create PagerDuty incident on failure
         if: ${{ needs[matrix.target.job_id].result == 'failure' }}
         uses: ACyphus/pagerduty-send-event@v1
         with:
