@@ -2,7 +2,7 @@ name: Sync Indexed Collections
 run-name: Sync Indexed Collections (${{ github.event_name == 'schedule' && 'production, staging' || github.event.inputs.environment }})
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 17,19,21,23 * * 1-5' # every weekday at 10am, 12pm, 2pm, 4pm PST
 
   workflow_dispatch:
     inputs:
